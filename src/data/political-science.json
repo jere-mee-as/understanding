@@ -1,0 +1,191 @@
+{
+  "discipline": "Political Science",
+  "overview": "Political science fights over how much of politics is about ideas and choices versus structure and incentives, and how much voters and leaders actually know and control. The folk stories are clean: rich countries become democracies, voters weigh the issues, social media broke the public, the economy explains populism, and the world is held together by either power or institutions. The field's own findings have mostly moved to something muddier. Voters are driven more by identity than policy, polarization starts with parties rather than platforms, and big structural theories predict much less than their authors hoped.",
+  "debates": [
+    {
+      "title": "Does getting rich make a country democratic?",
+      "lead": "The popular version says growth brings a middle class, and the middle class demands the vote. Seymour Martin Lipset made this respectable in 1959, and it is still the default assumption in foreign-policy talk about trade with autocracies. Careful tests found that income does not reliably trigger transitions. It does protect democracies that already exist.",
+      "verdict": "Wealth doesn't cause democracy to appear, but rich democracies almost never die.",
+      "camps": [
+        {
+          "name": "Modernization theory",
+          "status": "partly right",
+          "pop": true,
+          "line": "Economic development creates the education, middle class and expectations that eventually force open politics.",
+          "explain": "Countries that grow tend to democratize, and the cross-country correlation between income and democracy is strong. Believers read this as cause. It underlies the idea that engagement and trade will liberalize autocracies.",
+          "who": "Seymour Martin Lipset; Ronald Inglehart and Christian Welzel (values-change version); in public, Thomas Friedman-style trade-will-liberalize arguments.",
+          "best": "Lipset, 'Some Social Requisites of Democracy', APSR 1959; Inglehart and Welzel, Modernization, Cultural Change and Democracy, 2005.",
+          "evidence": "Przeworski, Alvarez, Cheibub and Limongi (Democracy and Development, 2000) found that income does not predict transitions to democracy, but above roughly $6,000 per capita (1985 PPP) democracies essentially never collapse. So the 'survival' half stands. Boix and Stokes (World Politics 2003) argued the transition half returns once you model long periods of data."
+        },
+        {
+          "name": "Income is a mirage",
+          "status": "winning",
+          "pop": false,
+          "line": "The correlation is historical: countries that set up good institutions early both got rich and got democratic.",
+          "explain": "Add country fixed effects and the income-democracy link vanishes. The causal story runs through critical junctures and long-run institutions, not through GDP.",
+          "who": "Daron Acemoglu, Simon Johnson, James Robinson, Pierre Yared; Adam Przeworski.",
+          "best": "Acemoglu, Johnson, Robinson and Yared, 'Income and Democracy', American Economic Review 2008.",
+          "evidence": "Acemoglu et al. (AER 2008) show that within countries over time, higher income has no significant effect on democracy once fixed effects absorb shared historical factors. Critics note that fixed-effects designs throw away most variation and may miss slow processes."
+        },
+        {
+          "name": "Elite conflict and bargains",
+          "status": "partly right",
+          "pop": false,
+          "line": "Democracy appears when elites facing a threat from below find it cheaper to concede than to repress.",
+          "explain": "Transitions are strategic. Who holds assets, how mobile they are, and how credible a revolutionary threat is decide whether elites open up.",
+          "who": "Daron Acemoglu and James Robinson; Carles Boix; Ruth Berins Collier.",
+          "best": "Acemoglu and Robinson, Economic Origins of Dictatorship and Democracy, 2006; Boix, Democracy and Redistribution, 2003.",
+          "evidence": "Fits historical cases of franchise extension, but the key variables (asset specificity, inequality) are hard to measure, and large-N tests of Boix's inequality prediction have been mixed. Treat it as a good framework, not a settled result."
+        }
+      ]
+    },
+    {
+      "title": "Do voters vote on issues, or on who they are?",
+      "lead": "The civics-class picture has citizens weighing policies and rewarding or punishing governments. Philip Converse showed in 1964 that most people have unstable, barely constrained opinions on issues. Later work split between those who think the crowd still averages out and those who think party and group identity drive nearly everything.",
+      "verdict": "Identity and party loyalty explain most individual votes; collective outcomes are less irrational than that suggests, but not as clean as the textbook.",
+      "camps": [
+        {
+          "name": "Issue and economic voting",
+          "status": "partly right",
+          "pop": true,
+          "line": "Voters reward good economies and pick the party closest to them on the issues.",
+          "explain": "Retrospective voting on the economy is a real, measurable regularity. Downs-style models assume voters compare parties on policy distance. Most punditry runs on this frame.",
+          "who": "Anthony Downs; Morris Fiorina; most election forecasters and political journalists.",
+          "best": "Downs, An Economic Theory of Democracy, 1957; Fiorina, Retrospective Voting in American National Elections, 1981.",
+          "evidence": "Economic fundamentals do forecast aggregate vote share modestly well. But Achen and Bartels (2016) show retrospective voting is myopic and noisy, reacting to the last months of the election year."
+        },
+        {
+          "name": "Identity and group loyalty",
+          "status": "winning",
+          "pop": false,
+          "line": "People vote as members of groups, then adopt the policy views and facts their side holds.",
+          "explain": "Party ID and social identity come first. Voters learn what 'their side' thinks and fill in the issues afterward. Ignorance of basic political facts is large and stable.",
+          "who": "Philip Converse; Christopher Achen and Larry Bartels; Lilliana Mason; Donald Green, Bradley Palmquist and Eric Schickler.",
+          "best": "Converse, 'The Nature of Belief Systems in Mass Publics', 1964; Green et al., Partisan Hearts and Minds, 2002; Achen and Bartels, Democracy for Realists, 2016.",
+          "evidence": "Fowler and Hall (Journal of Politics 2018) reassessed Achen and Bartels' famous shark-attack finding and concluded it did not hold up, so the 'voters punish random events' claim is weaker than first told. The broader identity case rests on panel data showing partisanship is far more stable than issue positions."
+        },
+        {
+          "name": "Wise crowds",
+          "status": "partly right",
+          "pop": false,
+          "line": "Individual noise cancels out, and the public as a whole responds sensibly to events.",
+          "explain": "Aggregate opinion moves in understandable ways, for understandable reasons, even when individuals know little. Cues from parties and trusted elites let people vote roughly as they would if informed.",
+          "who": "Benjamin Page and Robert Shapiro; Arthur Lupia and Mathew McCubbins; Bryan Caplan critiques the optimistic side from the other direction.",
+          "best": "Page and Shapiro, The Rational Public, 1992; Lupia and McCubbins, The Democratic Dilemma, 1998; Caplan, The Myth of the Rational Voter, 2007.",
+          "evidence": "Aggregate opinion shifts are real and predictable (Page and Shapiro), but cues often come from the same partisan elites. Caplan argues voters are rationally lazy and indulge systematic biases such as anti-market and anti-foreign views."
+        }
+      ]
+    },
+    {
+      "title": "Is social media what broke politics?",
+      "lead": "The popular story says algorithms put us in filter bubbles and made us hate each other. Eli Pariser's 2011 filter-bubble book and Jonathan Haidt's later writing carry the strongest version. Affective polarization is real and rising in the US. The question is the cause, and the largest experiments on Facebook and Instagram found very little.",
+      "verdict": "Elites and party sorting look like the main driver; the feed-algorithm story is weaker than its popular form.",
+      "camps": [
+        {
+          "name": "Filter bubbles and algorithms",
+          "status": "losing",
+          "pop": true,
+          "line": "Feeds trap people in echo chambers and radicalize them with outrage.",
+          "explain": "Engagement-optimized feeds show people what agrees with them and what angers them, so polarization rises. This is the story in documentaries and op-eds.",
+          "who": "Eli Pariser; Tristan Harris and The Social Dilemma (2020); Jonathan Haidt in recent writing.",
+          "best": "Pariser, The Filter Bubble, 2011.",
+          "evidence": "Guess et al. (Science 2023) randomized Facebook and Instagram users to a chronological feed: it cut time on the platform and changed what people saw, but produced no detectable change in polarization or political attitudes. Nyhan et al. (Nature 2023) found that cutting like-minded content did not change attitudes either. Bail et al. (PNAS 2018) found that exposure to opposing views on Twitter made some Republicans more conservative, which cuts against 'break the bubble' as a cure. Effects over longer periods and at scale remain untested."
+        },
+        {
+          "name": "Elite and party sorting",
+          "status": "winning",
+          "pop": false,
+          "line": "Polarization is what happens when party labels line up with race, religion and ideology, and elites signal that the other side is a threat.",
+          "explain": "Parties sorted in the decades after the civil rights era, so partisan identity now bundles many group identities. Affective hostility followed. Several countries with high social media use have flat or falling polarization.",
+          "who": "Lilliana Mason; Matthew Levendusky; Morris Fiorina (skeptic of mass polarization); Ezra Klein (popular carrier, with a media-incentives twist).",
+          "best": "Mason, Uncivil Agreement, 2018; Levendusky, The Partisan Sort, 2009; Boxell, Gentzkow and Shapiro, 'Cross-Country Trends in Affective Polarization', 2020 working paper later in Review of Economics and Statistics.",
+          "evidence": "Boxell, Gentzkow and Shapiro found that affective polarization rose most in the US, and fell in several other rich democracies, over the same period of rising internet use. That pattern does not fit a purely technological cause."
+        },
+        {
+          "name": "Media plus tech together",
+          "status": "open",
+          "pop": false,
+          "line": "Feeds are not the main cause, but partisan media and social platforms amplify elite messages and the most engaged users.",
+          "explain": "Experiments measure a few months of changes for ordinary users. The effect may sit in a small, very active minority, in cumulative exposure, or in elite behavior shaped by the platforms.",
+          "who": "Chris Bail; Joshua Tucker; Andrew Guess (careful about limits).",
+          "best": "Bail, Breaking the Social Media Prism, 2021.",
+          "evidence": "Open. A decisive test would need long-run, population-level variation in access, such as staggered platform rollout or deactivation studies over years."
+        }
+      ]
+    },
+    {
+      "title": "Why did populism surge: money or culture?",
+      "lead": "After 2016 the first answer was economic anxiety: lost factory jobs, the China shock, stagnant wages. A second answer said it was racial and cultural status threat. Careful work now shows both involve real effects, with the economic channel stronger for place-level outcomes and the cultural channel stronger for individual vote choice.",
+      "verdict": "Cultural and identity variables predict who votes populist; economic shocks help explain where it surges. Neither alone is the answer.",
+      "camps": [
+        {
+          "name": "Economic anxiety",
+          "status": "partly right",
+          "pop": true,
+          "line": "Left-behind places lost jobs to trade and automation, and voters punished the establishment.",
+          "explain": "Regions hit by import competition from China saw job losses, falling wages and rising political extremism. This is the story told by many commentators and by populists themselves.",
+          "who": "David Autor, David Dorn, Gordon Hanson; commentators such as Thomas Frank and J. D. Vance's Hillbilly Elegy audience.",
+          "best": "Autor, Dorn and Hanson, 'The China Syndrome', American Economic Review 2013; Autor, Dorn, Hanson and Majlesi, 'Importing Political Polarization?', American Economic Review 2020.",
+          "evidence": "Autor et al. (AER 2020) found that counties more exposed to Chinese imports shifted toward more extreme candidates on both ends, with a rightward lean in white-majority counties. Individual-level data complicate it: many Trump voters in 2016 had above-average incomes."
+        },
+        {
+          "name": "Cultural backlash and status threat",
+          "status": "winning",
+          "pop": false,
+          "line": "It was about identity: white, Christian and male majorities feeling their standing slip.",
+          "explain": "Surveys show attitudes on immigration, race and national identity predict populist support better than income or job loss. Older, less-educated voters react against value change.",
+          "who": "Diana Mutz; Pippa Norris and Ronald Inglehart; John Sides, Michael Tesler and Lynn Vavreck.",
+          "best": "Mutz, 'Status threat, not economic hardship, explains the 2016 presidential vote', PNAS 2018; Norris and Inglehart, Cultural Backlash, 2019; Sides, Tesler and Vavreck, Identity Crisis, 2018.",
+          "evidence": "Mutz's panel data showed that change in vote choice between 2012 and 2016 was linked to status-threat measures, not to personal economic distress. Critics argued the panel is small and that group-level economic harm differs from individual harm, so the economic account is not ruled out."
+        },
+        {
+          "name": "Economics shapes culture",
+          "status": "open",
+          "pop": false,
+          "line": "Economic loss and cultural resentment feed each other, and shocks made identity politics matter more.",
+          "explain": "Job loss in a community erodes marriage, trust and civic life, which can sharpen identity conflict. Separating the two empirically is hard because they move together.",
+          "who": "Dani Rodrik; Anne Case and Angus Deaton; Torben Iversen and David Soskice.",
+          "best": "Rodrik, 'Populism and the economics of globalization', Journal of International Business Policy 2018; Case and Deaton, Deaths of Despair, 2020.",
+          "evidence": "Open. Better tests need panel data tracking individuals through plant closures along with their attitudes."
+        }
+      ]
+    },
+    {
+      "title": "What drives war and peace between states?",
+      "lead": "International relations has three folk stories: states chase power (realism), trade and institutions tame them (liberalism), and ideas and norms define interests (constructivism). Each is partly vindicated and none has beaten the others. The strongest recent work asks a more basic question: why do rational states fight at all when war is costly?",
+      "verdict": "Open overall; the bargaining framework and the democratic-peace pattern are the sturdiest pieces.",
+      "camps": [
+        {
+          "name": "Realism",
+          "status": "partly right",
+          "pop": true,
+          "line": "The world is anarchy, and states survive by building power; great powers will clash.",
+          "explain": "With no world government, states can't be sure of each other's intentions and so must hedge. Offensive realists say they will seek dominance. It is the default frame in foreign-policy commentary.",
+          "who": "Kenneth Waltz; John Mearsheimer; Stephen Walt; Henry Kissinger as a popular face.",
+          "best": "Waltz, Theory of International Politics, 1979; Mearsheimer, The Tragedy of Great Power Politics, 2001.",
+          "evidence": "Good at explaining balancing against rising powers and NATO's endurance debates; poor at predicting the end of the Cold War peacefully, and it struggles to explain the long peace among advanced states. Critics say it is hard to falsify."
+        },
+        {
+          "name": "Liberal and democratic peace",
+          "status": "partly right",
+          "pop": false,
+          "line": "Democracies, trade and international institutions make war among their members rare.",
+          "explain": "Pairs of democracies almost never fight each other. Trade ties, shared institutions and open governments raise the cost of war and improve information.",
+          "who": "Michael Doyle; Bruce Russett and John Oneal; Robert Keohane.",
+          "best": "Doyle, 'Kant, Liberal Legacies, and Foreign Affairs', 1983; Russett and Oneal, Triangulating Peace, 2001.",
+          "evidence": "The dyadic democratic-peace result is among the most replicated patterns in the field, though definitions of democracy and war affect how strong it looks. Democracies do fight non-democracies, and some argue the cause is shared alliances and wealth rather than regime type (Gartzke's 'capitalist peace')."
+        },
+        {
+          "name": "Bargaining and information",
+          "status": "winning",
+          "pop": false,
+          "line": "War is a failure to agree on a deal both sides would prefer, caused by private information, commitment problems and indivisible stakes.",
+          "explain": "Since war destroys value, there should always be a bargain that beats fighting. Wars happen when states can't credibly reveal their strength or promise to keep a deal as power shifts.",
+          "who": "James Fearon; Robert Powell; Branislav Slantchev.",
+          "best": "Fearon, 'Rationalist Explanations for War', International Organization 1995.",
+          "evidence": "Now the organizing framework in mainstream academic IR. It is a framework, not a single test, and it sits alongside constructivist claims that identities and norms shape what states consider possible."
+        }
+      ]
+    }
+  ]
+}

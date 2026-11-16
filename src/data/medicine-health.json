@@ -1,0 +1,248 @@
+{
+  "discipline": "Medicine & Health",
+  "overview": "Medicine fights over how much to trust each kind of evidence. A mechanism story (this molecule drives that disease) is cheap and persuasive; a randomized trial is slow and humbling, and trials have overturned many mechanism stories. The field has moved from authority to evidence to a more careful question: which evidence, for what claim, and who paid for it. The simple stories come from three places: pharmaceutical marketing (chemical imbalance, early detection saves lives), diet-book and podcast culture (one hormone or one nutrient explains everything), and a backlash against both that swings to the opposite certainty (it's all a scam). The truth in most of these fights is a modest, real effect with some hype stripped off.",
+  "debates": [
+    {
+      "title": "What makes us fat: calories, carbs or the food environment?",
+      "lead": "Everyone agrees weight gain needs a surplus of energy. The fight is over the cause of the surplus. The pop version splits in two: 'eat less, move more' (a willpower story) versus 'carbs raise insulin, insulin locks fat away' (a hormone story). Controlled feeding trials have been unkind to the hormone story, and the GLP-1 drug era showed that appetite biology, not arithmetic or willpower, is the lever.",
+      "verdict": "Obesity is mostly an appetite-regulation problem driven by modern food; the carbohydrate-insulin model has failed its main tests, and the calorie model is true but explains nothing by itself.",
+      "camps": [
+        {
+          "name": "Calories in, out",
+          "status": "partly right",
+          "pop": true,
+          "line": "Weight is energy balance, so eat less and move more and the problem goes away.",
+          "explain": "Thermodynamics holds: no energy surplus, no weight gain. People hold this view because it is simple and because it makes obesity a moral question of discipline. It is true as accounting and weak as a cause, because it says nothing about why intake drifts up or why dieters regain.",
+          "who": "Gym and fitness culture, many clinicians and public-health guidance; Kevin Hall is the main academic defender of energy balance as a framework, though not of the willpower story",
+          "best": "Hall et al. 2012, Am J Clin Nutr on energy balance and body weight regulation; the dynamic weight-change models that follow from it",
+          "evidence": "For: in tightly controlled inpatient studies, weight follows energy intake and expenditure. Against as a full account: long-term diet plus exercise advice has a poor record, and weight loss triggers compensatory hunger and lowered expenditure. Semaglutide (Wilding et al. 2021, STEP 1, NEJM, about 15% weight loss) and tirzepatide (Jastreboff et al. 2022, SURMOUNT-1, NEJM, up to about 21%) work by changing appetite, which shows the 'out' side is not where the action is."
+        },
+        {
+          "name": "Carbohydrate-insulin",
+          "status": "losing",
+          "pop": true,
+          "line": "Refined carbs spike insulin, insulin traps fat in cells, and that makes us hungry and fat.",
+          "explain": "Fat gain is the primary event and overeating is its consequence: insulin directs calories into storage, leaving the body short of fuel and driving hunger. Cut carbs and insulin falls, fat is released, and weight comes off without counting. It has a clean mechanism, which is why it spreads so well.",
+          "who": "Gary Taubes (Good Calories, Bad Calories, 2007; Why We Get Fat, 2010), Robert Lustig (Fat Chance, 2012), Jason Fung (The Obesity Code, 2016); David Ludwig is the academic proponent",
+          "best": "Ludwig and Friedman 2014, JAMA on the 'carbohydrate-insulin' view; Ebbeling et al. 2012, JAMA, a feeding trial finding low-carb raised energy expenditure by roughly 300 kcal/day",
+          "evidence": "Against: Hall et al. 2015, Cell Metabolism, 19 inpatients, with fat held constant, cutting fat produced more body-fat loss than cutting carbs. Hall and Guo 2017, Gastroenterology, pooled 32 controlled feeding studies: low-fat gave slightly more fat loss and energy expenditure. Gardner et al. 2018, JAMA (DIETFITS, 609 adults, 12 months): low-fat lost about 5.3 kg, low-carb about 6.0 kg, no significant difference, and neither genotype nor insulin secretion predicted who did better. Supporters point to the energy-expenditure finding in Ebbeling 2012 and the 2018 BMJ follow-up, but the size of that effect has not held up in other trials. Kept: low-carb diets do work for many people, probably by cutting appetite, not through the insulin mechanism."
+        },
+        {
+          "name": "Food environment",
+          "status": "winning",
+          "pop": false,
+          "line": "Modern, engineered food overrides the brain's appetite controls, so intake rises without anyone choosing it.",
+          "explain": "Body weight is defended by a brain system (hypothalamus, brainstem, reward circuits) that is easily pushed off its set point by calorie-dense, highly palatable, ultra-processed food. It takes the energy-balance accounting as given and explains the surplus through appetite regulation, not a single hormone.",
+          "who": "Kevin Hall, Stephan Guyenet (The Hungry Brain, 2017), Giles Yeo (Why Calories Don't Count, 2021)",
+          "best": "Hall et al. 2019, Cell Metabolism; Hall et al. 2021, Nature Medicine",
+          "evidence": "Hall 2019: 20 adults lived on a ward for four weeks, two weeks each on matched ultra-processed and unprocessed diets, eating freely; on the ultra-processed diet they ate about 500 kcal/day more and gained about 0.9 kg, versus losing about 0.9 kg. Hall 2021, Nature Medicine: on a low-fat plant-based diet people ate about 700 kcal/day less than on a ketogenic animal-based diet, with no insulin-driven explanation. Twin and adoption studies put body-mass heritability high (around 40 to 70%), consistent with a regulated system. Limits: the trials are small and short; which feature of ultra-processed food does the work is unknown."
+        }
+      ]
+    },
+    {
+      "title": "Is depression a chemical imbalance, and do antidepressants work?",
+      "lead": "The public carries two stories that contradict each other: depression is low serotonin that pills fix, and antidepressants are expensive placebos. Neither survives. The serotonin-deficit idea was marketing more than science, and the 'it's all placebo' claim is contradicted by large meta-analyses. What is left is a small-to-moderate average drug effect, wide individual variation, and a disorder with strong social causes.",
+      "verdict": "The serotonin-deficit story is dead, but antidepressants beat placebo by a modest, real margin; neither the marketing nor the backlash got it right.",
+      "camps": [
+        {
+          "name": "Chemical imbalance",
+          "status": "losing",
+          "pop": true,
+          "line": "Depression is a serotonin deficiency and SSRIs correct it, like insulin for diabetes.",
+          "explain": "Drugs that raise synaptic serotonin help some depressed people, so low serotonin must be the cause. The line was pushed in ads and clinic leaflets from the 1990s on. The leading psychiatric researchers mostly never held it in this crude form.",
+          "who": "Drug-company marketing and clinic leaflets, popular culture; as a researcher claim it traces to the 1960s monoamine hypothesis",
+          "best": "Schildkraut 1965, American Journal of Psychiatry (catecholamine hypothesis); Delgado et al. 1990, Archives of General Psychiatry (tryptophan depletion)",
+          "evidence": "Moncrieff et al. 2022, Molecular Psychiatry, an umbrella review of the main lines of evidence (serotonin and metabolite levels, receptors, transporter, depletion studies, genetics), found no consistent evidence of lower serotonin activity in depression. Lacasse and Leo 2005, PLoS Medicine, documented the gap between advertising and literature. Cowen and Browning 2015, World Psychiatry, concluded serotonin's role is unclear. Border et al. 2019, American Journal of Psychiatry, found the candidate genes (including 5-HTTLPR) did not replicate in huge samples. Critics of the Moncrieff review (Jauhar, Cowen and others) say it attacked a hypothesis few specialists held; both sides agree the simple version is wrong."
+        },
+        {
+          "name": "Placebo with side effects",
+          "status": "partly right",
+          "pop": true,
+          "line": "Antidepressants barely beat sugar pills and the benefit is clinically trivial.",
+          "explain": "FDA trial data show that average drug-placebo differences are small, publication bias inflated the published record, and withdrawal can be hard. It is a pop narrative in critical-psychiatry circles and the wider wellness world.",
+          "who": "Irving Kirsch (The Emperor's New Drugs, 2009), Joanna Moncrieff, Robert Whitaker (Anatomy of an Epidemic, 2010), Johann Hari",
+          "best": "Kirsch et al. 2008, PLoS Medicine (FDA data, 35 trials, benefit below clinical thresholds except in the most severe depression); Turner et al. 2008, NEJM (publication bias: about 94% of published trials positive versus about 51% of all FDA-registered trials)",
+          "evidence": "What held up: Turner 2008 and the small average effect; Davies and Read 2019, Addictive Behaviors, and Horowitz and Taylor 2019, Lancet Psychiatry, on withdrawal and tapering, which pushed guidelines to taper more slowly. What did not: the idea that benefit is zero or trivial. Cipriani 2018 (below) includes unpublished data and still finds every drug beating placebo. The disagreement now is whether an average standardized effect of about 0.3 is clinically meaningful."
+        },
+        {
+          "name": "Modest but real",
+          "status": "winning",
+          "pop": false,
+          "line": "On average antidepressants help more than placebo, by a modest amount, and some patients benefit a lot more than others.",
+          "explain": "The best estimates come from pooling hundreds of trials including unpublished ones. The average effect is small but real, comparable to many accepted treatments in medicine, and hides large differences between patients. Psychotherapy works about as well, and combined treatment can be better.",
+          "who": "Andrea Cipriani and Toshi Furukawa (network meta-analysis); Oxford and King's psychiatry groups (Phil Cowen, Sameer Jauhar)",
+          "best": "Cipriani et al. 2018, Lancet (522 trials, 116,477 participants, 21 drugs)",
+          "evidence": "All 21 antidepressants beat placebo; odds ratios ran from about 1.4 (reboxetine) to 2.1 (amitriptyline), with the standardized effect around 0.3. Hieronymus et al. 2016, Molecular Psychiatry, and the FDA-trial reanalyses show benefit across severity levels, not only the severe. Limits: trials are short (6 to 12 weeks), selected, and say little about long-term use; response in any individual is hard to predict."
+        },
+        {
+          "name": "Social causes",
+          "status": "partly right",
+          "pop": true,
+          "line": "Depression is a normal response to disconnection, poverty and abuse, and we are medicalizing it.",
+          "explain": "Life events and adversity are the strongest risk factors, and treating them as brain diseases lets society off the hook. It is a long-standing sociological and critical-psychiatry view and reached mass readers through popular books.",
+          "who": "George Brown and Tirril Harris (sociology), Johann Hari (Lost Connections, 2018), critical psychiatry",
+          "best": "Brown and Harris 1978, Social Origins of Depression",
+          "evidence": "Kept: adversity, loneliness and poverty reliably predict depression. Not kept: that this makes it not a disorder, or that treatment doesn't help. Twin studies (Kendler and colleagues) put genetic heritability of major depression around 35 to 40%, so it is neither purely social nor purely biological. Hari's pitch against drugs ignores the Cipriani evidence."
+        }
+      ]
+    },
+    {
+      "title": "Can we trust medical research?",
+      "lead": "Medicine has a hierarchy: randomized trials on top, observational studies below. It earned that rank from embarrassing reversals, such as hormone therapy and antioxidant vitamins. Meanwhile a second popular story says most research is rigged or false. The field's current position sits between them: randomized trials remain the anchor, observational data is useful with careful design, and bias in what gets published is real and measurable.",
+      "verdict": "Randomized trials remain the anchor, but the live frontier is causal inference that lets careful observational work answer what trials cannot; 'most findings are false' overstates it, 'trust the science' without asking who funded and published it understates it.",
+      "camps": [
+        {
+          "name": "RCT gold standard",
+          "status": "partly right",
+          "pop": true,
+          "line": "If it isn't a randomized trial, it's a hypothesis.",
+          "explain": "Randomization is the only way to balance unknown confounders. Evidence-based medicine grew out of this view and demoted expert opinion and mechanism. It is correct that observational data have misled medicine badly; it fails when a trial is impossible, too short, or too narrow.",
+          "who": "Archie Cochrane (Effectiveness and Efficiency, 1972), Gordon Guyatt and David Sackett (evidence-based medicine, 1992 and 1996), the Cochrane Collaboration",
+          "best": "Sackett et al. 1996, BMJ, 'Evidence based medicine: what it is and what it isn't'; Horby et al. 2021, NEJM (RECOVERY)",
+          "evidence": "For: observational studies suggested hormone therapy protected the heart (Nurses' Health Study, Stampfer et al. 1991) and the Women's Health Initiative (Rossouw et al. 2002, JAMA) found harm. Observational data suggested beta-carotene protected smokers against cancer; the ATBC (1994, NEJM) and CARET (1996, NEJM) trials found more lung cancer. RECOVERY (2021, NEJM) showed dexamethasone cut deaths by about a third in ventilated Covid patients and overturned enthusiasm for hydroxychloroquine, which observational data had supported. Against: Smith and Pell 2003, BMJ, 'parachute' satire; Deaton and Cartwright 2018, Social Science and Medicine, on what a single trial result can and cannot generalize to."
+        },
+        {
+          "name": "Most research is false",
+          "status": "partly right",
+          "pop": true,
+          "line": "Most published findings are false, and Big Pharma buys the rest.",
+          "explain": "Small studies, flexible analysis, selective publication and money produce spurious results. The scepticism is justified in preclinical work and in some trial areas, but the strong form generalizes from the weakest sub-literatures to all of medicine.",
+          "who": "John Ioannidis; Ben Goldacre (Bad Pharma, 2012); Marcia Angell; Peter Gøtzsche (Deadly Medicines and Organised Crime, 2013)",
+          "best": "Ioannidis 2005, PLoS Medicine, 'Why most published research findings are false'; Begley and Ellis 2012, Nature (6 of 53 landmark oncology papers replicated)",
+          "evidence": "Kept: Begley and Ellis 2012; the Reproducibility Project: Cancer Biology (Errington et al. 2021, eLife; 50 experiments from 23 papers, median effect size about 85% smaller than the originals, fewer than half replicated by most criteria); Turner 2008, NEJM, on selective publication. Pushed back: Jager and Leek 2014, Biostatistics, estimated the false-discovery rate in top medical journals at about 14%, not over 50%. Trial registration (mandatory in the US from 2005 onward) and open data cut some of the damage; preclinical biology, nutrition epidemiology and small psychiatric studies remain the weak areas."
+        },
+        {
+          "name": "Causal inference",
+          "status": "winning",
+          "pop": false,
+          "line": "Treat observational data like a trial you didn't get to run, and design it that way.",
+          "explain": "Many questions cannot be tested randomly (long-term harm, rare outcomes, lifelong exposures). Epidemiologists now emulate the target trial on paper, check results against several designs with different biases, and use genetics (Mendelian randomization) as natural randomization.",
+          "who": "Miguel Hernan and James Robins; George Davey Smith and Debbie Lawlor (triangulation)",
+          "best": "Hernan et al. 2008, Epidemiology (reanalysis of the Nurses' Health Study hormone data); Hernan and Robins 2016, American Journal of Epidemiology (target trial emulation)",
+          "evidence": "Hernan 2008 showed the Nurses' Health Study and WHI hormone discrepancy largely disappears once timing of therapy initiation is modeled, so the gap was partly design, not just confounding. Anglemyer et al. 2014, Cochrane, and Concato et al. 2000, NEJM, found well-designed observational studies and RCTs agree on average. Limits: emulation only works if the confounders were measured; it cannot rescue a bad dataset."
+        }
+      ]
+    },
+    {
+      "title": "Is LDL cholesterol a cause of heart disease?",
+      "lead": "The lipid hypothesis says LDL cholesterol damages arteries, so lowering it prevents heart attacks. A loud contrarian camp, popular in podcasts and diet-book circles, says cholesterol is a myth and statins are over-sold. Genetics and decades of trials settled the core claim for LDL. The old diet-to-cholesterol link was messier, and the remaining fights are about what else matters.",
+      "verdict": "LDL is causal and lowering it prevents events; 'cholesterol is a myth' lost, though total-fat advice and statin side-effect claims were oversold in both directions.",
+      "camps": [
+        {
+          "name": "LDL is causal",
+          "status": "winning",
+          "pop": false,
+          "line": "Lower LDL by any route and heart attacks fall, in proportion to how far and how long.",
+          "explain": "Evidence converges from genetics, trials and biology: people born with lifelong low LDL are protected, people with familial hypercholesterolemia die young, and drugs that lower LDL by different mechanisms cut events. The harm scales with cumulative exposure.",
+          "who": "Brian Ference, Cholesterol Treatment Trialists, European Atherosclerosis Society; Brown and Goldstein (Nobel Prize 1985)",
+          "best": "CTT 2010, Lancet (26 trials, about 170,000 people, about 22% fewer major vascular events per 1 mmol/L LDL reduction); Ference et al. 2017, European Heart Journal, consensus statement",
+          "evidence": "Mendelian randomization (Ference et al. 2012, JACC) shows lifelong lower LDL from gene variants cuts risk far more per unit than short-term statin use. Non-statin drugs (ezetimibe in IMPROVE-IT, 2015; PCSK9 inhibitors such as evolocumab in FOURIER, 2017, NEJM, about 15% fewer events) gave the benefit expected from the LDL fall. Cholesterol Treatment Trialists 2022, Lancet, found most muscle symptoms in statin users are not caused by the statin."
+        },
+        {
+          "name": "Cholesterol myth",
+          "status": "losing",
+          "pop": true,
+          "line": "Cholesterol and saturated fat were demonized on bad science; statins are a racket.",
+          "explain": "Ancel Keys's early work was ecological and selective, some diet trials failed to show benefit, and statins were over-promoted to low-risk people. Therefore, the argument goes, the whole LDL story collapses. Each of those premises has some truth; the conclusion does not follow.",
+          "who": "Uffe Ravnskov; Aseem Malhotra (BMJ 2013 editorial 'Saturated fat is not the major issue'); Malcolm Kendrick (The Great Cholesterol Con, 2007); Nina Teicholz (The Big Fat Surprise, 2014)",
+          "best": "Ramsden et al. 2013, BMJ (Sydney Diet Heart recovered data); Ramsden et al. 2016, BMJ (Minnesota Coronary Experiment recovered data): lowered cholesterol without fewer deaths; Ravnskov et al. 2016, BMJ Open",
+          "evidence": "Real finds: the Minnesota and Sydney trials swapped saturated fat for omega-6 and showed no benefit. Against the conclusion: Hooper et al. 2020, Cochrane, found reducing saturated fat lowered cardiovascular events by about 17%, with benefit tied to what replaces it (unsaturated fat helps; refined carbohydrate does not). CTT and the Mendelian studies above are not about diet at all; they hold across mechanisms. The Ravnskov claim, that LDL does not predict death in the elderly, reflects frailty and reverse causation."
+        },
+        {
+          "name": "Beyond LDL",
+          "status": "partly right",
+          "pop": false,
+          "line": "LDL matters, but ApoB particle count, Lp(a), inflammation and insulin resistance also decide who gets disease.",
+          "explain": "Many heart attacks occur in people with ordinary LDL, and many with high LDL never have one. This camp keeps the lipid hypothesis and adds more risk drivers, which opens treatment targets beyond statins.",
+          "who": "Paul Ridker (inflammation), Sam Tsimikas (Lp(a)), Peter Attia and others who popularize ApoB testing",
+          "best": "Ridker et al. 2017, NEJM (CANTOS, canakinumab)",
+          "evidence": "CANTOS showed that cutting inflammation without changing LDL reduced events by about 15%. Mendelian studies implicate Lp(a) and ApoB-containing particles as causal. Whether lowering Lp(a) improves outcomes is being tested in trials with drugs that lower it sharply (pelacarsen, olpasiran); results will decide it."
+        }
+      ]
+    },
+    {
+      "title": "Does cancer screening save lives or find harmless cancers?",
+      "lead": "The simple story is that finding cancer early is always better. It sounds obvious and is partly wrong: screening also finds slow cancers that would never have caused harm (overdiagnosis), leading to treatments that hurt. Some screening clearly reduces deaths; some barely does, and the net gain in life expectancy is often small. The field is moving toward targeted, risk-based screening.",
+      "verdict": "Screening saves lives for some cancers (cervical, lung in heavy smokers, colorectal), saves fewer than advertised for others (breast, prostate), and all of it causes overdiagnosis; risk-targeted screening is the direction.",
+      "camps": [
+        {
+          "name": "Early is better",
+          "status": "partly right",
+          "pop": true,
+          "line": "Cancer caught early is curable, so screen everyone as widely as possible.",
+          "explain": "Stage at diagnosis predicts survival, so catching cancers earlier must save lives. This is the message of awareness campaigns and many cancer charities.",
+          "who": "Cancer charities and awareness campaigns, many screening programs and radiology societies, makers of multi-cancer blood tests",
+          "best": "National Lung Screening Trial 2011, NEJM (20% fewer lung cancer deaths with low-dose CT); Tabar et al. Swedish two-county mammography trials",
+          "evidence": "Kept: NLST showed a mortality benefit in heavy smokers; cervical screening and colorectal screening (especially sigmoidoscopy) clearly work. Lost: survival from diagnosis is inflated by lead-time and length bias (slow tumours are overrepresented), so better survival does not prove fewer deaths. The multi-cancer early-detection blood tests have no mortality evidence yet."
+        },
+        {
+          "name": "Overdiagnosis critics",
+          "status": "partly right",
+          "pop": false,
+          "line": "Much screening detects cancers that would never have hurt anyone, and the harm falls on the healthy.",
+          "explain": "Incidence rises after screening starts while deaths barely move, which signals harmless disease being found and treated. It is an epidemiological argument about the balance between benefit and harm, not a claim that screening never works.",
+          "who": "H. Gilbert Welch (Overdiagnosed, 2011), Peter Gotzsche, Cochrane breast screening reviews",
+          "best": "Welch and Black 2010, JNCI; Ahn, Kim and Welch 2014, NEJM (Korean thyroid cancer: about 15-fold incidence rise, mortality unchanged); Miller et al. 2014, BMJ (Canadian National Breast Screening Study)",
+          "evidence": "Bretthauer et al. 2022, NEJM (NordICC): inviting people to colonoscopy cut colorectal cancer incidence by about 18% but showed no significant difference in colorectal cancer death at 10 years (only about 42% attended). Bretthauer et al. 2023, JAMA Internal Medicine, found most screening trials show no clear all-cause mortality benefit and gains in lifetime are measured in days to months. Overstated: it does not mean screening fails; all-cause mortality needs huge, long trials, and cancer-specific benefit can be real. ProtecT (Hamdy et al. 2016, NEJM): prostate cancer mortality was about 1% at 10 years whether treated or watched, which supports the overtreatment point."
+        },
+        {
+          "name": "Risk-targeted screening",
+          "status": "winning",
+          "pop": false,
+          "line": "Screen those at high enough risk, use better tests that skip indolent disease, and treat low-risk cancers with surveillance.",
+          "explain": "Benefits and harms both depend on baseline risk, so the same test is worthwhile in a heavy smoker and not in a low-risk 50-year-old. Better triage (MRI before biopsy, active surveillance, risk scores) keeps the benefit and cuts the overtreatment.",
+          "who": "US and European screening guideline bodies, prostate MRI and active surveillance researchers, risk-based breast screening trials",
+          "best": "Kasivisvanathan et al. 2018, NEJM (PRECISION); Hamdy et al. 2016, NEJM (ProtecT)",
+          "evidence": "PRECISION: MRI-first targeted biopsy found more clinically significant prostate cancers and fewer insignificant ones than standard biopsy. Lung screening guidelines restrict to heavy smokers by age and pack-years. Open questions: whether risk-based breast screening matches age-based outcomes, and whether multi-cancer blood tests reduce deaths. Large trials are still under way."
+        }
+      ]
+    },
+    {
+      "title": "Is Alzheimer's caused by amyloid?",
+      "lead": "For thirty years the field bet on the amyloid cascade: clumps of amyloid-beta start the disease. Most amyloid drugs failed, a flagship 2006 paper was retracted in 2024 for image manipulation, and popular writers declared the hypothesis dead. Then antibodies that clear amyloid slowed decline in 2022 and 2023, modestly. The honest position is that amyloid is causally involved but is nowhere near the whole story.",
+      "verdict": "Amyloid is a real cause that can be partly slowed by removal; it is not the whole disease, and the rest (tau, inflammation, vascular damage, lifestyle) matters for most patients.",
+      "camps": [
+        {
+          "name": "Amyloid cascade",
+          "status": "winning",
+          "pop": false,
+          "line": "Amyloid-beta accumulation starts the disease, so removing it should slow it.",
+          "explain": "Genes that raise amyloid production cause early-onset familial Alzheimer's, and the amyloid precursor gene sits on chromosome 21, which is why Down syndrome causes early Alzheimer's. The hypothesis predicted that taking amyloid out early would help; two antibodies now show that.",
+          "who": "John Hardy and Gerald Higgins (1992, Science), Dennis Selkoe",
+          "best": "Hardy and Higgins 1992, Science; van Dyck et al. 2023, NEJM (CLARITY-AD, lecanemab); Sims et al. 2023, JAMA (TRAILBLAZER-ALZ 2, donanemab)",
+          "evidence": "CLARITY-AD: lecanemab slowed decline on CDR-SB by 27% over 18 months in early disease. TRAILBLAZER-ALZ 2: donanemab slowed decline by about a third in patients with low-to-medium tau. Jonsson et al. 2012, Nature: an APP variant that lowers amyloid production protects against Alzheimer's in old age. Limits: effects are small in absolute terms (many neurologists doubt clinical meaningfulness), and brain-swelling and bleeding (ARIA) is a real risk."
+        },
+        {
+          "name": "Amyloid is a dead end",
+          "status": "losing",
+          "pop": true,
+          "line": "Amyloid was a fraud-laced detour that wasted billions; the real cause is something else.",
+          "explain": "The anti-amyloid camp points to a long list of failed trials and a retracted flagship paper. The sentiment peaked after investigative reporting on image manipulation in the field. Some of it is deserved criticism of how the field funded a single idea.",
+          "who": "Karl Herrup (How Not to Study a Disease, 2021), science journalists covering the Lesne affair, critics of the aducanumab approval",
+          "best": "Piller 2022, Science (investigation of image manipulation); the 2024 retraction of Lesne et al. 2006, Nature",
+          "evidence": "Real: bapineuzumab, solanezumab and BACE inhibitor (e.g. verubecestat) trials failed; Lesne 2006's 'amyloid-beta*56' paper was retracted in 2024; aducanumab's 2021 FDA approval was controversial. But the retraction concerned one specific oligomer claim, not the amyloid cascade as a whole, and the later antibody trials worked by removing plaque. Fraud in one paper does not undo the genetics or the 2022 to 2023 trial results."
+        },
+        {
+          "name": "Tau first",
+          "status": "open",
+          "pop": false,
+          "line": "Tau tangles track symptoms far better than amyloid, so tau is the real driver.",
+          "explain": "Amyloid builds up years before symptoms, but tau spread follows cognitive decline closely. If amyloid starts the process and tau does the damage, treating amyloid alone is too early or too little.",
+          "who": "Braak staging tradition, John Hardy's later revisions, tau-antibody programs",
+          "best": "Braak and Braak 1991, Acta Neuropathologica (staging of tau pathology)",
+          "evidence": "Donanemab worked best at low tau, consistent with the need to act before tau spreads. Several anti-tau antibodies (gosuranemab, tilavonemab) failed. Tau is likely downstream of amyloid for most patients, but whether targeting tau helps once it spreads is undecided; trials in progress will decide."
+        },
+        {
+          "name": "Many causes",
+          "status": "partly right",
+          "pop": false,
+          "line": "Dementia is a mix of vascular damage, inflammation, infection and metabolic risk, and amyloid is one input.",
+          "explain": "Autopsies find mixed pathology in most older dementia patients, and population studies tie dementia to modifiable risk factors. This view moves effort toward prevention and combination treatment.",
+          "who": "Gill Livingston and the Lancet Commissions on dementia; Ruth Itzhaki (herpes hypothesis)",
+          "best": "Livingston et al. 2024, Lancet Commission on dementia prevention (14 modifiable risk factors, about 45% of cases potentially preventable or delayable)",
+          "evidence": "The 14 risk factors include hearing loss, hypertension, smoking, inactivity and untreated vision loss. Mixed pathology is common in autopsy series. The infection hypothesis (Readhead et al. 2018, Neuron, viral signals in Alzheimer's brain data) is suggestive and unproven. The 45% figure is a statistical ceiling from observational data, not a proven trial result."
+        }
+      ]
+    }
+  ]
+}

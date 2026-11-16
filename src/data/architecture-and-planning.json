@@ -1,0 +1,191 @@
+{
+  "discipline": "Architecture & planning",
+  "overview": "Architecture and planning argue about whether the built environment can be designed from above or has to grow from below, and about how much form actually shapes how people live. The 20th century's confident modernist answer, that rational design would fix cities, collapsed in public memory around a few demolitions and a few books. Today the fights are about cars and roads, about housing supply, about who gets a voice in planning, and about taste. The simple stories come from famous figures: Le Corbusier and Robert Moses on one side, Jane Jacobs as the heroine of the other, and a pop belief that modernism simply failed.",
+  "debates": [
+    {
+      "title": "Did modernism wreck the city?",
+      "lead": "The pop story is that tower-block modernism produced soulless estates, symbolised by the 1972 demolition of Pruitt-Igoe in St. Louis. Jane Jacobs gave the critique its voice in 1961, and postmodernists declared modern architecture dead. Historians have since complicated the Pruitt-Igoe tale. The estate's decline tracked money, race and the collapse of St. Louis, not just its design.",
+      "verdict": "The critique of top-down urban renewal won, but blaming modernist form for Pruitt-Igoe-type failures mostly lost to the evidence about funding, maintenance and segregation.",
+      "camps": [
+        {
+          "name": "Modernism failed",
+          "status": "partly right",
+          "pop": true,
+          "line": "Towers in parks and separated land uses broke the street life that makes cities work, and the blown-up housing project proves it.",
+          "explain": "Charles Jencks famously dated the death of modern architecture to Pruitt-Igoe's demolition. The broader point, that clearing neighbourhoods and separating uses damaged communities, was borne out by urban renewal outcomes.",
+          "who": "Jane Jacobs; Robert Venturi; Charles Jencks; Prince Charles' campaigns; popular accounts of Pruitt-Igoe.",
+          "best": "Jacobs 1961, The Death and Life of Great American Cities; Venturi 1966, Complexity and Contradiction in Architecture; Jencks 1977, The Language of Post-Modern Architecture.",
+          "evidence": "Urban renewal and highways did displace and fragment many communities. But the claim that form alone killed Pruitt-Igoe is weak: see Bristol 1991, 'The Pruitt-Igoe Myth', Journal of Architectural Education, which argues the design was blamed for problems with finance, tenant policy and neighbourhood collapse."
+        },
+        {
+          "name": "Planning from above",
+          "status": "losing",
+          "pop": false,
+          "line": "Experts can plan whole districts rationally and clear the slums.",
+          "explain": "The CIAM tradition of Le Corbusier and the 1933 Athens Charter split the city into zones for living, working, recreation and circulation. Robert Moses applied the logic to New York with expressways and renewal.",
+          "who": "Le Corbusier; Robert Moses; Walter Gropius; CIAM.",
+          "best": "Le Corbusier 1935, La Ville radieuse; Athens Charter 1933 (published 1943).",
+          "evidence": "James C. Scott 1998, Seeing Like a State, uses Brasilia and Le Corbusier as examples of high-modernist schemes that ignore local knowledge. Most planners moved away from wholesale clearance. Some modernist social housing, such as Vienna's, is still working, so the form is not the whole story."
+        },
+        {
+          "name": "Fine-grained urbanism",
+          "status": "winning",
+          "pop": false,
+          "line": "Cities work through mixed uses, short blocks and old buildings that let many small things happen.",
+          "explain": "Jacobs argued from observation that diversity of use, small blocks, old buildings and density generate safe, lively streets. Later researchers tested pieces of the claim.",
+          "who": "Jane Jacobs; later empirical work by Edward Glaeser and others on density; the New Urbanists.",
+          "best": "Jacobs 1961; Glaeser 2011, Triumph of the City.",
+          "evidence": "Mixed use and walkability are now the default aspiration in planning. Jacobs' conditions have been tested only piecemeal and her book remains an argument by observation, not a controlled study."
+        }
+      ]
+    },
+    {
+      "title": "Does building design shape behaviour?",
+      "lead": "Designers like to believe that layout steers how people act: lighting prevents crime, open plans foster collaboration, tower blocks breed alienation. Critics call that architectural determinism. The research shows real but modest and context-dependent effects.",
+      "verdict": "Space matters through movement and visibility, but strong claims that design determines behaviour or social outcomes have not held up.",
+      "camps": [
+        {
+          "name": "Design determines",
+          "status": "losing",
+          "pop": true,
+          "line": "Get the layout right and you can reduce crime, build community and change how people behave.",
+          "explain": "Oscar Newman's defensible space argued that residents protect areas they feel ownership of, and that layouts could be designed to foster that. The idea fed crime prevention through environmental design (CPTED).",
+          "who": "Oscar Newman; C. Ray Jeffery (CPTED); modernist housing reformers.",
+          "best": "Newman 1972, Defensible Space: Crime Prevention Through Urban Design.",
+          "evidence": "Alice Coleman's 1985 Utopia on Trial claimed design flaws drove estate problems, and her UK design-improvement schemes were reviewed and judged to have mixed results. Reviews of CPTED show real but small effects. Design also cannot substitute for management and social conditions."
+        },
+        {
+          "name": "Space syntax",
+          "status": "partly right",
+          "pop": false,
+          "line": "The configuration of streets and rooms shapes who meets whom, even when it does not determine what they do.",
+          "explain": "Space syntax quantifies how connected a space is within a layout, and finds that this predicts pedestrian movement. It treats architecture as shaping patterns of co-presence rather than behaviour directly.",
+          "who": "Bill Hillier; Julienne Hanson; the Bartlett group at UCL.",
+          "best": "Hillier and Hanson 1984, The Social Logic of Space; Hillier et al. 1993, 'Natural movement: or, configuration and attraction in urban pedestrian movement', Environment and Planning B.",
+          "evidence": "Pedestrian counts correlate strongly with the configurational measure in many cities. Critics say it underplays land use and culture. Its predictions about movement are the best supported, while its claims about social outcomes are weaker."
+        },
+        {
+          "name": "Social conditions dominate",
+          "status": "winning",
+          "pop": false,
+          "line": "Who lives somewhere and how it is run matter more than how it looks.",
+          "explain": "Sociologists and housing researchers find that income, management and neighbourhood context explain most of what is attributed to design.",
+          "who": "Housing sociologists; Robert Sampson (Great American City, 2012).",
+          "best": "Sampson 2012, Great American City: Chicago and the Enduring Neighborhood Effect.",
+          "evidence": "Sampson's Chicago work found that neighbourhood collective efficacy predicted lower violence beyond physical features. This does not say form is irrelevant, only that it is a smaller lever."
+        }
+      ]
+    },
+    {
+      "title": "Can we build our way out of traffic?",
+      "lead": "Highway planning long followed predict-and-provide: forecast traffic and build lanes. Economists found that new capacity fills up. The pop belief that wider roads cure congestion is still behind many highway projects, and the technical dispute is now mostly about how to manage demand.",
+      "verdict": "Induced demand lost the argument in the literature: extra road capacity mostly fills up. Pricing and land-use change are the live options.",
+      "camps": [
+        {
+          "name": "Build more roads",
+          "status": "losing",
+          "pop": true,
+          "line": "Congestion means we lack capacity, so add lanes.",
+          "explain": "Traffic models forecast demand from population and trip growth and size roads to carry it. The intuition is simple: more lanes means more room.",
+          "who": "State highway agencies and the traditional traffic engineering profession.",
+          "best": "Highway Capacity Manual tradition; Moses-era expressway planning.",
+          "evidence": "Duranton and Turner 2011, American Economic Review, 'The Fundamental Law of Road Congestion', found vehicle kilometres travelled in US cities rises roughly one-for-one with lane kilometres, so added capacity does not cut congestion for long."
+        },
+        {
+          "name": "Price the road",
+          "status": "winning",
+          "pop": false,
+          "line": "Congestion is a pricing problem, so charge for scarce road space.",
+          "explain": "Economists have argued for road pricing since Vickrey. Real-world schemes have cut traffic in central areas.",
+          "who": "William Vickrey; Donald Shoup on parking; economists at transport agencies.",
+          "best": "Shoup 2005, The High Cost of Free Parking; London congestion charge (2003) and Stockholm (2006 trial, 2007 permanent).",
+          "evidence": "London and Stockholm both recorded sustained traffic reductions in the charged zone. Political acceptance is the barrier more than technical efficacy. New York's scheme began in January 2025, so longer-run data is still arriving."
+        },
+        {
+          "name": "Change land use",
+          "status": "partly right",
+          "pop": false,
+          "line": "Build places where people do not need to drive long distances at all.",
+          "explain": "Compact mixed-use development, transit and parking reform reduce trip lengths and car dependence. Evidence is stronger for modest effects than for large changes.",
+          "who": "New Urbanists; transit-oriented-development advocates.",
+          "best": "Ewing and Cervero 2010, 'Travel and the built environment: a meta-analysis', Journal of the American Planning Association.",
+          "evidence": "The meta-analysis found travel behaviour is only inelastically related to individual built-environment variables, though combined effects can be meaningful. Self-selection of residents complicates causal claims."
+        }
+      ]
+    },
+    {
+      "title": "Does new market-rate housing make a city more affordable?",
+      "lead": "Fights over zoning split on whether building more homes, including expensive ones, lowers rents or accelerates gentrification. The supply side argues from basic economics. The sceptics argue that new buildings attract demand and displace existing residents. Evidence from recent studies leans toward supply helping at the local level, with more uncertainty about displacement and long-run city effects.",
+      "verdict": "Recent studies lean toward new market-rate buildings easing rents nearby and in the wider market; the open questions are displacement and how large the effect is.",
+      "camps": [
+        {
+          "name": "Supply helps",
+          "status": "winning",
+          "pop": false,
+          "line": "Cities are expensive because they do not build enough, and more homes at any price level relieve pressure.",
+          "explain": "Housing economists point to restrictive zoning as the main cause of high prices in productive cities. Studies of new buildings compare rents near new buildings with comparable areas without.",
+          "who": "Edward Glaeser and Joseph Gyourko; Evan Mast; the YIMBY movement carries it publicly.",
+          "best": "Glaeser and Gyourko 2018, Journal of Economic Perspectives, 'The Economic Implications of Housing Supply'; Asquith, Mast and Reed 2023, Review of Economics and Statistics, 'Local Effects of Large New Apartment Buildings in Low-Income Areas'.",
+          "evidence": "Asquith, Mast and Reed found that large new buildings in low-income areas reduced nearby rents relative to comparison areas and did not increase them. Mast's work on migration chains also traced how new luxury units free up lower-priced units. Effects are local and measured on rents, so they do not prove that no individual is displaced."
+        },
+        {
+          "name": "Supply skepticism",
+          "status": "partly right",
+          "pop": true,
+          "line": "New luxury buildings signal a hot neighbourhood, attract wealthier people and push out the people already there.",
+          "explain": "This camp says that building in a desirable place attracts more demand, that the filtering of housing is slow, and that without subsidy the affordable segment is not served.",
+          "who": "Planners and housing researchers such as Miriam Zuk and Karen Chapple; Rodriguez-Pose and Storper; tenant organisers.",
+          "best": "Rodriguez-Pose and Storper 2020, Urban Studies, 'Housing, urban growth and inequalities: The limits to deregulation and upzoning in reducing economic and spatial inequality'.",
+          "evidence": "Their argument is that upzoning alone has limited effect on inequality and can disadvantage some groups. Studies of displacement find effects that depend on the market and on whether the data capture who actually moves. The strong version, that new supply raises neighbouring rents, is not what the large-building rent studies found."
+        },
+        {
+          "name": "Supply plus protection",
+          "status": "open",
+          "pop": false,
+          "line": "Build more, and pair it with tenant protections and subsidised housing so that no one is pushed out.",
+          "explain": "A compromise view accepts the supply evidence but argues that rents in booming areas need active policy for lower-income residents.",
+          "who": "Many city planning departments; some economists.",
+          "best": "No single defining study; see the discussion in Been, Ellen and O'Regan 2019, 'Supply Skepticism: Housing Supply and Affordability', Housing Policy Debate.",
+          "evidence": "Hard to test as a package because policies vary. What would settle it is comparisons of displacement and rents across cities with and without tenant protections, controlling for supply."
+        }
+      ]
+    },
+    {
+      "title": "Who should decide what gets built?",
+      "lead": "Planning theory moved from the expert-planner model to participation, on the grounds that experts had imposed damage on communities. Now a newer critique says that participation hearings are dominated by a narrow group who tend to oppose development. The fight is between expertise, local voice and democratic legitimacy.",
+      "verdict": "The expert-knows-best model lost legitimacy; participation is accepted in principle but evidence shows ordinary hearings are unrepresentative.",
+      "camps": [
+        {
+          "name": "Rational planning",
+          "status": "losing",
+          "pop": false,
+          "line": "Planners should survey the problem, choose the best option and implement it.",
+          "explain": "The classic rational-comprehensive model treats planning as technical optimisation. It informed urban renewal and major infrastructure.",
+          "who": "Mid-century planning orthodoxy; Robert Moses in practice.",
+          "best": "Banfield and Meyerson 1955, Politics, Planning and the Public Interest.",
+          "evidence": "Lindblom 1959, 'The Science of Muddling Through', Public Administration Review, argued planners cannot be comprehensive and in practice proceed incrementally. Scott 1998 documented failures of schemes that ignored local knowledge."
+        },
+        {
+          "name": "Participation",
+          "status": "partly right",
+          "pop": false,
+          "line": "Affected people must have real power over decisions, not just a notice period.",
+          "explain": "Davidoff's advocacy planning and Arnstein's ladder pushed planners toward public involvement, later formalised in communicative planning theory.",
+          "who": "Paul Davidoff; Sherry Arnstein; Patsy Healey; John Forester.",
+          "best": "Davidoff 1965, 'Advocacy and Pluralism in Planning', Journal of the American Institute of Planners; Arnstein 1969, 'A Ladder of Citizen Participation', JAIP.",
+          "evidence": "Participation reduced some of the worst top-down abuses. But empirical work shows that meeting attendance is unrepresentative."
+        },
+        {
+          "name": "Participation is skewed",
+          "status": "winning",
+          "pop": false,
+          "line": "Public hearings give a megaphone to a few opponents and block housing the wider public needs.",
+          "explain": "Researchers compared people who show up at planning meetings with the wider population and with who benefits from development.",
+          "who": "Katherine Levine Einstein, Maxwell Palmer and David Glick; YIMBY advocates.",
+          "best": "Einstein, Glick and Palmer 2019, Neighborhood Defenders: Participatory Politics and America's Housing Crisis, Cambridge University Press.",
+          "evidence": "Based on Boston-area planning and zoning meeting records, the authors found that attendees skew older, whiter, male and homeowning, and overwhelmingly oppose new housing. The critique is about how hearings are run, and does not show that all participation is useless."
+        }
+      ]
+    }
+  ]
+}

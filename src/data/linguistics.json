@@ -1,0 +1,218 @@
+{
+  "discipline": "Linguistics",
+  "overview": "Linguistics is split between those who think language is a special biological faculty with built-in grammar and those who think it is a learned, usage-driven tool like any other human skill. Almost every sub-fight (acquisition, typology, meaning, thought) is a version of that split. The popular stories come from Chomsky and Pinker ('the language instinct'), from Whorf ('your language shapes your world') and from usage grumblers ('kids today are ruining English'). The field has moved against the strongest forms of all three: innateness has to be cashed out in much weaker terms, Whorf survives only as a small nudge, and descriptivism won the argument over correctness long ago. Large language models have recently reopened the oldest question.",
+  "debates": [
+    {
+      "title": "Is grammar innate?",
+      "lead": "Chomsky's claim, since the 1950s, is that children cannot learn grammar from the speech they hear alone, so a language-specific blueprint (Universal Grammar) must be built in. Pinker made it the popular 'language instinct.' Usage-based researchers argue children learn constructions from input with general cognitive abilities. The fight is live, and large language models have sharpened it.",
+      "verdict": "Open but moving: the rich, language-specific Universal Grammar has lost ground, while a weaker 'humans are biologically prepared for language' survives.",
+      "camps": [
+        {
+          "name": "Universal Grammar",
+          "status": "partly right",
+          "pop": true,
+          "line": "Children get too little input to learn grammar from scratch, so the basic design has to be innate.",
+          "explain": "The poverty-of-the-stimulus argument: kids converge on rules that are hard to infer from data, and all languages share deep structural properties. The minimalist version now claims only a very small innate core, mainly recursive combination (Merge).",
+          "who": "Noam Chomsky, Steven Pinker, Charles Yang, David Adger.",
+          "best": "Chomsky, Syntactic Structures (1957) and Aspects of the Theory of Syntax (1965); Pinker, The Language Instinct (1994).",
+          "evidence": "Support includes the emergence of Nicaraguan Sign Language, where deaf children created grammar-like structure without a model (Senghas and Coppola, 2001, Psychological Science). Against: Evans and Levinson, 'The myth of language universals,' Behavioral and Brain Sciences (2009), argue that apparent universals are tendencies, with exceptions. Everett's 2005 claim that Piraha lacks recursion (Current Anthropology) was disputed by Nevins, Pesetsky and Rodrigues (2009, Language) and remains contested."
+        },
+        {
+          "name": "Usage-based",
+          "status": "winning",
+          "pop": false,
+          "line": "Children learn language the way they learn everything: by finding patterns in what they hear and intending to communicate.",
+          "explain": "Grammar emerges from constructions learned from input, using general abilities such as pattern-finding and reading intentions. Variation across languages is the main fact to explain.",
+          "who": "Michael Tomasello, Adele Goldberg, Joan Bybee, Morten Christiansen, Nick Ellis.",
+          "best": "Tomasello, Constructing a Language (2003); Goldberg, Constructions at Work (2006).",
+          "evidence": "Early child speech often reflects item-specific patterns before abstract rules. Weak spot: it has to explain how children reach abstract generalisations and why they do not make some errors; critics say it understates what is built in."
+        },
+        {
+          "name": "LLMs settle it",
+          "status": "open",
+          "pop": true,
+          "line": "A neural network learned English from text with no built-in grammar, so Chomsky was wrong.",
+          "explain": "Models trained on raw text produce grammatical sentences and pass many syntactic tests. Defenders say this shows grammar is learnable from data.",
+          "who": "Steven Piantadosi (against Chomsky); Chomsky, Roberts and Watumull on the other side.",
+          "best": "Piantadosi, 'Modern language models refute Chomsky's approach to language' (2023 preprint); Chomsky, Roberts and Watumull, 'The False Promise of ChatGPT,' New York Times (2023).",
+          "evidence": "The catch is scale: models see orders of magnitude more words than a child, so they show learnability in principle, not how kids do it. Work on small child-scale training sets (the BabyLM challenge) is testing this."
+        }
+      ]
+    },
+    {
+      "title": "Does your language shape how you think?",
+      "lead": "Whorf's 1940s claim: speakers of different languages live in different conceptual worlds. It spawned the myth that Eskimos have dozens of words for snow, which Geoffrey Pullum called a hoax. Strong determinism was rejected in the 1960s and 70s. A weaker version came back, with lab evidence that language nudges perception and memory.",
+      "verdict": "Strong Whorf lost; weak, measurable effects survive and are the active research programme.",
+      "camps": [
+        {
+          "name": "Linguistic determinism",
+          "status": "losing",
+          "pop": true,
+          "line": "You can't think what your language can't say.",
+          "explain": "Language limits thought. Appealing, as in popular accounts of untranslatable words or 'Newspeak' in 1984.",
+          "who": "Edward Sapir and Benjamin Lee Whorf; popular versions in many pop-linguistics articles.",
+          "best": "Whorf, Language, Thought and Reality (1956, posthumous collection).",
+          "evidence": "Berlin and Kay's Basic Color Terms (1969) found cross-language regularities in colour naming that cut against arbitrary carving of the world. People can think things their language has no word for. Pullum's 'The Great Eskimo Vocabulary Hoax' (1991) took apart the snow example."
+        },
+        {
+          "name": "Weak Whorfianism",
+          "status": "winning",
+          "pop": false,
+          "line": "Language doesn't cage thought, but it does tilt attention and memory in measurable ways.",
+          "explain": "Habitual language use makes some distinctions quicker to process. Effects are small, task-dependent and sometimes disappear under verbal interference.",
+          "who": "Lera Boroditsky, Gary Lupyan, Debi Roberson, Jonathan Winawer.",
+          "best": "Winawer et al., 'Russian blues reveal effects of language on color discrimination,' PNAS (2007); Boroditsky on space, time and gender in grammar (2001 onward).",
+          "evidence": "Winawer et al. 2007: Russian speakers, whose language forces a light/dark blue distinction, discriminated blues across that boundary faster, and the effect vanished under verbal interference. Some headline findings (such as Mandarin speakers and vertical time) have replicated poorly."
+        },
+        {
+          "name": "Universalism",
+          "status": "partly right",
+          "pop": false,
+          "line": "Thought comes first and is shared; languages mostly label what all humans already perceive.",
+          "explain": "Core concepts are similar across cultures and shape how languages evolve, not the reverse.",
+          "who": "Steven Pinker, Eleanor Rosch, Brent Berlin, Paul Kay.",
+          "best": "Pinker, The Stuff of Thought (2007).",
+          "evidence": "Fits colour-term regularities. Struggles with cases such as Pirahã and number (Gordon 2004, Science; Frank et al. 2008, Cognition) where lack of number words limits exact counting, which looks like a real language effect."
+        }
+      ]
+    },
+    {
+      "title": "Where did the Indo-European languages come from?",
+      "lead": "English, Hindi, Russian, Spanish and hundreds more descend from one ancestor language. Where its speakers lived is a long-running fight between a Neolithic farmer-origin story and a Bronze Age steppe-herder story. Ancient DNA changed the odds sharply.",
+      "verdict": "The steppe account is the best supported for the main branches; the Anatolian farming origin lost; newer work suggests a hybrid, with Anatolian languages splitting off earlier.",
+      "camps": [
+        {
+          "name": "Anatolian farming",
+          "status": "losing",
+          "pop": false,
+          "line": "The languages spread with the first farmers out of Anatolia around 8,000 years ago.",
+          "explain": "Colin Renfrew's idea that farming expansion carried the language, supported by phylogenetic dating of language trees.",
+          "who": "Colin Renfrew, Russell Gray and Quentin Atkinson.",
+          "best": "Renfrew, Archaeology and Language (1987); Bouckaert et al., Science (2012).",
+          "evidence": "Bouckaert et al. 2012 used phylogenetic modelling of vocabulary to favour Anatolia. Ancient-genome studies found no matching mass migration of farmers into the right places and times, and the dating is sensitive to model choices."
+        },
+        {
+          "name": "Steppe herders",
+          "status": "winning",
+          "pop": false,
+          "line": "Yamnaya pastoralists carried Proto-Indo-European across Europe and Asia from about 5,000 years ago.",
+          "explain": "Archaeology, ancient DNA and shared vocabulary for wheels, wagons and horses all point to the Pontic-Caspian steppe.",
+          "who": "David Anthony, Marija Gimbutas (earlier Kurgan hypothesis), David Reich, Wolfgang Haak.",
+          "best": "Anthony, The Horse, the Wheel, and Language (2007); Haak et al., Nature (2015); Allentoft et al., Nature (2015).",
+          "evidence": "Haak et al. and Allentoft et al. 2015 showed a large steppe-related ancestry component entering Europe about 4,500 years ago, matching the spread of Corded Ware and later cultures."
+        },
+        {
+          "name": "Hybrid",
+          "status": "partly right",
+          "pop": false,
+          "line": "The root is older and southern, and the steppe was a later staging post for the main branches.",
+          "explain": "A tree model that allows ancestral languages as sampled nodes. It dates the Indo-European root earlier than steppe theory and has Anatolian branching off first.",
+          "who": "Paul Heggarty and colleagues.",
+          "best": "Heggarty et al., 'Language trees with sampled ancestors support a hybrid model for the origin of Indo-European languages,' Science (2023).",
+          "evidence": "Heggarty et al. 2023 placed the Indo-European root around 8,100 years ago, with the main non-Anatolian branches diversifying around 7,000 years ago and a steppe-related spread later. It has been received as a compromise; some archaeologists and geneticists dispute the early dates."
+        }
+      ]
+    },
+    {
+      "title": "Is meaning logic, mental or social?",
+      "lead": "Semantics and pragmatics are the fight over what meaning is and how listeners get from words to what a speaker means. Formal semantics treats sentences like logical formulas. Cognitive linguists say meaning is built on bodily experience and metaphor. Pragmatics asks how we get from literal words to intended meaning, and recent probabilistic models treat it as inference.",
+      "verdict": "Open: formal semantics dominates practice, Grice's picture survives in revised form, and probabilistic models now predict human judgments better than classic accounts.",
+      "camps": [
+        {
+          "name": "Formal semantics",
+          "status": "partly right",
+          "pop": false,
+          "line": "Meaning is truth conditions; you can compute what a sentence says with logic and composition.",
+          "explain": "Borrowed from logic. It handles quantifiers, tense and negation precisely, and is the standard textbook framework.",
+          "who": "Richard Montague, Irene Heim, Angelika Kratzer, Barbara Partee.",
+          "best": "Montague, 'English as a Formal Language' (1970); Heim and Kratzer, Semantics in Generative Grammar (1998).",
+          "evidence": "Strong on compositional phenomena. Weaker on context-dependence and on gradable, vague or metaphorical meaning."
+        },
+        {
+          "name": "Cognitive semantics",
+          "status": "partly right",
+          "pop": true,
+          "line": "Metaphor is how we think, and meaning is grounded in the body.",
+          "explain": "Abstract concepts are understood through bodily metaphors (argument is war, time is a path). It influenced education, design and popular writing.",
+          "who": "George Lakoff, Mark Johnson, Ronald Langacker.",
+          "best": "Lakoff and Johnson, Metaphors We Live By (1980).",
+          "evidence": "Thibodeau and Boroditsky 2011, PLoS ONE, found that framing crime as a 'virus' versus a 'beast' shifted proposed solutions. Replication results have been mixed, and some embodied-cognition effects have failed to replicate. The pervasiveness of metaphor in language is solid; the claim that metaphor structures thought is partly tested."
+        },
+        {
+          "name": "Inferential pragmatics",
+          "status": "winning",
+          "pop": false,
+          "line": "What a speaker says underdetermines what they mean; listeners infer the rest by reasoning about the speaker.",
+          "explain": "Grice's cooperative principle, relevance theory and recent Bayesian models all treat meaning in use as inference. They differ over how much work the grammar versus reasoning does.",
+          "who": "H. P. Grice, Dan Sperber and Deirdre Wilson, Stephen Levinson, Michael Frank and Noah Goodman.",
+          "best": "Grice, 'Logic and Conversation' (1975); Sperber and Wilson, Relevance (1986); Frank and Goodman, 'Predicting pragmatic reasoning in language games,' Science (2012).",
+          "evidence": "Frank and Goodman's rational-speech-act model predicted people's judgments about which referent a speaker meant in a simple reference game, and the framework has been extended widely."
+        }
+      ]
+    },
+    {
+      "title": "Is there a correct way to speak?",
+      "lead": "Grammar columnists, style guides and many teachers treat usage rules as a matter of right and wrong, and treat change as decay. Professional linguists since the 1960s describe how people speak and find that every variety, including stigmatised dialects, is rule-governed. It is the most one-sided debate in the field, and the public hasn't heard.",
+      "verdict": "Decided inside linguistics: descriptivism won; prescriptive rules are social conventions. The open question is how language prejudice works.",
+      "camps": [
+        {
+          "name": "Prescriptivism",
+          "status": "losing",
+          "pop": true,
+          "line": "Standard grammar is correct grammar, and slipping standards reflect slipping minds.",
+          "explain": "Defended as clarity, precision and a shared standard. Style guides and popular books carry it, and many 'rules' (no split infinitives, no ending sentences with prepositions) have no linguistic basis.",
+          "who": "Lynne Truss, Simon Heffer, Strunk and White's tradition; prominent public voices.",
+          "best": "Strunk and White, The Elements of Style (1959); Truss, Eats, Shoots and Leaves (2003).",
+          "evidence": "Pullum and others have shown many classic rules are invented, violated by the best writers, or ill-defined. Claims that nonstandard speakers are less logical were tested and refuted, below."
+        },
+        {
+          "name": "Descriptivism",
+          "status": "winning",
+          "pop": false,
+          "line": "Our job is to describe how people really talk; every variety has a grammar and all languages change.",
+          "explain": "Language variation tracks social groups, and change is the norm, not decay. Standard English is one dialect with institutional backing.",
+          "who": "William Labov, Peter Trudgill, John McWhorter, Geoffrey Pullum.",
+          "best": "Labov, The Social Stratification of English in New York City (1966); Labov, 'The Logic of Nonstandard English' (1969, in Language in the Inner City, 1972).",
+          "evidence": "Labov showed that African American English follows consistent rules (such as copula deletion) and that variation in speech patterned by social class in New York department stores. This refuted Basil Bernstein's 'restricted code' deficit reading of working-class speech."
+        },
+        {
+          "name": "Language ideology",
+          "status": "partly right",
+          "pop": false,
+          "line": "The real issue is not grammar but who gets judged for how they sound.",
+          "explain": "Critical sociolinguists study how standard-language ideology works as a form of discrimination, in schools, hiring and housing.",
+          "who": "Rosina Lippi-Green, James and Lesley Milroy, John Rickford.",
+          "best": "Lippi-Green, English with an Accent (1997); Milroy and Milroy, Authority in Language (1985).",
+          "evidence": "Experimental and audit studies show listeners rate identical content differently by accent and dialect; the debate is about what to do in classrooms."
+        }
+      ]
+    },
+    {
+      "title": "Is language for thinking or for talking?",
+      "lead": "Chomsky holds that language evolved mainly as an internal system for thought, with communication secondary. Most people assume you think in words. Recent brain evidence argues the reverse: the language network is distinct from the systems used for reasoning.",
+      "verdict": "Evidence leans toward communication-first: people with severe language loss can still reason, and the language network is separable from thinking circuits.",
+      "camps": [
+        {
+          "name": "Language for thought",
+          "status": "losing",
+          "pop": true,
+          "line": "We think in language; talking is just thought made audible.",
+          "explain": "Inner speech feels like thinking, and humans' unique reasoning seems tied to language. Chomsky argues the externalisation of language came later.",
+          "who": "Noam Chomsky, Peter Carruthers.",
+          "best": "Chomsky's later essays on the origin of language; Carruthers, Language, Thought and Consciousness (1996).",
+          "evidence": "Inner speech is real, but it is not required for all thought. Its main support is introspection."
+        },
+        {
+          "name": "Language for communication",
+          "status": "winning",
+          "pop": false,
+          "line": "Language is a tool for sharing thoughts, and thinking mostly happens elsewhere.",
+          "explain": "Brain imaging and clinical cases show dissociation between language and reasoning. Language structure also looks optimised for efficient communication.",
+          "who": "Evelina Fedorenko, Steven Piantadosi, Edward Gibson, Rosemary Varley.",
+          "best": "Fedorenko, Piantadosi and Gibson, 'Language is primarily a tool for communication rather than thought,' Nature (2024).",
+          "evidence": "That review pulls together fMRI work (Fedorenko et al. 2010 onward) showing the language network is not engaged by arithmetic, logic or music, and studies of people with global aphasia who can still reason, play chess and solve problems. Critics reply that language may still scaffold thought during development."
+        }
+      ]
+    }
+  ]
+}

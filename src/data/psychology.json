@@ -1,0 +1,302 @@
+{
+ "discipline": "Psychology",
+ "overview": "Psychology is fighting about how much of the mind can be explained by one clean thing: genes, the situation, unconscious biases, a chemical imbalance, an evolved module. Each of those stories has a famous popular face (Pinker, Zimbardo, Kahneman, the pharma ad, Buss), and each was built partly on studies that did not hold up. The replication crisis of the 2010s is the field's great sorting event: it killed or shrank a set of vivid findings (priming, ego depletion, power posing, the Stanford prison story) while the boring, large-sample results (twin heritability, trait stability, anchoring) came through intact. The field's own position is usually messier than the folk version: everything is partly heritable, partly situational, and effects are smaller and more variable than the textbook said.",
+ "debates": [
+  {
+   "title": "Did the replication crisis break psychology?",
+   "lead": "Around 2011 (Bem's ESP paper, Stapel's fraud, Simmons et al.'s 'false-positive psychology') psychologists began re-running famous studies, and many failed. The simple story on one side is that the field was mostly noise. The simple story on the other is that it was fine and the replicators were sloppy. The record is in between: a large, identifiable class of findings died, the rest shrank, and the methods changed fast.",
+   "verdict": "It broke specific literatures and a specific way of working (small samples, flexible analysis), not the whole field; reform is real and measurable.",
+   "camps": [
+    {
+     "name": "Systemic rot",
+     "status": "partly right",
+     "pop": false,
+     "line": "Small samples plus analytic flexibility plus publish-or-perish meant a large share of the literature was false positives.",
+     "explain": "Underpowered studies, p-hacking and publication bias produce findings that look solid and are not. The fix is structural: preregistration, larger samples, open data, registered reports. Many of the reformers say the old literature should be treated as unreliable until re-tested.",
+     "who": "Brian Nosek (Center for Open Science), Uri Simonsohn, Leif Nelson and Joe Simmons (Data Colada), John Ioannidis, Daniel Lakens, Simine Vazire",
+     "best": "Ioannidis 2005, 'Why most published research findings are false' (PLoS Medicine); Simmons, Nelson & Simonsohn 2011, 'False-positive psychology' (Psychological Science); Open Science Collaboration 2015 (Science)",
+     "evidence": "Open Science Collaboration 2015 (Science) re-ran 100 studies from three top journals: 97% of originals were significant, only about 36% of replications were, and replication effect sizes averaged about half the originals. Camerer et al. 2018 (Nature Human Behaviour) re-ran 21 social-science experiments from Nature and Science: about 62% replicated, with effects roughly half the original size. Many Labs 2 (Klein et al. 2018) tried 28 findings across 125 samples; about half replicated. Specific casualties: ego depletion (Hagger et al. 2016, Perspectives on Psychological Science, 23 labs, effect near zero; a later multisite test, Vohs et al. 2021, found at best a tiny effect), power posing (Ranehill et al. 2015 found no hormone or risk-taking effect; co-author Dana Carney publicly dropped it in 2016), elderly-walking-speed priming (Doyen et al. 2012, PLoS ONE failed to replicate Bargh 1996), and the marshmallow test as a strong predictor of life outcomes (Watts, Duncan & Quan 2018, Psychological Science: about half the size, near zero after controlling for family background). Registered reports show the filter directly: Scheel, Schijen & Lakens 2021 (AMPPS) found about 44% positive results in registered reports versus about 96% in standard papers. Fraud made it worse: the Shu et al. 2012 PNAS honesty-pledge paper was retracted in 2021 after Data Colada showed its field data were fabricated."
+    },
+    {
+     "name": "It was overblown",
+     "status": "losing",
+     "pop": false,
+     "line": "Replications were low-fidelity, underpowered themselves, and the real rate of reproducibility is high.",
+     "explain": "Critics argued that the 36% figure mostly reflects differences in samples, materials and context, and that a failed replication does not show the original was false. The mood on this side is that the crisis was a moral panic that damaged reputations.",
+     "who": "Daniel Gilbert, Gary King, Stephen Pettigrew, Timothy Wilson; Roy Baumeister and Susan Fiske in earlier defences of the field's methods",
+     "best": "Gilbert et al. 2016, 'Comment on Estimating the reproducibility of psychological science' (Science)",
+     "evidence": "Gilbert et al. 2016 argued the Open Science Collaboration's data were consistent with a high true replication rate once sampling error and replication fidelity were accounted for; Anderson et al. 2016 replied in Science that this was itself wrong. The bigger problem for this camp is that high-powered, preregistered, author-approved multi-lab replications (Many Labs, the Registered Replication Reports) still failed on the same famous effects, so low fidelity does not explain them. Defenders did win one point: the crisis was a methods problem, not a reason to doubt all psychology."
+    },
+    {
+     "name": "Heterogeneity and context",
+     "status": "partly right",
+     "pop": false,
+     "line": "Effects depend on population and setting; a failed replication in one lab setting is not a refutation.",
+     "explain": "Effect sizes really do vary across people and cultures, so a single replication is one data point. This is true of some findings, but mostly offered as a rescue for effects that are small or nonexistent in every sample tested.",
+     "who": "Wolfgang Stroebe and Fritz Strack (2014 argument against direct replication), Jay Van Bavel and colleagues (context sensitivity, 2016), Joseph Henrich on WEIRD samples",
+     "best": "Henrich, Heine & Norenzayan 2010, 'The weirdest people in the world?' (Behavioral and Brain Sciences)",
+     "evidence": "Many Labs 2 found that most effects that replicated did so across nearly all of 125 samples from 36 countries; variation by site was usually small relative to the effect, so hidden moderators rarely explained failures. Facial feedback is the instructive case: Strack's 1988 pen-in-mouth effect failed in a 17-lab Registered Replication Report (Wagenmakers et al. 2016), then a later 19-country many-lab study (Coles et al. 2022, Nature Human Behaviour) found a small effect, so the finding survived in shrunken form and under revised methods."
+    }
+   ]
+  },
+  {
+   "title": "Is behaviour about the person or the situation?",
+   "lead": "The popular story is that 'ordinary people do evil under the right circumstances': Milgram's shocks, Zimbardo's prison guards, Gladwell's Tipping Point. The other side is that stable traits (the Big Five) predict how people act and what happens to them across life. The field settled on interaction: the person and the setting both matter, but the most famous situationist demonstrations turn out to be weaker than the legend.",
+   "verdict": "Traits are stable and predictive; situations matter; the Stanford prison story is dead and Milgram's lesson has been rewritten.",
+   "camps": [
+    {
+     "name": "Situationism",
+     "status": "partly right",
+     "pop": true,
+     "line": "Put good people in a bad situation and the situation wins.",
+     "explain": "Social psychology's classic studies seemed to show that character is a thin cover over situational pressure. This feeds folk talk about 'bad apples versus bad barrels' and a common claim that anyone would have done what a perpetrator did.",
+     "who": "Stanley Milgram, Philip Zimbardo (The Lucifer Effect, 2007), Lee Ross and Richard Nisbett (The Person and the Situation, 1991), Malcolm Gladwell",
+     "best": "Milgram 1963, 'Behavioral study of obedience' (Journal of Abnormal and Social Psychology); Zimbardo 1971 Stanford prison study; Ross & Nisbett 1991",
+     "evidence": "The Stanford prison study has largely collapsed as science: Le Texier 2019 (American Psychologist), using the archive, showed guards were coached on how to behave, and participants were told what the experiment needed. Milgram's finding that about 65% went to 450 volts is real and has been partly replicated (Burger 2009 stopped at 150 volts and found rates only modestly lower; Dolinski et al. 2017 in Poland found about 90% passing 150 volts), but Haslam, Reicher and colleagues (2014, Journal of Social Issues) argue people comply because they believe in the experiment's scientific goal, not because they obey orders, and Gina Perry's archival work (Behind the Shock Machine, 2012) found many participants suspected it was staged. Situations do predict behaviour: Richard, Bond & Stokes-Zoota 2003 (Review of General Psychology), a meta-analysis of a century of social psychology, found a typical effect around r = .21."
+    },
+    {
+     "name": "Trait stability",
+     "status": "winning",
+     "pop": false,
+     "line": "People differ in stable ways, and those differences predict what they do and how their lives go.",
+     "explain": "Big Five traits measured in large samples are reliable, partly heritable and predict job performance, health, relationships and mortality. Mischel's 1968 attack said trait-behaviour correlations rarely exceed about .30, but defenders replied that this is the size of most effects in psychology, situational ones included.",
+     "who": "Paul Costa and Robert McCrae, David Funder, Brent Roberts, Lewis Goldberg",
+     "best": "Roberts & DelVecchio 2000, rank-order stability meta-analysis (Psychological Bulletin); Funder & Ozer 1983, 'Behavior as a function of the situation' (JPSP); Roberts et al. 2007 on predictive validity (Perspectives on Psychological Science)",
+     "evidence": "Roberts & DelVecchio 2000 pooled longitudinal studies: test-retest correlations of personality rise from about .3 in childhood to about .5 by age 30 and about .7 after 50, so traits are not fixed but become strongly stable. Funder & Ozer 1983 showed the famous situational effects are themselves of the same size as trait effects (around r = .30-.40). Traits also predict outcomes independently of IQ and class in large cohort studies, such as the Dunedin birth cohort."
+    },
+    {
+     "name": "Interactionism",
+     "status": "partly right",
+     "pop": false,
+     "line": "People have stable if-then signatures: the same person acts differently across situations, consistently.",
+     "explain": "A person's behaviour varies a lot from moment to moment, but the variation itself is a stable feature. This accepts that the average person-trait and situation both matter and focuses on how they combine.",
+     "who": "Walter Mischel and Yuichi Shoda, William Fleeson",
+     "best": "Mischel & Shoda 1995, 'A cognitive-affective system theory of personality' (Psychological Review); Fleeson 2001, 'Toward a structure- and process-integrated view of personality' (JPSP)",
+     "evidence": "Fleeson's experience-sampling work found that within one person, behaviour on a trait such as extraversion varies about as much from hour to hour as it does between people, but each person's average is stable: 'density distributions' of states. Shoda, Mischel & Wright 1994 found children's if-then profiles in a summer camp were stable. This camp mostly redescribes the same data in a way that makes traits and situations compatible."
+    }
+   ]
+  },
+  {
+   "title": "Are humans irrational?",
+   "lead": "Kahneman and Tversky's heuristics-and-biases programme became the dominant popular picture: we run on a fast, error-prone System 1 that a lazy System 2 fails to correct, so we need nudges. Gigerenzer and others say the errors are artefacts of bad task design and that fast heuristics are often smart. The field has not decided, but the pop version has been trimmed on several fronts.",
+   "verdict": "Systematic errors are real, but the System 1/System 2 story and the 'humans are predictably irrational' brand are oversold; nudges work less than advertised.",
+   "camps": [
+    {
+     "name": "Heuristics and biases",
+     "status": "partly right",
+     "pop": true,
+     "line": "Our judgement runs on shortcuts that produce predictable errors.",
+     "explain": "Anchoring, availability, framing and loss aversion show we deviate from normative models in systematic ways. The conclusion is that institutions should be designed around our biases, which became behavioural economics and nudging.",
+     "who": "Daniel Kahneman, Amos Tversky, Richard Thaler and Cass Sunstein (Nudge, 2008), Dan Ariely (Predictably Irrational, 2008)",
+     "best": "Tversky & Kahneman 1974, 'Judgment under uncertainty' (Science); Kahneman & Tversky 1979, prospect theory (Econometrica); Kahneman 2011, Thinking, Fast and Slow",
+     "evidence": "Anchoring and framing replicate robustly (Many Labs 1 and 2 both confirmed anchoring). The softer parts fell: Kahneman's chapter on social priming in Thinking, Fast and Slow relied on studies that failed to replicate, and he later said he had put too much faith in underpowered studies. Loss aversion in its strong form has been challenged (Gal & Rucker 2018, Journal of Consumer Psychology; Yechiam 2019, Psychonomic Bulletin & Review): losses often loom larger only for large stakes. Nudging effects shrink at scale: DellaVigna & Linos 2022 (Econometrica) found nudge-unit trials averaged about 1.4 percentage points versus about 8.7 in the published academic literature, and Maier et al. 2022 (PNAS) argued that after correcting for publication bias there is little evidence for a nudge effect at all, a conclusion that other researchers dispute."
+    },
+    {
+     "name": "Ecological rationality",
+     "status": "partly right",
+     "pop": false,
+     "line": "Simple heuristics are often as accurate as complex models; 'biases' are artefacts of unnatural tasks.",
+     "explain": "Humans reason well when information is presented in natural frequencies and when the environment suits the heuristic. Heuristics do well when data are scarce and noisy, so 'less is more' sometimes holds.",
+     "who": "Gerd Gigerenzer (Gut Feelings, 2007), Peter Todd, Ralph Hertwig",
+     "best": "Gigerenzer & Hoffrage 1995, 'How to improve Bayesian reasoning without instruction: frequency formats' (Psychological Review); Gigerenzer & Goldstein 1996, take-the-best (Psychological Review); Gigerenzer, Todd & ABC Research Group 1999, Simple Heuristics That Make Us Smart",
+     "evidence": "Gigerenzer & Hoffrage 1995 showed that Bayesian base-rate neglect largely disappears when problems are phrased in natural frequencies. Take-the-best beat regression in some out-of-sample prediction tasks. The weakness: no one has shown that heuristics explain the full range of human decisions, and heuristic use often fits poorly with what people actually do in the lab."
+    },
+    {
+     "name": "Dual-process (System 1/2)",
+     "status": "losing",
+     "pop": true,
+     "line": "The mind has two systems, a fast automatic one and a slow deliberate one.",
+     "explain": "A tidy way to explain biases: System 1 fires first and System 2 sometimes overrides. It appears in business books and policy talk as if it were a settled architecture.",
+     "who": "Kahneman (carrying it to the public), Keith Stanovich and Jonathan Evans (the academic versions)",
+     "best": "Evans & Stanovich 2013, 'Dual-process theories of higher cognition' (Perspectives on Psychological Science); Kahneman 2011",
+     "evidence": "Melnikoff & Bargh 2018 (Trends in Cognitive Sciences), 'The mythical number two', argued the proposed features (fast, unconscious, effortless, automatic) do not co-occur as two clusters but vary independently, so there are not two systems. Evans & Stanovich replied that a two-type distinction survives as a loose framework. Most researchers now treat it as a useful label for a spectrum of processing, not a literal two-system brain."
+    }
+   ]
+  },
+  {
+   "title": "Genes or upbringing?",
+   "lead": "Everything psychological is partly heritable; that is the single most replicated finding in the field. The fight is over what that means. Behaviour geneticists say genes are the main systematic cause of differences between people and that parenting has little lasting effect. Environmentalists say heritability is inflated by hidden shared environments and that molecular genetics has not found the genes. The newer data show both are partly right.",
+   "verdict": "Genes matter at every level; shared family environment matters much less than assumed for adult personality; polygenic scores predict, but a good part of their power comes from family environment.",
+   "camps": [
+    {
+     "name": "Hereditarian",
+     "status": "partly right",
+     "pop": false,
+     "line": "Genes are the main systematic source of differences between people, and parenting style matters far less than we think.",
+     "explain": "Twin and adoption studies show that identical twins reared apart resemble each other, that adopted siblings barely resemble each other in personality, and that heritability rises with age. This view has become the working baseline of behavioural genetics.",
+     "who": "Robert Plomin (Blueprint, 2018), Thomas Bouchard, Kathryn Paige Harden (The Genetic Lottery, 2021), Judith Rich Harris (The Nurture Assumption, 1998), Steven Pinker (The Blank Slate, 2002)",
+     "best": "Polderman et al. 2015 (Nature Genetics); Plomin 2018, Blueprint; Harris 1998",
+     "evidence": "Polderman et al. 2015 (Nature Genetics), a meta-analysis of about fifty years of twin studies covering 17,804 traits, found average heritability of about 49% and shared-environment effects of about 17%. Genome-wide studies now find real signal: Lee et al. 2018 (Nature Genetics) built a polygenic score from over a million people that explained 11-13% of variance in years of schooling. Harris's claim that parents matter little beyond genes, once ridiculed, now matches twin and adoption data for adult personality."
+    },
+    {
+     "name": "Environmentalism",
+     "status": "partly right",
+     "pop": true,
+     "line": "Heritability is a statistical artefact; how kids are raised and the world they grow up in drive outcomes.",
+     "explain": "Heritability estimates describe a population in a particular environment and do not show that genes act independently of society. Poverty, schooling and parenting do shape development, especially at the extremes.",
+     "who": "Eric Turkheimer (the 'three laws' and gene-by-environment critique), Richard Lewontin, Jay Joseph, sociologists of education",
+     "best": "Turkheimer 2000, 'Three laws of behavior genetics and what they mean' (Current Directions in Psychological Science); Turkheimer, Haley & D'Onofrio 2003, socioeconomic status moderates IQ heritability (Psychological Science)",
+     "evidence": "The 'missing heritability' gap, between twin-study estimates and SNP-based estimates, reopened the debate; within-family analyses showed that polygenic scores lose roughly half their predictive power between siblings (Lee et al. 2018; Okbay et al. 2022, Nature Genetics, and Howe et al. 2022, Nature Genetics), because population-level scores partly capture family environment and demographic differences. Kong et al. 2018 (Science, 'The nature of nurture') found that parents' non-transmitted genes affect their children's education through the environment they create. Adoption studies find that adoptive families do change life outcomes such as education (Sacerdote 2007, QJE)."
+    },
+    {
+     "name": "Gene-environment interplay",
+     "status": "winning",
+     "pop": false,
+     "line": "Genes work through environments, and environments are partly chosen by genes; the split is not clean.",
+     "explain": "Children evoke and select experiences that fit their genes, and parents pass on both genes and environment. A variance split into 'percent genes' and 'percent environment' hides this.",
+     "who": "Michael Rutter, Kathryn Paige Harden, Eric Turkheimer, Sandra Scarr",
+     "best": "Scarr & McCartney 1983, 'How people make their own environments' (Child Development); Kong et al. 2018 (Science)",
+     "evidence": "Candidate gene-by-environment hits did not survive (Border et al. 2019, American Journal of Psychiatry, failed to find support for the 5-HTTLPR x stress finding of Caspi et al. 2003, Science). But the broader idea is well supported by within-family genetic designs, which show genetic effects acting partly through parental behaviour. This is the position most active researchers now hold, including many who started as hereditarians or environmentalists."
+    }
+   ]
+  },
+  {
+   "title": "Is mental illness a brain disease?",
+   "lead": "The public story, pushed by drug advertising from the 1990s on, is that depression is a chemical imbalance (low serotonin) fixed by pills. Critics say that is a myth and antidepressants barely beat placebo. Psychiatry's own researchers have moved in a third direction: disorders are dimensions that blur into each other and into normal variation, with many small causes.",
+   "verdict": "The chemical-imbalance story lost; antidepressants work modestly; the field is shifting to dimensions and networks rather than discrete diseases.",
+   "camps": [
+    {
+     "name": "Chemical imbalance",
+     "status": "losing",
+     "pop": true,
+     "line": "Depression is low serotonin, and an SSRI corrects it.",
+     "explain": "This was a marketing-friendly version of the monoamine hypothesis from the 1960s. It explained why drugs help and framed illness as a medical problem, which reduced stigma.",
+     "who": "Pharmaceutical advertising (1990s-2000s); popularised in psychiatry textbooks and by many clinicians in patient talk",
+     "best": "Schildkraut 1965, catecholamine hypothesis of affective disorders (American Journal of Psychiatry); Caspi et al. 2003, 5-HTTLPR (Science)",
+     "evidence": "Moncrieff et al. 2022 (Molecular Psychiatry), an umbrella review of serotonin research, found no consistent evidence that depression is caused by low serotonin. Border et al. 2019 (American Journal of Psychiatry) tested 18 candidate genes, including 5-HTTLPR, in large samples and found no support for them. Acute tryptophan depletion does not reliably cause depression in healthy people. Many psychiatrists say they never taught the simple version; surveys of the public show that most people still believe it."
+    },
+    {
+     "name": "Medication works, modestly",
+     "status": "winning",
+     "pop": false,
+     "line": "Antidepressants beat placebo on average, with a small-to-moderate effect that matters more for severe depression.",
+     "explain": "The drugs do something, but the effect is smaller than marketing suggested and its mechanism is unclear. Psychotherapy works about as well for mild-to-moderate cases.",
+     "who": "Andrea Cipriani and John Geddes (the network meta-analysis); Irving Kirsch (sceptic of the size of the effect); Joanna Moncrieff (critic of the disease model)",
+     "best": "Kirsch et al. 2008, 'Initial severity and antidepressant benefits' (PLoS Medicine); Cipriani et al. 2018 (The Lancet)",
+     "evidence": "Cipriani et al. 2018 (The Lancet), 522 trials and 21 drugs, found every antidepressant beat placebo in acute treatment, with odds ratios from about 1.4 to 2.1, and standardised effect sizes around 0.3. Kirsch et al. 2008 found drug-placebo differences below the NICE clinical-significance threshold for mild and moderate depression using FDA data, which kicked off the sceptic camp. The honest reading: real, modest, variable, and heavily affected by expectation."
+    },
+    {
+     "name": "Dimensions and networks",
+     "status": "open",
+     "pop": false,
+     "line": "Diagnostic categories are conventions; symptoms form interacting networks along continuous dimensions.",
+     "explain": "DSM categories overlap heavily and genes do not respect them. Instead of discrete diseases, researchers propose hierarchical dimensions (internalising, externalising, thought disorder) or a general 'p-factor' of psychopathology.",
+     "who": "Denny Borsboom, Roman Kotov, Avshalom Caspi and Terrie Moffitt, Thomas Insel (NIMH's RDoC)",
+     "best": "Borsboom 2017, network theory of mental disorders (World Psychiatry); Kotov et al. 2017, HiTOP (Journal of Abnormal Psychology); Caspi et al. 2014, the p factor (Clinical Psychological Science)",
+     "evidence": "Genome-wide studies of eight psychiatric disorders find large shared genetic effects across diagnoses (Cross-Disorder Group of the Psychiatric Genomics Consortium 2019, Cell), supporting dimensional views. Thomas Insel, as NIMH director, said in 2013 that DSM categories lack validity. But no dimensional system has yet outperformed DSM for treatment decisions, and network models have had replicability problems of their own."
+    }
+   ]
+  },
+  {
+   "title": "Is the mind a set of evolved modules?",
+   "lead": "Evolutionary psychology says the mind is a toolkit of specialised adaptations shaped in the Pleistocene, and uses this to predict things like sex differences in mate preference. Critics say its adaptive stories are untestable just-so tales and that culture and learning do much of the work. The framework (evolution shaped the mind) is not in dispute; the argument is over how specific, modular and testable the claims are.",
+   "verdict": "Evolution as a framework is secure; massive modularity and many specific adaptation stories have not held up; cultural evolution is the stronger rival.",
+   "camps": [
+    {
+     "name": "Evolutionary psychology",
+     "status": "partly right",
+     "pop": true,
+     "line": "The mind is a bundle of adaptations for ancestral problems, and you can reverse-engineer them.",
+     "explain": "Selection shaped psychological mechanisms such as cheater detection, mate choice and kin recognition. The picture is of many domain-specific modules, a view popularised through accounts of sex differences and 'cavemen brains'.",
+     "who": "Leda Cosmides and John Tooby, David Buss, Steven Pinker (How the Mind Works, 1997), Robert Wright (The Moral Animal, 1994)",
+     "best": "Barkow, Cosmides & Tooby 1992, The Adapted Mind; Buss 1989, 'Sex differences in human mate preferences' (Behavioral and Brain Sciences, 37 cultures); Cosmides 1989 (Cognition) on the Wason selection task",
+     "evidence": "Some predictions hold up well: Walter et al. 2020 (Psychological Science) re-tested sex differences in mate preferences across 45 countries and replicated Buss's main pattern (men weighting physical attractiveness more, women weighting resources more), though with considerable variation across countries. Others have not: the ovulatory-shift hypothesis (women prefer masculine faces at peak fertility) failed in larger tests (Jones et al. 2018, Psychological Science). Eastwick & Finkel 2008 (JPSP) found that stated preferences do not predict whom people choose in speed-dating. Gowaty et al. 2012 (PNAS) failed to replicate Bateman's 1948 fruit-fly study, an anchor for 'sex differences in variance in reproductive success'."
+    },
+    {
+     "name": "Adaptation critics",
+     "status": "partly right",
+     "pop": false,
+     "line": "Adaptive stories are easy to tell and hard to test; the mind is more flexible than modules suggest.",
+     "explain": "Not every trait is an adaptation, and the ancestral environment is poorly documented. Critics also say the mind is more general-purpose and shaped by development.",
+     "who": "Stephen Jay Gould and Richard Lewontin, David Buller, Jerry Fodor, Kevin Laland",
+     "best": "Gould & Lewontin 1979, 'The spandrels of San Marco' (Proceedings of the Royal Society B); Buller 2005, Adapting Minds; Fodor 2000, The Mind Doesn't Work That Way",
+     "evidence": "Fodor and Buller argued the massive-modularity thesis is incoherent as stated, and neuroscience has not found cleanly separate modules for things like cheater detection. Neither camp's critique has killed the programme: individual hypotheses are testable and some pass (see above), and critics concede that selection shapes cognition."
+    },
+    {
+     "name": "Cultural evolution",
+     "status": "winning",
+     "pop": false,
+     "line": "What makes humans special is learning from others; culture itself evolves and shapes our psychology and even our genes.",
+     "explain": "Humans learn most of what they know socially, and cultural practices create selection pressures. Psychological variation across societies is large, so 'human nature' findings from Western undergraduates mislead.",
+     "who": "Joseph Henrich (The Secret of Our Success, 2016), Robert Boyd, Peter Richerson, Cecilia Heyes",
+     "best": "Henrich, Heine & Norenzayan 2010 (Behavioral and Brain Sciences); Boyd & Richerson 1985, Culture and the Evolutionary Process; Henrich 2016",
+     "evidence": "The WEIRD paper showed that classic findings (Muller-Lyer illusion, ultimatum game fairness, moral reasoning) vary substantially across societies, and the 2010 cross-cultural economic-game study (Henrich et al., Science) found that fairness norms track market integration. This does not displace evolutionary psychology so much as widen it, and it currently has the most momentum in the field."
+    }
+   ]
+  },
+  {
+   "title": "Is intelligence one thing, and does IQ matter?",
+   "lead": "Schools love the idea that everyone is smart in their own way. Psychometrics says something less comfortable: scores on almost every kind of mental test correlate, that shared factor (g) predicts life outcomes, and it is reliably measured. The live questions are what g is in the brain, how far schooling moves it, and what group differences mean, which is the most heated part.",
+   "verdict": "g is one of the most robust findings in psychology and IQ predicts outcomes; multiple-intelligences theory has little evidence; IQ is also more malleable by schooling than the fatalist version says.",
+   "camps": [
+    {
+     "name": "Multiple intelligences",
+     "status": "losing",
+     "pop": true,
+     "line": "There are many kinds of intelligence, and IQ only measures one narrow kind.",
+     "explain": "Musical, bodily, interpersonal and other abilities are separate intelligences, so ranking people by IQ is misleading. Hugely popular in teacher training.",
+     "who": "Howard Gardner; education consultants",
+     "best": "Gardner 1983, Frames of Mind",
+     "evidence": "The proposed intelligences correlate with each other and with g when measured (Visser, Ashton & Vernon 2006, Intelligence). Waterhouse 2006 (Educational Psychologist) found no direct empirical support. Gardner himself says it was not built as a tested theory."
+    },
+    {
+     "name": "g and its reach",
+     "status": "winning",
+     "pop": false,
+     "line": "One general factor runs through all mental tests, and it predicts schooling, work and health.",
+     "explain": "Factor analysis of test batteries finds a general factor under specific abilities. It is stable across the lifespan and predicts outcomes better than most psychological measures.",
+     "who": "Charles Spearman, John Carroll, Ian Deary, Stuart Ritchie (Intelligence, 2015)",
+     "best": "Carroll 1993, Human Cognitive Abilities (three-stratum model); Deary et al. 2007, intelligence and educational achievement (Intelligence)",
+     "evidence": "Strenze 2007 (Intelligence), a meta-analysis of longitudinal studies: IQ correlates about 0.56 with education, 0.43 with occupation, 0.20 with income. Deary et al. 2007: childhood g correlates about 0.8 with exam results at 16."
+    },
+    {
+     "name": "IQ is malleable",
+     "status": "partly right",
+     "pop": false,
+     "line": "IQ is not fixed; education and environment raise it.",
+     "explain": "Scores rose across the 20th century and respond to schooling, so treating IQ as fixed fate is wrong.",
+     "who": "James Flynn, Richard Nisbett, Elliot Tucker-Drob",
+     "best": "Flynn 1987 (Psychological Bulletin), the Flynn effect; Ritchie & Tucker-Drob 2018 (Psychological Science)",
+     "evidence": "Ritchie & Tucker-Drob 2018: each extra year of education raises IQ by about 1 to 5 points. Brain-training apps, though, do not transfer (Simons et al. 2016, Psychological Science in the Public Interest). Malleable by schooling, not by games."
+    }
+   ]
+  },
+  {
+   "title": "Are sex differences in the mind innate or social?",
+   "lead": "One pop story says men and women are from different planets; the other says differences are all socialisation. The data are messier. Most cognitive differences are small and overlap heavily. A few are large, especially interest in people versus things. The fight is over where those come from, and the evidence on each side is real.",
+   "verdict": "Most psychological sex differences are small, a few are large and robust; causes are mixed, with good evidence for both biological and social inputs, and no side has won.",
+   "camps": [
+    {
+     "name": "Different by nature",
+     "status": "partly right",
+     "pop": true,
+     "line": "Evolution built male and female minds differently, and it shows in interests and behaviour.",
+     "explain": "Differences in interests, aggression and some abilities appear early, across cultures, and relate to prenatal hormones, which points to biology.",
+     "who": "Simon Baron-Cohen, David Geary, David Schmitt; Jordan Peterson in public",
+     "best": "Baron-Cohen 2003, The Essential Difference; Geary 1998/2021, Male, Female",
+     "evidence": "Su, Rounds & Armstrong 2009 (Psychological Bulletin): men more interested in things, women in people, about d = 0.93, one of the largest differences known. Girls with congenital adrenal hyperplasia (high prenatal androgens) show more male-typical toy and interest patterns (Berenbaum & Hines 1992, Psychological Science). The \"extreme male brain\" and empathising-systemising framing gets more criticism than the data on interests."
+    },
+    {
+     "name": "Gender similarities",
+     "status": "partly right",
+     "pop": true,
+     "line": "Men and women are far more alike than different; most gaps are small and made by culture.",
+     "explain": "Across hundreds of meta-analyses most differences are small. Gaps shift across time and place, as the maths gap did, which points to social causes.",
+     "who": "Janet Hyde, Alice Eagly and Wendy Wood (social role theory), Cordelia Fine (Delusions of Gender, 2010), Gina Rippon",
+     "best": "Hyde 2005, \"The gender similarities hypothesis\" (American Psychologist); Eagly & Wood 1999 (American Psychologist)",
+     "evidence": "Hyde 2005: about 78% of differences studied were small or close to zero. The maths performance gap has largely closed in the US (Hyde et al. 2008, Science). Brain studies find mostly overlapping \"mosaic\" features (Joel et al. 2015, PNAS), though others showed the same data classify sex with high accuracy when combined."
+    },
+    {
+     "name": "Small apart, larger together",
+     "status": "open",
+     "pop": false,
+     "line": "Each difference is small, but added together across many traits the profiles differ a lot.",
+     "explain": "Univariate effect sizes understate how different overall profiles are. Also, some differences grow, not shrink, in more gender-equal countries, which is awkward for a purely social account.",
+     "who": "Marco Del Giudice; Armin Falk and Johannes Hermle",
+     "best": "Del Giudice, Booth & Irwing 2012 (PLoS ONE), multivariate personality; Falk & Hermle 2018 (Science)",
+     "evidence": "Falk & Hermle 2018: gender differences in preferences across 76 countries were larger where women had more economic and social equality. Stoet & Geary 2018 (Psychological Science) reported a similar STEM \"gender-equality paradox\", later corrected after a reanalysis dispute. Pattern widely replicated, cause debated."
+    }
+   ]
+  }
+ ]
+}

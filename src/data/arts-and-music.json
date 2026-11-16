@@ -1,0 +1,171 @@
+{
+  "discipline": "Arts & music",
+  "overview": "Art history, musicology, ethnomusicology and film studies share one big fight: is art a matter of timeless form and universal human response, or of culture, power and history? The simple stories come from both ends: 'music is the universal language', 'Mozart makes babies smarter', 'the great directors are the authors of films', 'the story of art is Western masterpieces'. Over the last generation the humanities side pushed 'it's all culture' and a newer empirical side (music cognition, cognitive film theory, cross-cultural experiments) pushed back with tests. The results mostly land in the middle: some real universals of function and perception, a lot of cultural variation, and several popular claims that failed when tested.",
+  "debates": [
+    {
+      "title": "Is music a universal language?",
+      "lead": "Longfellow called music the universal language of mankind, and many people believe a piece from anywhere will move any listener the same way. Ethnomusicologists, who study music in cultural context, long argued the opposite: scales, harmony and even what counts as music are learned. Cross-cultural experiments since 2015 have found real universals, but not the ones the slogan implies.",
+      "verdict": "Neither slogan wins: universals of function and structure exist, while preferences like harmony and consonance are strongly shaped by culture.",
+      "camps": [
+        {
+          "name": "Universal language",
+          "status": "losing",
+          "pop": true,
+          "line": "Music speaks to everyone the same way, because it taps our shared emotions.",
+          "explain": "Intuitive: lullabies sound soothing and dance beats move everyone. Some theorists look to evolved roots of music-making and to physics of consonance.",
+          "who": "Popular wisdom; some evolutionary and psychoacoustic accounts, and Leonard Bernstein's The Unanswered Question (1976) in the generative-grammar-for-music spirit.",
+          "best": "Bernstein, The Unanswered Question (1976).",
+          "evidence": "McDermott et al. 2016, Nature, found that the Tsimane', an Amazonian group with little exposure to Western music, showed no preference for consonance over dissonance, though they could tell the difference, so the preference is not innate. Music has no fixed dictionary of meaning, unlike language."
+        },
+        {
+          "name": "Cultural construct",
+          "status": "partly right",
+          "pop": false,
+          "line": "Musical sense is learned inside a culture; there is no neutral listener.",
+          "explain": "Ethnomusicology's founding stance: study music as part of a way of life, not through Western categories. Many scale systems, tunings and meanings differ.",
+          "who": "Alan Merriam, Bruno Nettl, John Blacking, Steven Feld.",
+          "best": "Merriam, The Anthropology of Music (1964); Nettl, The Study of Ethnomusicology (1983); Blacking, How Musical Is Man? (1973).",
+          "evidence": "Cross-cultural tests of consonance and rhythm perception show strong learning effects. The camp overshoots when it denies any cross-cultural regularity."
+        },
+        {
+          "name": "Universals of form and function",
+          "status": "winning",
+          "pop": false,
+          "line": "No universal sound, but recurring structures and social uses that appear everywhere.",
+          "explain": "Music in every society shares features: discrete pitch, regular beat, small-integer ratios in many rhythms, and uses such as lullabies and dance. Listeners can often guess the function of unfamiliar songs.",
+          "who": "Patrick Savage, Samuel Mehr, Manvir Singh, Josh McDermott.",
+          "best": "Savage et al., 'Statistical universals reveal the structures and functions of human music,' PNAS (2015); Mehr et al., 'Universality and diversity in human song,' Science (2019).",
+          "evidence": "Savage et al. 2015 analysed recordings from around the world and found statistical universals such as discrete pitches and isochronous beat. Mehr et al. 2019 found songs vary mainly along few dimensions and that naive listeners worldwide could identify lullabies, dance songs and healing songs from unfamiliar societies better than chance. They also found large diversity, so universals are tendencies."
+        }
+      ]
+    },
+    {
+      "title": "Does music make you smarter?",
+      "lead": "In 1993 a small Nature paper found students did slightly better on a spatial task after listening to Mozart. The press turned this into the 'Mozart effect' and some US states gave classical CDs to newborns. A wider claim, that music lessons raise IQ and grades, is still common among parents and school administrators.",
+      "verdict": "The Mozart effect is dead; music lessons help music skills, and claims of broad cognitive transfer shrink as study quality rises.",
+      "camps": [
+        {
+          "name": "Mozart effect",
+          "status": "losing",
+          "pop": true,
+          "line": "Listening to Mozart boosts your brain, and baby Mozart makes smart babies.",
+          "explain": "A narrow lab finding blown up into a general claim and a product line (Don Campbell, The Mozart Effect, 1997).",
+          "who": "Frances Rauscher, Gordon Shaw, Don Campbell (popularisation).",
+          "best": "Rauscher, Shaw and Ky, 'Music and spatial task performance,' Nature (1993).",
+          "evidence": "Pietschnig, Voracek and Formann 2010, Intelligence, a meta-analysis, found no specific Mozart effect once methodological issues were handled. Any small effect is a mood or arousal boost that other pleasant stimuli also produce."
+        },
+        {
+          "name": "Training transfers",
+          "status": "partly right",
+          "pop": true,
+          "line": "Years of music lessons build general intelligence, attention and school performance.",
+          "explain": "Practice engages attention, memory and coordination, so benefits should spread. Early studies and correlational data show lessons go with higher IQ and grades.",
+          "who": "Glenn Schellenberg (original randomised study, now more cautious), Nina Kraus, advocates of music education.",
+          "best": "Schellenberg, 'Music lessons enhance IQ,' Psychological Science (2004).",
+          "evidence": "Schellenberg 2004 randomly assigned six-year-olds to music, drama or no lessons and found a small IQ increase for music, though drama also helped social measures. Later well-controlled work finds effects shrink toward zero."
+        },
+        {
+          "name": "Selection and confounds",
+          "status": "winning",
+          "pop": false,
+          "line": "Kids who stick with music are already brighter, more conscientious and from richer homes.",
+          "explain": "Correlations between music and cognition largely reflect who takes lessons (family income, personality, existing ability), not what lessons do.",
+          "who": "Giovanni Sala, Fernand Gobet, Schellenberg in his later work.",
+          "best": "Sala and Gobet, 'Cognitive and academic benefits of music training with children: a multilevel meta-analysis,' Memory and Cognition (2020).",
+          "evidence": "Sala and Gobet 2020 found that the better the study controls (active control group, random assignment), the closer the effect to zero."
+        }
+      ]
+    },
+    {
+      "title": "Is the history of art the history of masterpieces?",
+      "lead": "The classic story, from Vasari through Gombrich and Kenneth Clark's television series Civilisation, follows genius artists from Greece through the Renaissance to modernism. Since the 1970s art historians have asked who is left out and what that story is for. The current fight is about whether the answer is a better canon, no canon, or a truly global history.",
+      "verdict": "The old single story lost as the way to teach art history; what replaces it is unsettled and still contested.",
+      "camps": [
+        {
+          "name": "Canon of masterpieces",
+          "status": "partly right",
+          "pop": true,
+          "line": "Some works and artists changed the course of art, and a good history tells their story.",
+          "explain": "Art is a chain of innovations by outstanding individuals. Gombrich's The Story of Art became the best-selling art book in English.",
+          "who": "Ernst Gombrich, Kenneth Clark, Clement Greenberg for modernism; Giorgio Vasari as the founder.",
+          "best": "Vasari, Lives of the Artists (1550); Gombrich, The Story of Art (1950); Clark, Civilisation (1969).",
+          "evidence": "Not testable as such. Defended on aesthetic and influence grounds; criticised for survivorship and Eurocentric selection."
+        },
+        {
+          "name": "Social history of art",
+          "status": "partly right",
+          "pop": false,
+          "line": "Art has to be understood through class, gender, patronage and politics, not through genius.",
+          "explain": "Asks who commissioned, bought and was excluded. Feminist, Marxist and postcolonial approaches expanded what art history studies.",
+          "who": "Linda Nochlin, John Berger, T. J. Clark, Griselda Pollock.",
+          "best": "Nochlin, 'Why Have There Been No Great Women Artists?,' ARTnews (1971); Berger, Ways of Seeing (1972).",
+          "evidence": "Nochlin showed that missing women artists reflected barred institutions, not missing talent. Its approach is now mainstream in museums and teaching."
+        },
+        {
+          "name": "Global art history",
+          "status": "open",
+          "pop": false,
+          "line": "Art history has to be rebuilt as a history of the whole world, not Europe with extras.",
+          "explain": "Study circulation, trade and exchange across regions rather than adding non-Western artists to a Western plot. Debated: is global art history possible, or a new imperialism of categories?",
+          "who": "Thomas DaCosta Kaufmann, James Elkins, Hans Belting, Monica Juneja.",
+          "best": "Elkins (ed.), Is Art History Global? (2007); DaCosta Kaufmann, Toward a Geography of Art (2004).",
+          "evidence": "Largely programmatic; no consensus on methods or a replacement narrative."
+        }
+      ]
+    },
+    {
+      "title": "Is film theory about ideology or about how viewers' minds work?",
+      "lead": "From the 1970s, film studies was dominated by 'Grand Theory': psychoanalysis, Marxism and semiotics read cinema as an ideological machine that positions viewers. In the 1990s David Bordwell and Noel Carroll attacked this as unfalsifiable and called for theories grounded in history and cognitive science. Both camps now coexist, and the cognitive and historical approach has gained ground in method.",
+      "verdict": "Apparatus theory lost its authority; specific concepts like the male gaze survived as tools, and empirical approaches have grown.",
+      "camps": [
+        {
+          "name": "Screen theory",
+          "status": "partly right",
+          "pop": true,
+          "line": "Cinema works on the viewer's unconscious and reproduces ideology, especially gender.",
+          "explain": "Film positions the spectator via psychoanalytic mechanisms such as identification and voyeurism. It brought politics to film criticism.",
+          "who": "Christian Metz, Jean-Louis Baudry, Laura Mulvey, Stephen Heath.",
+          "best": "Metz, The Imaginary Signifier (1977); Mulvey, 'Visual Pleasure and Narrative Cinema,' Screen (1975).",
+          "evidence": "Mulvey's 'male gaze' is still in wide use as a way of describing how films are shot. The broader claim of a universal, psychoanalytic spectator was criticised for resting on assertion and on small, unrepresentative samples of films."
+        },
+        {
+          "name": "Cognitive and historical poetics",
+          "status": "winning",
+          "pop": false,
+          "line": "Study how films are built and how ordinary viewers process them, with evidence.",
+          "explain": "Combines film history (how Hollywood style developed) with cognitive psychology of attention, emotion and narrative comprehension. It asks for testable claims.",
+          "who": "David Bordwell, Kristin Thompson, Noel Carroll, Murray Smith, Tim Smith.",
+          "best": "Bordwell, Narration in the Fiction Film (1985); Bordwell, Staiger and Thompson, The Classical Hollywood Cinema (1985); Bordwell and Carroll (eds.), Post-Theory (1996).",
+          "evidence": "Eye-tracking research (for instance by Tim Smith) shows viewers' gaze converges in edited film, which supports accounts of how continuity editing guides attention. The approach is criticised for neglecting politics and identity."
+        }
+      ]
+    },
+    {
+      "title": "Who is the author of a film?",
+      "lead": "Film magazines, awards and fans credit the director as the author of a film. That idea comes from French critics in the 1950s and was popularised in the US by Andrew Sarris. Film history shows that a movie is made by hundreds of people inside an industrial system, and that studio, writer and editor often matter as much as the director.",
+      "verdict": "Auteurism survives as a way of reading and selling films, but as a history of who made them it lost to a collective, industrial account.",
+      "camps": [
+        {
+          "name": "Auteur theory",
+          "status": "partly right",
+          "pop": true,
+          "line": "The director's vision is what makes a film art, and you can see it across their body of work.",
+          "explain": "A strong director's personality shows through style and theme despite the studio. It gave film cultural prestige.",
+          "who": "Francois Truffaut, Andre Bazin's circle at Cahiers du cinema, Andrew Sarris.",
+          "best": "Truffaut, 'Une certaine tendance du cinema francais' (1954); Sarris, 'Notes on the Auteur Theory in 1962,' Film Culture (1962) and The American Cinema (1968).",
+          "evidence": "Directors like Hitchcock and Kubrick do show recognisable consistency. But Pauline Kael's 'Raising Kane' (1971) argued Herman Mankiewicz deserved far more credit for Citizen Kane than Welles, which showed how contested attribution is (and her own account was disputed in turn)."
+        },
+        {
+          "name": "Collaborative and industrial",
+          "status": "winning",
+          "pop": false,
+          "line": "Films come out of studios, genres, stars, writers, cinematographers and editors working together.",
+          "explain": "Historians of the studio system describe a production line in which style came from institutions and technology as much as from individuals.",
+          "who": "Thomas Schatz, Janet Staiger, Bordwell, Staiger and Thompson.",
+          "best": "Schatz, The Genius of the System (1988); Bordwell, Staiger and Thompson, The Classical Hollywood Cinema (1985).",
+          "evidence": "Production histories show decisions made across departments and contracts; the director's control varies enormously by era and country."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "discipline": "Physics",
+  "overview": "Physics fights at the level of outlook about what a theory is for. Is the job to find the one deepest law and read everything off it, or to understand each level of nature on its own terms? Is a theory a picture of reality or a tool for predicting clicks in detectors? For forty years the field also ran on a faith that beauty and naturalness would lead to new particles, and the LHC has not rewarded it. The simple stories come from popularisers of the grand-unification dream (Greene, Hawking, Susskind, Tegmark, Carroll) and from textbook slogans like 'entropy is disorder'. The working field is quieter and more pluralist than that.",
+  "debates": [
+    {
+      "title": "What does quantum mechanics actually say about reality?",
+      "lead": "The maths works to a dozen digits. Nobody agrees on what it means. The folk story is either 'the observer creates reality' or 'shut up and calculate'. Bell's theorem and its experiments killed the idea that quantum correlations can be explained by simple local hidden variables. That left several serious readings standing, and no experiment has yet separated them.",
+      "verdict": "Open: local hidden variables are dead, and the only interpretation that makes different predictions (objective collapse) is being squeezed by experiment.",
+      "camps": [
+        {
+          "name": "Copenhagen / instrumentalism",
+          "status": "open",
+          "pop": true,
+          "line": "The wavefunction is a tool for predicting measurement outcomes; asking what happens between measurements is a mistake.",
+          "explain": "Bohr, Heisenberg and their heirs treat the quantum state as knowledge or as a calculational device, and treat measurement as primitive. Modern relatives (QBism, relational QM) keep the spirit with more careful philosophy. It is the default in textbooks and the working physicist's habit. Critics say it never defines what counts as a measurement.",
+          "who": "Bohr, Heisenberg; QBism (Fuchs, Mermin); relational QM (Rovelli); popular 'observer' talk from many science writers",
+          "best": "Bohr's complementarity (1928); Born rule (1926); QBism (Fuchs & Schack, 2010s)",
+          "evidence": "Every experiment agrees with the quantum formalism it is built on, including loophole-free Bell tests (Hensen et al. 2015, Nature; Giustina et al. 2015, PRL; Shalm et al. 2015, PRL) and the 2022 Nobel to Aspect, Clauser and Zeilinger. But experiments cannot favour it over rivals, since it makes no distinct predictions. Schlosshauer, Kofler and Zeilinger (2013, Stud. Hist. Phil. Mod. Phys.) found it the plurality view among attendees at a foundations conference (about 42%), and a 2025 Nature survey of physicists again found no majority for any reading."
+        },
+        {
+          "name": "Many-worlds",
+          "status": "open",
+          "pop": false,
+          "line": "The wavefunction never collapses; every outcome happens, and we only see our branch.",
+          "explain": "Take the Schrodinger equation literally and drop collapse. Decoherence explains why branches stop interfering and look classical. The attraction is simplicity of the laws. The cost is a vast branching reality and an unresolved puzzle about why probabilities follow the Born rule.",
+          "who": "Everett, DeWitt, Deutsch, Wallace; popularised by Sean Carroll (Something Deeply Hidden, 2019) and Max Tegmark",
+          "best": "Everett 1957 (Rev. Mod. Phys.); Wallace, The Emergent Multiverse (2012); Deutsch 1999 decision-theory derivation of probabilities",
+          "evidence": "Decoherence theory (Zurek; Joos and Zeh) gives the branch structure without adding anything. The probability problem is contested: Deutsch-Wallace decision-theory arguments are accepted by supporters and rejected by many critics. It makes no distinct experimental prediction relative to standard QM, so it cannot be tested directly."
+        },
+        {
+          "name": "Pilot-wave (Bohmian)",
+          "status": "open",
+          "pop": false,
+          "line": "Particles have definite positions all the time, guided by a real wave; the weirdness is nonlocality, not fuzziness.",
+          "explain": "De Broglie and Bohm gave a deterministic theory reproducing quantum predictions. Particles have trajectories; the wave steers them instantly across space. Bell admired it because it shows a clear picture is possible. Extending it to relativistic quantum field theory is the long-standing difficulty.",
+          "who": "De Broglie, Bohm, Bell (sympathiser); Durr, Goldstein, Zanghi; Tim Maudlin as a leading philosophical defender",
+          "best": "Bohm 1952 (Phys. Rev.); Bell, Speakable and Unspeakable in Quantum Mechanics (1987)",
+          "evidence": "Bell 1964 proved any such theory must be nonlocal, and Bell tests (Aspect 1982; Hensen 2015) confirmed nonlocal correlations, which this view embraces. Surrealistic-trajectory experiments (Kocsis et al. 2011, Science) measured average photon paths consistent with it but do not exclude other readings. The relativistic gap remains."
+        },
+        {
+          "name": "Objective collapse",
+          "status": "losing",
+          "pop": false,
+          "line": "Collapse is a real physical process, so the theory differs from quantum mechanics for big enough objects.",
+          "explain": "GRW and Penrose-style models add a tiny spontaneous collapse rate that is negligible for atoms and decisive for cats. This is the one camp that makes testable predictions that differ from standard QM, so it is being tested.",
+          "who": "Ghirardi, Rimini, Weber; Pearle; Penrose; Bassi; Diosi",
+          "best": "GRW 1986 (Phys. Rev. D); Penrose 1996 (Gen. Rel. Grav.)",
+          "evidence": "Donadi et al. 2021 (Nature Physics) searched for spontaneous radiation from germanium in the Gran Sasso underground lab and ruled out the simplest parameter-free Diosi-Penrose model. Matter-wave interferometry with ever larger molecules (Arndt and Fein groups) and cold-atom and optomechanics bounds keep tightening the allowed collapse rates. Flexible versions survive in a shrinking window."
+        }
+      ]
+    },
+    {
+      "title": "Does nature owe us new particles?",
+      "lead": "The Standard Model has a 'naturalness' problem: the Higgs mass looks absurdly fine-tuned unless something new, like supersymmetry, appears near the TeV scale. For decades theorists treated that as a promise. The Higgs was found in 2012 and nothing else came. The pop story is that supersymmetry or extra dimensions are 'just around the corner'. The field now splits on whether naturalness was ever a good guide.",
+      "verdict": "The naturalness-driven expectation of new TeV physics has lost, and the field is re-orienting around precision tests and anomalies that keep dissolving.",
+      "camps": [
+        {
+          "name": "Naturalness / SUSY",
+          "status": "losing",
+          "pop": true,
+          "line": "A theory that needs fine-tuning is incomplete, so new physics must sit near the Higgs scale.",
+          "explain": "Supersymmetry stabilises the Higgs mass, unifies gauge couplings and offers a dark matter candidate. It was the leading extension of the Standard Model for four decades and shaped LHC design and funding pitches.",
+          "who": "Dimopoulos, Georgi, Witten, Wilczek in its heyday; widely repeated in popular accounts around the LHC switch-on (2008)",
+          "best": "Dimopoulos & Georgi 1981 (Nucl. Phys. B); 't Hooft naturalness (1979)",
+          "evidence": "ATLAS and CMS (Run 1 and Run 2, 2010 to 2018) found no superpartners; simple minimal models are excluded to masses well above 1 TeV for squarks and gluinos. Direct dark matter searches (LUX-ZEPLIN, XENONnT) also saw no WIMPs. Natural SUSY at the weak scale is essentially dead; split or heavy versions survive but lose their motivation."
+        },
+        {
+          "name": "Precision and anomalies",
+          "status": "partly right",
+          "pop": false,
+          "line": "Look for new physics in small deviations from the Standard Model, because the new particles may simply be too heavy to make.",
+          "explain": "Instead of producing new particles, measure known ones to extreme accuracy and look for cracks. The hunt has had false alarms. The muon g-2 excess shrank when lattice QCD calculations of the hadronic contribution improved, and the 2022 CDF W-boson mass shift was not confirmed by ATLAS or CMS.",
+          "who": "Fermilab Muon g-2 collaboration; LHCb; Belle II; CDF",
+          "best": "Muon g-2 final result, Fermilab 2025 (precision about 127 parts per billion); CDF W mass, Science 2022",
+          "evidence": "The Fermilab experiment's final result (June 2025) matched its earlier numbers at record precision. The 2025 Muon g-2 Theory Initiative update, using lattice QCD, moved the prediction to agree with the data, and experiments no longer show a robust tension. CDF's W mass (Science 2022) was later contradicted by ATLAS and CMS. Flavour anomalies (R(K) at LHCb) went away in 2022 after a re-analysis. Neutrino masses and dark matter remain real evidence for something beyond the Standard Model, but with no mass scale attached."
+        },
+        {
+          "name": "Naturalness was a bad guide",
+          "status": "winning",
+          "pop": false,
+          "line": "Beauty and fine-tuning arguments were never evidence, and we should stop treating them as predictions.",
+          "explain": "Critics argue that naturalness is an aesthetic prejudice, and that the cosmological constant already shows nature is not 'natural' in this sense. They want more weight on data and less on theorists' taste. Defenders reply that naturalness worked before, as with the charm quark and pion mass.",
+          "who": "Sabine Hossenfelder (Lost in Math, 2018); Giudice (a reflective insider view, 2017 'The dawn of the post-naturalness era')",
+          "best": "Hossenfelder, Lost in Math (2018); Giudice 2017 essay",
+          "evidence": "The null results at the LHC are the evidence. The cosmological constant is about 120 orders of magnitude from naive estimates and the Universe is evidently fine, so some form of fine-tuning (or anthropic selection, or an unknown mechanism) is real. The camp wins on the empirical record, though it does not produce a replacement guide."
+        }
+      ]
+    },
+    {
+      "title": "Is there a theory of quantum gravity, and is it strings?",
+      "lead": "General relativity and quantum field theory do not fit together at the extreme scales of black holes and the Big Bang. String theory has been the dominant candidate for forty years, and popular books (Greene's The Elegant Universe, 1999) presented it as nearly the answer. Critics say it has never made a testable prediction. There are real results, but they are mathematical, not experimental.",
+      "verdict": "Open and untested. String theory produced deep mathematics and the best-understood toy models of quantum gravity, but no confirmed physical prediction.",
+      "camps": [
+        {
+          "name": "String theory",
+          "status": "open",
+          "pop": true,
+          "line": "It is the only framework that includes gravity and quantum mechanics consistently, and it is still our best bet.",
+          "explain": "Strings, branes and extra dimensions unify gravity with the other forces. Its dualities, especially AdS/CFT, turn hard problems into solvable ones and have spread into condensed matter and nuclear physics. The landscape of vacua makes concrete predictions hard.",
+          "who": "Witten, Maldacena, Susskind, Polchinski; popularised by Brian Greene and Michio Kaku",
+          "best": "Maldacena 1997 AdS/CFT (Adv. Theor. Math. Phys.); Strominger & Vafa 1996 (Phys. Lett. B) black hole entropy counting; Green & Schwarz 1984 anomaly cancellation",
+          "evidence": "For: Strominger and Vafa counted black hole microstates and matched Bekenstein-Hawking entropy for certain extremal black holes; holography gives a precise quantum gravity in anti-de Sitter space. Against: no superpartners or extra dimensions seen at the LHC, and constructing a de Sitter universe like ours in string theory is contested (the 'swampland' debate; Vafa 2005 and Obied et al. 2018). Critics: Woit, Not Even Wrong (2006); Smolin, The Trouble with Physics (2006)."
+        },
+        {
+          "name": "Loop quantum gravity",
+          "status": "open",
+          "pop": false,
+          "line": "Quantise spacetime itself, with no extra dimensions and no background; space comes in discrete chunks.",
+          "explain": "LQG treats general relativity directly in a quantum setting and gets discrete area and volume. It avoids the extra-dimension baggage but has not clearly recovered smooth classical spacetime in all regimes or produced a clean prediction.",
+          "who": "Ashtekar, Smolin, Rovelli (popular: Seven Brief Lessons on Physics, 2014; Reality Is Not What It Seems, 2016)",
+          "best": "Rovelli & Smolin 1990s spin networks (Nucl. Phys. B 1995); Ashtekar, loop quantum cosmology 2000s",
+          "evidence": "The speed of gravitational waves in GW170817 matched light to about 1 part in 10^15 (Abbott et al. 2017, ApJ Lett.), which cuts out many Lorentz-violating quantum-gravity proposals. Predicted quantum-gravity photon dispersion has not shown up in gamma-ray bursts at tested sensitivity. No decisive test."
+        },
+        {
+          "name": "Other routes",
+          "status": "open",
+          "pop": false,
+          "line": "The answer may be asymptotic safety, causal sets, emergent gravity from entanglement, or something nobody has written down.",
+          "explain": "Asymptotic safety (Weinberg's idea) says gravity may be a consistent quantum field theory at high energy. Entanglement-based approaches say spacetime emerges from quantum information, as seen in holography. These are active but less developed.",
+          "who": "Weinberg, Reuter, Sorkin, Van Raamsdonk, Verlinde",
+          "best": "Reuter 1998 (Phys. Rev. D); Van Raamsdonk 2010 (Gen. Rel. Grav.); Ryu & Takayanagi 2006 (PRL)",
+          "evidence": "Ryu-Takayanagi (2006) linked entanglement entropy to geometry in holography, a genuinely important result. None of these has a confirmed prediction. Tabletop experiments to test whether gravity can entangle masses (Bose et al. 2017; Marletto & Vedral 2017) are proposed but not yet done."
+        }
+      ]
+    },
+    {
+      "title": "Is the 'fundamental' level the real physics?",
+      "lead": "Does the deepest law explain everything, or does each level of nature have its own laws that you cannot derive in practice? Weinberg argued that arrows of explanation all point down to particle physics. Anderson countered that 'more is different'. The popular story, 'a theory of everything would explain everything', is the reductionist version. Working physicists mostly hold a middle view.",
+      "verdict": "Effective field theory has settled the practical question: every level has its own valid description, and the lower levels do not determine the higher ones in any usable sense.",
+      "camps": [
+        {
+          "name": "Fundamentalism",
+          "status": "partly right",
+          "pop": true,
+          "line": "Everything is ultimately particles and forces, and the final theory explains all the rest in principle.",
+          "explain": "Weinberg's 'arrows of explanation' converge on a small set of laws. This view guided the push for the Superconducting Super Collider and the dream of a theory of everything. It is true as a claim about ontology: nothing in chemistry violates quantum field theory.",
+          "who": "Weinberg, Dreams of a Final Theory (1992); Greene; Hawking; popular 'theory of everything' talk",
+          "best": "Weinberg, Dreams of a Final Theory (1992); Dirac 1929 remark that chemistry is 'solved in principle'",
+          "evidence": "Successful reductions (thermodynamics to statistical mechanics, chemistry to quantum mechanics) support it as ontology. But 'in principle' does the work: the reductions rarely let you predict the higher-level behaviour, and often the higher-level theory is what you actually need."
+        },
+        {
+          "name": "Emergence",
+          "status": "partly right",
+          "pop": false,
+          "line": "Superconductivity, the fractional quantum Hall effect and life cannot be usefully derived from the particle theory; the organising principles are new.",
+          "explain": "Collective behaviour introduces new concepts (broken symmetry, topological order) that have no meaning for single particles. Condensed matter physics is the home of this view and keeps producing phases of matter that were not predicted from the microscopic laws.",
+          "who": "P. W. Anderson ('More is Different', Science 1972); Laughlin & Pines ('The Theory of Everything', PNAS 2000)",
+          "best": "Anderson 1972, Science; Laughlin, A Different Universe (2005); Wen on topological order",
+          "evidence": "The fractional quantum Hall effect (Tsui, Stormer and Gossard 1982; Laughlin's wavefunction 1983) is the standard exhibit: excitations with a fraction of an electron's charge that exist only collectively. Topological phases were classified without reference to a deeper theory (Nobel Prize 2016 to Thouless, Haldane and Kosterlitz). Complete derivations from the fundamental theory remain beyond computation for most systems."
+        },
+        {
+          "name": "Effective field theory",
+          "status": "winning",
+          "pop": false,
+          "line": "Every theory is valid in a range of scales; physics works because the levels decouple.",
+          "explain": "Wilson's renormalisation group shows how high-energy details wash out and leave a few parameters at low energy. That explains why we can do chemistry without knowing about quarks, and why a final theory is not needed to do good physics. It dissolves much of the fight by making both sides partly right.",
+          "who": "Kenneth Wilson (Nobel 1982), Weinberg (later), Polchinski, Cardy",
+          "best": "Wilson 1971 (Phys. Rev. B); Polchinski 1984 (Nucl. Phys. B)",
+          "evidence": "The renormalisation group explains universality, so that different materials share the same critical exponents, and justifies the Standard Model itself as a low-energy effective theory. It is now the standard way particle and condensed matter physicists think, which is why the old fight is mostly about emphasis."
+        }
+      ]
+    },
+    {
+      "title": "Is entropy disorder, and why does time have an arrow?",
+      "lead": "Everyone is taught that entropy measures disorder and that the Second Law says disorder increases. That slogan misleads. The microscopic laws run equally well in either time direction, so something else gives time its direction. The sharpest answer is about the initial state of the universe, not about the dynamics.",
+      "verdict": "Boltzmann's counting picture plus a very low-entropy early universe is the mainstream answer, and the 'disorder' slogan is losing. The information view is a useful reframing, not a rival physics.",
+      "camps": [
+        {
+          "name": "Entropy as disorder",
+          "status": "losing",
+          "pop": true,
+          "line": "Messy rooms, broken eggs, and cooling coffee all show entropy as disorder rising.",
+          "explain": "A good teaching image for gases, but it fails in simple cases. Oil and water separate (order increases) while total entropy still rises. Gravitating systems clump as entropy goes up, so the smooth early universe is actually the low-entropy state.",
+          "who": "Textbook shorthand; widely repeated by popularisers",
+          "best": "Boltzmann's original counting argument (1877) is the careful version",
+          "evidence": "Hard-sphere systems crystallise at high density because the ordered state has more room for each sphere to move, raising entropy while appearing ordered (Alder and Wainwright 1957; Pusey and van Megen 1986, Nature, in colloids). Penrose and others stress that gravity makes the smooth initial state low entropy."
+        },
+        {
+          "name": "Counting plus Past Hypothesis",
+          "status": "winning",
+          "pop": false,
+          "line": "Entropy counts microstates; time's arrow exists because the universe started in an extraordinarily special state.",
+          "explain": "Boltzmann defined entropy as the log of the number of microstates matching what you see. The Second Law is then overwhelmingly probable, not absolute. Since the laws are time-symmetric, you have to add that the universe began in a low-entropy state, which is the so-called Past Hypothesis.",
+          "who": "Boltzmann; David Albert (Time and Chance, 2000); Penrose; Sean Carroll (From Eternity to Here, 2010)",
+          "best": "Boltzmann 1877; Albert, Time and Chance (2000); Penrose, The Emperor's New Mind (1989)",
+          "evidence": "Fluctuation theorems (Evans, Cohen and Morriss 1993, PRL; Crooks 1999; Jarzynski 1997) show the Second Law as a statistical statement, and they have been verified in small systems (Wang et al. 2002, PRL, colloidal particle in optical trap). Why the initial state was special is unexplained, and that is the open edge."
+        },
+        {
+          "name": "Entropy as information",
+          "status": "partly right",
+          "pop": false,
+          "line": "Entropy depends on what you know; thermodynamics is about information.",
+          "explain": "Jaynes and Shannon tied entropy to missing information. Maxwell's demon is resolved because erasing information costs heat (Landauer). The view is correct and useful in practice, but critics say it risks making a physical law depend on an observer.",
+          "who": "Jaynes, Shannon, Landauer, Bennett",
+          "best": "Jaynes 1957 (Phys. Rev.); Landauer 1961 (IBM J. Res. Dev.); Bennett 1982 (Int. J. Theor. Phys.)",
+          "evidence": "Toyabe et al. 2010 (Nature Physics) converted information into work in a Maxwell-demon experiment; Berut et al. 2012 (Nature) measured the Landauer heat limit for erasing a bit. Both are confirmed experimentally."
+        }
+      ]
+    },
+    {
+      "title": "Will fusion power ever work, and which path?",
+      "lead": "The joke is that fusion is always thirty years away. The physics has actually made visible progress: in December 2022 the National Ignition Facility produced more fusion energy than the laser energy delivered to the target. Whether that turns into a power plant is a separate question of engineering and cost. The camps differ on which confinement approach has a path to a plant.",
+      "verdict": "Scientific breakeven is real (inertial confinement, NIF). Net electricity on a grid is unproven for every approach, and the economic question is open.",
+      "camps": [
+        {
+          "name": "Big tokamaks",
+          "status": "open",
+          "pop": true,
+          "line": "Magnetic confinement in a big doughnut is the proven route, so scale it up and build ITER.",
+          "explain": "Tokamaks have decades of experimental scaling and are the main public programme. ITER is a very large international machine, now years behind and over budget, with research operation planned for the mid-2030s and full deuterium-tritium later that decade.",
+          "who": "ITER Organization; JET and EAST teams; Culham, Cadarache",
+          "best": "JET record 69 MJ in 2023 (Culham); ITER Physics Basis 1999 (Nucl. Fusion)",
+          "evidence": "JET produced about 59 MJ in 2021 and a record of about 69 MJ in 2023, but with input power exceeding output (Q below 1). ITER is designed for Q of 10, which has not been demonstrated anywhere. Delays and costs are the main argument against."
+        },
+        {
+          "name": "Laser inertial fusion",
+          "status": "partly right",
+          "pop": false,
+          "line": "Squeeze a pellet with lasers; ignition is achieved, so now improve gain.",
+          "explain": "NIF ignited a pellet in December 2022, then repeatedly, and raised yield since. But NIF's lasers draw far more energy from the grid than they deliver to the target, so the facility is nowhere near net electricity. Its original purpose was weapons physics.",
+          "who": "Lawrence Livermore National Laboratory; Omar Hurricane; private firms such as Xcimer and Focused Energy",
+          "best": "NIF ignition, Dec 2022 (3.15 MJ out from 2.05 MJ of laser energy); Abu-Shawareb et al. 2024 (PRL, target gain above unity)",
+          "evidence": "Abu-Shawareb et al. 2022 (PRL) had already reported the Lawson criterion for ignition exceeded in an August 2021 shot. The December 2022 shot gave a target gain of about 1.5; later shots reached much higher yields, with a record of about 8.6 MJ reported in 2025. It proves the physics of burning plasma; it does not prove a repetition rate or cost compatible with a power plant."
+        },
+        {
+          "name": "Compact and private",
+          "status": "open",
+          "pop": false,
+          "line": "High-temperature superconducting magnets let a smaller tokamak do what ITER does, faster and cheaper.",
+          "explain": "Fusion power scales steeply with magnetic field. New high-field superconducting tape allows much smaller devices. Private companies are betting on it, and so are some stellarator designs that avoid disruptions.",
+          "who": "Commonwealth Fusion Systems (MIT spin-out); Tokamak Energy; Wendelstein 7-X team (stellarator); Helion (pulsed)",
+          "best": "CFS 20 tesla large-bore HTS magnet demonstration, 2021; Creely et al. 2020 (J. Plasma Phys.) SPARC physics basis",
+          "evidence": "The HTS magnet worked, and the SPARC design physics rests on established tokamak scaling. But SPARC is not yet running a burning plasma, and neither the compact approach nor the stellarators have shown net electricity. The proof is pending."
+        }
+      ]
+    }
+  ]
+}

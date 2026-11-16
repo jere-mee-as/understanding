@@ -1,0 +1,191 @@
+{
+  "discipline": "Education",
+  "overview": "Education research is fighting over whether teaching is a craft shaped by children's natural curiosity or an applied science of how memory and attention work. The progressive tradition (Dewey, Piaget, Sir Ken Robinson) is the folk story in most staff rooms and TED talks; the cognitive-science tradition (Sweller, Willingham, Rosenshine, Hirsch) has won most head-to-head tests with novices. A second fight is over whether schools matter at all next to family background, and the answer from the better causal studies has moved from 'no' to 'yes, if the money and teachers are good'. Education is also full of popular ideas (learning styles, growth mindset, 'critical thinking skills') that are more popular than proven.",
+  "debates": [
+    {
+      "title": "Direct instruction or discovery learning?",
+      "lead": "Should teachers explain things clearly and have students practise, or set up problems and let students discover the ideas? The progressive story, carried by Sir Ken Robinson and constructivist teacher-training, says discovery builds deeper understanding. The cognitive-load camp says novices have a small working memory and need explicit guidance. The evidence for novices favours explicit teaching; the best case for exploration is a structured version where struggle comes before instruction.",
+      "verdict": "For novices, explicit guided instruction beats unguided discovery; structured exploration followed by instruction can do as well or better on understanding.",
+      "camps": [
+        {
+          "name": "Explicit instruction",
+          "status": "winning",
+          "pop": false,
+          "line": "Novices learn best when teachers explain, model, and check understanding step by step.",
+          "explain": "Working memory is small and long-term memory is where expertise lives. Telling students the idea and having them practise it avoids overloading them. The approach is associated with direct instruction programs and with Rosenshine's principles.",
+          "who": "John Sweller, Paul Kirschner, Richard Clark, Barak Rosenshine, Daniel Willingham, Siegfried Engelmann, E. D. Hirsch, Dylan Wiliam; Hattie's Visible Learning (2009) popularised it",
+          "best": "Kirschner, Sweller & Clark 2006, 'Why minimal guidance during instruction does not work' (Educational Psychologist); Rosenshine 2012, 'Principles of instruction' (American Educator); Hirsch 2016, Why Knowledge Matters",
+          "evidence": "Project Follow Through, the largest US education experiment (1968-1977), found Engelmann's Direct Instruction model beat other models on basic skills, and on self-esteem, which the progressive models were meant to boost (the evaluation by Abt Associates, summarised in Watkins 1997). Mayer 2004 (American Psychologist) reviewed decades of studies and concluded pure discovery learning does not work. Alfieri et al. 2011 (Journal of Educational Psychology), a meta-analysis of 164 studies, found unassisted discovery was worse than explicit instruction, but guided discovery with feedback and worked examples did better. Sweller's worked-example effect has been replicated many times. Weaknesses: the evidence is stronger for basic skills than for transfer and creativity, and effects shrink for advanced students (the expertise-reversal effect)."
+        },
+        {
+          "name": "Discovery and constructivism",
+          "status": "losing",
+          "pop": true,
+          "line": "Children build knowledge by exploring; teachers should guide, not tell.",
+          "explain": "Following Dewey, Piaget and Vygotsky, this view says understanding has to be constructed by the learner, and that facts told are facts forgotten. It underpins 'student-centred' and inquiry-based teaching and a good part of teacher education.",
+          "who": "John Dewey, Jean Piaget, Jerome Bruner, Sir Ken Robinson (TED 2006, 'Do schools kill creativity?'), Seymour Papert",
+          "best": "Bruner 1961, 'The act of discovery'; Hmelo-Silver, Duncan & Chinn 2007, reply to Kirschner et al. (Educational Psychologist)",
+          "evidence": "Hmelo-Silver et al. 2007 argued that problem-based and inquiry learning are heavily scaffolded, so Kirschner et al. attacked a straw man, which is a fair point against the harshest version of the critique. But the pure-discovery form has not held up in controlled studies: Klahr & Nigam 2004 (Psychological Science) found that children taught the control-of-variables strategy directly learned it far better than children who discovered it, and the few children who did discover it on their own understood it as well as the taught group, so discovery worked for a small minority at a large cost in time."
+        },
+        {
+          "name": "Productive failure",
+          "status": "open",
+          "pop": false,
+          "line": "Let students struggle with a hard problem first and then teach them; the struggle makes the instruction land.",
+          "explain": "A hybrid: students attempt a problem before instruction, generating ideas and failing, then teacher explains. The claim is better conceptual understanding without losing procedural skill.",
+          "who": "Manu Kapur, Katerine Bielaczyc, Daniel Schwartz (preparation for future learning)",
+          "best": "Kapur 2008, 'Productive failure' (Cognition and Instruction); Sinha & Kapur 2021, meta-analysis (Review of Educational Research)",
+          "evidence": "Sinha & Kapur 2021 (Review of Educational Research), a meta-analysis of studies comparing problem-solving-before-instruction with instruction-first, found an advantage for conceptual understanding and transfer, and no loss on procedural knowledge. Critics note that many studies come from the same labs, use mostly university or secondary maths, and often compare against weak versions of direct instruction, so the question is open pending independent trials."
+        }
+      ]
+    },
+    {
+      "title": "Which popular teaching ideas are real?",
+      "lead": "Teachers meet a stream of confident ideas: match teaching to learning styles, teach a growth mindset, use highlighting, give multiple intelligences their due. Some are myths. Some are real but smaller than advertised. A few boring techniques (spacing, retrieval practice) are strongly supported and little used. Learning science is mostly a matter of sorting these.",
+      "verdict": "Learning styles failed; growth mindset has a small effect for some students; spacing and retrieval practice are the best-supported techniques.",
+      "camps": [
+        {
+          "name": "Learning styles",
+          "status": "losing",
+          "pop": true,
+          "line": "Visual, auditory and kinaesthetic learners each learn best when taught in their own style.",
+          "explain": "People do report preferences, and the idea feels respectful of individuality. The testable claim is the 'meshing' hypothesis: students taught in their preferred style learn more than those who are not.",
+          "who": "Popularised by teacher-training courses and commercial inventories; Howard Gardner's multiple intelligences (1983) is often mistakenly cited as support, though Gardner himself rejects the learning-styles reading",
+          "best": "Gardner 1983, Frames of Mind (a different, contested claim about intelligences); Kolb 1984, experiential learning",
+          "evidence": "Pashler, McDaniel, Rohrer & Bjork 2008 (Psychological Science in the Public Interest) reviewed the literature and found virtually no studies using a design that could test meshing and that met basic standards, and those that did contradicted it. Surveys show a large majority of teachers still believe in it (Newton & Salvi 2020, Frontiers in Education)."
+        },
+        {
+          "name": "Growth mindset",
+          "status": "partly right",
+          "pop": true,
+          "line": "Teach students that ability can grow and they will try harder and achieve more.",
+          "explain": "Beliefs about whether ability is fixed or malleable predict how students respond to setbacks. Short interventions were claimed to raise grades, especially for struggling students.",
+          "who": "Carol Dweck (Mindset, 2006), David Yeager, Angela Duckworth (grit, a related idea)",
+          "best": "Blackwell, Trzesniewski & Dweck 2007 (Child Development); Yeager et al. 2019, National Study of Learning Mindsets (Nature)",
+          "evidence": "Yeager et al. 2019 (Nature), a preregistered national experiment with about 12,000 US ninth-graders, found a small gain in grades (about 0.1 grade points) for lower-achieving students, and no effect on higher achievers. Sisk et al. 2018 (Psychological Science) meta-analysis found only weak links between mindset and achievement and small intervention effects. Macnamara & Burgoyne 2023 (Psychological Bulletin) argued that after adjusting for bias the intervention effects are near zero, which Dweck and Yeager contest. A fair summary: a cheap intervention with small effects for a subset of students, not a classroom transformation."
+        },
+        {
+          "name": "Cognitive-science techniques",
+          "status": "winning",
+          "pop": false,
+          "line": "Space your practice and test yourself instead of rereading.",
+          "explain": "Retrieving information from memory strengthens it more than studying it again, and spreading practice over time beats cramming. Students and teachers underuse both because they feel harder and seem less effective in the moment.",
+          "who": "Henry Roediger, Jeffrey Karpicke, Robert Bjork, John Dunlosky, Daniel Willingham, Pooja Agarwal",
+          "best": "Roediger & Karpicke 2006, 'Test-enhanced learning' (Psychological Science); Dunlosky et al. 2013, 'Improving students' learning with effective learning techniques' (Psychological Science in the Public Interest); Cepeda et al. 2006, distributed practice meta-analysis (Psychological Bulletin)",
+          "evidence": "Dunlosky et al. 2013 rated ten popular techniques: practice testing and distributed practice earned 'high utility'; highlighting, rereading, summarisation and keyword mnemonics earned 'low utility'. Roediger & Karpicke 2006 found that students who took a recall test retained far more a week later than those who re-studied, though they believed they had learned less. Cepeda et al. 2006 pooled over 300 experiments on spacing. Caveat: most evidence is from labs and university settings with short retention periods; classroom trials with young children are fewer but largely positive."
+        }
+      ]
+    },
+    {
+      "title": "Phonics or whole language?",
+      "lead": "The reading wars ran for decades. Whole-language and balanced-literacy approaches taught children to read by context, pictures and guessing, with phonics as a minor extra. Cognitive scientists argued that reading is not natural and has to be taught by explicitly linking letters to sounds. In the early 2020s, journalism (Emily Hanford's podcast Sold a Story, 2022) turned this into a mass political fight over curriculum and school boards.",
+      "verdict": "Systematic phonics is the best-supported start for reading; whole-language cueing lost, and the programs built on it have been revised or dropped in many places.",
+      "camps": [
+        {
+          "name": "Systematic phonics",
+          "status": "winning",
+          "pop": false,
+          "line": "Teach the letter-sound code explicitly and in order; comprehension builds on decoding.",
+          "explain": "Written English is an alphabetic code and children must learn to map letters to sounds to read new words. Explicit teaching of the code helps all children and is essential for those at risk of dyslexia.",
+          "who": "Kathy Rastle, Anne Castles, Kate Nation, Mark Seidenberg (Language at the Speed of Sight, 2017), Louisa Moats, David Share, Emily Hanford (journalism)",
+          "best": "National Reading Panel 2000; Rayner et al. 2001, 'How psychological science informs the teaching of reading' (Psychological Science in the Public Interest); Castles, Rastle & Nation 2018, 'Ending the reading wars' (Psychological Science in the Public Interest)",
+          "evidence": "The National Reading Panel's meta-analysis (2000) found systematic phonics instruction improved reading for kindergarten and first-grade children, with benefits for decoding and spelling and, to a smaller degree, comprehension. Castles et al. 2018 reviewed the evidence on reading acquisition and found that phonics instruction should be systematic and explicit and that children should not be taught to guess words from pictures or context. England's phonics screening check, introduced in 2012, was followed by gains in reading scores, though attributing that to the check alone is hard. The effect on later reading comprehension is smaller than on decoding, which is where critics push back."
+        },
+        {
+          "name": "Whole language and balanced literacy",
+          "status": "losing",
+          "pop": true,
+          "line": "Children learn to read like they learn to speak, through meaningful text; phonics should be incidental.",
+          "explain": "Reading is treated as natural and driven by meaning. Children use 'three cueing' (picture, context, first letter) to work out words. This was the dominant US approach through the 1990s and 2000s, especially in curricula such as Lucy Calkins' Units of Study and Reading Recovery.",
+          "who": "Kenneth Goodman, Frank Smith, Marie Clay (Reading Recovery), Lucy Calkins, Irene Fountas and Gay Su Pinnell",
+          "best": "Goodman 1967, 'Reading: a psycholinguistic guessing game'; Clay 1985, The Early Detection of Reading Difficulties",
+          "evidence": "Cognitive research found that skilled readers do not guess from context but process nearly every letter, which undercuts the premise of three-cueing. Poor readers are the ones who lean on context. Under pressure in 2022, Calkins revised her curriculum to add a phonics component, and several US states have banned three-cueing and moved to phonics-based mandates; Mississippi's reading gains after adopting such reforms are widely cited, though other changes were bundled in. Reading Recovery had positive early trial results (US i3 evaluation), but later follow-ups in the US found the gains did not persist in later grades, which is a central part of the case against it."
+        },
+        {
+          "name": "Balanced / both",
+          "status": "partly right",
+          "pop": false,
+          "line": "Children need phonics and rich language, texts and background knowledge together.",
+          "explain": "Reading comprehension depends on decoding plus language comprehension (the Simple View of Reading), and decoding alone will not produce comprehension if vocabulary and knowledge are thin.",
+          "who": "Gough & Tunmer, Hollis Scarborough (the Reading Rope), Natalie Wexler (The Knowledge Gap, 2019), E. D. Hirsch",
+          "best": "Gough & Tunmer 1986, 'Decoding, reading, and reading disability' (Remedial and Special Education); Scarborough 2001, the reading rope",
+          "evidence": "The Simple View of Reading is among the best-supported models in the field: decoding and language comprehension together account for most of the variance in reading comprehension, and which matters more shifts with age. This is where the remaining fight is: whether knowledge-building curricula improve comprehension. Evidence so far is promising but thin; a large randomised study of a knowledge-rich curriculum is still needed to settle it."
+        }
+      ]
+    },
+    {
+      "title": "Do schools and school spending matter?",
+      "lead": "The Coleman Report of 1966 found that differences in family background predicted student achievement far more than school resources. That became a lasting belief: schools cannot fix inequality and money does not help. Later work with better causal designs found real effects of spending, class size and teacher quality. This is a fight with political stakes, so each side's best version is worth stating.",
+      "verdict": "Money spent well, smaller classes in early grades, and good teachers matter; family background is still larger, and it is not true that throwing money at schools always works.",
+      "camps": [
+        {
+          "name": "Family background dominates",
+          "status": "partly right",
+          "pop": true,
+          "line": "Schools cannot fix what families and neighbourhoods do; extra funding mostly disappears.",
+          "explain": "Differences in achievement are strongly associated with family income and parental education, and years of rising per-pupil spending in the US coincided with flat test scores. On this view reform money is wasted without changes in incentives and management.",
+          "who": "James Coleman, Eric Hanushek, and many sociologists of education",
+          "best": "Coleman et al. 1966, Equality of Educational Opportunity; Hanushek 2003, 'The failure of input-based schooling policies' (Economic Journal)",
+          "evidence": "Hanushek's reviews of the production-function literature found no consistent relationship between spending or class size and achievement. That literature rested on observational studies where spending is correlated with disadvantage; the newer causal designs below undercut its conclusion. What survives is that family background predicts a larger share of the variance in outcomes than any school input, and that increases in spending which are not directed at specific effective practices often show little effect."
+        },
+        {
+          "name": "Resources matter",
+          "status": "winning",
+          "pop": false,
+          "line": "Well-spent money and smaller early classes produce lasting gains, especially for poorer children.",
+          "explain": "The evidence comes from natural experiments and randomised trials rather than from correlations. Spending increases caused by court-ordered school finance reforms were effectively random with respect to student characteristics.",
+          "who": "C. Kirabo Jackson, Rucker Johnson, Claudia Persico, Alan Krueger, Diane Whitmore Schanzenbach, Raj Chetty",
+          "best": "Krueger 1999 (Quarterly Journal of Economics) on Tennessee STAR; Chetty et al. 2011 (QJE); Jackson, Johnson & Persico 2016 (QJE); Lafortune, Rothstein & Schanzenbach 2018 (American Economic Journal: Applied Economics)",
+          "evidence": "Jackson, Johnson & Persico 2016 (QJE) used court-ordered school finance reforms and found that a sustained 10% increase in per-pupil spending across all twelve years of schooling raised completed education by about 0.3 years and adult wages by about 7%, with larger effects for children from low-income families. Tennessee STAR, a randomised trial from 1985, found that smaller kindergarten-to-grade-3 classes raised test scores (Krueger 1999), and Chetty et al. 2011 found small-class students were more likely to attend college and had slightly higher earnings. Lafortune et al. 2018 found that finance-reform spending raised test scores of low-income students. The effect is not automatic: the results depend on how the money is spent, and class-size reduction is expensive compared with its effect."
+        },
+        {
+          "name": "Teacher quality is the lever",
+          "status": "partly right",
+          "pop": false,
+          "line": "The single biggest school-based factor is who is in front of the class.",
+          "explain": "Teachers differ greatly in how much their students learn. Removing the lowest performers or paying for performance should help, and teacher quality is the cheapest large lever a school system has.",
+          "who": "Eric Hanushek, Raj Chetty, John Friedman, Jonah Rockoff, Thomas Kane, Bill Gates's Measures of Effective Teaching project",
+          "best": "Chetty, Friedman & Rockoff 2014, 'Measuring the impacts of teachers' (American Economic Review); Kane & Staiger 2008 and the MET project (2012)",
+          "evidence": "Chetty et al. 2014 (AER), using data on about 2.5 million students, found that students taught by teachers with higher value-added scores earned more as adults and were less likely to have a teen pregnancy, and that value-added estimates are not much biased by student sorting. But teacher-evaluation reforms based on value-added did not improve student outcomes when tried at scale (for example the Gates-funded Intensive Partnerships for Effective Teaching, RAND 2018), so the measurement finding does not translate easily into policy."
+        }
+      ]
+    },
+    {
+      "title": "Does early education pay off?",
+      "lead": "The case for preschool is one of the most influential in social science: small, intensive programs in the 1960s and 70s showed large, lasting gains. The case against is that scaled-up public programs often show gains that vanish by third grade. Both are true of different programs, which is why the argument has not ended.",
+      "verdict": "Intensive, high-quality programs show lasting benefits; large public programs show fade-out in test scores, with some evidence of long-run gains on adult outcomes, and one big trial that went the wrong way.",
+      "camps": [
+        {
+          "name": "High returns",
+          "status": "partly right",
+          "pop": true,
+          "line": "Early childhood programs pay for themselves many times over by raising adult earnings and cutting crime.",
+          "explain": "Early skills build on each other, so investing early is cheaper than remediation later. This is the basis for universal pre-K campaigns and for an often-quoted figure of a 7-13% annual return.",
+          "who": "James Heckman (Nobel economist), Steve Barnett, Arthur Reynolds, Lawrence Schweinhart",
+          "best": "Heckman 2006, 'Skill formation and the economics of investing in disadvantaged children' (Science); Campbell et al. 2014 on the Abecedarian Project (Developmental Psychology); Schweinhart et al., the High/Scope Perry Preschool follow-ups",
+          "evidence": "The Perry Preschool Project (Michigan, 1962-67, 123 children, randomised) and Abecedarian (North Carolina, 1972) found better adult outcomes decades later. Both were very small, intensive and expensive, and were run by researchers, so replicating the effect with a typical public program is not guaranteed. Deming 2009 (AEJ: Applied) and Bailey, Sun & Timpe 2021 (American Economic Review) found Head Start produced long-run gains in educational attainment and adult self-sufficiency by comparing siblings and cohorts."
+        },
+        {
+          "name": "Fade-out sceptics",
+          "status": "partly right",
+          "pop": false,
+          "line": "At scale, gains in test scores fade within a few years and the programs do not deliver what the small studies promised.",
+          "explain": "Large-scale public programs vary a lot in quality, and children in the comparison group catch up in school. Some programs may do harm.",
+          "who": "Mark Lipsey, Dale Farran, Kelley Durkin, Russ Whitehurst (Brookings)",
+          "best": "Puma et al. 2010, Head Start Impact Study (US Department of Health and Human Services); Lipsey, Farran & Durkin 2018 (Early Childhood Research Quarterly); Durkin et al. 2022 (Developmental Psychology)",
+          "evidence": "The Head Start Impact Study, a national randomised trial, found that the cognitive advantages seen at the end of the Head Start year had mostly vanished by the end of first grade. The Tennessee Voluntary Pre-K randomised trial (Durkin et al. 2022, Developmental Psychology) found that children who had won places in the program scored better in kindergarten, but by sixth grade they did worse on achievement tests and had more disciplinary problems than the control group, which was a surprise to its authors. Counter-evidence: fade-out in test scores does not rule out long-term effects on outcomes such as high-school completion, as with Head Start in Bailey et al. 2021."
+        },
+        {
+          "name": "Quality and follow-through",
+          "status": "open",
+          "pop": false,
+          "line": "It depends on what the program does and what happens next in elementary school.",
+          "explain": "Effects may depend on the curriculum, how well teachers are trained and whether later grades build on early gains. Test-score fade-out might be separate from effects on non-cognitive skills.",
+          "who": "Greg Duncan, Katherine Magnuson, Hirokazu Yoshikawa, Deborah Phillips",
+          "best": "Yoshikawa et al. 2013, 'Investing in our future: the evidence base on preschool education' (Society for Research in Child Development); Bailey et al. 2017, 'Persistent effects of early childhood education on skills' (Child Development)",
+          "evidence": "Yoshikawa et al. 2013 concluded that programs with strong curricula, trained teachers and coaching produce larger gains. Bailey et al. 2017 argued that skills which are cheap to teach early but that all children eventually learn fade, while some gains can reappear later. No study has settled which features drive long-run outcomes, and the question is open until more long-run follow-ups of randomised programs report."
+        }
+      ]
+    }
+  ]
+}

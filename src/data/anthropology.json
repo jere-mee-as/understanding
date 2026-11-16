@@ -1,0 +1,238 @@
+{
+ "discipline": "Anthropology",
+ "overview": "Anthropology is fought over two big questions: how much of human life is fixed by biology, and how much is made by culture and history. Biological anthropology and archaeology have been revolutionised by ancient DNA since 2010, which killed several tidy origin stories and replaced them with a tangled, interbreeding family tree. Cultural anthropology spent the 20th century swinging between 'culture is everything' and 'human nature is universal', and now mostly argues about how far the findings travel beyond Western samples. The simple stories come from bestsellers: Hobbesian cavemen from Pinker, noble savages from the other side, clean 'Out of Africa' diagrams, and a single cause for big brains. The field itself has gone messier on nearly all of them.",
+ "debates": [
+  {
+   "title": "Where did modern humans come from?",
+   "lead": "The folk story is a clean one: we walked out of Africa about 60,000 years ago and replaced everyone else. The first big rival, multiregional evolution, said modern people evolved in parallel across the Old World. Ancient DNA ended both pure versions. We are African in origin, but our ancestors interbred with Neanderthals and Denisovans. The live fight now is inside Africa: was there one cradle or a web of connected populations?",
+   "verdict": "Recent African origin with a little archaic admixture won; the open question is how structured Africa was.",
+   "camps": [
+    {
+     "name": "Total replacement",
+     "status": "losing",
+     "pop": true,
+     "line": "We came out of Africa, met the Neanderthals, and left no trace of them in us.",
+     "explain": "The strict 'Out of Africa' model said African moderns replaced archaic humans elsewhere with no meaningful interbreeding. It rested on mitochondrial and Y-chromosome data, which are single lineages and can hide small contributions. It is still the version in most diagrams and documentaries.",
+     "who": "Chris Stringer and Peter Andrews; Rebecca Cann, Mark Stoneking and Allan Wilson. Carried to the public by Spencer Wells and countless textbooks.",
+     "best": "Cann, Stoneking & Wilson 1987, Nature (mtDNA 'African Eve'); Stringer & Andrews 1988, Science.",
+     "evidence": "The African origin part survived. The 'no interbreeding' part died with Green et al. 2010, Science (Neanderthal draft genome), which found Neanderthal DNA in all living non-Africans, roughly 1–4%. Reich et al. 2010, Nature, added Denisovan ancestry, notably in Melanesians."
+    },
+    {
+     "name": "Out of Africa plus admixture",
+     "status": "winning",
+     "pop": false,
+     "line": "Our species is African, and on the way out we picked up pieces of other humans.",
+     "explain": "Anatomically modern humans arose in Africa, spread, and interbred with Neanderthals and Denisovans, with gene flow in several pulses. Archaic variants still shape some immune, skin and altitude-adaptation traits. Africans carry archaic ancestry too, from ghost populations.",
+     "who": "Svante Pääbo (Nobel 2022), David Reich, Chris Stringer.",
+     "best": "Green et al. 2010, Science; Reich et al. 2010, Nature; Pääbo, Neanderthal Man (2014); Reich, Who We Are and How We Got Here (2018).",
+     "evidence": "Genome-wide data from dozens of ancient and living people. Hublin et al. 2017, Nature, put early Homo sapiens at Jebel Irhoud, Morocco, around 300,000 years ago. Durvasula & Sankararaman 2020, Science Advances, found signals of unknown archaic ancestry in West Africans."
+    },
+    {
+     "name": "Multiregional continuity",
+     "status": "losing",
+     "pop": false,
+     "line": "Modern people evolved in place across the Old World, linked by gene flow.",
+     "explain": "Neanderthals, Asian Homo erectus and Africans were one long-lived, interconnected species, with regional continuity in skulls. It was a serious alternative in the 1980s and 90s. Its core claim, that the main ancestry of non-Africans came from local archaic populations, failed.",
+     "who": "Milford Wolpoff, Alan Thorne, Wu Xinzhi.",
+     "best": "Wolpoff, Wu & Thorne 1984 (Multiregional model); Wolpoff & Caspari, Race and Human Evolution (1997).",
+     "evidence": "Neanderthal mtDNA falls outside modern human variation (Krings et al. 1997, Cell), and full genomes show archaic ancestry is a small minority. What survived is the idea that interbreeding mattered."
+    },
+    {
+     "name": "Pan-African structure",
+     "status": "open",
+     "pop": false,
+     "line": "There was no single Garden of Eden; our species emerged from a network of African populations.",
+     "explain": "Fossils from Morocco to Ethiopia to South Africa, from 300,000 to 100,000 years ago, show mosaic traits. This camp says modern humans assembled gradually across a subdivided Africa, linked by gene flow. The disagreement is how structured the stem population was, and how best to model it.",
+     "who": "Eleanor Scerri, Chris Stringer, Jean-Jacques Hublin, Aylwyn Scally.",
+     "best": "Scerri et al. 2018, Trends in Ecology & Evolution; Ragsdale et al. 2023, Nature (weakly structured stem model).",
+     "evidence": "Scerri et al. 2018 combined fossil, archaeological and genetic evidence for multiregional-like structure inside Africa. Ragsdale et al. 2023 fit genomes to weakly structured models with ancient gene flow. Fossil dating and the shortage of African ancient DNA keep it unresolved."
+    }
+   ]
+  },
+  {
+   "title": "Is war ancient, or an invention of settled life?",
+   "lead": "One popular story says early humans were killing each other constantly, and civilisation tamed us. The opposite popular story says foragers were peaceful until farming and property arrived. Both are told with archaeology and ethnography, and both can cite real sites. The evidence supports a messier middle: lethal violence is very old, organised warfare is patchy and tied to conditions.",
+   "verdict": "Killing is ancient and universal; sustained warfare depends on circumstances, and both pop stories overreach.",
+   "camps": [
+    {
+     "name": "War is deep and Hobbesian",
+     "status": "partly right",
+     "pop": true,
+     "line": "Prehistoric life was violent, and states made us safer.",
+     "explain": "Skeletal and ethnographic data show high rates of violent death in many small-scale and prehistoric societies. Chimpanzee raiding suggests deep roots. Pinker uses this to argue violence has declined over history.",
+     "who": "Lawrence Keeley, Steven Pinker (popularised), Azar Gat, Richard Wrangham, Samuel Bowles.",
+     "best": "Keeley, War Before Civilization (1996); Bowles 2009, Science (about 14% of deaths in prehistoric forager groups from warfare); Pinker, The Better Angels of Our Nature (2011).",
+     "evidence": "Bowles' figure is an average over sites, many of them atypical and settled. Critics say it over-samples violent sites. Still, Nataruk, Kenya (Lahr et al. 2016, Nature) shows a massacre of 27 people around 10,000 years ago among foragers."
+    },
+    {
+     "name": "War is recent and cultural",
+     "status": "partly right",
+     "pop": true,
+     "line": "Hunter-gatherers were mostly peaceful; war came with farming, property and states.",
+     "explain": "In nomadic bands with little to defend, killing is mostly personal conflict, not organised combat between groups. Warfare grows with sedentism, storage and hierarchy. Chimp comparisons are weak because humans are culturally flexible.",
+     "who": "Douglas Fry, Brian Ferguson, Robert Kelly; David Graeber and David Wengrow carry a version of it to the public.",
+     "best": "Fry & Söderberg 2013, Science (most lethal events in mobile forager bands were personal disputes, not group raids); Kelly, Warless Societies and the Origin of War (2000); Graeber & Wengrow, The Dawn of Everything (2021).",
+     "evidence": "Fry & Söderberg's sample of 21 mobile forager groups found few group-on-group killings. But those are living groups already pushed to margins, and Nataruk is a counter-case. Archaeological evidence of organised war before farming is thin but not zero."
+    },
+    {
+     "name": "Violence old, war conditional",
+     "status": "winning",
+     "pop": false,
+     "line": "Humans have always killed; whether that becomes war depends on ecology, population density and institutions.",
+     "explain": "Lethal aggression is old across mammals and apes, and humans are no exception. How much of it turns into group warfare varies sharply by setting. Neither 'always at war' nor 'always at peace' describes the record.",
+     "who": "José María Gómez, Miguel Verdú and colleagues, Robert Kelly, many archaeologists of conflict.",
+     "best": "Gómez et al. 2016, Nature (phylogenetic roots of lethal violence across mammals; roughly 2% of early human deaths, with large later variation).",
+     "evidence": "Gómez et al. found human lethal violence tracks the primate ancestral rate early on, and shifts with social organisation later. This is consistent with both sides' best sites."
+    }
+   ]
+  },
+  {
+   "title": "Is there a human nature, or does culture go all the way down?",
+   "lead": "The 20th century began with Boas and Mead insisting culture shapes almost everything. The counter-attack came from evolutionary psychologists and linguists who argued for universal, evolved human nature. The most important correction came from within psychology: most of what we 'know' about human nature comes from WEIRD (Western, educated, industrialised, rich, democratic) undergraduates. When the same tasks are run in small-scale societies, many results shift.",
+   "verdict": "Some universals are real, but culture shapes even basic perception and reasoning more than the universalists claimed.",
+   "camps": [
+    {
+     "name": "Culture all the way",
+     "status": "losing",
+     "pop": true,
+     "line": "People are blank slates written on by their cultures.",
+     "explain": "Anthropologists from Boas through Mead and Geertz stressed that behaviour, emotion and morality vary enormously, and that biology sets few constraints. The strong form is where most of the public debate about 'nature versus nurture' sits.",
+     "who": "Franz Boas, Margaret Mead, Clifford Geertz, Marshall Sahlins.",
+     "best": "Mead, Coming of Age in Samoa (1928); Geertz, The Interpretation of Cultures (1973).",
+     "evidence": "Hit by Freeman's 1983 critique of Mead's Samoa (contested, but damaging), and by Brown 1991, Human Universals, which listed hundreds of cross-cultural regularities. Twin and cross-cultural work also show stable traits. What survived is that cultures vary hugely."
+    },
+    {
+     "name": "Evolved universals",
+     "status": "partly right",
+     "pop": true,
+     "line": "A shared, evolved human nature sits under the surface of every culture.",
+     "explain": "Humans share language capacity, basic emotions, kin psychology and social instincts. Variation is variation on a theme. Evolutionary psychology adds that the mind has specialised, adapted modules.",
+     "who": "Donald Brown, Noam Chomsky, John Tooby and Leda Cosmides, David Buss, Steven Pinker (popular face).",
+     "best": "Brown, Human Universals (1991); Barkow, Cosmides & Tooby, The Adapted Mind (1992); Pinker, The Blank Slate (2002).",
+     "evidence": "Ekman's universal facial expressions were challenged: Gendron et al. 2014, Psychological Science, found Himba participants did not sort expressions into Western emotion categories. Evans & Levinson 2009, Behavioral and Brain Sciences, argued the claimed language universals are mostly tendencies, not rules."
+    },
+    {
+     "name": "WEIRD and variable",
+     "status": "winning",
+     "pop": false,
+     "line": "Your samples are the outliers; culture and history reshape even basic psychology.",
+     "explain": "Cross-cultural experiments find large differences in fairness norms, perception, analytic versus holistic thinking, and moral reasoning. Western undergraduates are often at the extreme end. This does not deny universals; it says we do not know which are universal until we test beyond the West.",
+     "who": "Joseph Henrich, Steven Heine, Ara Norenzayan; Henrich is the popular carrier.",
+     "best": "Henrich, Heine & Norenzayan 2010, Behavioral and Brain Sciences; Henrich et al. 2005, Behavioral and Brain Sciences (ultimatum games across 15 small-scale societies); Henrich, The WEIRDest People in the World (2020).",
+     "evidence": "The 2005 game studies found offers and rejections varied widely by society, tracking market integration and cooperation norms. Winawer et al. 2007, PNAS, showed that Russian speakers discriminate light and dark blues faster than English speakers. Replication of some WEIRD-effect findings is itself unsettled."
+    }
+   ]
+  },
+  {
+   "title": "Why did human brains get so big?",
+   "lead": "Human brains tripled in size over about two million years, at a huge energy cost. Three stories compete: a social brain, a diet-and-ecology brain, and a cultural brain. Each has a famous popular version. None has beaten the others in primate-wide data, and they may not be rivals.",
+   "verdict": "Open; recent primate-wide analyses weakened the social brain explanation, but culture-and-diet combinations are the current favourites.",
+   "camps": [
+    {
+     "name": "Social brain",
+     "status": "open",
+     "pop": true,
+     "line": "We got big brains to track complicated social lives, which is why groups top out near 150.",
+     "explain": "Primates with larger social groups have larger neocortices, so the brain evolved to manage relationships. The 'Dunbar number' of about 150 for stable human relationships became a pop-business cliché.",
+     "who": "Robin Dunbar; popularised by Malcolm Gladwell (The Tipping Point).",
+     "best": "Dunbar 1992, Journal of Human Evolution; Dunbar 1998, Evolutionary Anthropology.",
+     "evidence": "The group-size and neocortex correlation holds in some datasets. DeCasien et al. 2017, Nature Ecology & Evolution, found that diet (fruit-eating) predicted primate brain size and social group size did not. Dunbar and Shultz replied in 2017, Phil Trans R Soc B, arguing the choice of measures drives the result."
+    },
+    {
+     "name": "Diet and energy",
+     "status": "open",
+     "pop": true,
+     "line": "Better food, meat and cooking paid for the biggest brain in the primate order.",
+     "explain": "Brains are metabolically expensive. Higher-quality diets and cooking let early humans afford them. The expensive tissue hypothesis traded gut size for brain size.",
+     "who": "Leslie Aiello and Peter Wheeler, Richard Wrangham (Catching Fire, 2009), Suzana Herculano-Houzel.",
+     "best": "Aiello & Wheeler 1995, Current Anthropology; Fonseca-Azevedo & Herculano-Houzel 2012, PNAS (raw-food diets cannot support a human-sized brain in a feasible foraging day).",
+     "evidence": "DeCasien et al. 2017 supports a diet link across primates. The expensive tissue trade-off has weak support in later mammal comparisons. Archaeological evidence for controlled fire is debated well before 400,000 years ago, which limits the cooking story."
+    },
+    {
+     "name": "Cultural brain",
+     "status": "open",
+     "pop": false,
+     "line": "Big brains pay for themselves by storing and transmitting learned skills.",
+     "explain": "Across primates, species with more innovation and social learning have larger brains. In humans, accumulated culture makes a large learning brain worth its cost, and culture and brain size could have co-evolved.",
+     "who": "Kevin Laland, Joseph Henrich, Michael Muthukrishna, Carel van Schaik.",
+     "best": "Reader & Laland 2002, PNAS; Muthukrishna et al. 2018, Proceedings of the Royal Society B; Henrich, The Secret of Our Success (2016).",
+     "evidence": "Comparative correlations support it, and models show a feedback loop is plausible. Evidence is mostly correlational and based on small, inconsistent measures of innovation. Fossil and archaeological timing for cultural accumulation remains thin."
+    }
+   ]
+  },
+  {
+   "title": "Who first reached the Americas, and when?",
+   "lead": "For decades the textbook answer was Clovis-first: big-game hunters crossing an ice-free corridor about 13,000 years ago and sweeping south. It was enforced as orthodoxy. It broke in the 1990s with Monte Verde and in the 2020s with more sites and dates. The remaining fight is how early, and by what route.",
+   "verdict": "Clovis-first is dead; people were present well before 15,000 years ago, and the earlier claims are the live fight.",
+   "camps": [
+    {
+     "name": "Clovis first",
+     "status": "losing",
+     "pop": true,
+     "line": "Humans entered about 13,000 years ago through an ice-free corridor, and Clovis points are the first culture.",
+     "explain": "Clovis points appear suddenly across North America around 13,000 years ago. For most of the 20th century this was treated as the earliest widespread culture, and older claims were dismissed as geological accidents.",
+     "who": "C. Vance Haynes, Paul Martin (overkill hypothesis); Tom Dillehay is the main early challenger.",
+     "best": "Haynes' Clovis-first synthesis (1960s onward); Martin 1967 overkill model.",
+     "evidence": "Killed by Monte Verde, Chile (Dillehay and colleagues, 1997 verification), which was about 14,500 years old, far south of any corridor route. Pedersen et al. 2016, Nature, found the ice-free corridor was not viable until after about 12,600 years ago, too late for Clovis ancestors."
+    },
+    {
+     "name": "Pre-Clovis, 16,000-15,000",
+     "status": "winning",
+     "pop": false,
+     "line": "People arrived by boat or coast during the last glacial period, before the corridor opened.",
+     "explain": "A founding population left Beringia and spread rapidly, likely along the Pacific coast, around 16,000 years ago. Genetic and archaeological evidence fit this window.",
+     "who": "Jon Erlandson, Dillehay, Ben Potter, many geneticists.",
+     "best": "Erlandson et al. 2007, Science (the kelp highway hypothesis); Becerra-Valdivia & Higham 2020, Nature (reviewing radiocarbon dates for early North American occupation).",
+     "evidence": "Multiple sites at 15,000 to 14,000 years, and ancient genomes of Native Americans show a single founding lineage split from Asian relatives about 25,000 years ago. This window now has broad agreement."
+    },
+    {
+     "name": "Very early (over 20,000)",
+     "status": "open",
+     "pop": false,
+     "line": "People were in the Americas at the Last Glacial Maximum, or earlier.",
+     "explain": "Footprints and stone tools suggest humans were in the Americas during the Last Glacial Maximum. If true, the people who arrived then are not clearly linked to later populations.",
+     "who": "Matthew Bennett, Sally Reynolds, Daniel Odess; the Chiquihuite team led by Ciprian Ardelean.",
+     "best": "Bennett et al. 2021, Science (White Sands footprints, 21,000-23,000 years old); Pigati et al. 2023, Science (independent dating of the footprints); Ardelean et al. 2020, Nature (Chiquihuite Cave, Mexico).",
+     "evidence": "The 2021 White Sands date used seeds and was criticised for possible reservoir effects. The 2023 Science follow-up used pollen and optically stimulated luminescence and agreed on a Last Glacial Maximum age. Chiquihuite's stone-tool claim, about 30,000 years, is still contested as to whether the pieces are artifacts."
+    }
+   ]
+  },
+  {
+   "title": "Did farming and cities make us unequal and unhealthy?",
+   "lead": "One story says farming was humanity’s worst mistake: equal foragers became unequal, sicker peasants under kings. Another says the early past was not a single egalitarian Eden at all, and people experimented with many arrangements. A third, the progress story, treats farming as the start of everything good. Skeletons, house sizes and settlements now give real evidence.",
+   "verdict": "Early farming did make many people shorter and sicker, and wealth inequality generally rose with farming and storage, but not in one step or everywhere; the past was more varied than either Eden or progress.",
+   "camps": [
+    {
+     "name": "Worst mistake",
+     "status": "partly right",
+     "pop": true,
+     "line": "Farming ended an age of equal, healthy foragers and gave us disease, drudgery and kings.",
+     "explain": "Foragers worked less, ate a wider diet and had little to hoard. Grain, storage and sedentism brought epidemics, malnutrition and hierarchy.",
+     "who": "Jared Diamond, James C. Scott; Yuval Noah Harari (Sapiens) in public",
+     "best": "Diamond 1987, \"The worst mistake in the history of the human race\" (Discover); Scott 2017, Against the Grain",
+     "evidence": "Mummert et al. 2011 (Economics & Human Biology), reviewing skeletal studies: stature and health markers generally declined with the shift to farming. Kohler et al. 2017 (Nature), using house sizes: wealth inequality rose with farming, especially in Old World societies with draft animals."
+    },
+    {
+     "name": "Many experiments",
+     "status": "partly right",
+     "pop": false,
+     "line": "Our ancestors tried many social forms, including big egalitarian towns; inequality was a choice, not destiny.",
+     "explain": "Some foragers built monuments and had chiefs; some early cities lacked palaces. People moved between arrangements seasonally, so there was no one-way fall.",
+     "who": "David Graeber and David Wengrow",
+     "best": "Graeber & Wengrow 2021, The Dawn of Everything",
+     "evidence": "Strong on the variety point: Göbekli Tepe was built by foragers; some large early settlements, like Çatalhöyük, show little sign of rank. Critics (e.g. reviewers in archaeology and economics) argue it plays down the broad correlation between farming, storage and inequality that Kohler et al. found."
+    },
+    {
+     "name": "Progress",
+     "status": "losing",
+     "pop": true,
+     "line": "Farming freed us from the hand-to-mouth life and made civilisation possible.",
+     "explain": "Surplus allowed specialists, writing, science and larger populations, so the transition was a clear improvement.",
+     "who": "Older textbook story; Steven Pinker in a long-run sense",
+     "best": "V. Gordon Childe 1936, Man Makes Himself (the \"Neolithic Revolution\")",
+     "evidence": "True of the very long run, but not of the lives of early farmers, whose health and stature fell for thousands of years (Mummert et al. 2011). The transition was also slow and patchy, not a revolution (Fuller and others on drawn-out domestication)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+  "discipline": "Geography",
+  "overview": "Human and economic geography argues about whether place causes outcomes or merely hosts them. The old pop story is geographic determinism: climate, rivers and terrain explain why some nations got ahead. The modern field rejects the crude version but has brought geography back through trade costs, disease, agglomeration and neighborhood effects, measured with better data. The live fights are about what policy should do about places.",
+  "debates": [
+    {
+      "title": "Does geography determine national destiny?",
+      "lead": "Jared Diamond's Guns, Germs, and Steel (1997) and Tim Marshall's Prisoners of Geography (2015) carry the popular story that land, climate and crops explain the fortunes of nations. Academic geography spent a century escaping environmental determinism. Economists then tested it against institutions.",
+      "verdict": "Institutions explain most of the gap; geography matters mostly through channels such as disease and trade costs rather than as destiny.",
+      "camps": [
+        {
+          "name": "Geographic determinism",
+          "status": "losing",
+          "pop": true,
+          "line": "Climate, crops and terrain set the course of civilizations.",
+          "explain": "Continents with domesticable plants and animals, and east-west axes, advanced first. Tropical climates hold countries back. The view is held in popular history and in geopolitical writing.",
+          "who": "Jared Diamond; Tim Marshall; Ellsworth Huntington (discredited early form).",
+          "best": "Diamond, Guns, Germs, and Steel, 1997; Marshall, Prisoners of Geography, 2015.",
+          "evidence": "Acemoglu, Johnson and Robinson (QJE 2002, 'Reversal of Fortune') showed that regions that were richest around 1500 became relatively poor after colonization, the reverse of what a fixed geography story predicts. Diamond's work explains early advantages well but not modern divergence among similar places."
+        },
+        {
+          "name": "Institutions rule",
+          "status": "winning",
+          "pop": false,
+          "line": "Property rights and political institutions explain wealth, and geography works only through them.",
+          "explain": "Once institutional quality is controlled for, geography adds little to income. Colonial history shaped which institutions took hold.",
+          "who": "Daron Acemoglu and James Robinson; Dani Rodrik; Douglass North.",
+          "best": "Acemoglu, Johnson and Robinson, 'The Colonial Origins of Comparative Development', AER 2001; Rodrik, Subramanian and Trebbi, 'Institutions Rule', Journal of Economic Growth 2004; Acemoglu and Robinson, Why Nations Fail, 2012.",
+          "evidence": "The 2001 paper used settler mortality as an instrument for institutions. Albouy (AER 2012) criticized the mortality data, and exclusion-restriction doubts remain: disease environments could affect income directly. The institutions result is strong but not airtight."
+        },
+        {
+          "name": "Geography through channels",
+          "status": "partly right",
+          "pop": false,
+          "line": "Disease burden, access to the sea and ruggedness change what is possible, even if they do not seal fate.",
+          "explain": "Malaria and distance from ports raise costs for development. Geography can help or hurt depending on era and institutions.",
+          "who": "Jeffrey Sachs; John Gallup; Nathan Nunn and Diego Puga.",
+          "best": "Gallup, Sachs and Mellinger, 'Geography and Economic Development', 1999; Nunn and Puga, 'Ruggedness: The Blessing of Bad Geography in Africa', Review of Economics and Statistics 2012.",
+          "evidence": "Nunn and Puga found rugged terrain hurts income elsewhere but helped African countries by protecting people from slave raids, so the same feature has opposite effects depending on history."
+        }
+      ]
+    },
+    {
+      "title": "Is the world flat?",
+      "lead": "Thomas Friedman's The World Is Flat (2005) said internet and cheap shipping made location irrelevant. Geographers and economists pushed back: activity clusters more than ever. Distance still shapes trade, cities and jobs.",
+      "verdict": "Distance and clustering still matter. The world is spiky.",
+      "camps": [
+        {
+          "name": "Death of distance",
+          "status": "losing",
+          "pop": true,
+          "line": "Technology has made place irrelevant, and anyone anywhere can compete.",
+          "explain": "Cheap communication means firms can locate anywhere and workers can work from anywhere. The idea resurfaced in remote-work predictions.",
+          "who": "Thomas Friedman; Frances Cairncross.",
+          "best": "Cairncross, The Death of Distance, 1997; Friedman, The World Is Flat, 2005.",
+          "evidence": "Disdier and Head (Review of Economics and Statistics 2008) meta-analyzed gravity-model studies and found that the negative effect of distance on trade has not fallen over a century and may have risen."
+        },
+        {
+          "name": "Spiky world and agglomeration",
+          "status": "winning",
+          "pop": false,
+          "line": "Talent, firms and innovation pile into a few places, and proximity pays.",
+          "explain": "Dense places raise productivity through matching, sharing and learning. Core-periphery patterns arise from trade costs and scale economies.",
+          "who": "Paul Krugman; Edward Glaeser; Enrico Moretti; Richard Florida.",
+          "best": "Krugman, 'Increasing Returns and Economic Geography', Journal of Political Economy 1991; Florida, 'The World Is Spiky', The Atlantic 2005; Glaeser, Triumph of the City, 2011; Moretti, The New Geography of Jobs, 2012.",
+          "evidence": "Innovation and high-wage jobs remain concentrated. Moretti documents large wage and innovation-multiplier effects for city clusters. Remote work experiments (Bloom et al., QJE 2015, Ctrip) found productivity gains from working at home, so some jobs genuinely do detach from place."
+        }
+      ]
+    },
+    {
+      "title": "Should we help struggling places or help people leave them?",
+      "lead": "After manufacturing decline, a split opened. One side says mobility is the answer: help people move to where the jobs are. The other says places matter: communities have value, workers do not move easily, and local collapse has lasting costs. Evidence supports parts of both.",
+      "verdict": "Open. People move less than models assume, and place effects on children are real; but place-based programs have a mixed record.",
+      "camps": [
+        {
+          "name": "People-based policy",
+          "status": "partly right",
+          "pop": true,
+          "line": "Don't prop up declining towns; help people move and train for growing places.",
+          "explain": "Aid should follow people. Subsidizing a place keeps workers stuck where productivity is low. This is the textbook economist view.",
+          "who": "Edward Glaeser; Tyler Cowen (mobility argument); Enrico Moretti has more mixed views.",
+          "best": "Glaeser and Gottlieb, 'The Wealth of Cities', Journal of Economic Literature 2009; Kline and Moretti, QJE 2014 on Tennessee Valley Authority (mixed).",
+          "evidence": "Chetty, Hendren and Katz (AER 2016) show that moving children to lower-poverty neighborhoods raises later earnings, supporting moving. But Notowidigdo (Journal of Labor Economics 2020) found that local job losses are absorbed largely by falling wages and housing values and not by out-migration, since people rarely move."
+        },
+        {
+          "name": "Place-based policy",
+          "status": "open",
+          "pop": false,
+          "line": "Communities have value, and targeted investment in distressed places can create durable jobs.",
+          "explain": "When people don't move, local shocks last. Policy such as enterprise zones and public investment aims to raise local demand.",
+          "who": "Timothy Bartik; Benjamin Austin, Edward Glaeser and Lawrence Summers; Andrés Rodríguez-Pose.",
+          "best": "Austin, Glaeser and Summers, 'Jobs for the Heartland', Brookings Papers 2018; Bartik, Who Benefits from Economic Development Incentives?, 1991.",
+          "evidence": "Kline and Moretti (QJE 2014) found that the Tennessee Valley Authority produced lasting manufacturing gains, but with large per-job cost. Busso, Gregory and Kline (AER 2013) found Empowerment Zones raised local employment and wages without large displacement. Many other programs produce little."
+        }
+      ]
+    },
+    {
+      "title": "Why are cities so expensive, and does new housing help?",
+      "lead": "The folk story has two halves: developers and gentrification push out the poor, and greedy landlords set prices. Urban economists point to restricted supply in high-demand metros. The dispute concerns how much new market-rate construction helps nearby residents.",
+      "verdict": "Supply restriction explains much of the cost gap, and new buildings tend to lower nearby rents; displacement fears have thinner evidence than assumed.",
+      "camps": [
+        {
+          "name": "Supply is the constraint",
+          "status": "winning",
+          "pop": false,
+          "line": "Zoning and permitting keep housing scarce, which drives prices and keeps workers out of productive cities.",
+          "explain": "High-productivity cities such as San Francisco and New York add little housing. Prices reflect scarcity, and rents spill across the region.",
+          "who": "Edward Glaeser; Joseph Gyourko; Chang-Tai Hsieh and Enrico Moretti.",
+          "best": "Glaeser and Gyourko, 'The Economic Implications of Housing Supply', Journal of Economic Perspectives 2018; Hsieh and Moretti, 'Housing Constraints and Spatial Misallocation', AEJ: Macroeconomics 2019.",
+          "evidence": "Hsieh and Moretti estimate that tight land-use rules in New York, San Francisco and San Jose cut US aggregate growth by about 36% between 1964 and 2009. Asquith, Mast and Reed (Review of Economics and Statistics 2021) found that new buildings lower rents in nearby units relative to those farther away. The 36% figure rests on a structural model that some economists consider too large."
+        },
+        {
+          "name": "New building and gentrification",
+          "status": "partly right",
+          "pop": true,
+          "line": "New luxury development raises neighborhood prices and displaces long-time residents.",
+          "explain": "Visible new buildings signal change, attract higher-income people and raise local amenities and rents. Tenants fear displacement.",
+          "who": "Tenant and anti-displacement organizers; Lance Freeman (careful empirical work on displacement).",
+          "best": "Freeman and Braconi, 'Gentrification and Displacement', Journal of the American Planning Association 2004.",
+          "evidence": "Freeman and Braconi found that low-income residents of gentrifying New York neighborhoods were not more likely to move than those elsewhere. Newer work finds mixed effects, with some increases in rents and moves for renters in some places. Both sides use local data from specific cities, so generalization is hard."
+        }
+      ]
+    }
+  ]
+}

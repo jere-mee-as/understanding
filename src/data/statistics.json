@@ -1,0 +1,181 @@
+{
+  "discipline": "Statistics",
+  "overview": "Statistics fights about what probability means, what an inference licenses, and whether the goal is explanation or prediction. The simple stories are 'p < 0.05 means it's real', 'correlation is not causation, end of story', and 'with enough data the numbers speak for themselves'. The field itself has moved to a messier consensus: Bayesian and frequentist tools are both used, significance thresholds are widely distrusted, causal claims need explicit assumptions, and prediction-first machine learning has taken over a large share of the territory. Many of the sharpest reforms came out of the replication crisis, not out of theory.",
+  "debates": [
+    {
+      "title": "Frequentist or Bayesian?",
+      "lead": "Is probability a long-run frequency or a degree of belief? Frequentists (Fisher, Neyman, Pearson) built the tests and confidence intervals used in nearly every textbook. Bayesians say you should compute the probability of hypotheses given data, with priors. The pop story is a tribal war; practice is increasingly a toolbox.",
+      "verdict": "Pragmatic pluralism: Bayesian methods have won ground in modelling and decision problems, frequentist guarantees survive as a check, and few leaders still argue for a pure camp.",
+      "camps": [
+        {
+          "name": "Frequentism",
+          "status": "partly right",
+          "pop": true,
+          "line": "Probability is about long-run frequencies of procedures, and priors are subjective noise.",
+          "explain": "Judge methods by how they perform over repeated sampling: error rates, coverage, power. It gives objective-looking guarantees without a prior. It is the default in intro courses, clinical trials and regulatory science.",
+          "who": "R.A. Fisher, Jerzy Neyman, Egon Pearson; Deborah Mayo as a modern philosophical defender (error statistics).",
+          "best": "Neyman and Pearson 1933, 'On the problem of the most efficient tests of statistical hypotheses', Phil. Trans. Royal Society; Mayo, Statistical Inference as Severe Testing (2018).",
+          "evidence": "Calibration and long-run error control are real virtues; regulators rely on them. Weakness: p-values and confidence intervals are routinely misread as posterior probabilities (Greenland et al. 2016, European Journal of Epidemiology, 'Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations')."
+        },
+        {
+          "name": "Subjective Bayesianism",
+          "status": "partly right",
+          "pop": false,
+          "line": "Probability is rational degree of belief; coherent reasoning means updating priors by Bayes' rule.",
+          "explain": "De Finetti and Savage showed that coherent betting behaviour implies probabilities and expected utility. It handles one-off events and makes assumptions explicit. Objections: where do priors come from, and do real people have them?",
+          "who": "Bruno de Finetti, Leonard Savage, Dennis Lindley; popularised by Nate Silver (The Signal and the Noise, 2012) and Sharon McGrayne's history.",
+          "best": "de Finetti, Theory of Probability (1974); Savage, The Foundations of Statistics (1954).",
+          "evidence": "Dutch-book and representation theorems (de Finetti 1937; Savage 1954). Practical track record in forecasting and in Bayesian clinical designs."
+        },
+        {
+          "name": "Pragmatic Bayes",
+          "status": "winning",
+          "pop": false,
+          "line": "Use Bayesian models for what they do well and check them by frequentist-style tests.",
+          "explain": "Priors are modelling assumptions, not beliefs, and the model is checked against data. Fast MCMC (Stan) made hierarchical models routine. Most applied statisticians now work this way without calling it a side.",
+          "who": "Andrew Gelman, Donald Rubin, Bradley Efron (as bridge-builder).",
+          "best": "Gelman et al., Bayesian Data Analysis (1995, 3rd ed. 2013); Gelman and Shalizi, 'Philosophy and the practice of Bayesian statistics' (2013, British J. Math. Stat. Psych.); Efron 2013, 'A 250-year argument', Biometrika.",
+          "evidence": "Widespread adoption of hierarchical and multilevel models and of Stan (Carpenter et al. 2017, J. Statistical Software). Calibration checks show Bayesian posteriors can be well calibrated if models are right."
+        }
+      ]
+    },
+    {
+      "title": "Is p < 0.05 the problem, and what replaces it?",
+      "lead": "The 0.05 threshold is a convention Fisher floated in the 1920s. The replication crisis made it the main suspect. The pop version, 'p < 0.05 means the result is true', is wrong; the reform fight is over whether to tighten, scrap, or contextualise.",
+      "verdict": "The old convention lost; there is no agreed replacement, and the active proposals are 'show effect sizes and uncertainty' and 'justify your threshold'.",
+      "camps": [
+        {
+          "name": "Keep p < 0.05",
+          "status": "losing",
+          "pop": true,
+          "line": "A significant result is a finding; a non-significant one is a null.",
+          "explain": "Binary significance gives a simple rule for journals, regulators and students. It also invites p-hacking and publication bias. Critics say it turned an inference tool into a gate.",
+          "who": "Journal and regulatory convention; Fisher (who was more nuanced) and Neyman-Pearson (who wanted pre-set error rates).",
+          "best": "Fisher, Statistical Methods for Research Workers (1925).",
+          "evidence": "Open Science Collaboration 2015, Science: 100 psychology studies replicated; 97% of the originals were significant but only 36% of replications were. Ioannidis 2005, PLoS Medicine, 'Why most published research findings are false'. ASA statement (Wasserstein and Lazar 2016, American Statistician) said p-values do not measure probability the hypothesis is true."
+        },
+        {
+          "name": "Lower the threshold",
+          "status": "partly right",
+          "pop": false,
+          "line": "Make it p < 0.005 for new claims and keep the machinery.",
+          "explain": "Moves the bar so false-positive rates are lower in fields with low prior odds. Cheap to adopt. Critics say it increases false negatives and entrenches thresholds.",
+          "who": "Daniel Benjamin, Valen Johnson, Eric-Jan Wagenmakers (as co-authors).",
+          "best": "Benjamin et al. 2018, 'Redefine statistical significance', Nature Human Behaviour.",
+          "evidence": "Based on Bayes factors: p = 0.05 corresponds to weak evidence, often below 3:1 to 5:1 for typical tests. Reply by Lakens et al. 2018, Nature Human Behaviour: 'Justify your alpha' instead of using a universal number."
+        },
+        {
+          "name": "Abandon thresholds",
+          "status": "partly right",
+          "pop": false,
+          "line": "Stop dichotomising; report estimates and intervals and think about compatibility.",
+          "explain": "Dichotomising evidence turns 'p = 0.049 vs 0.051' into a difference of kind. Proposed fix: estimation, uncertainty intervals, and pre-registration, with decisions made explicit.",
+          "who": "Sander Greenland, Blakeley McShane, Valentin Amrhein; Andrew Gelman.",
+          "best": "McShane et al. 2019, 'Abandon statistical significance', American Statistician; Amrhein, Greenland and McShane 2019, 'Retire statistical significance', Nature.",
+          "evidence": "Gelman and Stern 2006: 'The difference between significant and not significant is not itself statistically significant'. Adoption has been uneven: journals and regulators still use thresholds."
+        }
+      ]
+    },
+    {
+      "title": "Can you get causation from data?",
+      "lead": "'Correlation is not causation' is the folk slogan, and it is true but unhelpful. Statisticians split on how to get from association to cause. Randomised experiments are the gold standard; the fight is over observational data and which formalism to trust.",
+      "verdict": "The frameworks are now seen as complementary; the credibility-revolution view (design beats modelling) has the strongest empirical record.",
+      "camps": [
+        {
+          "name": "Randomise, or don't claim",
+          "status": "partly right",
+          "pop": true,
+          "line": "Only a randomised trial gives you causation; everything else is correlation.",
+          "explain": "Fisher's randomisation breaks confounding by design. It is the standard in medicine. But many questions cannot be randomised, and trials have their own external-validity limits.",
+          "who": "R.A. Fisher; the evidence-based medicine tradition; Angus Deaton and Nancy Cartwright as critics of over-reliance.",
+          "best": "Fisher, The Design of Experiments (1935).",
+          "evidence": "LaLonde 1986, American Economic Review, found that observational methods failed to recover a randomised job-training estimate. Counter-evidence: well-designed natural experiments often line up with trials, though results are mixed."
+        },
+        {
+          "name": "Design-based / potential outcomes",
+          "status": "winning",
+          "pop": false,
+          "line": "Find a credible source of as-good-as-random variation and state your assumptions.",
+          "explain": "Define each unit's outcomes under treatment and control (Rubin), then use instruments, discontinuities, differences-in-differences and similar designs. The 'credibility revolution' in economics. Strength: it shifts argument to identifying assumptions.",
+          "who": "Donald Rubin, Joshua Angrist, Guido Imbens, David Card (Nobel Prize in economics 2021).",
+          "best": "Rubin 1974, Journal of Educational Psychology; Angrist and Pischke, Mostly Harmless Econometrics (2009); Imbens and Rubin, Causal Inference for Statistics, Social, and Biomedical Sciences (2015).",
+          "evidence": "Card and Krueger 1994, AER, minimum wage natural experiment on fast-food employment (contested but a template for the method). 2021 Nobel citing the approach."
+        },
+        {
+          "name": "Structural causal models (DAGs)",
+          "status": "partly right",
+          "pop": false,
+          "line": "Draw the causal graph; then the data and the graph together tell you what you can identify.",
+          "explain": "Pearl's framework represents causal assumptions as graphs and gives rules (do-calculus, backdoor criterion) for when an effect is identifiable. It is dominant in epidemiology and computer science. Critics in economics say graphs hide how plausible the assumptions are.",
+          "who": "Judea Pearl; Miguel Hernán and James Robins in epidemiology; Pearl popularised it in The Book of Why (2018, with Dana Mackenzie).",
+          "best": "Pearl, Causality (2000, 2nd ed. 2009); Pearl 1995, Biometrika, 'Causal diagrams for empirical research'.",
+          "evidence": "Provable identification results (do-calculus is complete: Shpitser and Pearl 2006; Huang and Valtorta 2006). The two frameworks are formally equivalent in many settings; the dispute is about usability."
+        }
+      ]
+    },
+    {
+      "title": "Explain the world, or just predict it?",
+      "lead": "Classical statistics fitted simple models and interpreted coefficients. Machine learning optimises prediction and treats the model as a black box. The simple story on each side: 'models should be understood' versus 'if it predicts, who cares'. The field has partly merged into statistical learning but the divide persists.",
+      "verdict": "Prediction-first methods are winning on prediction tasks; the case for interpretable models remains strong where decisions, causes or accountability matter.",
+      "camps": [
+        {
+          "name": "Data modelling",
+          "status": "partly right",
+          "pop": false,
+          "line": "A statistical model should represent how the data were generated, so we can interpret it.",
+          "explain": "Assume a stochastic model, estimate parameters, interpret them. Breiman called this the dominant culture in statistics departments. It gives inference and uncertainty, which matter in medicine and policy.",
+          "who": "Most of 20th-century academic statistics; Cox in his reply to Breiman.",
+          "best": "Cox and Hinkley, Theoretical Statistics (1974); Cox's discussion of Breiman 2001.",
+          "evidence": "Interpretable models stay competitive on tabular data in some tasks, and Rudin 2019, Nature Machine Intelligence, argues that for high-stakes decisions interpretable models should be used instead of explaining black boxes."
+        },
+        {
+          "name": "Algorithmic modelling",
+          "status": "winning",
+          "pop": true,
+          "line": "Judge a model by out-of-sample accuracy, not by whether it looks like reality.",
+          "explain": "Random forests, boosting and deep networks beat simple parametric models on many prediction problems. The 'bitter lesson' form is that scale and compute beat hand-built structure. The pop version, 'with enough data, no theory is needed', overreaches.",
+          "who": "Leo Breiman, Jerome Friedman, Trevor Hastie, Rob Tibshirani; deep-learning figures like Geoffrey Hinton and Yann LeCun.",
+          "best": "Breiman 2001, 'Statistical modeling: the two cultures', Statistical Science; Hastie, Tibshirani and Friedman, The Elements of Statistical Learning (2001).",
+          "evidence": "ImageNet 2012 (Krizhevsky, Sutskever and Hinton) showed deep nets far ahead. Overparameterised models generalise despite theory warning against it: Zhang et al. 2017 (ICLR); Belkin et al. 2019, PNAS, 'double descent'."
+        },
+        {
+          "name": "Hybrid / statistical learning theory",
+          "status": "open",
+          "pop": false,
+          "line": "We need predictive power and guarantees about when it breaks.",
+          "explain": "Conformal prediction, causal ML and double machine learning try to attach valid uncertainty and causal meaning to flexible models. Whether guarantees can keep pace with deep learning is open.",
+          "who": "Vladimir Vovk, Larry Wasserman, Victor Chernozhukov.",
+          "best": "Chernozhukov et al. 2018, 'Double/debiased machine learning', Econometrics Journal; Vovk, Gammerman and Shafer, Algorithmic Learning in a Random World (2005).",
+          "evidence": "Valid coverage guarantees for conformal prediction under exchangeability. Distribution shift is the main weakness."
+        }
+      ]
+    },
+    {
+      "title": "Does big data make theory obsolete?",
+      "lead": "In 2008 Chris Anderson (Wired) declared 'the end of theory': with petabytes, correlations are enough. The pop version still circulates. Statisticians have a standard reply: more data does not fix bias, selection or a moving target.",
+      "verdict": "The 'end of theory' claim lost; Google Flu Trends is the usual exhibit.",
+      "camps": [
+        {
+          "name": "Data speaks for itself",
+          "status": "losing",
+          "pop": true,
+          "line": "With enough data, correlations are all you need.",
+          "explain": "Large scale supposedly removes sampling error and the need for causal models. Tech firms used this attitude early on. It ignores that big found datasets are not random samples.",
+          "who": "Chris Anderson, 'The end of theory' (Wired, 2008); Viktor Mayer-Schönberger and Kenneth Cukier, Big Data (2013).",
+          "best": "Anderson 2008; Ginsberg et al. 2009, Nature, Google Flu Trends.",
+          "evidence": "Lazer et al. 2014, Science, 'The parable of Google Flu': GFT overestimated flu prevalence badly in 2012-13 (more than double CDC figures) and was beaten by a lagged CDC baseline. Meng 2018, Annals of Applied Statistics, 'Statistical paradox of big data': a large biased sample can be worse than a small random one."
+        },
+        {
+          "name": "Data plus design",
+          "status": "winning",
+          "pop": false,
+          "line": "Volume helps only if you know how the data were collected.",
+          "explain": "Size reduces variance, not bias. Representativeness, measurement and the data-generating process still decide whether you can infer anything. Methods now try to correct for selection.",
+          "who": "Xiao-Li Meng, David Hand, Andrew Gelman.",
+          "best": "Meng 2018; Hand, Dark Data (2020).",
+          "evidence": "Meng's identity shows error depends on a data-defect correlation and on population size, not only sample size. Election polls: Bradley et al. 2021, Nature, found that big surveys (Axios-Ipsos and Census Household Pulse) overstated vaccine uptake despite huge sample sizes."
+        }
+      ]
+    }
+  ]
+}

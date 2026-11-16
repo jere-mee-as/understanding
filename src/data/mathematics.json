@@ -1,0 +1,164 @@
+{
+  "discipline": "Mathematics",
+  "overview": "Mathematics looks like the one field with no fights: a proof is a proof. The fights are one level down, about what the proofs are about, what the axioms should be, and what counts as proof at all. Pop accounts (Hardy's Platonism, 'math is the language of the universe', 'Gödel proved nothing is certain') give a tidy story in which math is either discovered or invented and is either rock solid or collapsing. Working mathematicians mostly shrug and use ZFC, while a live minority pushes type theory, computer-checked proofs and now AI. The sharpest recent fights are about verification: who gets to say a proof is correct.",
+  "debates": [
+    {
+      "title": "What are mathematical objects: discovered or invented?",
+      "lead": "Is the number 7 something out there, or something we built? The popular story is a binary: Platonists say discovered, formalists say invented. Most working mathematicians talk like Platonists on weekdays and formalists on weekends. Philosophers have not settled it, and no experiment can.",
+      "verdict": "Open, and likely to stay open; the live positions are Platonism and structuralism, while naive formalism lost its technical program in 1931.",
+      "camps": [
+        {
+          "name": "Platonism",
+          "status": "open",
+          "pop": true,
+          "line": "The primes were there before anyone counted them; we discover mathematics the way astronomers discover planets.",
+          "explain": "Mathematical objects exist independently of minds, and proofs report facts about them. The pull is the felt objectivity of math and its odd applicability to physics. The standard objection is epistemic: how would we ever make contact with causally inert objects?",
+          "who": "Gödel, Hardy, Penrose; popularised by Roger Penrose and Max Tegmark, and by the 'math is the language of the universe' genre.",
+          "best": "Gödel, 'What is Cantor's continuum problem?' (1947); Penrose, The Road to Reality (2004).",
+          "evidence": "Evidence is mostly argument. The Quine-Putnam indispensability argument (math is indispensable to our best science, so commit to it). Against it: Benacerraf 1973, 'Mathematical Truth', Journal of Philosophy, the epistemological challenge. No empirical result decides it."
+        },
+        {
+          "name": "Formalism",
+          "status": "losing",
+          "pop": false,
+          "line": "Mathematics is the manipulation of symbols by rules; 'truth' just means derivable.",
+          "explain": "Hilbert's program tried to ground all of math in finite, provably consistent formal systems. The aim was to make worries about infinity and existence go away. As a foundational program it failed; as a working attitude ('check the rules') it survives.",
+          "who": "David Hilbert; Haskell Curry; Abraham Robinson in a mild form.",
+          "best": "Hilbert and Ackermann, Grundzüge der theoretischen Logik (1928).",
+          "evidence": "Gödel 1931, 'Über formal unentscheidbare Sätze...', Monatshefte für Mathematik und Physik: second incompleteness theorem shows a sufficiently strong consistent system cannot prove its own consistency, killing Hilbert's original program. Gentzen 1936 got a consistency proof for arithmetic only by using transfinite induction up to epsilon-zero."
+        },
+        {
+          "name": "Structuralism",
+          "status": "partly right",
+          "pop": false,
+          "line": "Math is about structures and the relations in them, not about what the elements are.",
+          "explain": "Numbers do not have intrinsic natures; the number 2 is a position in the natural-number structure. It sidesteps the question of what the objects 'are' and fits how category theory and modern algebra are actually practised. Critics say it just relocates the Platonism or the problem of identity.",
+          "who": "Paul Benacerraf, Stewart Shapiro, Michael Resnik; Saunders Mac Lane in practice.",
+          "best": "Benacerraf, 'What Numbers Could Not Be' (1965); Shapiro, Philosophy of Mathematics: Structure and Ontology (1997).",
+          "evidence": "Fits the practice, where objects are defined up to isomorphism, and the success of categorical thinking. Not testable; the evidence is explanatory fit."
+        },
+        {
+          "name": "Intuitionism / constructivism",
+          "status": "partly right",
+          "pop": false,
+          "line": "Math is a mental construction, so to claim something exists you must be able to build it.",
+          "explain": "Rejects the law of excluded middle for infinite domains. Mainstream math rejected the philosophy but kept the technology: constructive proofs give algorithms, and proof assistants run on constructive type theory.",
+          "who": "L.E.J. Brouwer, Arend Heyting, Errett Bishop.",
+          "best": "Bishop, Foundations of Constructive Analysis (1967).",
+          "evidence": "Bishop showed much of analysis can be redone constructively. The philosophy lost the argument in the 1920s (Hilbert: taking excluded middle from mathematicians is like taking the telescope from the astronomer), but the practice won in computer science via Curry-Howard."
+        }
+      ]
+    },
+    {
+      "title": "Is set theory the foundation, or just one option?",
+      "lead": "Since the early 1900s the default answer is ZFC, sets all the way down. Category theorists and type theorists say that is an accident of history and mathematicians don't think in sets. The popular claim 'all of math reduces to set theory' is true as a matter of encoding and misleading as a matter of practice.",
+      "verdict": "ZFC remains the working default, but type-theoretic foundations are winning ground wherever proofs are checked by machine.",
+      "camps": [
+        {
+          "name": "ZFC set theory",
+          "status": "winning",
+          "pop": true,
+          "line": "Everything in math can be encoded in sets, and the axioms are good enough for all of it.",
+          "explain": "Zermelo-Fraenkel with Choice is the shared reference standard: if a result is a theorem, it is a theorem of ZFC. Its main virtue is a common language and a measure of consistency strength. Its main vice is that encodings (the number 2 as a set) are arbitrary.",
+          "who": "Zermelo, Fraenkel, Gödel, Cohen; Bourbaki in textbook practice.",
+          "best": "Zermelo 1908; Kunen, Set Theory (1980).",
+          "evidence": "Nearly all published mathematics is ZFC-formalisable. Large-cardinal consistency strength gives a well-ordered scale for comparing theories."
+        },
+        {
+          "name": "Category / topos foundations",
+          "status": "partly right",
+          "pop": false,
+          "line": "Structures and the maps between them are primary; sets are one example.",
+          "explain": "Lawvere proposed axiomatising categories of sets and functions directly. Category theory is now the working language of algebraic geometry, topology and much of algebra, even if the foundational version didn't replace ZFC.",
+          "who": "F. William Lawvere, Saunders Mac Lane, Alexander Grothendieck (in practice).",
+          "best": "Lawvere, 'An elementary theory of the category of sets' (1964); Mac Lane, Categories for the Working Mathematician (1971).",
+          "evidence": "Adopted as language rather than as foundation. Grothendieck-style geometry needs universes beyond ZFC, which fuelled the debate."
+        },
+        {
+          "name": "Univalent / type theory",
+          "status": "open",
+          "pop": false,
+          "line": "Foundations should be built for proofs that machines can check, and equivalent things should be equal.",
+          "explain": "Voevodsky's univalence axiom treats isomorphic structures as identical, which is how mathematicians already talk. It runs naturally in proof assistants like Coq, Agda and Lean. Whether it displaces ZFC for ordinary mathematicians is unclear.",
+          "who": "Vladimir Voevodsky, Thierry Coquand, Steve Awodey; Kevin Buzzard as an advocate of formalisation.",
+          "best": "The Univalent Foundations Program, Homotopy Type Theory (2013); Voevodsky's work on the univalence axiom (2010).",
+          "evidence": "Practical track record: Lean's mathlib library, the Liquid Tensor Experiment (completed 2022, checking a theorem of Clausen and Scholze). Lean uses a dependent type theory, not HoTT proper. Unproven for the whole of research mathematics."
+        }
+      ]
+    },
+    {
+      "title": "Is there a fact of the matter about the Continuum Hypothesis?",
+      "lead": "Cantor asked whether any infinite size sits between the integers and the real numbers. In 1963 Cohen proved the standard axioms cannot settle it. The pop version, 'Gödel showed some things can never be known', treats this as proof that math has holes. Set theorists split on whether the question is meaningful and whether new axioms can answer it.",
+      "verdict": "Open. The two camps both have serious programs, and no argument has persuaded the other side.",
+      "camps": [
+        {
+          "name": "CH has a true answer",
+          "status": "open",
+          "pop": false,
+          "line": "The axioms are incomplete, not the universe; we just need better axioms.",
+          "explain": "There is one real universe of sets and CH is true or false in it. Strong axioms such as large cardinals have settled lesser questions, so the same approach may settle this one. Woodin's Ultimate L program is the leading attempt, and its conclusions have shifted with the technical results.",
+          "who": "Gödel, Hugh Woodin, Donald A. Martin.",
+          "best": "Woodin, 'The continuum hypothesis' (Notices AMS, 2001); Woodin's Ultimate L (2010 on).",
+          "evidence": "Gödel 1938 showed CH is consistent with ZF; Cohen 1963 showed its negation is too. Large cardinals settle projective determinacy (Martin-Steel 1989; Woodin 1980s) but not CH."
+        },
+        {
+          "name": "Multiverse view",
+          "status": "open",
+          "pop": false,
+          "line": "CH is not true or false; it holds in some universes of sets and fails in others.",
+          "explain": "Forcing produces many models of set theory, each as legitimate as the next. The question 'is CH true' is then as empty as asking if the parallel postulate is true. It is a minority position among set theorists but sophisticated.",
+          "who": "Joel David Hamkins, Sy-David Friedman.",
+          "best": "Hamkins, 'The set-theoretic multiverse', Review of Symbolic Logic (2012).",
+          "evidence": "Forcing's power (Cohen 1963) and the huge variety of models. Critics (Woodin) argue the multiverse cannot make sense of the unique natural numbers."
+        },
+        {
+          "name": "Pragmatism / ignore it",
+          "status": "partly right",
+          "pop": false,
+          "line": "It doesn't matter; nothing outside set theory depends on it.",
+          "explain": "Most working mathematicians never meet CH. A few do: Whitehead's problem for groups is independent of ZFC (Shelah 1974), and some questions in operator algebras and topology have turned out independent too. That is a reminder that independence reaches beyond logic.",
+          "who": "Most analysts and algebraists, in practice.",
+          "best": "Shelah, 'Infinite abelian groups, Whitehead problem and some constructions', Israel J. Math (1974).",
+          "evidence": "Independence results do turn up in mainstream areas, which weakens pure indifference."
+        }
+      ]
+    },
+    {
+      "title": "What counts as proof when machines are involved?",
+      "lead": "A proof was once something a human referee could read and believe. Computer-assisted proofs, huge collaborative proofs, and now AI-generated ones strain that. The pop story is that computers will either replace mathematicians or are untrustworthy. The field is slowly moving to a third answer: formal verification is the arbiter.",
+      "verdict": "Formal verification is winning as the standard of last resort; the flagship dispute (Mochizuki's abc proof) remains unresolved.",
+      "camps": [
+        {
+          "name": "Human-readable proof",
+          "status": "partly right",
+          "pop": false,
+          "line": "A proof is an argument that persuades experts; if nobody understands it, it isn't a proof.",
+          "explain": "Proof is a social process of understanding, not just a verified chain of steps. Skeptics of the Appel-Haken proof of the four colour theorem (1976, computer check of about 1,900 cases) said it gave no insight. Social acceptance remains how nearly all research maths is validated.",
+          "who": "Many working mathematicians; Michael Atiyah and Thurston-style arguments about understanding over verification.",
+          "best": "Thurston, 'On proof and progress in mathematics', Bulletin AMS (1994).",
+          "evidence": "Mochizuki's inter-universal Teichmüller theory (2012) claims to prove the abc conjecture. Scholze and Stix (2018) said there is a gap at Corollary 3.12; Mochizuki disputes this. Years later it is still not accepted by most experts, which shows the limits of the social process."
+        },
+        {
+          "name": "Computer-checked proof",
+          "status": "winning",
+          "pop": false,
+          "line": "If a proof assistant accepts it, it is a proof; everything else is a sketch.",
+          "explain": "Formalise the proof in Lean, Coq or Isabelle and let a small kernel check it. Several big results have been formalised, and the community is pushing to formalise Fermat's Last Theorem.",
+          "who": "Thomas Hales, Kevin Buzzard, Peter Scholze (who requested the Liquid Tensor check), Terence Tao in recent years.",
+          "best": "Gonthier et al. 2013, formal proof of the Feit-Thompson theorem; Hales et al. 2017, 'A formal proof of the Kepler conjecture', Forum of Mathematics, Pi.",
+          "evidence": "Flyspeck formal proof (2017) confirmed Hales's 1998 Kepler conjecture proof after referees could only say they were 99% certain. Gonthier's 2005 formal four colour proof removed worries about the 1976 computer check."
+        },
+        {
+          "name": "AI as prover",
+          "status": "open",
+          "pop": true,
+          "line": "Machines will soon do research mathematics better than people.",
+          "explain": "AI systems now solve olympiad-level problems and are being used to find examples and conjectures. Whether they can produce deep new theory is not yet clear. When AI output is paired with a formal checker, the trust problem shrinks.",
+          "who": "DeepMind (AlphaProof, AlphaGeometry), OpenAI, Terence Tao as a cautious observer.",
+          "best": "Davies et al. 2021, Nature, 'Advancing mathematics by guiding human intuition with AI'; AlphaProof and AlphaGeometry 2 at the 2024 IMO (silver-medal level).",
+          "evidence": "The 2024 IMO result and the 2025 gold-level results from large language models show real progress on competition problems. Competition problems are not research; the strong claim awaits sustained, checked results on open problems."
+        }
+      ]
+    }
+  ]
+}

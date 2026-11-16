@@ -1,0 +1,238 @@
+{
+  "discipline": "History",
+  "overview": "History fights less about facts than about what kind of thing drives the past: individuals or structures, ideas or material conditions, rupture or continuity. The pop versions are tidy. Rome fell to barbarians, geography made the West rich, a few great men steer events, and the Church fought science for a thousand years. Professional historians have mostly moved to messier, multi-cause stories, and several of the pop stories (the medieval flat earth, the science-versus-religion war) are myths that academics have been taking apart for decades. The fights that remain open are mostly about weighting: how much of the outcome was institutions, how much was luck, how much was ecology.",
+  "debates": [
+    {
+      "title": "Did Rome fall, or just change?",
+      "lead": "The classic story, from Gibbon, is a catastrophe: barbarians break a civilization and the lights go out for centuries. From the 1970s a school of late-antiquity scholars said the opposite: nothing fell, the Roman world transformed. Then the archaeology came back and pushed hard against the soft version. Now the argument has shifted to shocks (climate, plague) and whether the Empire was brittle or just unlucky.",
+      "verdict": "The material record says real collapse in the West, but the causes were a mix of politics, invasion and environmental shocks, and the East carried on.",
+      "camps": [
+        {
+          "name": "Catastrophe",
+          "status": "winning",
+          "pop": true,
+          "line": "The Western Empire was destroyed, and living standards fell off a cliff.",
+          "explain": "The West lost its political unity, its tax system and much of its complex economy within a few generations. The Dark Ages label is crude, but the drop in material life was real. Most popular histories, and most of the public, carry this view.",
+          "who": "Edward Gibbon (original); Bryan Ward-Perkins and Peter Heather in the modern academic version",
+          "best": "Gibbon, The Decline and Fall of the Roman Empire (1776-89); Ward-Perkins, The Fall of Rome and the End of Civilization (2005); Heather, The Fall of the Roman Empire (2005)",
+          "evidence": "Archaeology is the main weapon. Ward-Perkins 2005 documents the collapse of mass-produced pottery, roof tiles and coinage in post-Roman Britain and much of the West, smaller buildings and thinner livestock bones. Those are hard to read as mere cultural change."
+        },
+        {
+          "name": "Transformation",
+          "status": "partly right",
+          "pop": false,
+          "line": "Late antiquity was a creative new world, not a ruin.",
+          "explain": "Religion, law, art and local elites carried on and changed. The ‘fall’ is a story told from the capital’s point of view. This school opened up the study of the period and showed that continuity was real in culture, Church and administration.",
+          "who": "Peter Brown, Averil Cameron, Walter Goffart",
+          "best": "Brown, The World of Late Antiquity (1971); Goffart, Barbarians and Romans (1980)",
+          "evidence": "Strong on religion, literature and the East, where the Empire in fact lasted another thousand years. Weak on the economy: it has no good answer to the pottery and settlement evidence in Ward-Perkins 2005."
+        },
+        {
+          "name": "Climate and disease",
+          "status": "open",
+          "pop": false,
+          "line": "Rome was broken by a run of environmental shocks, not just invaders.",
+          "explain": "The Empire was resilient for centuries, then took repeated hits: the Antonine plague, the third-century crisis, the Justinianic plague, and shifts in climate. This reframes the question from ‘why did it fall’ to ‘what overloaded it’.",
+          "who": "Kyle Harper, Michael McCormick",
+          "best": "Harper, The Fate of Rome (2017); McCormick et al., ‘Climate change during and after the Roman Empire’, Journal of Interdisciplinary History (2012)",
+          "evidence": "Combines ice-core, tree-ring and ancient-DNA evidence of Yersinia pestis in the sixth century. The big counter: Mordechai et al. 2019, PNAS, argued that the Justinianic plague’s demographic damage is overstated, and Harper and others have answered. The size of the effect is unresolved."
+        }
+      ]
+    },
+    {
+      "title": "Great men or deep structures?",
+      "lead": "Carlyle said history is the biography of great men. Marx, Tolstoy and the Annales school said individuals are froth on long currents of economy, geography and demography. Pop history and political biography still run on personalities. Historians and social scientists mostly say the answer depends on the setting: individuals matter more when institutions are weak and when events are close calls.",
+      "verdict": "Neither pure view survives; leaders matter most under weak constraints, and structures set the menu they choose from.",
+      "camps": [
+        {
+          "name": "Great-man history",
+          "status": "partly right",
+          "pop": true,
+          "line": "Take Napoleon, Lincoln or Hitler out and the world is different.",
+          "explain": "Decisions by a few people at pivotal moments changed outcomes. This is the narrative of most biography and most documentaries, and it makes for readable history. It is not wrong everywhere, just overstated as a general law.",
+          "who": "Thomas Carlyle; modern popular biography",
+          "best": "Carlyle, On Heroes, Hero-Worship and the Heroic in History (1841)",
+          "evidence": "Jones and Olken 2005, QJE, use the random timing of leaders’ deaths in office to show that leaders do shift national growth, mainly in autocracies. Jones and Olken 2009, AEJ: Macroeconomics, find that successful assassinations of autocrats cause measurable institutional change. So individuals matter, conditional on weak constraints."
+        },
+        {
+          "name": "Structuralism",
+          "status": "partly right",
+          "pop": false,
+          "line": "Economic, demographic and ecological forces set the course; individuals are interchangeable.",
+          "explain": "Long-run forces such as class, population pressure, climate and technology make some outcomes likely whoever sits at the top. This view dominated the mid-twentieth century and shaped economic and social history.",
+          "who": "Karl Marx; Fernand Braudel and the Annales school; Peter Turchin (cliodynamics)",
+          "best": "Braudel, The Mediterranean and the Mediterranean World in the Age of Philip II (1949); Turchin, War and Peace and War (2006)",
+          "evidence": "Strong for slow variables: state formation, demographic cycles, agrarian crises. Weak for explaining timing and specific events, and statistical tests of ‘laws of history’ remain thin."
+        },
+        {
+          "name": "Contingency",
+          "status": "open",
+          "pop": false,
+          "line": "Small accidents at critical junctures decide which of several plausible futures arrives.",
+          "explain": "Neither leaders nor structures fix outcomes; close calls and chance do. Historians use counterfactuals to test how much weight a cause really carries. It is hard to falsify, which is its weakness.",
+          "who": "Niall Ferguson (editor); many political and military historians",
+          "best": "Ferguson (ed.), Virtual History: Alternatives and Counterfactuals (1997)",
+          "evidence": "Mostly case-by-case reasoning, not decisive studies. Natural experiments like the leader-death papers above support a limited form: chance personnel events matter, but only in some regimes."
+        }
+      ]
+    },
+    {
+      "title": "Why did the West get rich first?",
+      "lead": "Around 1500 Europe was not obviously ahead; by 1900 it dominated the globe. The popular answers are geography (Jared Diamond’s Guns, Germs, and Steel), culture (Protestant work ethic, Landes), or institutions (Acemoglu and Robinson’s Why Nations Fail). Historians of the ‘California school’ say Europe was lucky: coal and colonies. The fight is really about when the gap opened and whether it was inevitable.",
+      "verdict": "No single factor wins; the best current work says Europe was already richer in wage terms before industrialization but coal, empire and ideas still mattered.",
+      "camps": [
+        {
+          "name": "Geography",
+          "status": "partly right",
+          "pop": true,
+          "line": "Eurasia’s east-west axis, domesticable species and disease pools gave some peoples a head start.",
+          "explain": "Continents differed in crops, animals and connectivity, so societies there began farming and state-building earlier. It is a powerful explanation of deep history, such as why Eurasia, not the Americas, did the conquering. It is a weak explanation of why Europe and not China industrialized.",
+          "who": "Jared Diamond; Yuval Noah Harari carries versions to a mass audience",
+          "best": "Diamond, Guns, Germs, and Steel (1997)",
+          "evidence": "Works on the long run, fails on the within-Eurasia question. It cannot explain a reversal of fortune within regions, for which see Acemoglu, Johnson and Robinson 2002, QJE: formerly rich colonies became poor, which geography alone cannot predict."
+        },
+        {
+          "name": "Institutions",
+          "status": "partly right",
+          "pop": false,
+          "line": "Secure property rights and constraints on rulers produce growth; extractive states don’t.",
+          "explain": "Colonial rule built either inclusive or extractive institutions depending on whether Europeans settled, and these persist. This is the dominant view in economics and a lot of political history.",
+          "who": "Daron Acemoglu, Simon Johnson, James Robinson; Douglass North",
+          "best": "Acemoglu, Johnson and Robinson, ‘The Colonial Origins of Comparative Development’, AER (2001); Acemoglu and Robinson, Why Nations Fail (2012)",
+          "evidence": "AJR 2001 uses settler mortality as an instrument. Albouy 2012, AER, challenged the mortality data and the result is less clean. Institutions clearly correlate with wealth; the causal weight and the question of why Europe developed them first remain argued."
+        },
+        {
+          "name": "Coal and colonies",
+          "status": "partly right",
+          "pop": false,
+          "line": "Until about 1800 Europe and China were similar; Europe won through coal and New World resources.",
+          "explain": "The ‘Great Divergence’ is late. Britain had coal near its cities and access to the Americas’ land and labour, which relieved ecological limits. Industrialization was not a cultural destiny.",
+          "who": "Kenneth Pomeranz and the California school; Robert Allen with a high-wage version",
+          "best": "Pomeranz, The Great Divergence (2000); Allen, The British Industrial Revolution in Global Perspective (2009)",
+          "evidence": "Allen et al. 2011, Economic History Review, find that real wages in the Yangtze delta were well below those in north-western Europe by the 1700s. Broadberry, Guan and Li 2018, Journal of Economic History, date the divergence much earlier. So the strong ‘no gap before 1800’ claim lost ground, but Allen’s coal-and-wages mechanism survived."
+        },
+        {
+          "name": "Ideas and culture",
+          "status": "open",
+          "pop": true,
+          "line": "A culture of enquiry, improvement and respect for commerce set Europe apart.",
+          "explain": "Enlightenment beliefs about progress and useful knowledge, or a new respect for the merchant, made sustained innovation possible. Older versions credited Protestantism or ‘European values’; the newer ones are more careful.",
+          "who": "Joel Mokyr; Deirdre McCloskey; David Landes",
+          "best": "Landes, The Wealth and Poverty of Nations (1998); Mokyr, A Culture of Growth (2016)",
+          "evidence": "Hard to test. Mokyr’s case for a distinctive European market in ideas is persuasive on mechanisms, but there is no decisive study ruling out institutions or coal as the main driver."
+        }
+      ]
+    },
+    {
+      "title": "Why did Latin America fall behind?",
+      "lead": "Around 1800 Latin America was not clearly poorer than North America; by 1900 the gap was large. The standard stories are exploitation by rich countries (dependency theory), bad institutions inherited from colonial inequality, and a ‘culture’ story about the Iberian legacy. Market reformers and the left each took one of these and made a policy out of it, so the debate is politically loaded.",
+      "verdict": "Inequality-and-institutions explanations lead; dependency theory kept its insight about trade and extraction but lost as a full account; culture is the weakest.",
+      "camps": [
+        {
+          "name": "Dependency theory",
+          "status": "partly right",
+          "pop": true,
+          "line": "The rich core keeps the periphery poor by extracting its resources and fixing the terms of trade.",
+          "explain": "Latin America’s role as a commodity exporter locked in underdevelopment. It drove import-substitution industrialization in the mid-century. Popular on the left and in much Latin American public discourse.",
+          "who": "Raúl Prebisch; Andre Gunder Frank; Fernando Henrique Cardoso and Enzo Faletto",
+          "best": "Prebisch, ECLA report (1950); Frank, Capitalism and Underdevelopment in Latin America (1967); Cardoso and Faletto, Dependency and Development in Latin America (1969)",
+          "evidence": "Import substitution produced fast growth for a while, then the debt crisis of the 1980s. East Asia grew by exporting to the same world system, which undercut the strong claim. The surviving core is that colonial extraction left lasting structures, which institutional work now tests directly."
+        },
+        {
+          "name": "Inequality and institutions",
+          "status": "winning",
+          "pop": false,
+          "line": "Colonial endowments created extreme inequality, which produced institutions that protected elites and blocked broad growth.",
+          "explain": "Where colonizers found many natives, mines or plantation crops, they built unequal societies with narrow access to land, schooling and the vote. North America’s more equal start led to more inclusive institutions. This is now the mainstream academic view.",
+          "who": "Stanley Engerman and Kenneth Sokoloff; Acemoglu and Robinson; Melissa Dell",
+          "best": "Engerman and Sokoloff, ‘Factor Endowments, Institutions, and Differential Paths of Growth among New World Economies’ (1997); Dell, ‘The Persistent Effects of Peru’s Mining Mita’, Econometrica (2010)",
+          "evidence": "Dell 2010 compares districts just inside and outside the Spanish forced-labour mita boundary and finds lower household consumption and higher child stunting a few centuries later in the mita districts. It is among the cleanest tests that colonial institutions persist."
+        },
+        {
+          "name": "Culture and Iberian legacy",
+          "status": "losing",
+          "pop": true,
+          "line": "Catholic, hierarchical, rent-seeking Spanish habits explain the gap.",
+          "explain": "A tradition from Weber onward: values and habits of trust, thrift and law-abidingness shape development. It circulates widely in popular commentary on Latin America’s corruption and instability.",
+          "who": "Lawrence Harrison and Samuel Huntington (eds.); David Landes",
+          "best": "Harrison and Huntington (eds.), Culture Matters (2000)",
+          "evidence": "Hard to separate from institutions and inequality, and it struggles with variation inside the region and with rapid changes in rank over time. Most economic historians treat culture as downstream of institutions or as untested."
+        }
+      ]
+    },
+    {
+      "title": "Was there a Scientific Revolution?",
+      "lead": "The textbook story is a sharp break in the sixteenth and seventeenth centuries, from Copernicus to Newton, when Europe replaced Aristotle with modern science. Historians of science spent the late twentieth century picking this apart. Some say it was a long medieval buildup, some that the label hides a messy mix of crafts, magic and religion. A defiant minority still defends a real revolution.",
+      "verdict": "The label survives as shorthand, but the one-event, one-method, great-genius version is dead.",
+      "camps": [
+        {
+          "name": "Single revolution",
+          "status": "partly right",
+          "pop": true,
+          "line": "Around 1600 a new method and a new picture of the world overturned the old one.",
+          "explain": "Mechanical philosophy, experiment and mathematical law arrived together, and the break was deep. It is the shape of most science-popularizing and of Whig history, which reads the past as a march toward us.",
+          "who": "Herbert Butterfield, Alexandre Koyré; today H. Floris Cohen and David Wootton",
+          "best": "Butterfield, The Origins of Modern Science (1949); Cohen, How Modern Science Came into the World (2010); Wootton, The Invention of Science (2015)",
+          "evidence": "Real changes in the status of experiment, instruments and mathematical astronomy and mechanics, the focus of Wootton’s defence. But the opposing work shows these were not unified and not all new."
+        },
+        {
+          "name": "Medieval continuity",
+          "status": "partly right",
+          "pop": false,
+          "line": "Much of ‘modern’ science was prepared by scholastic natural philosophy.",
+          "explain": "Medieval thinkers studied motion, optics and the heavens with real rigour. Galileo and Newton built on this, not on a blank slate. The stereotype of a scientific Dark Age is wrong.",
+          "who": "Pierre Duhem; Edward Grant; David Lindberg",
+          "best": "Grant, The Foundations of Modern Science in the Middle Ages (1996)",
+          "evidence": "Strong textual work on late-medieval theories of impetus and mathematical physics. It shows that the revolution was not from nothing, though how much of the later achievement it explains is disputed."
+        },
+        {
+          "name": "No such thing",
+          "status": "partly right",
+          "pop": false,
+          "line": "There was no unified ‘Scientific Revolution’, just many local changes in many practices.",
+          "explain": "Alchemy, natural magic, medicine, craft knowledge and theology were all part of the story, and there was no single scientific method. The label is a later invention.",
+          "who": "Steven Shapin; Andrew Cunningham and Perry Williams",
+          "best": "Shapin, The Scientific Revolution (1996)",
+          "evidence": "Shapin’s opening line is famous: ‘There was no such thing as the Scientific Revolution, and this is a book about it.’ The strong claim is not generally accepted but it forced scholars to drop the single-cause, single-method version."
+        }
+      ]
+    },
+    {
+      "title": "Did religion fight science?",
+      "lead": "Many people believe the Church held back science for a thousand years, that medieval people thought the earth was flat, and that Galileo was a martyr for reason. The idea comes from two nineteenth-century books and was spread by popularisers of science. Historians of science have spent decades showing it is mostly myth, though there are real conflicts, especially over evolution.",
+      "verdict": "The war story lost among historians; the answer is that relations were varied, with real clashes in particular places and eras.",
+      "camps": [
+        {
+          "name": "Conflict thesis",
+          "status": "losing",
+          "pop": true,
+          "line": "Science and religion have been at war, and religion has been the obstacle.",
+          "explain": "Dogma suppressed inquiry until science broke free. It still anchors much popular atheism and a lot of school-level history.",
+          "who": "John William Draper, Andrew Dickson White; in the modern era, Richard Dawkins and Neil deGrasse Tyson (in popular form)",
+          "best": "Draper, History of the Conflict between Religion and Science (1874); White, A History of the Warfare of Science with Theology in Christendom (1896)",
+          "evidence": "Jeffrey Burton Russell 1991, Inventing the Flat Earth, showed that educated medieval people knew the earth was a sphere, and the myth was largely manufactured in the nineteenth century. Numbers (ed.) 2009, Galileo Goes to Jail and Other Myths about Science and Religion, collects the rest. Real conflicts exist, notably Galileo’s 1633 trial and American creationism, but they are specific, not a general law."
+        },
+        {
+          "name": "Complexity thesis",
+          "status": "winning",
+          "pop": false,
+          "line": "The relationship was varied and depended on time, place and which people we mean.",
+          "explain": "Clergy were scientists, theology motivated natural philosophy, and some religious doctrines blocked specific ideas. Scientific and religious institutions fought, cooperated and overlapped. It is now the consensus among historians.",
+          "who": "John Hedley Brooke; Ronald Numbers; Peter Harrison",
+          "best": "Brooke, Science and Religion: Some Historical Perspectives (1991); Harrison, The Bible, Protestantism, and the Rise of Natural Science (1998)",
+          "evidence": "Case studies across periods show motives and alliances that do not fit either a war model or a harmony model. Galileo’s trial was entangled in patronage, personal conflict and the Church’s authority over scripture interpretation, not a simple clash of science and faith."
+        },
+        {
+          "name": "Religion caused science",
+          "status": "partly right",
+          "pop": false,
+          "line": "Christianity’s belief in a rational creator made modern science possible.",
+          "explain": "The revisionist reaction to the conflict thesis, sometimes overcorrecting. The Church funded universities and many early scientists were devout. The strong claim that it was the cause is much less secure.",
+          "who": "Rodney Stark; James Hannam",
+          "best": "Stark, For the Glory of God (2003); Hannam, God’s Philosophers (2009)",
+          "evidence": "Hannam documents medieval achievements well. Stark’s causal claim is harder to defend: historians point out that other religious societies also had thriving science in their eras, and the timing of the Revolution has many competing explanations."
+        }
+      ]
+    }
+  ]
+}

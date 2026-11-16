@@ -1,0 +1,272 @@
+{
+ "discipline": "Economics",
+ "overview": "Economics fights less about numbers than about how much to trust the model of a rational, self-interested agent in a market that clears. One camp treats that model as a reliable first approximation and bends evidence toward it. Another treats it as a useful fiction that fails in predictable ways. A third says theory should take a back seat to clean empirical designs. The simple stories people carry (markets are efficient, minimum wages kill jobs, free trade makes everyone better off, poor countries are poor because of culture or geography) mostly come from the intro-course supply-and-demand diagram and from popularisers who stopped at chapter one. The working field has moved to a messier middle: markets with frictions, institutions that matter, gains from trade that are real but unevenly and persistently distributed.",
+ "debates": [
+  {
+   "title": "Are markets efficient, or are people irrational?",
+   "lead": "The efficient markets hypothesis says prices already reflect available information, so you cannot reliably beat the market. Behavioral finance says investors make systematic errors and prices drift from fundamentals. The folk version on one side is 'the market is always right'; on the other it is 'humans are dumb, so markets are casinos'. The field has settled on something in between: hard to beat after costs, but not perfectly efficient, and anomalies fade once people find them.",
+   "verdict": "Prices are hard to beat but not perfectly rational; both camps won a piece, and the 'market is always right' version lost.",
+   "camps": [
+    {
+     "name": "Efficient markets",
+     "status": "partly right",
+     "pop": true,
+     "line": "Prices already contain everything known, so stock picking is a loser's game; buy the index.",
+     "explain": "Fama's claim is that competition among informed traders wipes out easy profits. Its practical core (most active managers fail to beat low-cost index funds) holds up well. The strong claim that prices equal fundamental value is much harder to defend.",
+     "who": "Eugene Fama, Burton Malkiel (A Random Walk Down Wall Street, which carries it to the public), Jack Bogle and the index-fund movement.",
+     "best": "Fama 1970, Journal of Finance, 'Efficient Capital Markets'; Fama and French 1992/1993 factor work; Malkiel 1973 book.",
+     "evidence": "For: most active funds underperform after fees, and anomalies shrink once published. McLean and Pontiff 2016, Journal of Finance, studied 97 return predictors and found returns about 26% lower out of sample and about 58% lower after publication, which fits traders arbitraging them away (but also shows they were real to begin with). Against: Shiller 1981, American Economic Review, found prices far more volatile than dividends justify; momentum (Jegadeesh and Titman 1993, Journal of Finance) persists across markets."
+    },
+    {
+     "name": "Behavioral finance",
+     "status": "partly right",
+     "pop": false,
+     "line": "People are predictably biased and limits to arbitrage let those biases move prices.",
+     "explain": "Overconfidence, loss aversion and herding affect traders, and arbitrageurs are capital-constrained, so mispricing can last. The camp is strongest on individual investors and on bubbles. It is weaker on showing that professionals can reliably profit from the mispricing.",
+     "who": "Richard Thaler, Robert Shiller, Daniel Kahneman and Amos Tversky, Andrei Shleifer, Terrance Odean. Thaler's Misbehaving and Shiller's Irrational Exuberance carry it to the public.",
+     "best": "Kahneman and Tversky 1979, Econometrica, prospect theory; De Bondt and Thaler 1985, Journal of Finance, overreaction; Shleifer and Vishny 1997, Journal of Finance, limits of arbitrage.",
+     "evidence": "Barber and Odean 2000, Journal of Finance, found households that trade most earn lowest returns. Shiller 1981 volatility result. Weakness: many 'anomalies' are small, fragile or vanish after costs, and the Fama camp argues they are risk premia in disguise. Fama and Shiller shared the 2013 Nobel, which tells you where the field landed."
+    }
+   ]
+  },
+  {
+   "title": "Does a higher minimum wage cost jobs?",
+   "lead": "The textbook competitive model says a price floor on labor creates unemployment. The folk version says every increase kills jobs. A monopsony or 'wage-setting power' view says employers have power over wages, so modest floors can raise pay with little job loss. The empirical literature of the last 30 years mostly leans toward small employment effects for moderate increases, with real uncertainty about large ones.",
+   "verdict": "For moderate minimum wages the evidence leans toward small or zero job losses; the textbook prediction survives only for large increases or specific groups.",
+   "camps": [
+    {
+     "name": "Competitive model",
+     "status": "partly right",
+     "pop": true,
+     "line": "Raise the price of labor above its productivity and employers hire less of it.",
+     "explain": "A binding floor above the market wage should reduce employment, especially for the least skilled. Defenders argue many studies miss long-run effects, hours cuts, and automation. They also note that the model's logic must bind somewhere if the floor is high enough.",
+     "who": "David Neumark and William Wascher; Milton Friedman and George Stigler as the older face; textbook Econ 101 carries it to the public.",
+     "best": "Neumark and Wascher 2007, Foundations and Trends in Microeconomics, review; Neumark and Wascher 2008 book, Minimum Wages.",
+     "evidence": "For: some panel studies find teen disemployment elasticities of about -0.1 to -0.3, and Jardim et al. 2022, American Economic Journal: Economic Policy, found hours reductions in Seattle after the move to 13 dollars. Against: the many studies that use close comparison areas find little or no effect for moderate increases."
+    },
+    {
+     "name": "Monopsony and frictions",
+     "status": "winning",
+     "pop": false,
+     "line": "Employers have wage-setting power, so a floor can raise pay without cutting jobs.",
+     "explain": "If workers face search costs and few employers, firms pay below productivity. A floor can then push pay up and even raise employment. This framing explains why the cleanest studies find small effects.",
+     "who": "David Card, Alan Krueger, Alan Manning, Arindrajit Dube. Krueger and Card carried it to economists and journalists.",
+     "best": "Card and Krueger 1994, American Economic Review, New Jersey vs Pennsylvania fast food; Manning 2003 book, Monopsony in Motion; Cengiz, Dube, Lindner and Zipperer 2019, Quarterly Journal of Economics, 138 state-level increases.",
+     "evidence": "Cengiz et al. 2019 found the number of jobs lost just below the new minimum was roughly offset by jobs gained at or just above it, with no detectable net loss in low-wage jobs. Card won the 2021 Nobel partly for this line of work. Limits: effects at much higher floors (for example 15 dollars in low-wage regions) are less well measured."
+    }
+   ]
+  },
+  {
+   "title": "Why are some countries rich and others poor?",
+   "lead": "This is the biggest question in development economics. One folk answer is climate and geography, another is culture or national character, another is aid or the lack of it. The current mainstream says institutions, meaning protections for property and checks on elites, explain most of the long-run gap. But the evidence for that is contested, and there are strong rivals.",
+   "verdict": "Institutions are the leading explanation, but the causal evidence is shakier than the textbook version admits and geography and human capital still have a claim.",
+   "camps": [
+    {
+     "name": "Institutions",
+     "status": "winning",
+     "pop": false,
+     "line": "Inclusive institutions that constrain elites create growth; extractive ones block it.",
+     "explain": "Colonial powers set up either settler-friendly property-rights regimes or extractive ones, and those persisted. Countries with the former developed. This became the dominant story in the field and won a 2024 Nobel.",
+     "who": "Daron Acemoglu, Simon Johnson, James Robinson (Why Nations Fail, 2012, is their popular version); Douglass North.",
+     "best": "Acemoglu, Johnson and Robinson 2001, American Economic Review, 'The Colonial Origins of Comparative Development'; Acemoglu, Johnson and Robinson 2005 chapter on institutions as fundamental cause.",
+     "evidence": "The 2001 paper uses settler mortality as an instrument for institutions. Albouy 2012, American Economic Review, challenged the mortality data and its construction, weakening the instrument. Also, China's growth under limited political constraint is a standing puzzle. The 2024 Nobel to Acemoglu, Johnson and Robinson shows professional endorsement."
+    },
+    {
+     "name": "Geography",
+     "status": "partly right",
+     "pop": true,
+     "line": "Tropical disease, bad soil and landlocked borders keep countries poor.",
+     "explain": "Climate, disease burden and access to the sea affect productivity and trade costs. Geography matters, but mostly through its effect on institutions and disease rather than as a standalone cause. The popular version is Diamond's.",
+     "who": "Jeffrey Sachs, Jared Diamond (Guns, Germs, and Steel, 1997), John Luke Gallup.",
+     "best": "Gallup, Sachs and Mellinger 1999, International Regional Science Review, 'Geography and Economic Development'; Diamond 1997 book.",
+     "evidence": "Geography correlates with income, but Acemoglu, Johnson and Robinson 2002, Quarterly Journal of Economics, 'Reversal of Fortune', show that places that were rich in 1500 became poor under colonialism, which is hard to square with fixed geography being destiny. Disease burden effects are real; malaria control raises later earnings in some studies."
+    },
+    {
+     "name": "Culture and human capital",
+     "status": "open",
+     "pop": true,
+     "line": "Trust, norms and education, not rules, are what make countries rich.",
+     "explain": "Social trust, work norms and education levels predict growth, and they can persist across generations. The difficulty is separating culture from institutions and from the outcomes it is supposed to explain.",
+     "who": "Joel Mokyr, Nathan Nunn and Leonard Wantchekon on historical persistence, Robert Putnam on social capital; Lawrence Harrison and David Landes in the older cultural tradition.",
+     "best": "Nunn and Wantchekon 2011, American Economic Review, 'The Slave Trade and the Origins of Mistrust in Africa'; Hanushek and Woessmann 2012, Journal of Economic Growth, cognitive skills and growth.",
+     "evidence": "Hanushek and Woessmann find test scores predict growth far better than years of schooling. Nunn and Wantchekon show a lasting mistrust effect tied to historical slave exports. Causal identification of culture is hard, so this stays open."
+    }
+   ]
+  },
+  {
+   "title": "What causes recessions and inflation, and what fixes them?",
+   "lead": "After the Great Depression, Keynes said recessions come from too little spending and governments should fill the gap. Later economists argued that markets self-correct and that stimulus is futile or that recessions are efficient responses to real shocks. After 2008 and again after 2021 the fight returned. The field now broadly uses a New Keynesian framework, but arguments continue about how big fiscal multipliers are and what drove the 2021-23 inflation.",
+   "verdict": "Demand matters and policy can stabilise it, but the cheap-stimulus version overreached and the pandemic inflation had both supply and demand causes.",
+   "camps": [
+    {
+     "name": "Keynesian and New Keynesian",
+     "status": "winning",
+     "pop": false,
+     "line": "Sticky prices and wages mean demand shortfalls create real, avoidable unemployment.",
+     "explain": "With rigid prices, a fall in spending cuts output instead of just prices. Central banks and sometimes governments can lean against that. It is the working framework of most central banks.",
+     "who": "John Maynard Keynes, Paul Krugman (public face), Olivier Blanchard, Michael Woodford, Ben Bernanke.",
+     "best": "Keynes 1936, The General Theory; Woodford 2003, Interest and Prices; Nakamura and Steinsson 2014, American Economic Review, state-level fiscal multipliers.",
+     "evidence": "Nakamura and Steinsson found a relative regional multiplier of about 1.5 using military spending. Romer and Romer 2010, American Economic Review, found tax increases are sharply contractionary. The 2008-09 crisis showed demand collapse is real. Bernanke and Blanchard 2023, Brookings, attribute the 2021-23 inflation first to supply shocks and then to tight labor markets, with demand playing an increasing role; both sides use it."
+    },
+    {
+     "name": "Real business cycle",
+     "status": "partly right",
+     "pop": false,
+     "line": "Recessions are the economy efficiently responding to real shocks such as technology changes.",
+     "explain": "Cycles come from productivity shocks, not from demand gaps. As a full explanation it lost standing because it struggles with recessions without a visible productivity fall. Its methods (microfounded dynamic models) won completely.",
+     "who": "Finn Kydland, Edward Prescott, Robert Lucas, Eugene Fama in the finance-side version.",
+     "best": "Lucas 1976, 'Econometric Policy Evaluation: A Critique'; Kydland and Prescott 1982, Econometrica, 'Time to Build and Aggregate Fluctuations'.",
+     "evidence": "Lucas's critique permanently changed how models are built. But the theory had trouble explaining 2008, where no productivity shock fits. Supply shocks do matter, as 2021-22 energy and supply chain disruptions showed."
+    },
+    {
+     "name": "Austerity and Austrian",
+     "status": "losing",
+     "pop": true,
+     "line": "Recessions are a necessary purge, and governments should cut spending rather than stimulate.",
+     "explain": "Austrians argue credit booms distort investment and busts are the correction. Austerity advocates argue that cuts restore confidence and growth. Both are popular among commentators and some politicians.",
+     "who": "Friedrich Hayek, Ludwig von Mises, Alberto Alesina on expansionary austerity; Reinhart and Rogoff on the debt-growth link.",
+     "best": "Hayek 1931, Prices and Production; Alesina and Ardagna 2010 NBER paper on large fiscal adjustments.",
+     "evidence": "Blanchard and Leigh 2013, IMF working paper, found fiscal multipliers during 2010-11 were underestimated by forecasters, so austerity hurt more than predicted. Reinhart and Rogoff's 90% debt threshold was undermined by Herndon, Ash and Pollin 2013, Cambridge Journal of Economics, who found a spreadsheet error and selective exclusions."
+    }
+   ]
+  },
+  {
+   "title": "Is free trade good for everyone?",
+   "lead": "Economists have long said trade makes countries richer in aggregate, and that tariffs are a tax on your own consumers. The folk version in some circles is 'free trade makes everybody better off'. In the 2010s a body of work showed that import competition from China hit specific regions hard and for a long time. The field now accepts the aggregate gains but not the 'everybody wins' line.",
+   "verdict": "Aggregate gains from trade are well established, but the local costs were larger and more persistent than the old consensus assumed, and recent tariffs mostly landed on domestic buyers.",
+   "camps": [
+    {
+     "name": "Gains from trade",
+     "status": "partly right",
+     "pop": true,
+     "line": "Comparative advantage makes everyone better off on net, and compensation can fix the losers.",
+     "explain": "Trade lowers prices, expands variety, and shifts workers to higher-productivity uses. Winners could in principle compensate losers. In practice, little compensation happened and adjustment was slow.",
+     "who": "Paul Krugman (older public face), Jagdish Bhagwati, Gregory Mankiw, David Ricardo as source.",
+     "best": "Ricardo 1817 comparative advantage; Krugman 1979, Journal of International Economics, increasing returns and trade; Costinot and Rodriguez-Clare 2014 Handbook chapter quantifying gains.",
+     "evidence": "Structural estimates find large aggregate welfare gains from trade, but the 'everyone wins' claim failed when workers did not smoothly move to new jobs."
+    },
+    {
+     "name": "China shock",
+     "status": "winning",
+     "pop": false,
+     "line": "Fast import competition devastated particular regions, and adjustment never fully happened.",
+     "explain": "Local labor markets exposed to Chinese import growth saw job losses, lower wages and higher transfer payments that lasted a decade or more. This overturned the assumption that labor markets adjust within a few years.",
+     "who": "David Autor, David Dorn, Gordon Hanson; Dani Rodrik as a broader critic of hyperglobalisation.",
+     "best": "Autor, Dorn and Hanson 2013, American Economic Review, 'The China Syndrome'; Autor, Dorn and Hanson 2016, Annual Review of Economics, 'The China Shock'.",
+     "evidence": "Autor, Dorn and Hanson 2013 estimated the China shock explained about a quarter of the decline in US manufacturing employment from 1990-2007. Critics note other drivers like automation and that some estimates are sensitive to specification, but the core local-damage result held."
+    },
+    {
+     "name": "Protectionism",
+     "status": "losing",
+     "pop": true,
+     "line": "Tariffs protect jobs and make the other side pay.",
+     "explain": "The popular version holds that foreign exporters bear the cost of tariffs and that tariffs bring factories home. Evidence from the 2018-19 US tariffs points the other way.",
+     "who": "Peter Navarro, Robert Lighthizer, Oren Cass in the policy debate.",
+     "best": "Policy writing and the 2018-19 US tariff program itself, rather than a body of peer-reviewed theory.",
+     "evidence": "Amiti, Redding and Weinstein 2019, Journal of Economic Perspectives, and Fajgelbaum et al. 2020, Quarterly Journal of Economics, found near-complete pass-through of 2018 tariffs to US import prices, so US buyers bore the cost. Flaaen and Pierce 2019, Federal Reserve Board paper, found manufacturing employment effects net negative. Targeted industrial policy is a separate, more open question."
+    }
+   ]
+  },
+  {
+   "title": "Is economics a science of experiments or of models?",
+   "lead": "Economics split over what counts as knowledge. One camp says theory should drive and data be fitted to it. Another says model assumptions can be made to say anything, and only credible quasi-experiments should be trusted. The 'credibility revolution' side has largely won the prestige contest. But it has been criticised for answering narrow questions and for its own replication problems.",
+   "verdict": "Design-based empirical work won the field, but it needs theory to generalise and has its own fragility; nudge-style findings are the clearest example of an overhyped result.",
+   "camps": [
+    {
+     "name": "Credibility revolution",
+     "status": "winning",
+     "pop": false,
+     "line": "Use natural experiments and randomisation, and be honest about what a study can identify.",
+     "explain": "Methods such as randomised trials, instrumental variables, difference-in-differences and regression discontinuity let researchers estimate causal effects with fewer assumptions. This became the standard for empirical work in labor, public and development economics.",
+     "who": "Joshua Angrist, Guido Imbens, David Card, Esther Duflo, Abhijit Banerjee.",
+     "best": "Leamer 1983, American Economic Review, 'Let's Take the Con Out of Econometrics'; Angrist and Pischke 2010, Journal of Economic Perspectives, 'The Credibility Revolution'.",
+     "evidence": "The 2019 Nobel went to Banerjee, Duflo and Kremer and the 2021 Nobel to Card, Angrist and Imbens, which confirms the shift. Camerer et al. 2016, Science, replicated 11 of 18 lab experiments from top economics journals, showing real but imperfect reliability. Goodman-Bacon 2021, Journal of Econometrics, showed standard two-way fixed effects difference-in-differences can give biased answers with staggered treatment, forcing a method fix."
+    },
+    {
+     "name": "Structural theory",
+     "status": "partly right",
+     "pop": false,
+     "line": "You need an explicit model to know what a causal estimate means and to forecast new policies.",
+     "explain": "A clean estimate of one effect in one place does not tell you what a different policy would do. Structural modelling is needed to extrapolate. Critics say its assumptions are untestable.",
+     "who": "Angus Deaton, Nancy Cartwright, Heckman, Rodrik on external validity.",
+     "best": "Deaton 2010, Journal of Economic Literature, 'Instruments, Randomization, and Learning about Development'; Heckman and Urzua 2010, Journal of Econometrics.",
+     "evidence": "Deaton and Cartwright argue randomised results do not travel without understanding mechanisms. In practice, top labor and trade work now combines design with structural models."
+    },
+    {
+     "name": "Behavioral nudges",
+     "status": "open",
+     "pop": true,
+     "line": "Small choice-architecture tweaks reliably change behavior at tiny cost.",
+     "explain": "Defaults and reminders can move behavior, as with retirement saving. The popular claim is that nudges are a cheap, general tool. Evidence on average effect size after correcting for publication bias is contested.",
+     "who": "Richard Thaler and Cass Sunstein (Nudge, 2008), the UK Behavioural Insights Team.",
+     "best": "Thaler and Sunstein 2008, Nudge; Madrian and Shea 2001, Quarterly Journal of Economics, on 401(k) default enrolment.",
+     "evidence": "Mertens et al. 2022, PNAS, a meta-analysis, reported a small to medium effect. Maier, Bartos, Stanley, Shanks, Harris and Wagenmakers 2022, PNAS, argued that after adjusting for publication bias there is no evidence for an average nudge effect. Defaults for savings still look robust; many other nudges look weak. DellaVigna and Linos 2022, Econometrica, found nudge units' trials yield about 1.4 percentage points, far below academic papers' 8.7."
+    }
+   ]
+  },
+  {
+   "title": "Does immigration lower native wages?",
+   "lead": "The folk model is supply and demand: more workers, lower pay, especially for the people who compete most directly with newcomers. The other side says immigrants also spend, start firms, and specialise into different jobs, so the labour pie grows. Natural experiments have run for decades. The fight that remains is mostly about one group: workers without a high-school degree.",
+   "verdict": "Average wage effects on natives are small and close to zero over the long run; the live dispute is whether the least-skilled natives take a real short-run hit.",
+   "camps": [
+    {
+     "name": "Labour-supply squeeze",
+     "status": "partly right",
+     "pop": true,
+     "line": "More workers chasing the same jobs means lower wages for the people already doing them.",
+     "explain": "Treat immigrants as a shift in the supply of a given skill group and wages for that group fall. The effect is concentrated on natives who most resemble the newcomers.",
+     "who": "George Borjas; in public, restrictionist commentators across the spectrum",
+     "best": "Borjas 2003, \"The labor demand curve is downward sloping\" (QJE); Borjas 2017, re-analysis of the Mariel boatlift (ILR Review)",
+     "evidence": "Borjas 2017 found large wage drops for non-Hispanic male high-school dropouts in Miami after Mariel. Peri & Yasenov 2019 (Journal of Human Resources) and Clemens & Hunt 2019 (ILR Review) showed the drop came from a tiny subsample whose racial make-up shifted in the survey, not from wages. The National Academies 2017 report found effects on natives overall small, with the most negative estimates for prior immigrants and the least skilled."
+    },
+    {
+     "name": "The pie grows",
+     "status": "winning",
+     "pop": false,
+     "line": "Immigrants add demand, firms and complementary skills, so natives mostly move up rather than out.",
+     "explain": "Newcomers take jobs natives do less, push natives into communication-heavy work, raise demand for local goods, and attract capital. Local labour markets adjust.",
+     "who": "David Card, Giovanni Peri, Michael Clemens; in public, economists at think tanks across the spectrum",
+     "best": "Card 1990, \"The impact of the Mariel boatlift on the Miami labor market\" (ILR Review); Peri & Sparber 2009, task specialisation (AEJ: Applied); Ottaviano & Peri 2012 (JEEA)",
+     "evidence": "Card 1990: Miami’s labour force grew about 7% almost overnight with no detectable effect on native wages or unemployment. Dustmann, Schönberg & Stuhler 2017 (QJE), on Czech commuters into Germany, found real but modest native employment losses, mostly as fewer new local hires, which keeps the door open for local short-run costs."
+    }
+   ]
+  },
+  {
+   "title": "Will AI and automation take the jobs?",
+   "lead": "Every wave of machines brings the prediction that work is ending. The long record is that technology destroys tasks and creates new ones, and employment keeps up. The new question is whether AI is different because it reaches cognitive work, and how fast the new tasks arrive compared with the old ones going away.",
+   "verdict": "Automation reshapes and can depress wages for exposed groups, but the mass-unemployment story has failed every past test; for AI the jury is out on speed, not on the end of work.",
+   "camps": [
+    {
+     "name": "The end of work",
+     "status": "losing",
+     "pop": true,
+     "line": "Machines are coming for most jobs, and this time nothing replaces them.",
+     "explain": "Exposure studies count how many jobs are made of automatable tasks and conclude a large share is at risk within a couple of decades.",
+     "who": "Carl Frey and Michael Osborne; Martin Ford (Rise of the Robots, 2015); Andrew Yang in politics",
+     "best": "Frey & Osborne 2013/2017, \"The future of employment\" (Technological Forecasting and Social Change): 47% of US jobs at high risk",
+     "evidence": "Arntz, Gregory & Zierahn 2016 (OECD) redid the estimate at task level and got about 9%. US employment rates hit records in the decade after the 47% claim. Autor et al. 2024 (QJE) found about 60% of 2018 employment was in job titles that did not exist in 1940."
+    },
+    {
+     "name": "Tasks, not jobs",
+     "status": "winning",
+     "pop": false,
+     "line": "Technology replaces tasks and creates new ones; who wins depends on which side of that you are on.",
+     "explain": "Machines displace workers from some tasks (lowering their wages) while new tasks reinstate labour. The balance, and the policy that shapes it, decides inequality rather than headcount.",
+     "who": "David Autor, Daron Acemoglu, Pascual Restrepo",
+     "best": "Acemoglu & Restrepo 2019, \"Automation and new tasks\" (JEP); Autor 2015, \"Why are there still so many jobs?\" (JEP)",
+     "evidence": "Acemoglu & Restrepo 2020 (JPE): each extra robot per thousand workers cut the local employment-to-population ratio by about 0.2 points and wages by about 0.4%. Real losses for exposed groups, nowhere near the end of work."
+    },
+    {
+     "name": "AI is different",
+     "status": "open",
+     "pop": false,
+     "line": "General-purpose AI can do the new tasks too, so the old pattern may not hold.",
+     "explain": "If AI can learn new cognitive tasks as fast as they appear, the reinstatement effect that saved past workers weakens.",
+     "who": "Anton Korinek, Erik Brynjolfsson; AI lab leaders in public",
+     "best": "Eloundou et al. 2024, \"GPTs are GPTs\" (Science); Brynjolfsson, Li & Raymond 2025 (QJE), call-centre AI",
+     "evidence": "Early field studies show productivity gains concentrated among less-experienced workers (Brynjolfsson et al.: about 14% on average, more for novices), not displacement so far. No decisive evidence yet either way on economy-wide jobs."
+    }
+   ]
+  }
+ ]
+}

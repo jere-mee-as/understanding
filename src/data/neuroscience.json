@@ -1,0 +1,228 @@
+{
+  "discipline": "Neuroscience",
+  "overview": "Neuroscience is fighting over what kind of thing the brain is: a modular machine with a part for each job, a distributed network, a prediction engine, or something that does not map onto computer metaphors at all. It is also a field that was hit hard by a replication and measurement crisis in imaging, which punctured a lot of 'this region lights up for X' pop science. The simple stories come from popularisers: left-brain and right-brain, the lizard brain, the amygdala as fear centre, 'your brain decided before you did', and new neurons from a green smoothie. The field has quietly moved to networks, population codes, big-sample imaging, and open questions about consciousness that no one expects to resolve soon.",
+  "debates": [
+    {
+      "title": "Which theory of consciousness is right?",
+      "lead": "Consciousness science has a few serious theories and, until recently, almost no head-to-head tests. Global workspace theory says consciousness is broadcast of information across the brain. Integrated information theory says it is a property of any system with the right causal structure. A big adversarial collaboration tried to test them and neither came out clean.",
+      "verdict": "Open: the first direct test damaged predictions of both leading theories and settled nothing.",
+      "camps": [
+        {
+          "name": "Global workspace",
+          "status": "open",
+          "pop": false,
+          "line": "You are conscious of whatever gets broadcast to the whole brain and made available for report and action.",
+          "explain": "Information is conscious when it 'ignites' a widespread frontoparietal network and becomes globally available. It fits the data on masking and attention, and is a functional theory that fits with cognitive science.",
+          "who": "Bernard Baars, Stanislas Dehaene, Jean-Pierre Changeux, Lionel Naccache.",
+          "best": "Baars, A Cognitive Theory of Consciousness (1988); Dehaene & Changeux 2011, Neuron; Dehaene, Consciousness and the Brain (2014).",
+          "evidence": "In the Cogitate adversarial collaboration (Nature, 2025) its predictions about prefrontal involvement and ignition at stimulus offset were only partly met. Supporters argue the test did not target the core of the theory."
+        },
+        {
+          "name": "Integrated information",
+          "status": "open",
+          "pop": true,
+          "line": "Consciousness is integrated information, and anything with the right causal structure has it.",
+          "explain": "Starting from axioms about experience, IIT says consciousness equals the amount of integrated causal structure in a system (phi). It implies consciousness is more widespread than brains and may not be present in a computer simulating a brain. Its popularity outruns its experimental support.",
+          "who": "Giulio Tononi, Christof Koch (popular face).",
+          "best": "Tononi 2004, BMC Neuroscience; Tononi, Boly, Massimini & Koch 2016, Nature Reviews Neuroscience; Koch, The Feeling of Life Itself (2019).",
+          "evidence": "Cogitate (2025) did not find the sustained synchronisation in posterior cortex that IIT's authors' framing predicted. In 2023 a group of over 100 researchers signed a letter calling IIT pseudoscience, which others thought went too far. Koch lost his 1998 bet with David Chalmers in 2023 that the neural correlates would be found within 25 years."
+        },
+        {
+          "name": "Higher-order and predictive",
+          "status": "open",
+          "pop": false,
+          "line": "Consciousness is the brain's model of itself and the world, not a separate stuff or broadcast.",
+          "explain": "Higher-order theories say a state is conscious when the brain represents itself as being in it. Predictive-processing accounts treat perception as controlled hallucination. Some, like illusionists, say the 'hard problem' is a mistaken intuition.",
+          "who": "David Rosenthal, Hakwan Lau, Anil Seth (Being You, 2021), Daniel Dennett.",
+          "best": "Rosenthal, Consciousness and Mind (2005); Seth, Being You (2021); Dennett, Consciousness Explained (1991).",
+          "evidence": "Less directly tested than the first two, partly because the theories predict less specific neural signatures. They did not feature in Cogitate. They also have the weakest evidence on why experience feels like anything."
+        }
+      ]
+    },
+    {
+      "title": "Do adults grow new neurons?",
+      "lead": "The old dogma, from Ramón y Cajal, was that adult brains never make new neurons. Rodent studies broke it in the 1960s and 90s, and in 1998 a study of cancer patients suggested humans too. Then in 2018 two high-profile papers disagreed sharply. The dispute has been about method: how you detect immature neurons in post-mortem human tissue.",
+      "verdict": "Leaning yes: human hippocampal neurogenesis likely continues at a low rate; how much it matters is unknown.",
+      "camps": [
+        {
+          "name": "No adult neurogenesis",
+          "status": "losing",
+          "pop": true,
+          "line": "You are born with the neurons you will ever have.",
+          "explain": "Neurogenesis drops sharply after early childhood in humans and becomes undetectable in adults. Mouse work does not carry over to long-lived primates. This was the textbook view for most of the 20th century.",
+          "who": "Santiago Ramón y Cajal, Pasko Rakic, Arturo Alvarez-Buylla; Shawn Sorrells and Mercedes Paredes' 2018 papers.",
+          "best": "Sorrells et al. 2018, Nature (neurogenesis undetectable in adult human hippocampus); Paredes et al. 2018, Nature Medicine.",
+          "evidence": "Sorrells found immature neurons in infants but essentially none after about age 13. Critics point out the tissue was often processed post-mortem or from epileptic brain, which can destroy the markers."
+        },
+        {
+          "name": "Persistent neurogenesis",
+          "status": "winning",
+          "pop": false,
+          "line": "The adult human hippocampus keeps making neurons into old age, though slowly.",
+          "explain": "With careful tissue handling, markers of immature neurons and progenitors appear in adult and elderly human hippocampus. Radiocarbon birth-dating also supports turnover.",
+          "who": "Jonas Frisén, Maura Boldrini, Maria Llorens-Martín, Peter Eriksson and Fred Gage.",
+          "best": "Eriksson et al. 1998, Nature Medicine; Spalding et al. 2013, Cell (radiocarbon dating, about 700 new neurons per day per hippocampus); Boldrini et al. 2018, Cell Stem Cell; Terreros-Roncal et al. 2021, Science.",
+          "evidence": "Boldrini and Moreno-Jiménez et al. 2019, Nature Medicine, found neurogenesis in healthy older adults and reduced in Alzheimer's. A 2025 study from Frisén's group reported proliferating neural progenitors in adult human hippocampus using single-nucleus sequencing. The single-cell papers of 2022 (Franjic et al.; Zhou et al.) found very few cells, which keeps the debate alive."
+        },
+        {
+          "name": "Real but marginal",
+          "status": "open",
+          "pop": false,
+          "line": "A trickle of new neurons exists, but it is too small to explain memory or mood.",
+          "explain": "Even if some neurons are born in adults, rates are far below rodents, and their function in humans has not been shown. Claims that exercise or supplements boost neurogenesis for mental health come mostly from mouse work.",
+          "who": "Many human neuroanatomists; supplement marketers are the opposite pole.",
+          "best": "Spalding et al. 2013 (turnover of roughly 1.75% per year in the dentate gyrus); single-nucleus papers of 2022.",
+          "evidence": "No human study has linked measured neurogenesis to a behavioural outcome. This is the part that would decide the matter: a causal test of function in people."
+        }
+      ]
+    },
+    {
+      "title": "Is the brain modular, or one big network?",
+      "lead": "Phrenology was wrong, but a refined version, one area per function, runs through modern pop neuroscience: the amygdala as fear centre, the fusiform face area, left brain versus right brain. The rival view treats cognition as emerging from distributed networks and population codes. Neither extreme survives. Some regions are strongly specialised, and nearly nothing works alone.",
+      "verdict": "Both partly right: a few specialised hubs inside a densely interacting network.",
+      "camps": [
+        {
+          "name": "Localised modules",
+          "status": "partly right",
+          "pop": true,
+          "line": "Each mental function has a home in the brain, like a face area or a fear centre.",
+          "explain": "Lesion studies (Broca, Wernicke, prosopagnosia) and imaging show selective regions for faces, places, words and language. Fodor argued the mind has modules. The pop version extends this to 'the amygdala is the fear centre' and 'the lizard brain'.",
+          "who": "Nancy Kanwisher, Jerry Fodor, Paul Broca; MacLean's triune brain and 'left brain/right brain' as pop forms.",
+          "best": "Fodor, The Modularity of Mind (1983); Kanwisher, McDermott & Chun 1997, Journal of Neuroscience (fusiform face area).",
+          "evidence": "The face area is reproducible across labs and species. But LeDoux 2012, Neuron, 'Rethinking the emotional brain', argued the amygdala is not a fear centre per se. The triune brain was rejected by comparative neuroanatomy. Left/right brain personality types have no support."
+        },
+        {
+          "name": "Distributed patterns",
+          "status": "partly right",
+          "pop": false,
+          "line": "Information is spread across many regions, and what matters is the pattern, not the place.",
+          "explain": "Category information, like faces or objects, can be decoded from patterns across wide areas, not only from the peak region. Emotion and cognition share circuits. Lashley's old equipotentiality claim was an extreme version.",
+          "who": "James Haxby, Luiz Pessoa, Karl Lashley.",
+          "best": "Haxby et al. 2001, Science; Pessoa 2008, Nature Reviews Neuroscience (on emotion and cognition).",
+          "evidence": "Haxby found that face and object categories could be decoded even after the 'preferred' region was removed from the analysis. Pattern analysis is now standard. Strict equipotentiality is dead because focal lesions do produce specific deficits."
+        },
+        {
+          "name": "Large-scale networks",
+          "status": "winning",
+          "pop": false,
+          "line": "Brains are organised into a handful of large networks, and function comes from their interaction.",
+          "explain": "Resting-state and task data show reproducible networks, such as default mode and frontoparietal. Individual differences in network layout are large. Modules exist but are nodes in a graph.",
+          "who": "Olaf Sporns, Thomas Yeo, Marcus Raichle, Steven Petersen, Nico Dosenbach.",
+          "best": "Yeo et al. 2011, Journal of Neurophysiology (7- and 17-network parcellation); Raichle et al. 2001, PNAS (default mode network); Sporns, Networks of the Brain (2010).",
+          "evidence": "Yeo et al. used about 1,000 people to derive stable networks. Precision mapping of single individuals (Gordon et al. 2017, Neuron) shows group averages blur individual-specific areas, supporting networks as the right level."
+        }
+      ]
+    },
+    {
+      "title": "Where is a memory stored?",
+      "lead": "The standard answer is the synapse: learning changes connection strengths, and a memory is a pattern of strengthened connections. This is nearly a hundred years of consensus built on Hebb, long-term potentiation and Kandel's sea slug. Two rivals ask whether the memory is a group of 'engram' cells, or something stored inside cells, in molecules, not between them.",
+      "verdict": "Synapses within engram cell ensembles are mainstream; molecular-storage ideas are a minority bet.",
+      "camps": [
+        {
+          "name": "Synaptic plasticity",
+          "status": "winning",
+          "pop": true,
+          "line": "Neurons that fire together wire together, and the strengthened connections are the memory.",
+          "explain": "Experience changes synaptic strength, and those changes hold the memory. This has the best support from physiology, pharmacology and genetics. The slogan is a paraphrase of Hebb.",
+          "who": "Donald Hebb, Eric Kandel, Tim Bliss and Terje Lømo, Richard Morris.",
+          "best": "Hebb, The Organization of Behavior (1949); Bliss & Lømo 1973, Journal of Physiology (LTP); Martin, Grimwood & Morris 2000, Annual Review of Neuroscience; Nabavi et al. 2014, Nature (LTD and LTP used to erase and reinstate a memory).",
+          "evidence": "Nabavi et al. 2014 is the clearest causal test: manipulating synaptic strength in a defined pathway removed and restored a fear memory. Not every memory trace has been shown to need synapses."
+        },
+        {
+          "name": "Engram cells",
+          "status": "partly right",
+          "pop": false,
+          "line": "A memory lives in a specific ensemble of cells that can be found, activated and erased.",
+          "explain": "Particular groups of neurons are tagged during learning and are necessary and sufficient to recall the memory. This complements the synapse view: the engram is the cell ensemble and its connections.",
+          "who": "Susumu Tonegawa, Sheena Josselyn, Steve Ramirez, Richard Semon (coined 'engram').",
+          "best": "Liu et al. 2012, Nature (optogenetic reactivation of a tagged memory); Ramirez et al. 2013, Science (implanting a false memory); Josselyn & Tonegawa 2020, Science.",
+          "evidence": "Reactivating the tagged cells drives fear behaviour in mice. Ryan et al. 2015, Science, found tagged cells could still retrieve a memory after protein-synthesis blockade abolished the synaptic change, which suggests the ensemble's connectivity matters, not only synapse strength."
+        },
+        {
+          "name": "Molecular storage",
+          "status": "open",
+          "pop": false,
+          "line": "Synapses cannot be the whole story; cells store information in molecules.",
+          "explain": "Computational arguments say a synaptic weight cannot hold something like an interval or a location with the precision animals show. This camp suggests information is stored inside cells, possibly in RNA or epigenetic marks.",
+          "who": "C. R. Gallistel, David Glanzman, Tomás Ryan (in part).",
+          "best": "Gallistel & King, Memory and the Computational Brain (2009); Johansson et al. 2014, Nature Neuroscience (timing in single Purkinje cells); Bédécarrats et al. 2018, eNeuro (RNA-linked memory transfer in sea slugs).",
+          "evidence": "Johansson et al. found a single cerebellar cell can hold learned timing. The RNA transfer experiments were not widely replicated and remain controversial. This camp is a serious minority, not the consensus."
+        }
+      ]
+    },
+    {
+      "title": "Does your brain decide before you do?",
+      "lead": "In 1983 Benjamin Libet reported that a brain signal, the readiness potential, starts hundreds of milliseconds before people report deciding to move. Sam Harris and others took this as proof that free will is an illusion. Later work argued the signal is not a decision at all. The empirical case against free will is much weaker than the pop version suggests.",
+      "verdict": "Libet's result does not show that decisions are made before you are aware of them.",
+      "camps": [
+        {
+          "name": "Brain decides first",
+          "status": "losing",
+          "pop": true,
+          "line": "Your brain starts the action before you feel like you chose it, so free will is an illusion.",
+          "explain": "Neural activity precedes reported awareness of intent, so conscious choice follows unconscious decision. Later fMRI work predicted simple choices several seconds ahead.",
+          "who": "Benjamin Libet, John-Dylan Haynes; Sam Harris (Free Will, 2012) and Robert Sapolsky (Determined, 2023) carry related determinist arguments to the public.",
+          "best": "Libet et al. 1983, Brain; Soon et al. 2008, Nature Neuroscience (fMRI patterns predicted left or right choices up to about 10 seconds ahead).",
+          "evidence": "Soon et al.'s predictions were only about 60% accurate, barely above chance. Libet's timing relied on people reading a clock and self-reporting, which is unreliable."
+        },
+        {
+          "name": "Readiness potential is noise",
+          "status": "winning",
+          "pop": false,
+          "line": "The ramp-up is spontaneous fluctuation crossing a threshold, not a decision already made.",
+          "explain": "Averaging brain activity time-locked to movement makes a ramp appear even if the underlying process is random fluctuation that triggers movement when it happens to cross a threshold. So the 'early signal' reflects how the data was analysed, not a hidden decision.",
+          "who": "Aaron Schurger, Jacobo Sitt, Stanislas Dehaene; Daniel Dennett and Alfred Mele on the philosophy side.",
+          "best": "Schurger, Sitt & Dehaene 2012, PNAS; Mele, Effective Intentions (2009).",
+          "evidence": "Schurger et al.'s stochastic accumulator model reproduced the readiness potential pattern and the timing without a prior decision. This reinterpretation is now widely accepted in the field."
+        },
+        {
+          "name": "Determinism anyway",
+          "status": "open",
+          "pop": true,
+          "line": "Free will fails for reasons that have nothing to do with Libet: every brain state is caused.",
+          "explain": "This argument is philosophical, not an experimental result. It says that causation leaves no room for the 'could have done otherwise' kind of free will. Compatibilists reply that the ordinary notion of choice survives.",
+          "who": "Robert Sapolsky, Sam Harris; opposed by compatibilists like Daniel Dennett.",
+          "best": "Harris, Free Will (2012); Sapolsky, Determined (2023); Dennett, Freedom Evolves (2003).",
+          "evidence": "No neuroscience result decides this. It turns on what you mean by free will, so it is a dispute in philosophy that neuroscience can inform but not settle."
+        }
+      ]
+    },
+    {
+      "title": "Can you trust a brain scan?",
+      "lead": "Functional MRI made 'this region lights up when you think about X' into a genre. Over the 2000s to 2020s, a run of methodological papers showed many classic results were less solid than they looked, and that studies of typical size cannot reliably link brain scans to behaviour. The field's reaction was to demand much bigger samples and more careful statistics.",
+      "verdict": "Small scan studies of brain and behaviour are mostly unreliable; large-sample and within-person work is where the signal is.",
+      "camps": [
+        {
+          "name": "Lights up means it's the center",
+          "status": "losing",
+          "pop": true,
+          "line": "Brain scans show which region does what, and what is going on in your head.",
+          "explain": "Pop and media coverage routinely treat a blob as 'the region for' love, politics, or addiction. The reasoning, reverse inference, treats activity in a region as proof of a particular mental state, which is weak because regions do many things.",
+          "who": "Media coverage generally; early imaging labs.",
+          "best": "Early imaging papers of the 2000s, including social neuroscience correlations.",
+          "evidence": "Vul et al. 2009, Perspectives on Psychological Science, showed implausibly high brain-behaviour correlations in social neuroscience due to circular analysis. Poldrack 2006, Trends in Cognitive Sciences, formalised the reverse inference problem."
+        },
+        {
+          "name": "Scans are mostly noise",
+          "status": "partly right",
+          "pop": false,
+          "line": "fMRI is too noisy and too flexible to trust for most questions.",
+          "explain": "Software bugs, analytic flexibility and low test-retest reliability undermine published findings. This is a correct diagnosis of many studies, but it overshoots when applied to fMRI as a whole.",
+          "who": "Anders Eklund, Russell Poldrack, Maxwell Elliott, Rotem Botvinik-Nezer.",
+          "best": "Eklund, Nichols & Knutsson 2016, PNAS (cluster-wise inference can produce false positive rates up to about 70%); Botvinik-Nezer et al. 2020, Nature (70 teams analysed the same data and disagreed on most hypotheses); Elliott et al. 2020, Psychological Science (poor test-retest reliability of task fMRI).",
+          "evidence": "These are solid, widely replicated methodological results. Eklund's figure applies to specific common settings, and later work fixed software defaults."
+        },
+        {
+          "name": "Big data and precision",
+          "status": "winning",
+          "pop": false,
+          "line": "The signal is real, but you need thousands of people, or many hours per person.",
+          "explain": "Brain-behaviour associations are small, so studies need samples in the thousands. Alternatively, scanning individuals for hours gives reliable maps within a person. Decoding of perceived and imagined content has also advanced.",
+          "who": "Scott Marek, Nico Dosenbach, Russell Poldrack (MyConnectome), Alexander Huth, Jack Gallant.",
+          "best": "Marek et al. 2022, Nature (brain-wide association studies need thousands of participants; typical effects are very small); Huth et al. 2016, Nature (semantic maps); Tang et al. 2023, Nature Neuroscience (decoding continuous language from fMRI).",
+          "evidence": "Marek et al. used tens of thousands of participants across several datasets and found median effect sizes near zero and replicability only at samples in the thousands. Individual-level approaches, in contrast, produce stable, replicable maps."
+        }
+      ]
+    }
+  ]
+}

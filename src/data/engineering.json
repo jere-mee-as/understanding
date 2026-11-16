@@ -1,0 +1,191 @@
+{
+  "discipline": "Engineering",
+  "overview": "Engineering is fought over less by schools of thought than by attitudes to risk, planning and evidence: how far a design can be worked out on paper, how far it has to be built and broken, and who gets to say a system is safe. The folk story is that engineering is applied science: scientists discover, engineers apply, and failures are somebody's mistake. Fields that actually study engineering practice describe something messier, with its own kinds of knowledge, systems that fail through their structure rather than one bad actor, and energy and robotics debates where cost curves and learning methods matter more than first principles. Popular voices tend to supply the clean narrative: a charismatic founder, a single technology fix, or 'it was human error'.",
+  "debates": [
+    {
+      "title": "Can a grid run on wind, water and solar alone?",
+      "lead": "The popular energy story is a binary: either renewables can do everything, or you need a big block of nuclear or gas. Engineers argue about the last 10 to 20 percent of decarbonisation, where seasons of low wind and sun make storage expensive. The 2015 to 2017 fight between Mark Jacobson and a team led by Christopher Clack is the cleanest version of it. Models since then mostly say that you can get very far on renewables and storage, and that firm low-carbon supply makes the final stretch cheaper.",
+      "verdict": "Very high renewable shares are clearly feasible; whether 100 percent from wind, water and solar alone is the cheapest or even a safe plan is where the evidence leans against the strict version.",
+      "camps": [
+        {
+          "name": "100% WWS",
+          "status": "partly right",
+          "pop": true,
+          "line": "We already have the technology to run everything on wind, water and sunlight, and we should stop wasting time on anything else.",
+          "explain": "Jacobson's group models whole economies powered by wind, water and solar with storage, electrifying transport and heat. Supporters see it as a clean, deadline-friendly plan with no fuel supply risk. It leans on very large assumed hydro output and heat and hydrogen storage.",
+          "who": "Mark Jacobson (Stanford); Mark Delucchi; popularised in the Solutions Project and by campaigners such as Mark Ruffalo.",
+          "best": "Jacobson et al. 2015, PNAS, 'Low-cost solution to the grid reliability problem with 100% penetration of intermittent wind, water, and solar for all purposes'.",
+          "evidence": "Clack et al. 2017, PNAS, 'Evaluation of a proposal for reliable low-cost grid power with 100% wind, water, and solar' (21 co-authors) argued the model used unrealistic assumptions, notably about hydropower output and underground thermal storage. Jacobson sued the authors and the journal for defamation in 2017 and dropped the suit in 2018. The broad claim that renewables can supply most power survives; the strict no-other-source version is a minority engineering position."
+        },
+        {
+          "name": "Firm low-carbon mix",
+          "status": "winning",
+          "pop": false,
+          "line": "Wind and solar do most of the work, but a slice of firm power like nuclear, geothermal or gas with capture cuts the cost of the last stretch.",
+          "explain": "System models find that cost per tonne rises sharply as you chase the final fraction, because you have to build for rare low-output weeks. Adding firm generation or long-duration storage flattens that cost curve. The camp does not oppose renewables; it argues about the end state.",
+          "who": "Christopher Clack; Nestor Sepulveda, Jesse Jenkins and colleagues at MIT; Steven Davis and Ken Caldeira.",
+          "best": "Sepulveda et al. 2018, Joule, 'The role of firm low-carbon electricity resources in deep decarbonization of power generation'; Clack et al. 2017, PNAS.",
+          "evidence": "Sepulveda et al. 2018 found that having firm low-carbon options in the mix substantially lowered modelled deep-decarbonisation costs versus renewables, storage and demand response alone. The result depends on technology cost assumptions for firm sources, which is where the open uncertainty is."
+        },
+        {
+          "name": "Costs will decide",
+          "status": "open",
+          "pop": false,
+          "line": "Stop arguing about the end state; whichever technology keeps getting cheaper will take the share.",
+          "explain": "This camp treats the mix as an empirical outcome of learning curves. Solar, wind and batteries have fallen fast; nuclear has not in the West. Critics say learning curves do not tell you system-integration costs.",
+          "who": "Doyne Farmer and the Oxford Martin group; Jesse Jenkins on the other side of integration costs.",
+          "best": "Way, Ives, Mealy and Farmer 2022, Joule, 'Empirically grounded technology forecasts and the energy transition'.",
+          "evidence": "Way et al. 2022 used historical cost data to forecast, and argued that a fast transition is likely to cost less than a slow one. Cost curves are a strong trend argument but do not settle how much firm capacity grids need, so this stays open."
+        }
+      ]
+    },
+    {
+      "title": "Is 'human error' why things fail?",
+      "lead": "After a crash or a plant accident, the popular story is that someone made a mistake and the fix is to retrain or blame them. Safety engineering has largely rejected that framing. The live disagreement is over how system structure produces failure: whether some systems are doomed to have accidents, whether good organisations can avoid them, or whether it is a control problem.",
+      "verdict": "The blame-the-operator model lost among specialists; the remaining fight is between inevitability, organisational culture and control-theory views.",
+      "camps": [
+        {
+          "name": "Human error",
+          "status": "losing",
+          "pop": true,
+          "line": "Most accidents come down to a person who did something wrong.",
+          "explain": "This is the domino model from H. W. Heinrich, who in 1931 claimed that the great majority of industrial accidents come from unsafe acts. It is intuitive and gives somebody to hold accountable. Investigations commonly stop at the last person who touched the system.",
+          "who": "H. W. Heinrich; reproduced in much workplace safety training and media coverage.",
+          "best": "Heinrich 1931, Industrial Accident Prevention.",
+          "evidence": "Sidney Dekker's work (The Field Guide to Understanding Human Error, 2006) and Jens Rasmussen's decades of work on drift showed that errors are symptoms of conditions people were working in. Heinrich's ratios are not supported by data. Investigations of Three Mile Island and the Boeing 737 MAX found design and organisational causes behind the people."
+        },
+        {
+          "name": "Normal accidents",
+          "status": "partly right",
+          "pop": false,
+          "line": "In tightly coupled, complex systems, accidents are inevitable however careful we are.",
+          "explain": "Perrow argued that interactive complexity and tight coupling mean small failures cascade in ways nobody can foresee, so some technologies (nuclear power, for example) should be treated as inherently risky. It was written after Three Mile Island in 1979.",
+          "who": "Charles Perrow.",
+          "best": "Perrow 1984, Normal Accidents: Living with High-Risk Technologies.",
+          "evidence": "The core insight, that coupling and complexity matter, is widely accepted. The strong inevitability claim is contested because some organisations, such as aircraft carriers and air traffic control, run complex systems with few accidents."
+        },
+        {
+          "name": "High-reliability orgs",
+          "status": "partly right",
+          "pop": false,
+          "line": "Some organisations stay safe through constant attention to small signals and a culture that resists simplifying.",
+          "explain": "Researchers observed that carriers, nuclear plants and air traffic control keep error rates low through preoccupation with failure, reluctance to simplify and deference to expertise rather than rank.",
+          "who": "Karl Weick, Kathleen Sutcliffe, Todd La Porte, Karlene Roberts.",
+          "best": "Weick and Sutcliffe 2001, Managing the Unexpected.",
+          "evidence": "Evidence is mostly case studies, so it is hard to test causally. It gave healthcare and aviation a working vocabulary, but critics say it describes survivors."
+        },
+        {
+          "name": "Systems control (STAMP)",
+          "status": "winning",
+          "pop": false,
+          "line": "Accidents are control problems: failures are inadequate constraints in the system, not broken parts.",
+          "explain": "Leveson's STAMP model treats safety as a control problem, so analysts ask why the controls and feedback allowed an unsafe state rather than who failed. It underlies modern hazard analysis in aerospace and medical devices.",
+          "who": "Nancy Leveson (MIT).",
+          "best": "Leveson 2011, Engineering a Safer World, MIT Press.",
+          "evidence": "Adopted in practice for hazard analysis (STPA) across aerospace and automotive. It explains software-driven accidents where nothing component-level failed. Head-to-head empirical comparisons with older methods are limited, so 'winning' means influence among practitioners."
+        }
+      ]
+    },
+    {
+      "title": "Hand-coded control or learned from data?",
+      "lead": "Robotics split decades ago over whether a robot needs a model of the world that engineers design, or whether behaviour should emerge from simple reactive layers or from data. The latest turn is that large learned models trained on lots of demonstrations are producing manipulation skills that hand-engineered pipelines struggled with. The popular story is that robots are about to be general-purpose like chatbots. Specialists are less sure, because physical data is scarce and safety is demanding.",
+      "verdict": "Learning from data has been gaining ground fast in manipulation and locomotion, while classical control still carries safety-critical and industrial work; general-purpose robots are not yet shown.",
+      "camps": [
+        {
+          "name": "Model-based control",
+          "status": "partly right",
+          "pop": false,
+          "line": "If you know the physics, plan and control from a model; it is predictable and you can certify it.",
+          "explain": "Classical robotics builds explicit models of kinematics, dynamics and the world, and uses optimal control and planning. It is how factory arms, drones and surgical systems get guarantees.",
+          "who": "Optimal control and motion-planning communities; Russ Tedrake's group at MIT works across the boundary.",
+          "best": "Siciliano and Khatib (eds.), Springer Handbook of Robotics, 2008; Tedrake, Underactuated Robotics course notes.",
+          "evidence": "Still the backbone of industrial and aerospace systems because of verifiability. Weak spots are messy contact, deformable objects and unstructured scenes."
+        },
+        {
+          "name": "Behaviour-based / embodied",
+          "status": "partly right",
+          "pop": false,
+          "line": "Intelligence comes from layered reactions to the world, not from a big internal model.",
+          "explain": "Brooks argued that the world is its own best model and that simple robots built bottom-up can do real work. It shaped robot vacuums and swarm approaches.",
+          "who": "Rodney Brooks (iRobot, Rethink Robotics).",
+          "best": "Brooks 1991, 'Intelligence without representation', Artificial Intelligence.",
+          "evidence": "Commercial success in constrained roles (Roomba). Did not scale to dexterous manipulation by itself, but its embodiment emphasis was absorbed by learning approaches."
+        },
+        {
+          "name": "End-to-end learning",
+          "status": "open",
+          "pop": true,
+          "line": "Scale up data and compute and general-purpose robot skills will emerge, as they did for language.",
+          "explain": "Policies are trained from large demonstration or simulation datasets, sometimes reusing vision-language models. Supporters point to Sutton's bitter lesson that general methods plus compute beat hand-built knowledge. Doubters point out that robot data is far scarcer than text.",
+          "who": "Sergey Levine, Chelsea Finn, Pieter Abbeel; Google DeepMind's RT series; Rich Sutton as the philosophical anchor; company founders pitching humanoids carry the pop version.",
+          "best": "Sutton 2019, essay 'The Bitter Lesson'; Brohan et al. 2023, 'RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control'.",
+          "evidence": "Strong results in lab manipulation and legged locomotion trained in simulation. Reliability, safety and data scale remain unsolved, and general-purpose household robots have not been demonstrated, so it is genuinely open. A deciding test would be a learned system reaching industrial-grade reliability on varied tasks without per-task engineering."
+        }
+      ]
+    },
+    {
+      "title": "Is engineering just applied science?",
+      "lead": "The common story, going back to Vannevar Bush's 1945 linear model, has science discover and engineering apply. Historians and philosophers of engineering say this is backwards or at least incomplete: engineers generate knowledge about what works that science often has not yet explained. The steam engine came before thermodynamics. The debate matters because it shapes funding and education.",
+      "verdict": "The pure applied-science view lost among historians of technology; engineering knowledge is its own thing with two-way traffic with science.",
+      "camps": [
+        {
+          "name": "Applied science",
+          "status": "losing",
+          "pop": true,
+          "line": "Engineers take what scientists discover and turn it into products.",
+          "explain": "A linear pipeline from basic research to applied research to development to products. It justified post-war science funding and still sets how many people explain engineering.",
+          "who": "Vannevar Bush; Mario Bunge's philosophy of technology as applied science.",
+          "best": "Bush 1945, Science, the Endless Frontier.",
+          "evidence": "Contradicted by cases where technology preceded theory, such as steam engines before thermodynamics, and by Vincenti's studies of aircraft design where engineers produced their own design knowledge."
+        },
+        {
+          "name": "Engineering knowledge",
+          "status": "winning",
+          "pop": false,
+          "line": "Engineering has its own methods and knowledge, built from design, testing and experience.",
+          "explain": "Engineers use design procedures, rules of thumb, tolerance data and tested configurations that science did not supply. Knowledge grows through variation and selection in design, and from failures.",
+          "who": "Walter Vincenti; Edwin Layton; Henry Petroski, who popularised failure-driven design.",
+          "best": "Layton 1971, 'Mirror-image twins: the communities of science and technology in 19th-century America', Technology and Culture; Vincenti 1990, What Engineers Know and How They Know It; Petroski 1985, To Engineer Is Human.",
+          "evidence": "Vincenti's case studies, such as flush riveting, propeller design and flying qualities, show engineering knowledge developed by its own experimental tradition. Most scholars now describe science and technology as interacting systems rather than a pipeline."
+        }
+      ]
+    },
+    {
+      "title": "Plan everything first, or build, break and rebuild?",
+      "lead": "Big aerospace and infrastructure programmes grew up on up-front requirements and staged review, which controls risk but can balloon cost and schedule. Newer companies such as SpaceX popularised hardware iteration: test early, accept failures, redesign fast. The pop version is that iteration beats bureaucracy. Practitioners mostly say it depends on the cost of a failed test and the cost of changing course.",
+      "verdict": "Iterative testing works where failed tests are cheap and informative; staged planning still wins where a failure is catastrophic or irreversible, and the best programmes mix them.",
+      "camps": [
+        {
+          "name": "Plan and review",
+          "status": "partly right",
+          "pop": false,
+          "line": "Define requirements, verify at every gate and fly the design once, because failures are too costly.",
+          "explain": "The classic systems-engineering process (V-model, formal design reviews) is built for programmes where each unit is expensive or cannot be repaired after launch, such as space telescopes and crewed vehicles.",
+          "who": "NASA and defence systems-engineering tradition; the INCOSE community.",
+          "best": "NASA Systems Engineering Handbook (NASA/SP-2007-6105).",
+          "evidence": "Where failure is unrecoverable, it works: the James Webb Space Telescope deployed successfully in 2021 after a long, expensive development with cost far above early estimates. Government audits repeatedly flag cost growth in large programmes, which is the downside."
+        },
+        {
+          "name": "Iterate in hardware",
+          "status": "partly right",
+          "pop": true,
+          "line": "Build it, blow it up, learn faster than anyone who is still writing requirements.",
+          "explain": "Rapid prototyping with frequent real tests, vertical integration and tolerance for failed test articles. It was accompanied by fixed-price contracts in some NASA programmes, which shifts risk to contractors.",
+          "who": "SpaceX and Elon Musk as the public face; agile-hardware proponents in startups.",
+          "best": "NASA Commercial Crew awards in 2014: fixed-price contracts to SpaceX and Boeing; Falcon 9 and Starship test campaigns.",
+          "evidence": "SpaceX's reusable Falcon 9 reached orbital launch cadence and crewed flights at far lower contract prices than traditional programmes. It is harder to credit iteration alone, since it was also vertical integration and commercial incentives. Starship tests are still ongoing as proof for much larger, newer systems."
+        },
+        {
+          "name": "Hybrid",
+          "status": "open",
+          "pop": false,
+          "line": "Iterate on components and subsystems, then lock design and verify before the point of no return.",
+          "explain": "Many programmes now test fast at subsystem level and use formal gates for the full system. The disagreement is about where the line goes for each project.",
+          "who": "Practitioners at NASA, defence primes and newer entrants.",
+          "best": "No single defining text; consult NASA and GAO assessments of major projects.",
+          "evidence": "No clean controlled comparison exists because programmes differ so much. What would decide it is cost-per-capability data across comparable systems built under each approach."
+        }
+      ]
+    }
+  ]
+}

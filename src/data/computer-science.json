@@ -1,0 +1,228 @@
+{
+  "discipline": "Computer science",
+  "overview": "Computer science is really three fields under one name: theory (what can be computed, and how fast), systems and human-facing engineering, and machine learning, which has swallowed the public image of the whole. The theory side is old, proof-based and mostly settled on its big beliefs. The AI side is new, empirical and fighting about almost everything: whether scale is enough, whether models understand anything, and how dangerous the technology is. The simple stories come from marketing and from a few very visible communicators, and they range from 'quantum computers try every answer at once' to 'AGI is two years away' to 'it's just autocomplete'.",
+  "debates": [
+    {
+      "title": "Is scale all you need?",
+      "lead": "Will bigger models, more data and more compute keep producing smarter systems, or does AI need new ideas? Rich Sutton called it the 'bitter lesson': general methods that scale beat human-designed knowledge. Critics say scaling hits walls on reasoning, reliability and data. The pop versions are 'just add GPUs' and 'it's a bubble that has plateaued'.",
+      "verdict": "Scaling was the best bet of the last decade and still pays, but the biggest recent gains also came from new ingredients (reinforcement learning on reasoning, test-time compute), so 'scale alone' is losing and 'scale plus ideas' is winning.",
+      "camps": [
+        {
+          "name": "Scaling hypothesis",
+          "status": "partly right",
+          "pop": true,
+          "line": "Loss falls predictably with compute, data and parameters, and capabilities follow.",
+          "explain": "Neural nets show smooth power-law improvement across many orders of magnitude. Labs bet billions on extrapolating it. The strong form says intelligence just emerges from enough scale.",
+          "who": "Ilya Sutskever, Dario Amodei, Sam Altman, Gwern Branwen, Rich Sutton.",
+          "best": "Kaplan et al. 2020, 'Scaling laws for neural language models' (OpenAI, arXiv); Hoffmann et al. 2022, 'Training compute-optimal large language models' (Chinchilla, DeepMind); Sutton, 'The bitter lesson' (2019 essay).",
+          "evidence": "Scaling laws held across language, vision and code. Chinchilla corrected the ratio of data to parameters. Against the strong form: loss falling smoothly does not tell you which abilities appear, and high-quality data is finite."
+        },
+        {
+          "name": "Structure and new ideas",
+          "status": "partly right",
+          "pop": false,
+          "line": "Pure next-token prediction will not give reliable reasoning or planning; we need different architectures.",
+          "explain": "Gary Marcus wants hybrid neuro-symbolic systems. Yann LeCun argues for world models and learned planning, not autoregressive text. François Chollet argues benchmarks like ARC show models memorise rather than adapt.",
+          "who": "Gary Marcus, Yann LeCun, François Chollet; Judea Pearl on causal reasoning.",
+          "best": "Marcus, 'Deep learning: a critical appraisal' (2018); Chollet, 'On the measure of intelligence' (2019); LeCun, 'A path towards autonomous machine intelligence' (2022).",
+          "evidence": "Failures on out-of-distribution reasoning and long planning persisted across generations. The ARC-AGI benchmark stayed hard until reasoning models in late 2024 made large jumps, which suggests the answer was a mix, not a pure rival paradigm."
+        },
+        {
+          "name": "Scale plus RL and inference compute",
+          "status": "winning",
+          "pop": false,
+          "line": "Keep scaling pretraining, but spend more on reinforcement learning and on thinking at test time.",
+          "explain": "Reasoning models trained with RL on verifiable tasks and allowed long chains of thought showed big gains in maths, code and science. It is a new axis of scale, not a refutation. Open question is how far it generalises beyond checkable domains.",
+          "who": "OpenAI (o1, 2024), DeepSeek (R1, 2025), Google DeepMind, Anthropic.",
+          "best": "OpenAI 2024, 'Learning to reason with LLMs' (o1); DeepSeek-AI 2025, 'DeepSeek-R1' (arXiv; Nature 2025).",
+          "evidence": "Large jumps on competition maths (AIME) and coding benchmarks from reasoning training. Limits: gains are strongest where answers can be verified automatically."
+        }
+      ]
+    },
+    {
+      "title": "Do language models understand anything?",
+      "lead": "Are LLMs 'stochastic parrots' that shuffle text, or do they build real internal models of the world? The pop split is 'autocomplete' versus 'they're basically thinking'. Researchers have started to settle parts of it with interpretability, but the word 'understand' does a lot of work.",
+      "verdict": "Open, but the pure-parrot view has taken damage: models clearly build structured internal representations; whether that counts as understanding is partly a definitional dispute.",
+      "camps": [
+        {
+          "name": "Stochastic parrots",
+          "status": "partly right",
+          "pop": true,
+          "line": "A system trained only on form cannot learn meaning; it is mimicking patterns in text.",
+          "explain": "Bender and Koller argued meaning requires grounding in communicative intent and the world. The parrot critique also stresses risks: fluent text that people over-trust, and biased training data.",
+          "who": "Emily Bender, Timnit Gebru, Margaret Mitchell, Alexander Koller; Noam Chomsky in a broader way.",
+          "best": "Bender and Koller 2020, 'Climbing towards NLU', ACL; Bender, Gebru et al. 2021, 'On the dangers of stochastic parrots', FAccT.",
+          "evidence": "Models still make brittle, inhuman errors and hallucinate confidently. But the strong claim that nothing but surface statistics is learned is hard to square with the interpretability results below."
+        },
+        {
+          "name": "World models inside",
+          "status": "partly right",
+          "pop": false,
+          "line": "To predict text well the network builds internal models of the things the text describes.",
+          "explain": "Probing and intervention studies find internal structure beyond word statistics. The strong form claims human-like understanding; the weaker claim is only that representations are structured and causally used.",
+          "who": "Kenneth Li, Neel Nanda, Max Tegmark, Chris Olah; Geoffrey Hinton as a public advocate of 'they understand'.",
+          "best": "Li et al. 2023, 'Emergent world representations' (Othello-GPT), ICLR; Gurnee and Tegmark 2023, 'Language models represent space and time'; Anthropic 2024, 'Scaling monosemanticity'.",
+          "evidence": "A transformer trained only on Othello move lists develops an internal board representation, and editing it changes its moves. Caveats: Othello is small, and models also lean on shallow heuristics in other tasks."
+        },
+        {
+          "name": "Emergence is a mirage",
+          "status": "partly right",
+          "pop": false,
+          "line": "Sudden new abilities at scale are mostly artifacts of how we score them.",
+          "explain": "Wei et al. reported abilities that appear abruptly at a size threshold. Schaeffer and colleagues argued that discontinuities come from all-or-nothing metrics; with smooth metrics the curves are smooth.",
+          "who": "Rylan Schaeffer, Sanmi Koyejo; versus Jason Wei et al.",
+          "best": "Wei et al. 2022, 'Emergent abilities of large language models', TMLR; Schaeffer, Miranda and Koyejo 2023, 'Are emergent abilities of large language models a mirage?', NeurIPS.",
+          "evidence": "Changing the metric makes many 'emergent' curves smooth. Some real qualitative shifts (such as in-context learning) are not fully explained away."
+        }
+      ]
+    },
+    {
+      "title": "How worried should we be about advanced AI?",
+      "lead": "One camp says advanced AI could be catastrophic, even extinction-level, and alignment is unsolved. Another says the real harms are here now (bias, labour, concentration of power) and doom talk distracts. A third says the risk is overstated because capabilities are further off. This is partly an empirical fight and partly about values and forecasting, and surveys show researchers are divided.",
+      "verdict": "Open. There is real empirical evidence of misbehaviour in lab settings, but no agreed way to convert that into probabilities of catastrophe, and expert views are widely spread.",
+      "camps": [
+        {
+          "name": "Existential risk",
+          "status": "open",
+          "pop": true,
+          "line": "A system smarter than us that doesn't share our goals is the default outcome unless we solve alignment.",
+          "explain": "Arguments from instrumental convergence and the orthogonality of goals and intelligence. Hinton, Bengio and many lab leaders signed a one-sentence statement placing extinction risk alongside pandemics and nuclear war. Critics say the arguments are speculative and have no track record.",
+          "who": "Nick Bostrom, Eliezer Yudkowsky, Stuart Russell, Geoffrey Hinton, Yoshua Bengio; popularised by Bostrom's Superintelligence and Russell's Human Compatible.",
+          "best": "Bostrom, Superintelligence (2014); Russell, Human Compatible (2019); Center for AI Safety, 'Statement on AI risk' (2023).",
+          "evidence": "Lab results show failure modes in contrived settings: Hubinger et al. 2024 ('Sleeper agents') found backdoored behaviour survived safety training; Greenblatt et al. 2024 ('Alignment faking in large language models') saw a model strategically complying in training. Grace et al. 2024 survey of about 2,700 AI researchers: median around 5% on extremely bad outcomes such as extinction, with a wide spread."
+        },
+        {
+          "name": "Present-harms focus",
+          "status": "partly right",
+          "pop": false,
+          "line": "The danger is people using AI to discriminate, surveil and concentrate power, and doom talk serves the companies.",
+          "explain": "Documented harms already exist: biased classifiers, labour exploitation in data work, misinformation. This camp argues extinction narratives hype capabilities and sideline accountability.",
+          "who": "Timnit Gebru, Emily Bender, Meredith Whittaker, Arvind Narayanan and Sayash Kapoor.",
+          "best": "Buolamwini and Gebru 2018, 'Gender shades', FAT*; Narayanan and Kapoor, AI Snake Oil (2024).",
+          "evidence": "Gender Shades found commercial face classifiers had error rates up to about 35% for darker-skinned women versus under 1% for lighter-skinned men. The two risk camps are not strictly exclusive; many researchers work on both."
+        },
+        {
+          "name": "Risk overstated",
+          "status": "open",
+          "pop": false,
+          "line": "Current systems are nowhere near autonomous goal-pursuit, and we will engineer safety as we go.",
+          "explain": "Argues that intelligence does not imply a drive for domination, that real-world power needs more than cleverness, and that safety gets built iteratively like in aviation.",
+          "who": "Yann LeCun, Andrew Ng, Melanie Mitchell; Narayanan and Kapoor with 'AI as normal technology'.",
+          "best": "Mitchell, Artificial Intelligence: A Guide for Thinking Humans (2019); Narayanan and Kapoor 2025, 'AI as normal technology' (Knight Institute essay).",
+          "evidence": "Repeated overestimates of timelines for narrow tasks, and failures of reliability in agents. The reply from the risk camp is that tail risks justify action even if probability is low."
+        }
+      ]
+    },
+    {
+      "title": "Will quantum computers break everything?",
+      "lead": "The folk picture: a quantum computer tries every possible answer at once, so hard problems become easy. That is wrong. Quantum computers give speedups for specific structured problems. The live fight is whether useful advantage is near, not whether magic is real.",
+      "verdict": "The 'try everything at once' story is dead; narrow, real speedups are the consensus. Whether practical advantage arrives soon is open.",
+      "camps": [
+        {
+          "name": "Tries all answers at once",
+          "status": "losing",
+          "pop": true,
+          "line": "Quantum parallelism means NP-hard problems fall to quantum computers.",
+          "explain": "Superposition holds many states, but measurement returns one, and you need interference to boost the right one. For generic search the best known gain is quadratic, not exponential.",
+          "who": "Pop-science and press coverage; some vendors' marketing.",
+          "best": "Not a research position; cited to be corrected by Aaronson, 'The limits of quantum computers', Scientific American (2008).",
+          "evidence": "Bennett, Bernstein, Brassard and Vazirani 1997, SIAM J. Computing: relative to an oracle, quantum computers cannot solve NP-complete problems in fewer than about the square root of the search space. Grover 1996 achieves exactly that square-root speedup."
+        },
+        {
+          "name": "Structured speedups",
+          "status": "winning",
+          "pop": false,
+          "line": "Quantum helps where there is hidden structure: factoring, simulating quantum systems.",
+          "explain": "Shor's algorithm factors in polynomial time, threatening RSA, and simulating quantum chemistry is the other prime target. Error correction is the main bottleneck. Cryptographers are already switching to post-quantum standards.",
+          "who": "Peter Shor, Scott Aaronson, John Preskill, Umesh Vazirani.",
+          "best": "Shor 1994/1997 (SIAM J. Computing); Preskill 2018, 'Quantum computing in the NISQ era and beyond', Quantum.",
+          "evidence": "Google's 2019 Nature result on random circuit sampling (Arute et al.) was challenged by classical simulations, then followed by below-threshold error correction on the Willow chip (Google Quantum AI, Nature 2024/25) and the 2025 'Quantum Echoes' claim of verifiable advantage on a physics task. NIST standardised post-quantum encryption in 2024."
+        },
+        {
+          "name": "Skeptics of scalability",
+          "status": "open",
+          "pop": false,
+          "line": "Noise will make large-scale quantum computation impossible in practice.",
+          "explain": "Argues that error rates cannot be pushed low enough at scale and that supremacy claims rely on contrived tasks. The error-correction thresholds demonstrated so far partly cut against this, but full fault tolerance is not demonstrated.",
+          "who": "Gil Kalai, Mikhail Dyakonov.",
+          "best": "Kalai, 'The argument against quantum computers' (2016-2020 essays).",
+          "evidence": "Classical algorithms repeatedly narrowed claimed advantages (e.g., tensor-network simulations after 2019). No fault-tolerant machine running a useful algorithm has been shown."
+        }
+      ]
+    },
+    {
+      "title": "Do AI coding tools make programmers faster?",
+      "lead": "Vendors and many developers say coding assistants are a big multiplier. Controlled studies are scarce and give mixed answers. The pop line, 'AI will do the work of ten engineers', runs ahead of measurement.",
+      "verdict": "Open and context-dependent: big gains on well-defined tasks and for juniors, little or negative gains for experts in mature codebases.",
+      "camps": [
+        {
+          "name": "Large speedups",
+          "status": "partly right",
+          "pop": true,
+          "line": "Developers finish tasks far faster with AI assistance.",
+          "explain": "Controlled tasks and company field data show real gains, especially for less experienced developers and greenfield work.",
+          "who": "GitHub, Microsoft research teams, many startup leaders.",
+          "best": "Peng et al. 2023, 'The impact of AI on developer productivity: evidence from GitHub Copilot' (arXiv).",
+          "evidence": "Peng et al.: developers with Copilot completed an HTTP-server task about 56% faster in a randomised experiment. Larger field experiments at several firms found smaller average gains concentrated in junior staff."
+        },
+        {
+          "name": "Slowdowns for experts",
+          "status": "partly right",
+          "pop": false,
+          "line": "On real tasks in codebases they know, experts are slowed by review and prompting overhead.",
+          "explain": "METR ran a randomised trial of experienced open-source maintainers working on their own repositories. They expected speedups but lost time, and still believed they had gained.",
+          "who": "METR (Joel Becker and colleagues).",
+          "best": "Becker et al. 2025, 'Measuring the impact of early-2025 AI on experienced open-source developer productivity' (METR).",
+          "evidence": "16 developers, 246 tasks: allowing AI made tasks take about 19% longer, while developers had predicted about a 24% speedup. Small sample, early-2025 tools; METR itself warned against over-generalising."
+        },
+        {
+          "name": "Depends on task and tool",
+          "status": "open",
+          "pop": false,
+          "line": "The answer changes with model generation, codebase maturity, and how the work is organised.",
+          "explain": "Tools are improving faster than studies are published. The key variables are task type, developer skill, and how verification is handled.",
+          "who": "Empirical software engineering researchers.",
+          "best": "Replications and follow-ups to the 2023-2025 studies.",
+          "evidence": "What would decide it: repeated randomised trials across tool generations and seniority levels, measuring quality and maintenance cost, not only completion time."
+        }
+      ]
+    },
+    {
+      "title": "Is P really not equal to NP?",
+      "lead": "Can every problem whose answer is quickly checkable also be quickly solved? Almost everyone in the field says no, but nobody has proved it, and it is a Clay Millennium Prize problem. The pop confusion is 'it's unknown, so it could be either'. Beliefs are lopsided even if proof is missing.",
+      "verdict": "P is not equal to NP is the overwhelming belief but remains unproved; we also know why the usual proof techniques fail.",
+      "camps": [
+        {
+          "name": "P ≠ NP",
+          "status": "winning",
+          "pop": false,
+          "line": "Finding solutions is genuinely harder than checking them.",
+          "explain": "Decades of failure to find fast algorithms for thousands of NP-complete problems, plus the structure of the problem, is the evidence. Cryptography assumes it in spirit.",
+          "who": "Most complexity theorists; Scott Aaronson argues for it with a 'physical' style of reasoning.",
+          "best": "Cook 1971 and Karp 1972 (NP-completeness); Gasarch, 'The third P=?NP poll' (2019).",
+          "evidence": "Gasarch's 2019 poll of experts: about 88% believed P ≠ NP (up from about 83% in 2012). Proof barriers: relativization (Baker, Gill and Solovay 1975), natural proofs (Razborov and Rudich 1994), algebrization (Aaronson and Wigderson 2008)."
+        },
+        {
+          "name": "P = NP",
+          "status": "losing",
+          "pop": false,
+          "line": "There might be a clever fast algorithm we haven't found yet.",
+          "explain": "A tiny minority view, partly a reminder that surprising algorithms exist. Even if P = NP the algorithm might be impractical.",
+          "who": "Donald Knuth has said he leans this way in an informal, non-constructive sense.",
+          "best": "Knuth's 2014 'Twenty Questions' answers.",
+          "evidence": "No proof, and the only evidence is that surprising algorithms have appeared before (e.g., linear programming in P by Khachiyan 1979)."
+        },
+        {
+          "name": "Independent of the axioms",
+          "status": "open",
+          "pop": false,
+          "line": "The question may not be decidable from standard axioms.",
+          "explain": "Gödel-style independence has been suggested. Little supports it.",
+          "who": "Scott Aaronson wrote about the possibility; most think it unlikely.",
+          "best": "Aaronson, 'Is P versus NP formally independent?' (2003).",
+          "evidence": "No independence result exists; the barrier results rule out whole families of proof methods, not the question."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "discipline": "Business",
+  "overview": "Business scholarship fights over what actually drives firm success, what firms are for, and how much of what executives and gurus say is supported by data. The folk narratives come from consultants and bestselling authors: disruption, visionary founders, bonus incentives, maximise shareholder value. Academic research has generally found that the clean stories explain some cases and fail in many others, so the field has moved to conditional claims. Where randomised or quasi-experimental evidence exists, as in entrepreneurship training and remote work, it often shifts the debate.",
+  "debates": [
+    {
+      "title": "Does the industry or the firm decide who wins?",
+      "lead": "Strategy asks why some firms outperform others for years. Michael Porter's view is that profit comes from choosing an attractive industry and defensible position. The resource-based view says it comes from distinctive internal assets that rivals cannot copy. Decades of variance-decomposition studies tried to settle how much industry matters.",
+      "verdict": "Firm-specific factors beat industry as the larger source of profit differences, though industry is far from irrelevant; the field now stresses firm capabilities that can change over time.",
+      "camps": [
+        {
+          "name": "Positioning",
+          "status": "partly right",
+          "pop": true,
+          "line": "Pick the right industry and a clear position, and structure does the work.",
+          "explain": "Porter's five forces explains industry profitability by buyer and supplier power, entry threat, substitutes and rivalry. Strategy is choosing where to compete and how to differ.",
+          "who": "Michael Porter (Harvard); the consulting-industry strategy toolkit.",
+          "best": "Porter 1980, Competitive Strategy; Porter 1985, Competitive Advantage.",
+          "evidence": "McGahan and Porter 1997, Strategic Management Journal, 'How much does industry matter, really?' found that industry effects are real, at roughly a fifth of variance in business-unit profit, but that business-segment effects were larger. Rumelt 1991, SMJ, had found that stable business-unit effects dwarf industry effects. The positioning view survives as a piece, not the whole."
+        },
+        {
+          "name": "Resource-based view",
+          "status": "winning",
+          "pop": false,
+          "line": "Advantage comes from assets rivals cannot easily copy: capabilities, knowledge and culture built over time.",
+          "explain": "The firm is a bundle of resources. Those that are valuable, rare, hard to imitate and organised well explain sustained differences in performance.",
+          "who": "Birger Wernerfelt; Jay Barney; C. K. Prahalad and Gary Hamel (core competence).",
+          "best": "Wernerfelt 1984, SMJ, 'A resource-based view of the firm'; Barney 1991, Journal of Management, 'Firm resources and sustained competitive advantage'.",
+          "evidence": "Consistent with the firm-level variance in the decomposition studies. Critics say the framework is hard to test directly, since 'resources' can be defined after the fact to explain winners."
+        },
+        {
+          "name": "Dynamic capabilities",
+          "status": "partly right",
+          "pop": false,
+          "line": "In fast-changing markets, the edge is the ability to sense change and reconfigure resources.",
+          "explain": "A response to the RBV's static feel: firms need routines for adaptation. It has become a mainstream umbrella concept.",
+          "who": "David Teece, Gary Pisano, Amy Shuen.",
+          "best": "Teece, Pisano and Shuen 1997, SMJ, 'Dynamic capabilities and strategic management'.",
+          "evidence": "Widely cited, but also criticised as vague and hard to measure. It is more a research programme than a settled result."
+        }
+      ]
+    },
+    {
+      "title": "Are firms there to maximise shareholder value?",
+      "lead": "Milton Friedman's 1970 essay made the social responsibility of business to increase profits the textbook line. In 2019 the Business Roundtable issued a statement redefining a corporation's purpose to include customers, employees, suppliers and communities. Pop belief holds that directors are legally required to maximise profit. Legal scholars say the law is much more flexible, and empirical finance says the stakeholder claim is harder to verify than the rhetoric suggests.",
+      "verdict": "The legal claim that profit maximisation is mandatory lost; whether stakeholder-friendly pledges change corporate behaviour is still open and the evidence is not flattering to the rhetoric.",
+      "camps": [
+        {
+          "name": "Shareholder primacy",
+          "status": "partly right",
+          "pop": true,
+          "line": "A company's job is to make money for its owners within the law; managers have no business spending it on anything else.",
+          "explain": "Agency theory says managers should be bound to owners because otherwise they serve themselves. Supporters see profit as the discipline that allocates resources well.",
+          "who": "Milton Friedman; Michael Jensen and William Meckling; much of corporate finance.",
+          "best": "Friedman 1970, New York Times Magazine, 'The Social Responsibility of Business Is to Increase Its Profits'; Jensen and Meckling 1976, Journal of Financial Economics.",
+          "evidence": "Strong on governance and incentives. But the idea that US law demands profit maximisation is mythology: Lynn Stout 2012, The Shareholder Value Myth, argues that business judgment rule gives boards wide discretion. Dodge v. Ford (1919), the usual cite, is not a good authority."
+        },
+        {
+          "name": "Stakeholder view",
+          "status": "open",
+          "pop": true,
+          "line": "Firms create value for everyone they depend on, and should be run for all of them.",
+          "explain": "Freeman's stakeholder theory says managers should balance the interests of employees, customers, suppliers, communities and investors. Supporters argue that this is better for long-run value too.",
+          "who": "R. Edward Freeman; the Business Roundtable 2019 statement; ESG advocates.",
+          "best": "Freeman 1984, Strategic Management: A Stakeholder Approach; Business Roundtable, 'Statement on the Purpose of a Corporation', August 2019.",
+          "evidence": "Bebchuk and Tallarita 2022, Cornell Law Review, 'The Illusory Promise of Stakeholder Governance', found that signatories' governance documents rarely reflected the stakeholder commitment, and that CEOs had little incentive to follow it. Friede, Busch and Bassen 2015 meta-analysis found most studies show a non-negative relation between ESG and financial performance. Causality and measurement remain disputed."
+        },
+        {
+          "name": "Enlightened value",
+          "status": "open",
+          "pop": false,
+          "line": "Long-run shareholder value requires treating stakeholders well, so the two views converge.",
+          "explain": "Jensen's later position and others hold that value maximisation is fine as long as it is long-term and uses a single objective. Critics say this lets either side claim it.",
+          "who": "Michael Jensen (2001); Alex Edmans (Grow the Pie, 2020).",
+          "best": "Jensen 2001, Journal of Applied Corporate Finance, 'Value maximization, stakeholder theory, and the corporate objective function'; Edmans 2020, Grow the Pie.",
+          "evidence": "Hard to falsify because the long run is flexible. What would decide it is evidence on whether firms with binding stakeholder commitments perform differently over the long run."
+        }
+      ]
+    },
+    {
+      "title": "Does disruptive innovation explain why leaders fall?",
+      "lead": "Clayton Christensen's theory says that incumbents lose to cheaper, simpler entrants that start at the low end and move up, because listening to best customers keeps incumbents from pursuing them. It became the dominant innovation story in business, including startup culture. Critics found it explains fewer cases than claimed.",
+      "verdict": "The theory describes a real pattern but fits fewer cases than its popularity suggests; incumbents more often fail from architecture and capability mismatches.",
+      "camps": [
+        {
+          "name": "Disruption theory",
+          "status": "partly right",
+          "pop": true,
+          "line": "Great companies fail by doing everything right, listening to customers while a cheap entrant moves up from below.",
+          "explain": "The theory works with the idea of a trajectory of improvement that overshoots mainstream needs, which opens space for simpler products. It gave managers a vocabulary for threat.",
+          "who": "Clayton Christensen; popularised by the Silicon Valley startup scene and consultants.",
+          "best": "Christensen 1997, The Innovator's Dilemma; Christensen, Raynor and McDonald 2015, Harvard Business Review, 'What Is Disruptive Innovation?'.",
+          "evidence": "The disk-drive case holds up as an illustration. Later work on other industries was less supportive."
+        },
+        {
+          "name": "Critics of disruption",
+          "status": "partly right",
+          "pop": false,
+          "line": "The theory is a story fitted to chosen cases and is applied far too widely.",
+          "explain": "Critics argue that the examples were selected after the fact, that the word has been stretched to cover any innovation, and that many predicted disruptions did not occur.",
+          "who": "Jill Lepore (New Yorker); Andrew King and Baljir Baatartogtokh.",
+          "best": "Lepore 2014, The New Yorker, 'The Disruption Machine'; King and Baatartogtokh 2015, MIT Sloan Management Review, 'How Useful Is the Theory of Disruptive Innovation?'.",
+          "evidence": "King and Baatartogtokh re-examined the cases from The Innovator's Dilemma and found that only a minority fit all the theory's elements. Christensen's camp replied that critics misapplied the definition."
+        },
+        {
+          "name": "Capability and architecture",
+          "status": "winning",
+          "pop": false,
+          "line": "Incumbents fall when a change destroys their competences or restructures how components fit together.",
+          "explain": "Instead of customer-driven drift, the key question is what kind of knowledge the change makes obsolete. Linked to older work on dominant designs.",
+          "who": "Michael Tushman, Philip Anderson, Rebecca Henderson, Kim Clark.",
+          "best": "Tushman and Anderson 1986, Administrative Science Quarterly, 'Technological discontinuities and organizational environments'; Henderson and Clark 1990, ASQ, 'Architectural innovation'.",
+          "evidence": "Both papers were based on industry data (minicomputers, cement, airlines and photolithography equipment) and explain incumbent failure without requiring a low-end entrant. This view is more of a framework than a winner-take-all rival."
+        }
+      ]
+    },
+    {
+      "title": "Are founders visionaries or experimenters?",
+      "lead": "Popular culture says entrepreneurs are young, bold visionaries with a big idea and a high tolerance for risk. Research paints another picture: older founders do better on average, and good entrepreneurship looks like disciplined experimentation under uncertainty. The pop story persists because it comes from famous founders and investors.",
+      "verdict": "The lone-genius picture lost on the data; experimentation and structured testing have the best experimental evidence, with plenty of open questions about how far it generalises.",
+      "camps": [
+        {
+          "name": "Visionary founder",
+          "status": "losing",
+          "pop": true,
+          "line": "Great companies come from young, high-conviction founders with a contrarian big idea.",
+          "explain": "Narratives around a few famous successes, amplified by investors who emphasise founder vision and speed. The young-genius picture is built into venture culture.",
+          "who": "Peter Thiel (Zero to One, 2014); Paul Graham; Silicon Valley venture investors.",
+          "best": "Thiel 2014, Zero to One; Paul Graham's essays on startups.",
+          "evidence": "Azoulay, Jones, Kim and Miranda 2020, American Economic Review: Insights, 'Age and High-Growth Entrepreneurship', used US Census data on millions of founders and found that the average founder of the fastest-growing new firms was around 45, and that success rates rose with age into middle age. That contradicts the youth stereotype directly."
+        },
+        {
+          "name": "Entrepreneurship as experimentation",
+          "status": "winning",
+          "pop": false,
+          "line": "Startups are a sequence of cheap tests on hypotheses; the discipline is in learning fast and pivoting.",
+          "explain": "Applies the scientific method: form a theory of value, test with minimum cost, and stop or pivot on evidence. Popularised as lean startup.",
+          "who": "Eric Ries (The Lean Startup, 2011); Steve Blank; Steven Kerr, Ramana Nanda and Matthew Rhodes-Kropf; Arnaldo Camuffo and colleagues.",
+          "best": "Kerr, Nanda and Rhodes-Kropf 2014, Journal of Economic Perspectives, 'Entrepreneurship as Experimentation'; Camuffo, Cordova, Gambardella and Spina 2020, Management Science, 'A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial'.",
+          "evidence": "Camuffo et al. randomly assigned Italian startups to training in a scientific approach and found that trained firms performed better than the control group; a large-scale replication and extension followed. These are promising results from specific samples, so generalisation is still being tested."
+        },
+        {
+          "name": "Effectuation",
+          "status": "open",
+          "pop": false,
+          "line": "Expert entrepreneurs start from who they are and what they have, and let goals emerge from partnerships.",
+          "explain": "Sarasvathy's research on expert founders found that they reasoned from available means and partnerships rather than from predicted goals. It is a descriptive theory of how experts decide.",
+          "who": "Saras Sarasvathy.",
+          "best": "Sarasvathy 2001, Academy of Management Review, 'Causation and effectuation'.",
+          "evidence": "Based on think-aloud studies of expert entrepreneurs, with limited causal testing of whether the approach causes success."
+        }
+      ]
+    },
+    {
+      "title": "Do bonuses motivate, or do they crowd out motivation?",
+      "lead": "Management folklore has two opposed versions. One says that people respond to incentives, so pay for performance. The other, made popular by Daniel Pink, says that rewards kill intrinsic motivation for creative work. Meta-analyses suggest both matter and depend on the task.",
+      "verdict": "Neither slogan wins: intrinsic motivation and incentives both predict performance, with incentives working best for quantity and measurable output.",
+      "camps": [
+        {
+          "name": "Incentives work",
+          "status": "partly right",
+          "pop": true,
+          "line": "People do more of what you pay them for.",
+          "explain": "Economists model effort as responding to pay. Field evidence shows large effects when output is measurable.",
+          "who": "Edward Lazear; mainstream personnel economics.",
+          "best": "Lazear 2000, American Economic Review, 'Performance Pay and Productivity' (Safelite Glass).",
+          "evidence": "Lazear found that moving windshield installers from hourly pay to piece rates raised productivity per worker substantially, with about half the gain coming from sorting toward more productive workers. Output gains can come with gaming of what is measured."
+        },
+        {
+          "name": "Crowding out",
+          "status": "partly right",
+          "pop": true,
+          "line": "Pay for interesting work and you turn play into a chore.",
+          "explain": "Self-determination theory says that autonomy, mastery and purpose sustain motivation, and that external rewards can undermine them, especially for creative tasks.",
+          "who": "Edward Deci and Richard Ryan; Daniel Pink (Drive, 2009); Uri Gneezy and Aldo Rustichini on the economic side.",
+          "best": "Deci, Koestner and Ryan 1999, Psychological Bulletin, meta-analysis of rewards and intrinsic motivation; Gneezy and Rustichini 2000, Quarterly Journal of Economics, 'Pay Enough or Don't Pay at All'.",
+          "evidence": "Deci et al. found that tangible, expected rewards tended to reduce intrinsic motivation in lab studies. Gneezy and Rustichini found that small payments can reduce effort compared with none. The effects depend heavily on how the reward is framed and on the task."
+        },
+        {
+          "name": "Both, by task",
+          "status": "winning",
+          "pop": false,
+          "line": "Intrinsic motivation and incentives add up, and which matters more depends on what you are measuring.",
+          "explain": "A later synthesis finds that the two are not opposites. Incentives matter more when output is quantity and direct, and intrinsic motivation matters more when quality counts.",
+          "who": "Christopher Cerasoli, Jessica Nicklin and Michael Ford.",
+          "best": "Cerasoli, Nicklin and Ford 2014, Psychological Bulletin, 'Intrinsic motivation and extrinsic incentives jointly predict performance: A 40-year meta-analysis'.",
+          "evidence": "The meta-analysis found that intrinsic motivation was a medium-sized predictor of performance and that incentives did not simply crowd it out, with incentives predicting quantity better than quality when they were directly tied to performance."
+        }
+      ]
+    },
+    {
+      "title": "Does remote work hurt productivity?",
+      "lead": "After 2020 the argument became a culture war inside companies: leaders who say in-person work builds culture and speed against employees who say flexibility is free productivity. Several experiments exist, but they test different setups. The best summary is that hybrid works and fully remote is more uncertain.",
+      "verdict": "Hybrid schedules look roughly neutral for performance and good for retention; the evidence on fully remote work is mixed and depends on the job.",
+      "camps": [
+        {
+          "name": "Office is essential",
+          "status": "partly right",
+          "pop": true,
+          "line": "Being together builds culture, mentorship and speed, and remote work erodes all three.",
+          "explain": "Supporters argue that informal learning and coordination are lost at a distance, especially for junior staff and innovation.",
+          "who": "Many executives; some researchers on collaboration and mentoring.",
+          "best": "Gibbs, Mengel and Siemroth 2023, Journal of Political Economy: Microeconomics, 'Work from Home and Productivity: Evidence from Personnel and Analytics Data on IT Professionals'.",
+          "evidence": "Gibbs et al. studied an Asian IT firm's staff when they moved to remote work and found lower productivity, with people working longer hours for less output. Results come from one firm during a pandemic, which complicates the lesson."
+        },
+        {
+          "name": "Remote works",
+          "status": "partly right",
+          "pop": true,
+          "line": "Working from home is as productive or better and makes people happier.",
+          "explain": "Early randomised evidence showed gains for call-centre work, with fewer breaks and quieter conditions.",
+          "who": "Nicholas Bloom (Stanford).",
+          "best": "Bloom, Liang, Roberts and Ying 2015, Quarterly Journal of Economics, 'Does Working from Home Work? Evidence from a Chinese Experiment'.",
+          "evidence": "The Chinese call-centre experiment found a performance increase of about 13 percent for home workers, with lower attrition. Call-centre tasks are easy to measure and independent, so they may not generalise to teamwork or creative work."
+        },
+        {
+          "name": "Hybrid",
+          "status": "winning",
+          "pop": false,
+          "line": "Two or three days at home gets you most of the retention gain without the coordination loss.",
+          "explain": "A randomised design where eligible employees were assigned to hybrid or full-time office schedules.",
+          "who": "Nicholas Bloom, Ruobing Han and James Liang.",
+          "best": "Bloom, Han and Liang 2024, Nature, 'Hybrid working from home improves retention without damaging performance'.",
+          "evidence": "In a randomised trial at Trip.com with about 1,600 employees, hybrid workers had substantially lower attrition and no detectable difference in performance reviews or promotions. It is one company with mostly engineers, marketing and finance staff, so it does not cover all industries or fully remote work."
+        }
+      ]
+    }
+  ]
+}

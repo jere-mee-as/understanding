@@ -1,0 +1,228 @@
+{
+  "discipline": "Astronomy",
+  "overview": "Astronomy is an observational science with one experiment, the sky, so its fights are about how far to trust a model that fits the data you happen to have. The big split is whether the standard cosmological model (Lambda-CDM: dark energy plus cold dark matter plus inflation) is basically right and needs patching, or is a placeholder hiding new physics. Most of the simple stories come from press cycles: 'JWST breaks the Big Bang', 'Pluto was robbed', 'we found alien life signs'. Each new instrument produces a wave of headlines, and then the field slowly grinds the anomaly down to something more boring or more interesting.",
+  "debates": [
+    {
+      "title": "Dark matter or modified gravity?",
+      "lead": "Galaxies spin too fast for the matter we see. Either there is unseen matter, or gravity behaves differently at tiny accelerations. The popular version is 'astronomers invented dark matter to save their theory'. The evidence from the cosmic microwave background and cluster collisions strongly favours real extra mass. But the particle has not been found, and modified gravity (MOND) predicts galaxy rotation regularities that dark matter explains less naturally.",
+      "verdict": "Dark matter, as a framework, has won on cosmological scales. MOND survives as a striking set of galaxy-scale regularities that dark matter models still have to explain.",
+      "camps": [
+        {
+          "name": "Cold dark matter",
+          "status": "winning",
+          "pop": false,
+          "line": "Most of the matter in the Universe is non-luminous particles that barely interact except through gravity.",
+          "explain": "CDM explains the CMB, large-scale structure, lensing and cluster dynamics with one ingredient. Its weakness is that no particle has been detected despite decades of searching, and a few small-scale puzzles remain.",
+          "who": "Zwicky (1933), Rubin and Ford (1970s), Peebles, Frenk, White, Davis; carried to the public by Vera Rubin's story and by Sean Carroll and Katie Mack",
+          "best": "Rubin, Ford & Thonnard 1980 (ApJ); Davis, Efstathiou, Frenk & White 1985 (ApJ); Planck 2018 results VI (A&A 2020)",
+          "evidence": "The Bullet Cluster (Clowe et al. 2006, ApJ Letters) shows lensing mass separated from the hot gas after a collision, which is awkward for pure modified gravity. The CMB acoustic peaks (Planck 2018) fit about 5 times more dark matter than baryons. Against: LUX-ZEPLIN and XENONnT have found no WIMPs down to very low cross sections, and the so-called small-scale problems such as cusp-core and satellite counts are debated rather than fatal."
+        },
+        {
+          "name": "MOND",
+          "status": "partly right",
+          "pop": false,
+          "line": "Change the law of gravity below a tiny acceleration scale and you need no dark matter in galaxies.",
+          "explain": "Milgrom's 1983 proposal predicted galaxy rotation curves before they were measured. It nails tight empirical relations that CDM must reproduce through messy galaxy formation. It struggles with galaxy clusters, the CMB and lensing, and relativistic versions are complicated.",
+          "who": "Mordehai Milgrom; Stacy McGaugh, Benoit Famaey, Pavel Kroupa; Sabine Hossenfelder as a prominent popular voice",
+          "best": "Milgrom 1983 (ApJ); McGaugh, Lelli & Schombert 2016 (PRL), the radial acceleration relation; Famaey & McGaugh 2012 (Living Reviews in Relativity)",
+          "evidence": "The Baryonic Tully-Fisher relation (McGaugh et al. 2000, ApJ) and the radial acceleration relation hold across thousands of galaxies with tiny scatter. Wide-binary star tests are contested: Chae (2023, ApJ) claimed a gravity boost, while Banik et al. (2024, MNRAS) found none, and the disagreement turns on data selection. Dark-matter-free galaxies such as NGC 1052-DF2 (van Dokkum et al. 2018, Nature) are an odd fit for simple MOND."
+        },
+        {
+          "name": "Emergent gravity",
+          "status": "losing",
+          "pop": false,
+          "line": "Dark matter effects come from the thermodynamics of spacetime itself.",
+          "explain": "Verlinde proposed that gravity emerges from entanglement entropy, reproducing the MOND-like scale in galaxies. It has had little traction because it lacks a worked-out relativistic theory.",
+          "who": "Erik Verlinde",
+          "best": "Verlinde 2017 (SciPost Physics), 'Emergent gravity and the dark universe'",
+          "evidence": "Brouwer et al. 2017 (MNRAS) tested it against weak lensing and found it roughly consistent for isolated galaxies, but it does not address the CMB or clusters, and later analyses found tensions. Few cosmologists treat it as viable."
+        }
+      ]
+    },
+    {
+      "title": "Is the standard model of cosmology breaking?",
+      "lead": "Lambda-CDM fits almost everything, but two cracks have been widening. Measurements of the expansion rate from the nearby Universe disagree with the value implied by the early Universe (the Hubble tension), and recent baryon acoustic oscillation data hint that dark energy may change with time. The headline version is 'cosmology is in crisis'. The truth is that the model is not broken yet, but it is not safe.",
+      "verdict": "Open. The Hubble tension is probably real, its cause is unknown, and the dark energy hint is interesting but short of a discovery.",
+      "camps": [
+        {
+          "name": "Systematics, not physics",
+          "status": "open",
+          "pop": false,
+          "line": "The tension comes from calibration errors in the distance ladder, and better data will make it go away.",
+          "explain": "Distance-ladder measurements depend on how Cepheids, tip-of-the-red-giant-branch stars and other markers are calibrated. Different teams applying different calibrations get different answers.",
+          "who": "Wendy Freedman and the Chicago-Carnegie Hubble Program",
+          "best": "Freedman et al. 2019 (ApJ), TRGB calibration; Freedman et al. 2025 (ApJ), JWST-based H0",
+          "evidence": "Using JWST, Freedman's team find values near 70 km/s/Mpc, closer to the CMB-based value. Riess's team (SH0ES), also using JWST data, continue to find about 73 and argue the Cepheid results are robust. So the dispute is now partly about analysis choices, not instruments."
+        },
+        {
+          "name": "New physics in the early Universe",
+          "status": "open",
+          "pop": true,
+          "line": "The tension is real and we need new ingredients, such as early dark energy or extra relativistic species.",
+          "explain": "If the sound horizon in the early Universe was smaller, the CMB would imply a higher expansion rate today. Proposals change the physics just before recombination.",
+          "who": "Adam Riess (Nobel 2011), Tristan Smith, Vivian Poulin; amplified in popular press",
+          "best": "Riess et al. 2022 (ApJ Letters), SH0ES with Hubble; Poulin et al. 2019 (PRL), early dark energy; Planck 2018 (A&A 2020), H0 about 67.4",
+          "evidence": "Planck gives about 67.4 km/s/Mpc, SH0ES about 73, a gap of roughly 5 sigma in the distance-ladder camp's analysis. Early dark energy models can ease the tension but strain other data (large-scale structure), and no model fixes everything cleanly."
+        },
+        {
+          "name": "Evolving dark energy",
+          "status": "open",
+          "pop": false,
+          "line": "Dark energy is not a constant, and DESI is starting to see it change.",
+          "explain": "The Dark Energy Spectroscopic Instrument measures baryon acoustic oscillations. Combined with the CMB and supernovae, its data prefer a dark energy that weakens with time over a pure cosmological constant.",
+          "who": "DESI collaboration",
+          "best": "DESI 2024 VI (2024 arXiv; JCAP 2025); DESI DR2 2025 results",
+          "evidence": "DESI's second data release (March 2025) found a preference for evolving dark energy at roughly 3 to 4 sigma depending on which supernova sample is combined. That is below the 5 sigma discovery bar and depends on supernova calibration, so it is a hint to be tested by later releases and by Euclid, Rubin and others."
+        }
+      ]
+    },
+    {
+      "title": "Was there inflation?",
+      "lead": "Inflation says the Universe expanded exponentially in its first split second, which explains why it is flat, smooth and seeded with tiny fluctuations. It is the textbook answer, and it is the version of 'what came before the Big Bang' people absorb. Critics, including some of its founders, say it is hard to falsify and tends to produce infinitely many universes.",
+      "verdict": "Inflation is the leading explanation and its basic predictions have held up, but the key smoking gun, primordial gravitational waves, has not been found.",
+      "camps": [
+        {
+          "name": "Inflation",
+          "status": "winning",
+          "pop": true,
+          "line": "A brief burst of exponential expansion set up the Universe we see.",
+          "explain": "It solves the horizon and flatness problems and predicts a nearly scale-invariant spectrum of fluctuations. The details of the inflaton field are unknown, and many models exist.",
+          "who": "Guth (1981), Linde, Starobinsky, Albrecht and Steinhardt; popularised by Guth (The Inflationary Universe, 1997) and Alan Guth's many lectures",
+          "best": "Guth 1981 (Phys. Rev. D); Linde 1982 (Phys. Lett. B); Starobinsky 1980 (Phys. Lett. B)",
+          "evidence": "Planck 2018 measured the spectral index n_s about 0.965 (slightly below 1, as the simplest models predict) and a flat Universe. The BICEP2 claim of gravitational-wave B-modes in 2014 turned out to be galactic dust. BICEP/Keck (2021, PRL) bounds the tensor-to-scalar ratio r below about 0.036, which already disfavours some simple models."
+        },
+        {
+          "name": "Bounce and cyclic models",
+          "status": "open",
+          "pop": false,
+          "line": "The Big Bang was a bounce from a previous contracting phase, with no inflation needed.",
+          "explain": "These models try to produce the same smooth, flat Universe through slow contraction before a bounce. They need exotic physics to avoid singularities, and so far are less developed than inflation.",
+          "who": "Paul Steinhardt, Anna Ijjas, Neil Turok, Abraham Loeb",
+          "best": "Ijjas, Steinhardt & Loeb 2013 (Phys. Lett. B), 'Inflationary paradigm in trouble after Planck2013'; Steinhardt & Turok 2002 (Science), cyclic model",
+          "evidence": "Their challenge: simple inflation requires fine-tuned initial conditions and has an unpredictable multiverse tail. Responses from Guth, Linde and others (the 2017 public exchange in Scientific American) argue the predictions are robust. Primordial gravitational waves, if found at some level, would favour inflation; a clean null at very small r would favour bounce models."
+        },
+        {
+          "name": "Eternal inflation / multiverse",
+          "status": "open",
+          "pop": true,
+          "line": "Once inflation starts it never stops everywhere, so there are endless universes with different constants.",
+          "explain": "Many inflation models imply this. Supporters say it explains the apparent fine-tuning of constants; critics say it makes the theory unfalsifiable.",
+          "who": "Linde, Vilenkin, Susskind, Tegmark; Brian Greene in popular books",
+          "best": "Vilenkin 1983 (Phys. Rev. D); Linde 1986; Weinberg 1987 (PRL) anthropic prediction of the cosmological constant",
+          "evidence": "Weinberg's 1987 argument bounded the cosmological constant before it was measured, a rare predictive success of anthropic reasoning. But no experiment directly tests other universes, and the measure problem, how to count them, remains unsolved."
+        }
+      ]
+    },
+    {
+      "title": "Did JWST break the Big Bang?",
+      "lead": "In 2022 and 2023 James Webb found galaxies that looked too bright and too massive too early. Headlines said cosmology was broken. The detailed picture is less dramatic: some candidates were redshift errors or contained active black holes inflating the mass estimates, and the rest can be explained by efficient early star formation. Nothing has yet required changing the cosmological model.",
+      "verdict": "The 'breaks cosmology' reading has lost. Early galaxies are forming more efficiently than expected, which is an astrophysics question about star formation and black holes, not about the Big Bang.",
+      "camps": [
+        {
+          "name": "Cosmology is broken",
+          "status": "losing",
+          "pop": true,
+          "line": "These galaxies could not have formed in the time available, so the standard model is wrong.",
+          "explain": "A handful of very massive galaxy candidates seemed to use up more stars than the available matter allowed. Early headlines and some papers ran with it.",
+          "who": "Press coverage; some authors (Labbe et al.)",
+          "best": "Labbe et al. 2023 (Nature), 'A population of red candidate massive galaxies ~600 Myr after the Big Bang'",
+          "evidence": "Boylan-Kolchin 2023 (Nature Astronomy) showed that the most extreme candidates would need nearly all available baryons to turn into stars, a stress test, but concluded the tension disappears if masses were overestimated. Follow-up spectroscopy showed several of Labbe's objects were lower in redshift or powered partly by black holes, shrinking the mass estimates."
+        },
+        {
+          "name": "Astrophysics, not cosmology",
+          "status": "winning",
+          "pop": false,
+          "line": "Early star formation was bursty and efficient, and early black holes grew fast; the cosmological model is fine.",
+          "explain": "Early galaxies had dense gas, little dust and high star formation efficiency. Active nuclei can make galaxies look more massive. The puzzle is real but sits within galaxy physics.",
+          "who": "Boylan-Kolchin, Finkelstein, Naidu, Maiolino, Matthee and many others",
+          "best": "Boylan-Kolchin 2023 (Nature Astronomy); Maiolino et al. 2024 (Nature), GN-z11 black hole; Matthee et al. 2024 (ApJ), 'little red dots'",
+          "evidence": "JWST spectroscopy has confirmed galaxies at redshifts above 10, but with stellar masses lower than the first photometric estimates. 'Little red dots' are compact red objects likely hosting accreting black holes, a hot area of research. Overmassive black holes at early times suggest fast growth and an open puzzle on seeding, which is real physics but does not need a new cosmology."
+        },
+        {
+          "name": "New early-Universe physics",
+          "status": "open",
+          "pop": false,
+          "line": "Extra power on small scales or an exotic dark sector could speed up early structure.",
+          "explain": "Some models modify the primordial fluctuations or add components so early haloes form sooner. They are tested against other data that tightly constrain structure.",
+          "who": "Various theory groups",
+          "best": "No single canonical paper",
+          "evidence": "Because the astrophysical explanation has worked well enough, these models are not required by the data. They would become attractive if robust spectroscopic mass measurements still exceed what any baryonic efficiency allows."
+        }
+      ]
+    },
+    {
+      "title": "Is our solar system typical, and is Earth rare?",
+      "lead": "Before 1995 the solar system was the only data point, and textbooks assumed other systems looked like ours, with small rocky planets inside and giants outside. Exoplanets blew that up. The pop story is both ways: aliens must be everywhere because planets are common, or Earth is a miracle. The data say planets are everywhere and our architecture is unusual, but the real question, how often a habitable world arises, is still open.",
+      "verdict": "Planets are abundant and solar-system-like layouts are not the norm; whether Earth-like habitable worlds are common remains open.",
+      "camps": [
+        {
+          "name": "Solar system as template",
+          "status": "losing",
+          "pop": true,
+          "line": "Other planetary systems look like ours: rocky planets inside, gas giants outside.",
+          "explain": "This was the working assumption of planet formation theory for centuries. It came from having a single example.",
+          "who": "Textbook tradition",
+          "best": "Kant-Laplace nebular hypothesis; Safronov 1969 planetesimal theory",
+          "evidence": "Mayor and Queloz 1995 (Nature) found 51 Pegasi b, a Jupiter-mass planet orbiting in 4 days. Kepler (Borucki et al. 2010, Science; Batalha et al. 2013, ApJS) showed that the most common planets are between Earth and Neptune in size, a category that does not exist in our system. Many systems are compact, with several planets inside Mercury's orbit."
+        },
+        {
+          "name": "Planets are everywhere, architecture varies",
+          "status": "winning",
+          "pop": false,
+          "line": "Nearly every star has planets, and systems come in many layouts, including ones unlike anything we have.",
+          "explain": "Statistics from Kepler, microlensing and radial velocity show that planets outnumber stars. Our own system appears to lack the very common super-Earths, possibly because of how Jupiter migrated.",
+          "who": "Borucki, Batalha, Fressin, Petigura, Winn; Walsh et al. on the Grand Tack model",
+          "best": "Fressin et al. 2013 (ApJ); Petigura, Howard & Marcy 2013 (PNAS); Cassan et al. 2012 (Nature), microlensing",
+          "evidence": "Cassan et al. 2012 (Nature) found via microlensing that, on average, every Milky Way star hosts at least one planet. Bryson et al. 2021 (AJ) estimated the occurrence of Earth-sized planets in the habitable zone of Sun-like stars with large uncertainty, from a few percent up to well above half, depending on assumptions."
+        },
+        {
+          "name": "Rare Earth",
+          "status": "open",
+          "pop": false,
+          "line": "Microbes may be common but a long-lived habitable planet with complex life is a fluke.",
+          "explain": "Ward and Brownlee argued that plate tectonics, a large moon, a gas giant and a stable orbit combined make complex life rare. Others say these are Earth-specific factors we over-weigh.",
+          "who": "Peter Ward and Donald Brownlee; opponents include Carl Sagan's tradition and most exoplanet surveys",
+          "best": "Ward & Brownlee, Rare Earth (2000)",
+          "evidence": "Habitability needs atmospheric measurements we mostly do not have yet. JWST atmosphere spectroscopy of temperate rocky planets is only beginning, and claims of biosignatures (for example the 2023 and 2025 dimethyl sulfide claims for K2-18 b) have been disputed by independent reanalyses. We have no second example of life to calibrate with."
+        }
+      ]
+    },
+    {
+      "title": "Does information survive a black hole?",
+      "lead": "Black holes exist; that is settled by LIGO and the Event Horizon Telescope. The fight is over what happens to information that falls in. Hawking found in 1975 that black holes radiate and shrink, apparently destroying information, which would break quantum mechanics. Most of the field now holds that information is preserved and that the question is how.",
+      "verdict": "Unitarity, the idea that information is preserved, has won among theorists, and calculations since 2019 reproduce the expected pattern of radiation. The mechanism in a real black hole is not settled.",
+      "camps": [
+        {
+          "name": "Information is lost",
+          "status": "losing",
+          "pop": true,
+          "line": "Hawking radiation is thermal and carries no record of what fell in, so quantum predictability fails.",
+          "explain": "This was Hawking's position for decades, and the one widely told in popular accounts of the famous bet with Preskill and Thorne. Hawking conceded in 2004.",
+          "who": "Hawking (A Brief History of Time, 1988, made it famous); Penrose still sympathetic",
+          "best": "Hawking 1975 (Commun. Math. Phys.), 'Particle creation by black holes'; Hawking 1976 (Phys. Rev. D)",
+          "evidence": "Maldacena's AdS/CFT (1997) describes a black hole in a theory that is manifestly unitary, which argues against loss. Hawking's own 2004 concession was based on that. Nobody has observed Hawking radiation, so the evidence is theoretical."
+        },
+        {
+          "name": "Unitary evaporation",
+          "status": "winning",
+          "pop": false,
+          "line": "Information comes out in the radiation, so the late radiation must be subtly correlated with the early radiation.",
+          "explain": "Page showed that if evaporation is unitary, the entropy of the radiation follows a curve that rises and then falls. In 2019 two groups reproduced the Page curve from gravitational path integral calculations involving 'islands'.",
+          "who": "Don Page, Geoffrey Penington, Ahmed Almheiri, Netta Engelhardt, Donald Marolf, Henry Maxfield; Susskind, Maldacena",
+          "best": "Page 1993 (PRL); Penington 2019 (JHEP); Almheiri, Engelhardt, Marolf & Maxfield 2019 (JHEP)",
+          "evidence": "The 2019 island calculations reproduce the Page curve in simplified models of evaporating black holes, a significant result. But they apply to toy settings; they do not yet show how a specific astrophysical black hole encodes information, and some critics question the assumptions."
+        },
+        {
+          "name": "Firewalls and fuzzballs",
+          "status": "open",
+          "pop": false,
+          "line": "To save unitarity, the horizon must be violent or replaced by something structured.",
+          "explain": "The AMPS argument claimed that unitarity, locality and a smooth horizon cannot all hold. Firewall defenders drop smoothness; fuzzball proponents replace the interior with string-theory microstate geometries.",
+          "who": "Almheiri, Marolf, Polchinski, Sully (AMPS); Samir Mathur (fuzzballs)",
+          "best": "AMPS 2013 (JHEP), 'Black holes: complementarity or firewalls?'; Mathur 2005 (Fortschr. Phys.)",
+          "evidence": "No observation separates these, though GW echo searches and EHT shadow tests look for deviations from a classical horizon. LIGO and Virgo results so far are consistent with ordinary black holes (Abbott et al. 2016, PRL, GW150914). Open."
+        }
+      ]
+    }
+  ]
+}

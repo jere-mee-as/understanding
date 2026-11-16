@@ -1,0 +1,258 @@
+{
+ "discipline": "Philosophy",
+ "overview": "Philosophy has no consensus on most of its big questions, and the best data on that is the PhilPapers Survey of professional philosophers (Bourget and Chalmers, 2020 edition), where on most topics no view gets a majority. What the field does have is a set of settled negatives: Descartes-style substance dualism, the ‘justified true belief’ definition of knowledge, and logical positivism have all been broadly abandoned. Pop versions come from scientists and popularisers who treat open questions as closed: ‘neuroscience disproved free will’, ‘philosophy is dead’, ‘morality is just opinion’. The real fault lines are about how far science can settle questions that look philosophical, and how much to trust intuition.",
+ "debates": [
+  {
+   "title": "Is the mind just the brain?",
+   "lead": "Almost everyone in the field now thinks minds depend on brains. The fight is whether that explains experience itself. The pop story is that the brain is a computer and consciousness will be explained once we map it. Chalmers’s ‘hard problem’ says that explaining behaviour and function still leaves out why anything feels like something. The empirical science of consciousness is now directly testing rival theories.",
+   "verdict": "Physicalism has the plurality, but most philosophers think the hard problem is real, and the leading scientific theories took hits in 2025.",
+   "camps": [
+    {
+     "name": "Physicalism and functionalism",
+     "status": "winning",
+     "pop": true,
+     "line": "Mind is what the brain does, and with enough neuroscience the mystery goes away.",
+     "explain": "Mental states are physical states, or are defined by the functional role they play. This fits the brain-damage, anaesthesia and neural-correlate evidence and avoids a spooky extra substance. In the 2020 PhilPapers Survey about 52% of respondents accepted physicalism and about 32% non-physicalism.",
+     "who": "J. J. C. Smart and U. T. Place; Hilary Putnam (functionalism); Daniel Dennett and the Churchlands; Bernard Baars and Stanislas Dehaene in the science",
+     "best": "Smart, ‘Sensations and Brain Processes’ (1959); Putnam, ‘Psychological Predicates’ (1967); Dennett, Consciousness Explained (1991)",
+     "evidence": "Lesion, stimulation and anaesthesia studies tie conscious states tightly to neural activity. The pressure comes from the explanatory gap: no physical account yet says why any of this is accompanied by experience."
+    },
+    {
+     "name": "Illusionism",
+     "status": "open",
+     "pop": false,
+     "line": "The ‘hard problem’ is a trick the brain plays on itself; phenomenal consciousness as described doesn’t exist.",
+     "explain": "Our introspective reports of ineffable inner qualities are the output of a cognitive model, and the real job is to explain why we believe in them. It is a radical physicalism that bites the bullet on the hard problem. It often gets caricatured as ‘consciousness doesn’t exist’.",
+     "who": "Daniel Dennett, Keith Frankish; popularised by Dennett",
+     "best": "Dennett, Consciousness Explained (1991); Frankish, ‘Illusionism as a Theory of Consciousness’, Journal of Consciousness Studies (2016)",
+     "evidence": "Mostly argument, not experiment. It turns the explanatory burden onto illusion-making mechanisms that have not been worked out in detail. Most philosophers find the denial itself harder to believe than the problem it removes."
+    },
+    {
+     "name": "Hard-problem dualism and panpsychism",
+     "status": "open",
+     "pop": false,
+     "line": "Experience is a basic feature of reality that physics alone cannot account for.",
+     "explain": "Chalmers argues that no amount of functional or physical explanation entails experience, so consciousness is either a fundamental property or an irreducible aspect of matter. Panpsychism has revived as a way to keep physics intact. In the 2020 survey about 62% said the hard problem is real.",
+     "who": "David Chalmers, Thomas Nagel, Frank Jackson (earlier); Philip Goff (panpsychism); Christof Koch (integrated information theory)",
+     "best": "Nagel, ‘What Is It Like to Be a Bat?’ (1974); Jackson, ‘Epiphenomenal Qualia’ (1982); Chalmers, ‘Facing Up to the Problem of Consciousness’ (1995) and The Conscious Mind (1996); Goff, Galileo’s Error (2019)",
+     "evidence": "The arguments are conceivability and knowledge arguments, which physicalists reject. The empirical test case is integrated information theory: the 2025 Nature adversarial collaboration (Cogitate Consortium) found results that challenged key predictions of both IIT and the rival global workspace theory, and in 2023 over a hundred researchers signed a letter calling IIT pseudoscience. Descartes-style interacting souls remain out: they face the causal-closure and neural-dependence problems."
+    }
+   ]
+  },
+  {
+   "title": "Do we have free will?",
+   "lead": "The pop story is that neuroscience has shown that decisions are made before we are aware of them, so free will is an illusion. Philosophers mostly never believed free will meant uncaused choices. Most are compatibilists, who say free will and determinism are compatible. The neuroscience claim itself has been seriously undermined.",
+   "verdict": "Compatibilism leads among philosophers, and the famous neuroscientific case against free will was largely dismantled.",
+   "camps": [
+    {
+     "name": "Compatibilism",
+     "status": "winning",
+     "pop": false,
+     "line": "Free will is the ability to act on your own reasons, and that is fine even if the universe is deterministic.",
+     "explain": "What we care about is acting without coercion, with a working capacity to respond to reasons. That is a real feature of people, not a metaphysical miracle. About 59% of respondents in the 2020 PhilPapers Survey accepted compatibilism.",
+     "who": "Harry Frankfurt, P. F. Strawson, Daniel Dennett",
+     "best": "Strawson, ‘Freedom and Resentment’ (1962); Frankfurt, ‘Alternate Possibilities and Moral Responsibility’, Journal of Philosophy (1969); Dennett, Freedom Evolves (2003)",
+     "evidence": "Its strength is that it matches what we use responsibility for. Critics say it changes the subject. Schurger, Sitt and Dehaene 2012, PNAS, showed that the readiness potential that Libet 1983 (Brain) treated as an unconscious decision is better modelled as random neural fluctuation crossing a threshold, which removes the main empirical objection."
+    },
+    {
+     "name": "Free-will skepticism",
+     "status": "partly right",
+     "pop": true,
+     "line": "Our choices are fixed by prior causes and luck, so no one deserves blame or credit in the deep sense.",
+     "explain": "If we are the products of genes, environment and chance, then ultimate responsibility is impossible. Skeptics say this should reform punishment and reduce blame. About 11% of philosophers hold this view, but it is the version scientists and popularisers carry.",
+     "who": "Derk Pereboom, Galen Strawson; Sam Harris and Robert Sapolsky for the public",
+     "best": "G. Strawson, ‘The Impossibility of Moral Responsibility’ (1994); Pereboom, Living Without Free Will (2001); Harris, Free Will (2012); Sapolsky, Determined (2023)",
+     "evidence": "Libet’s 1983 experiment is the usual cited evidence, and Schurger et al. 2012 weakened that reading. Soon et al. 2008, Nature Neuroscience, decoded upcoming choices several seconds ahead, but only modestly above chance. What survives is the philosophical argument about luck and desert, not the lab result."
+    },
+    {
+     "name": "Libertarian free will",
+     "status": "losing",
+     "pop": false,
+     "line": "We are genuine originators of action, which requires indeterminism or agent causation.",
+     "explain": "Real alternatives must be open, so determinism is false, and the agent, not prior events, settles which one happens. This matches how choice feels. About 19% of philosophers hold it.",
+     "who": "Robert Kane, Roderick Chisholm, Timothy O’Connor",
+     "best": "Chisholm, ‘Human Freedom and the Self’ (1964); Kane, The Significance of Free Will (1996)",
+     "evidence": "The luck objection (Peter van Inwagen, An Essay on Free Will, 1983): if an outcome is undetermined, randomness, not the agent, picks it. Agent causation has no physical mechanism. Not refuted, but the evidence offers it no support."
+    }
+   ]
+  },
+  {
+   "title": "What makes an act right?",
+   "lead": "Normative ethics has three big families: judge acts by results, by rules and duties, or by character. None has won, and PhilPapers 2020 shows about a third of philosophers for each. Underneath sits metaethics, where about 62% of respondents accept moral realism, against about 26% anti-realism. The pop version is that morality is just opinion, or that utilitarian arithmetic gives the answer.",
+   "verdict": "No normative theory has won, and the folk view that morality is just opinion has not won either: most philosophers are moral realists.",
+   "camps": [
+    {
+     "name": "Consequentialism",
+     "status": "open",
+     "pop": true,
+     "line": "The right act is the one that produces the best outcome for everyone affected.",
+     "explain": "Impartial and demanding. It treats suffering and wellbeing as what matters, and drives the effective altruism movement. It runs into cases where maximizing seems to license horrors.",
+     "who": "Jeremy Bentham, John Stuart Mill; Peter Singer, Derek Parfit; William MacAskill",
+     "best": "Mill, Utilitarianism (1861); Singer, ‘Famine, Affluence, and Morality’, Philosophy and Public Affairs (1972); Parfit, On What Matters (2011)",
+     "evidence": "Greene 2001, Science, found emotional brain areas more active for personal harm dilemmas, and argued that deontological judgments are rationalized emotion. Berker 2009 (Philosophy and Public Affairs) replied that the neuroscience does not bear on which theory is right. The empirical case is contested."
+    },
+    {
+     "name": "Deontology",
+     "status": "open",
+     "pop": false,
+     "line": "Some things you may not do to people, whatever the payoff.",
+     "explain": "Persons have rights and duties that limit what can be done for the greater good. It matches strong intuitions about promises, innocence and consent. It struggles to say where the limits come from and what to do when duties collide.",
+     "who": "Immanuel Kant, W. D. Ross, Frances Kamm, T. M. Scanlon",
+     "best": "Kant, Groundwork of the Metaphysics of Morals (1785); Ross, The Right and the Good (1930); Scanlon, What We Owe to Each Other (1998)",
+     "evidence": "Trolley-problem work (Foot 1967, Thomson 1985) mapped intuitions but also showed they are inconsistent across cases. Defenders say the inconsistency reflects real distinctions between doing and allowing."
+    },
+    {
+     "name": "Virtue ethics",
+     "status": "open",
+     "pop": false,
+     "line": "Ask what a good person would do, and focus on character, not rules.",
+     "explain": "Morality is about cultivating traits like courage and honesty and having practical wisdom. It was revived in the twentieth century as a reaction to rule-based theories. It is often criticized for being short on action guidance.",
+     "who": "Aristotle; G. E. M. Anscombe, Philippa Foot, Rosalind Hursthouse, Alasdair MacIntyre",
+     "best": "Anscombe, ‘Modern Moral Philosophy’, Philosophy (1958); MacIntyre, After Virtue (1981); Hursthouse, On Virtue Ethics (1999)",
+     "evidence": "Situationist critique (Doris 2002, Lack of Character) argued that experiments like Milgram’s show behaviour depends on situation more than stable traits. Virtue ethicists answered that the claim is overstated. The debate has not been settled."
+    },
+    {
+     "name": "Relativism",
+     "status": "losing",
+     "pop": true,
+     "line": "Morality is just culture or opinion; no one is really right.",
+     "explain": "The most common folk position. Different societies have different moral codes, so no code is better. In philosophy the cultural-difference argument is regarded as weak, and a related but more careful family (expressivism, error theory, constructivism) holds about a quarter of philosophers.",
+     "who": "Popular: anthropology-influenced intuition; in philosophy, Gilbert Harman, J. L. Mackie (error theory), Simon Blackburn (expressivism)",
+     "best": "Mackie, Ethics: Inventing Right and Wrong (1977); Harman, ‘Moral Relativism Defended’ (1975)",
+     "evidence": "James Rachels’s widely taught reply (Elements of Moral Philosophy, 1986) points out that disagreement does not show there is no truth, and that cultures share more basic values than they differ on. The PhilPapers 2020 split of about 62% realism to 26% anti-realism shows the field has not gone relativist."
+    }
+   ]
+  },
+  {
+   "title": "What is knowledge?",
+   "lead": "Many people carry around Plato’s definition: knowledge is justified true belief. A three-page paper in 1963 broke it, and the field has spent sixty years not replacing it. Epistemology now splits over what makes a belief justified, whether inside the head or out in the world, and whether we should even try to define knowledge in terms of belief. A newer fight is about whether armchair intuitions about cases can be trusted at all.",
+   "verdict": "‘Justified true belief’ is dead as a definition; externalism leads on justification, and nobody has an agreed analysis.",
+   "camps": [
+    {
+     "name": "Justified true belief",
+     "status": "losing",
+     "pop": true,
+     "line": "Knowledge is belief that is true and has good reasons behind it.",
+     "explain": "The textbook definition, attributed to Plato. It is intuitive and still taught as a starting point. It works for most ordinary cases.",
+     "who": "Traditional epistemology; Roderick Chisholm in the twentieth century",
+     "best": "Plato, Theaetetus; Chisholm, Theory of Knowledge (1966)",
+     "evidence": "Gettier 1963, Analysis, gave cases in which someone has a justified true belief that is true by luck and clearly not knowledge. Zagzebski 1994 (Philosophical Quarterly) argued that any fix that keeps justification short of guaranteeing truth will be vulnerable to similar cases. Machery et al. 2017, Noûs, found Gettier intuitions across several cultures, answering earlier claims from Weinberg, Nichols and Stich 2001 that they vary."
+    },
+    {
+     "name": "Externalism",
+     "status": "winning",
+     "pop": false,
+     "line": "A belief counts as knowledge if it was produced by a reliable process, whether or not you can say why.",
+     "explain": "Justification depends on facts outside your head, such as whether your belief-forming method actually tracks truth. This lets children and animals know things. About 50% of respondents in the PhilPapers 2020 Survey lean externalist and 36% internalist.",
+     "who": "Alvin Goldman, Robert Nozick, Ernest Sosa",
+     "best": "Goldman, ‘What Is Justified Belief?’ (1979); Nozick, Philosophical Explanations (1981); Sosa, A Virtue Epistemology (2007)",
+     "evidence": "Strong on handling ordinary knowledge and naturalistic epistemology. Faces counterexamples where a reliable process seems accidental or unavailable to the believer, such as BonJour’s clairvoyant Norman."
+    },
+    {
+     "name": "Internalism",
+     "status": "partly right",
+     "pop": false,
+     "line": "To be justified, you must be able to see what supports your belief.",
+     "explain": "Justification is a matter of what is accessible to the thinker, such as evidence and reasons. It matches the sense that knowledge involves responsibility. It makes skepticism harder to avoid.",
+     "who": "Laurence BonJour, Richard Feldman, Earl Conee",
+     "best": "BonJour, The Structure of Empirical Knowledge (1985); Conee and Feldman, Evidentialism (2004)",
+     "evidence": "Rests on thought experiments about demon-world and clairvoyance cases, which are exactly the intuitions that experimental philosophers question. Holds about a third of philosophers."
+    },
+    {
+     "name": "Knowledge first",
+     "status": "open",
+     "pop": false,
+     "line": "Stop trying to define knowledge; treat it as basic and explain belief and justification through it.",
+     "explain": "The long failure to analyse knowledge is a clue that it isn’t analyzable. Knowledge is the norm for belief and assertion. It has become one of the most influential recent programmes.",
+     "who": "Timothy Williamson",
+     "best": "Williamson, Knowledge and Its Limits (2000)",
+     "evidence": "Rests on argument and a story about the failure of analysis, not a decisive empirical result. Critics say it gives up on explaining what knowledge is."
+    }
+   ]
+  },
+  {
+   "title": "Does science tell us what is true?",
+   "lead": "Scientific realism says our best theories are approximately true even about things we can’t observe. Opponents say the history of science is a graveyard of confident, successful theories that turned out wrong. A separate pop-level fight pits ‘science proves facts’ against ‘science is just another social narrative’. Hawking’s 2010 line that philosophy is dead, and the older logical positivists’ attempt to throw out metaphysics as meaningless, belong here as the attitudes the field has had to answer.",
+   "verdict": "Realism leads, in a more modest, structural form; the strong social-constructivist reading of science has lost.",
+   "camps": [
+    {
+     "name": "Scientific realism",
+     "status": "winning",
+     "pop": true,
+     "line": "Our best theories are true or nearly true, or their success would be a miracle.",
+     "explain": "Mature theories make novel, precise predictions, and the best explanation is that they have latched onto reality. In the PhilPapers 2020 Survey about 72% of respondents accepted scientific realism and about 15% anti-realism.",
+     "who": "Hilary Putnam, Richard Boyd, Stathis Psillos",
+     "best": "Putnam, Mathematics, Matter and Method (1975); Psillos, Scientific Realism: How Science Tracks Truth (1999)",
+     "evidence": "The no-miracles argument. The standard challenge is Laudan 1981, Philosophy of Science, the pessimistic meta-induction: past successful theories like the ether were false. Realists respond that the parts doing the work were retained."
+    },
+    {
+     "name": "Structural realism",
+     "status": "partly right",
+     "pop": false,
+     "line": "What survives theory change is the mathematical structure, and that is what we should believe.",
+     "explain": "A compromise. Fresnel’s equations survived the fall of the ether, so the lasting content is relations, not the objects posited. It aims to keep the force of the no-miracles argument and answer the meta-induction.",
+     "who": "John Worrall, James Ladyman",
+     "best": "Worrall, ‘Structural Realism: The Best of Both Worlds?’, Dialectica (1989)",
+     "evidence": "Fits famous cases of continuity across theory change. Critics say structure without things is hard to make sense of."
+    },
+    {
+     "name": "Constructive empiricism",
+     "status": "open",
+     "pop": false,
+     "line": "Science aims only at empirical adequacy; belief about unobservables is optional.",
+     "explain": "Accept a theory as useful for the observable and stay agnostic beyond that. It respects the history of failed theories while taking science seriously.",
+     "who": "Bas van Fraassen",
+     "best": "van Fraassen, The Scientific Image (1980)",
+     "evidence": "Stanford 2006 (Exceeding Our Grasp) argues from the problem of unconceived alternatives. Critics say the observable/unobservable line is arbitrary."
+    },
+    {
+     "name": "Social constructivism",
+     "status": "losing",
+     "pop": true,
+     "line": "Scientific facts are made by communities and interests, and science is just one story among many.",
+     "explain": "The sociology-of-knowledge tradition showed that scientific work is shaped by social factors, which is true and useful. The strong reading, that nature does little of the work, is what circulated in popular and humanities culture.",
+     "who": "David Bloor, Bruno Latour and Steve Woolgar; Thomas Kuhn is often drafted in popularly",
+     "best": "Bloor, Knowledge and Social Imagery (1976); Latour and Woolgar, Laboratory Life (1979); Kuhn, The Structure of Scientific Revolutions (1962)",
+     "evidence": "Sokal’s 1996 hoax in Social Text exposed weak standards in the strong version. What survived is the milder claim that values and social structure influence what science does, developed by Helen Longino (Science as Social Knowledge, 1990)."
+    }
+   ]
+  },
+  {
+   "title": "What makes a society just?",
+   "lead": "The public version is usually left versus right. In philosophy since 1971 the centre of gravity has been Rawls: a just society is one you would pick without knowing where you would end up. Libertarians answer that justice is about how holdings came about, not how they are spread. Communitarians say both start from an abstract individual who does not exist. This is a normative fight; data cannot settle it, but surveys show where philosophers stand.",
+   "verdict": "Rawls-style egalitarian liberalism is still the default among philosophers; libertarian and communitarian critiques survive as standing objections, not replacements.",
+   "camps": [
+    {
+     "name": "Egalitarian liberalism",
+     "status": "winning",
+     "pop": false,
+     "line": "Fair rules are the ones you would choose behind a veil of ignorance, and they let inequality stand only if it helps the worst off.",
+     "explain": "Basic liberties come first; then social and economic inequalities are allowed only if they benefit the least advantaged and come with fair equality of opportunity.",
+     "who": "John Rawls, Ronald Dworkin, Thomas Scanlon, Martha Nussbaum (capabilities)",
+     "best": "Rawls 1971, A Theory of Justice; Rawls 1993, Political Liberalism; Dworkin 2000, Sovereign Virtue",
+     "evidence": "Not empirically decidable. In the PhilPapers survey of philosophers (Bourget & Chalmers 2014, Philosophical Studies), egalitarianism was the most popular political view (about 35%), well ahead of communitarianism (about 14%) and libertarianism (about 10%)."
+    },
+    {
+     "name": "Libertarianism",
+     "status": "partly right",
+     "pop": true,
+     "line": "What you earned fairly is yours; taxing it to redistribute is taking it.",
+     "explain": "Justice is historical: if holdings came from just acquisition and voluntary exchange, the result is just whatever the pattern. Any pattern you impose has to keep interfering with free choices.",
+     "who": "Robert Nozick, Friedrich Hayek; in public, Ayn Rand and a strand of the online right",
+     "best": "Nozick 1974, Anarchy, State, and Utopia (the Wilt Chamberlain argument)",
+     "evidence": "The Wilt Chamberlain argument is still taught as a serious challenge to patterned justice. The usual reply: real-world holdings fail Nozick’s own test of just acquisition, so his theory alone licenses large rectification. Nozick later stepped back from parts of the view (The Examined Life, 1989)."
+    },
+    {
+     "name": "Communitarianism",
+     "status": "partly right",
+     "pop": false,
+     "line": "People are shaped by communities and traditions; justice cannot start from an unencumbered individual.",
+     "explain": "The self behind the veil has no ends of its own, so the theory is either empty or smuggles in liberal values. Shared goods and virtues have to be part of the account.",
+     "who": "Michael Sandel, Alasdair MacIntyre, Charles Taylor, Michael Walzer",
+     "best": "Sandel 1982, Liberalism and the Limits of Justice; MacIntyre 1981, After Virtue; Walzer 1983, Spheres of Justice",
+     "evidence": "Rawls’s Political Liberalism (1993) absorbed much of the critique by recasting justice as political, not a full theory of the self. The critique lives on in the post-liberal turn and in debates on civic virtue."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+  "discipline": "Environment (conservation biology)",
+  "overview": "Conservation biology is a crisis discipline: it was founded on the explicit aim of protecting biodiversity, so its science and its values are tangled together. The fights are over what nature is (balanced, or always changing), who belongs in it (wilderness without people, or people as part of it), how bad the losses are (collapse or reshuffling), and how much single stories like 'wolves saved Yellowstone' can be trusted. The simple narratives come from environmental writing and viral media, and they usually bundle a real finding with a moral. The field has moved toward contingency: ecosystems change, humans have always been inside them, losses are real but unevenly spread, and strong cascades exist but depend on context.",
+  "debates": [
+    {
+      "title": "Is there a balance of nature?",
+      "lead": "The folk picture says undisturbed nature settles into a stable balance, and humans wreck it. Early ecology gave it a scientific form in the climax community. Since the 1970s ecologists have found constant disturbance, shifting species mixes and long human influence even in places that look wild.",
+      "verdict": "The equilibrium picture lost; ecosystems are dynamic and most have long human histories, but that does not mean any change is harmless.",
+      "camps": [
+        {
+          "name": "Balance of nature",
+          "status": "losing",
+          "pop": true,
+          "line": "Left alone, ecosystems return to a stable, harmonious climax and only humans disturb it.",
+          "explain": "Ecosystems were seen as superorganisms moving toward a stable endpoint, and diversity was thought to give stability. The idea shaped conservation and popular environmentalism, and it still sits behind the idea of restoring a pristine baseline.",
+          "who": "Frederic Clements, Eugene Odum; popularly Rachel Carson's framing of nature's web, and nature documentaries.",
+          "best": "Clements, Plant Succession (1916); Odum 1969, Science, 'The strategy of ecosystem development'.",
+          "evidence": "Against: Botkin, Discordant Harmonies (1990), and Pickett and White (1985) documented that disturbance (fire, storms, flooding, herbivores) is normal, and Connell 1978, Science, showed species richness peaks with intermediate disturbance. Gleason 1926 had argued for individualistic species distributions; paleoecology later showed that plant communities reshuffle rather than move as units."
+        },
+        {
+          "name": "Flux and resilience",
+          "status": "winning",
+          "pop": false,
+          "line": "Ecosystems are always changing; the task is to manage for resilience and avoid thresholds, not preserve a fixed state.",
+          "explain": "Nonequilibrium ecology treats change as normal and focuses on regime shifts: lakes flipping from clear to murky, reefs from coral to algae, savanna to scrub. Stability in some systems is real, but conditional.",
+          "who": "C. S. Holling, Daniel Botkin, Steward Pickett, Stephen Carpenter, Marten Scheffer.",
+          "best": "Holling 1973, Annual Review of Ecology and Systematics, 'Resilience and stability of ecological systems'; Scheffer et al. 2001, Nature, 'Catastrophic shifts in ecosystems'.",
+          "evidence": "Tilman and Downing 1994, Nature, found that more diverse grassland plots were more stable in biomass under drought, so some stability-diversity link survived. Regime-shift evidence is strong in lakes and mixed elsewhere. The upshot: stability is real at some scales, but not a general default."
+        },
+        {
+          "name": "Human-shaped nature",
+          "status": "partly right",
+          "pop": false,
+          "line": "There is little pristine nature left, and there never was much; people have shaped almost every landscape for thousands of years.",
+          "explain": "Archaeology and historical ecology show that Amazonian forests, North American prairies and Australian woodlands were managed by people through fire, planting and hunting. This leads to the 'novel ecosystem' idea that restoration to a past baseline is often impossible.",
+          "who": "William Denevan, William Cronon, Richard Hobbs, Emma Marris (popular, Rambunctious Garden, 2011), Erle Ellis.",
+          "best": "Denevan 1992, Annals of the Association of American Geographers, 'The pristine myth'; Ellis et al. 2021, PNAS, 'People have shaped most of terrestrial nature for at least 12,000 years'; Hobbs et al. 2006, Global Ecology and Biogeography, 'Novel ecosystems'.",
+          "evidence": "Ellis et al. 2021 argued that by 10,000 years ago people already inhabited and used much of the habitable land, and that large areas were not untouched until recent industrial change. Critics (Murcia et al. 2014, Trends in Ecology and Evolution) say 'novel ecosystem' can excuse degradation. Surviving point: human influence is old but the scale of industrial loss is new."
+        }
+      ]
+    },
+    {
+      "title": "Protect nature from people, or with people?",
+      "lead": "Conservation began with the national park model: remove people, fence off wilderness. Critics said this displaced Indigenous and local communities and often failed. A rival wing argued conservation should serve human wellbeing or work with business. The evidence is now strong that both protected areas and community-managed lands can work, and that who holds the rights matters.",
+      "verdict": "Protected areas do reduce habitat loss, but Indigenous- and community-managed lands protect nature about as well, so the exclusion model is not required; trade-offs remain real.",
+      "camps": [
+        {
+          "name": "Fortress and Half-Earth",
+          "status": "partly right",
+          "pop": false,
+          "line": "Biodiversity needs large areas set aside without human settlement, up to half the planet.",
+          "explain": "Strict protection is seen as the most reliable way to stop extinction, because use tends to degrade. This school pairs it with land sparing: farm intensively on less land so more is left for nature.",
+          "who": "E. O. Wilson, Michael Soulé, John Terborgh, Andrew Balmford, Rhys Green, Eric Dinerstein.",
+          "best": "Soulé 1985, BioScience, 'What is conservation biology?'; Phalan et al. 2011, Science, land sparing versus sharing; Wilson, Half-Earth (2016); Dinerstein et al. 2019, Science Advances, 'A global safety net'.",
+          "evidence": "Phalan et al. 2011 found that in Ghana and India most species did better under land sparing than under wildlife-friendly farming. Protected areas lower deforestation on average (Joppa and Pfaff 2011 and many later studies). Against: Brockington's Fortress Conservation (2002) and Dowie's Conservation Refugees (2009) document forced displacement and poor outcomes."
+        },
+        {
+          "name": "New conservation",
+          "status": "partly right",
+          "pop": false,
+          "line": "Nature is resilient and people are part of it; conservation should work with markets and human wellbeing.",
+          "explain": "Wilderness is a myth, the argument goes, so conservation should embrace working landscapes, cities and economic value for nature. It drew a sharp response from traditional conservationists who said it traded away intrinsic protection.",
+          "who": "Peter Kareiva, Michelle Marvier, Robert Lalasz; criticised by Soulé and Daniel Doak.",
+          "best": "Kareiva and Marvier 2012, BioScience, 'What is conservation science?'; Kareiva, Marvier and Lalasz 2011, Breakthrough Journal, 'Conservation in the Anthropocene'.",
+          "evidence": "Doak et al. 2014, Conservation Biology, 'What is the future of conservation?', argued the new conservationists overstated nature's resilience and misread the evidence on ecosystem recovery. Evidence for intensively used land holding much biodiversity is mixed, and strong where land is already heavily modified."
+        },
+        {
+          "name": "Community and Indigenous-led",
+          "status": "winning",
+          "pop": false,
+          "line": "Secure land rights for the people who live there; they often protect nature as well as parks do.",
+          "explain": "Indigenous peoples and local communities manage or hold tenure over a large share of the planet's remaining intact land. Recognising rights is both a justice issue and a conservation tool, and evidence suggests it works in many places.",
+          "who": "Stephen Garnett, Jose Fa, Gleb Raygorodetsky; Indigenous organisations; Brockington and Dowie as critics of exclusion.",
+          "best": "Garnett et al. 2018, Nature Sustainability, 'A spatial overview of the global importance of Indigenous lands for conservation'; Schuster et al. 2019, Environmental Science and Policy, vertebrate biodiversity on Indigenous-managed lands in Australia, Brazil and Canada equals that in protected areas.",
+          "evidence": "Garnett et al. 2018 found that Indigenous peoples manage or have tenure on about a quarter of the world's land surface, overlapping about 40% of protected areas and intact landscapes. Outcomes vary by tenure security and local context, and not all studies find protection equal to strict parks. 'Winning' here means the evidence supports it as at least a viable partner, not that parks have lost."
+        }
+      ]
+    },
+    {
+      "title": "Is a sixth mass extinction under way?",
+      "lead": "The headline story is a collapse: a sixth mass extinction, insect apocalypse and wildlife down by two thirds. Some of it is solid: extinction rates are far above background. But the most viral numbers come from methods that exaggerate, and long-term local records show reshuffling rather than uniform loss. The honest picture is mixed and uneven.",
+      "verdict": "Species are being lost far faster than normal and many populations are shrinking, but the 'average wildlife down 69%' and 'insects collapsing everywhere' headlines overstate what the data show.",
+      "camps": [
+        {
+          "name": "Collapse underway",
+          "status": "partly right",
+          "pop": true,
+          "line": "We are in the sixth mass extinction and wildlife populations have collapsed.",
+          "explain": "Extinction rates are estimated at about 100 to 1000 times the background rate, with about a million species threatened according to the 2019 IPBES report. The Living Planet Index headlines a 69% average fall in monitored vertebrate populations since 1970. It is carried by NGOs and the media.",
+          "who": "Gerardo Ceballos, Paul Ehrlich, Elizabeth Kolbert (The Sixth Extinction, 2014), Stuart Pimm, WWF and ZSL (Living Planet Report).",
+          "best": "Barnosky et al. 2011, Nature, 'Has the Earth's sixth mass extinction already arrived?'; Ceballos et al. 2015, Science Advances; Hallmann et al. 2017, PLoS ONE (flying insect biomass in German reserves down over 75% in 27 years).",
+          "evidence": "Barnosky et al. concluded that mass-extinction levels are not yet reached but would follow if current threatened species were lost. Leung et al. 2020, Nature, 'Clustered versus catastrophic global vertebrate declines', showed that the Living Planet Index average is driven by a small share of populations with extreme declines. Sánchez-Bayo and Wyckhuys 2019, Biological Conservation (the '40% of insect species' claim) was criticised for selective sampling."
+        },
+        {
+          "name": "Turnover, not loss",
+          "status": "partly right",
+          "pop": false,
+          "line": "Local diversity is not falling on average; species are being swapped, and some places are gaining.",
+          "explain": "Long time series show many sites with stable or rising species counts, because invasions and range shifts add species while others fall. The point is that the picture is heterogeneous. Critics say it hides the loss of rare and specialised species and is biased toward sites with data.",
+          "who": "Maria Dornelas, Mark Vellend, Chris Thomas, Roel van Klink; critics Andrew Gonzalez and Bradley Cardinale.",
+          "best": "Dornelas et al. 2014, Science, 'Assemblage time series reveal biodiversity change but not systematic loss'; van Klink et al. 2020, Science, meta-analysis of insects (terrestrial abundance down roughly 9% per decade, freshwater up).",
+          "evidence": "van Klink et al. 2020 found terrestrial insect abundance falling and freshwater insects rising, with the largest declines in the US Midwest and parts of Europe and little decline in many places. Gonzalez et al. 2016, Ecology, argued that this approach underestimates loss from habitat-selected data and mixes spatial scales."
+        },
+        {
+          "name": "Hidden extinction debt",
+          "status": "open",
+          "pop": false,
+          "line": "Many species are already doomed after habitat loss, so today's counts understate what is coming.",
+          "explain": "Species can persist for decades in fragments too small to sustain them. If so, current extinction numbers lag the real damage. It is hard to test because it predicts future losses.",
+          "who": "David Tilman, Stuart Pimm, Ilkka Hanski, Bill Kunin.",
+          "best": "Tilman et al. 1994, Nature, 'Habitat destruction and the extinction debt'; Hanski's metapopulation work.",
+          "evidence": "Some long-term studies in fragmented habitats confirm delayed extinctions, but the magnitude is debated and early models overstated it. What would decide it: long monitoring of fragments with known loss dates."
+        }
+      ]
+    },
+    {
+      "title": "Did wolves save Yellowstone?",
+      "lead": "A viral video says wolves came back, elk moved, trees regrew, and rivers changed course. It is the most famous modern case of a trophic cascade, and conservation uses it to argue for rewilding top predators. The cascade is real in some forms, but the strong version is contested and ecologists argue the system is multicausal.",
+      "verdict": "Wolves reduced and shifted elk and helped some browsing recovery, but the dramatic river story is not supported and effects vary with climate, other predators and hunting.",
+      "camps": [
+        {
+          "name": "Strong cascade",
+          "status": "partly right",
+          "pop": true,
+          "line": "Wolves reintroduced in 1995 scared elk away from streams, willows and aspen returned, and the whole landscape healed.",
+          "explain": "Top predators control herbivores, directly and through fear, and so protect vegetation. Evidence from sea otters, kelp and urchins supports cascades in some systems. The Yellowstone version was spread by Monbiot's Feral (2013) and the 2014 video How Wolves Change Rivers.",
+          "who": "William Ripple, Robert Beschta, John Terborgh, James Estes, George Monbiot as popular voice.",
+          "best": "Estes and Palmisano 1974, Science (sea otters, urchins, kelp); Ripple and Beschta 2012, Biological Conservation, 'Trophic cascades in Yellowstone: the first 15 years after wolf reintroduction'; Estes et al. 2011, Science, 'Trophic downgrading of planet Earth'.",
+          "evidence": "Elk numbers fell and browsing eased in some places, and some willow and aspen recovered. Beschta and Ripple's later work reported continued recovery in places. The claim that rivers changed their course is largely untested and is considered a stretch."
+        },
+        {
+          "name": "Weak and contingent",
+          "status": "winning",
+          "pop": false,
+          "line": "Wolves are one factor among many; the effect on vegetation is patchy, and hunting, bears, drought and beaver matter too.",
+          "explain": "Elk declined partly because of human hunting, bears and cougars, and drought, as well as wolves. Plant recovery depends on stream hydrology and local conditions, and in many areas it did not occur.",
+          "who": "Matthew Kauffman, Mark Boyce, Douglas Smith, Rolf Peterson, David Mech.",
+          "best": "Kauffman, Brodie and Jules 2010, Ecology, 'Are wolves saving Yellowstone's aspen?'; Marshall, Hobbs and Cooper 2013, Proc. R. Soc. B, 'Stream hydrology limits recovery of riparian ecosystems after wolf reintroduction'; Peterson et al. 2014, Annual Review of Ecology, Evolution, and Systematics, 'Trophic cascades in a multicausal world'; Mech 2012, Biological Conservation, 'Is science in danger of sanctifying the wolf?'",
+          "evidence": "Kauffman et al. 2010 found that aspen recruitment did not rise where predation risk was highest, as the fear-cascade model predicted. Marshall et al. 2013 found that willow recovery was constrained by stream hydrology, not just browsing. Peterson et al. 2014 argued that cascades in Yellowstone and Isle Royale depend on climate and other factors."
+        },
+        {
+          "name": "Wolves did little",
+          "status": "losing",
+          "pop": false,
+          "line": "The vegetation change is climate and elk management, and wolves are not responsible.",
+          "explain": "The strongest skeptical version attributes changes to drought and to prior elk culls and hunting rules, leaving wolves with no role.",
+          "who": "Some range managers and hunting-oriented critics.",
+          "best": "No single decisive paper; scattered analyses of elk and climate.",
+          "evidence": "Wolves clearly killed many elk and changed elk distribution, so zero effect is not supported. The live argument is about size and mechanism, not presence."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "discipline": "Earth sciences",
+  "overview": "Earth science fights are about how much of the planet's history is slow and steady and how much is sudden, and how much life and humans steer the system. The old uniformitarian instinct (everything happens gradually) lost ground to impacts, volcanic pulses and abrupt climate shifts. The public versions run to extremes: either nothing human is happening beyond natural cycles, or the planet is a fragile organism heading for an imminent cliff. The working field sits in the middle, with a firm core (humans are warming the planet, an impact ended the dinosaurs) and real open questions about how fast, how far and where the tipping points are.",
+  "debates": [
+    {
+      "title": "Is recent warming natural cycles or human CO2?",
+      "lead": "The folk skeptic story says climate has always changed, the sun or natural cycles explain the recent warming, and CO2 is a trace gas. Climate has always changed, and that is exactly why scientists looked for what changed this time. Every natural driver that could be tested pointed the wrong way or was too small.",
+      "verdict": "Settled: human greenhouse gases explain essentially all of the warming since the mid-20th century.",
+      "camps": [
+        {
+          "name": "Natural cycles",
+          "status": "losing",
+          "pop": true,
+          "line": "The climate has always changed; the sun, cosmic rays and ocean cycles explain today's warming.",
+          "explain": "The argument points to past warm periods, solar variation and ocean oscillations. Cosmic-ray-cloud theories and solar-driven explanations were the best-developed versions. It has persisted mainly in public debate and think-tank writing.",
+          "who": "Henrik Svensmark (cosmic rays), Willie Soon, Richard Lindzen on sensitivity; public commentators in politics and media.",
+          "best": "Svensmark and Friis-Christensen 1997, J. Atmospheric and Solar-Terrestrial Physics; Lindzen's 'iris' hypothesis, 2001, Bulletin of the AMS.",
+          "evidence": "Direct measurement kills it. Satellite measurements of solar output since 1978 show no upward trend while temperatures rose, and the stratosphere cools while the lower atmosphere warms, which is the signature of greenhouse warming and not of a brighter sun. Kirkby et al. 2011, Nature (CERN CLOUD experiment), found cosmic rays have a small effect on aerosol nucleation, far too small to explain the warming."
+        },
+        {
+          "name": "Human-driven warming",
+          "status": "winning",
+          "pop": false,
+          "line": "The warming matches the CO2 we emitted in size, pattern and isotopic fingerprint.",
+          "explain": "Physics has predicted warming from CO2 since Arrhenius (1896) and Callendar (1938). Attribution studies compare observed patterns against those expected from each driver, and only human emissions fit the whole pattern: warming across land and oceans, a cooling stratosphere, an ocean heat gain, and carbon with a fossil isotopic signature.",
+          "who": "IPCC authors, Michael Mann, Gavin Schmidt, Ben Santer, Katharine Hayhoe as public communicator.",
+          "best": "IPCC AR6 Working Group I 2021, which finds it unequivocal that human influence has warmed the atmosphere, ocean and land; Mann, Bradley and Hughes 1998, Nature (the 'hockey stick'); PAGES 2k Consortium 2019, Nature Geoscience; Santer et al. on fingerprint detection.",
+          "evidence": "AR6 attributes about 1.1 °C of warming since 1850–1900 mostly to human activity, with natural factors contributing around zero over that period. The long reconstructions have been reproduced independently, including by the Berkeley Earth project, set up in part by skeptics, which found the same land warming. Expert agreement studies (Cook et al. 2013, Environmental Research Letters; Lynas et al. 2021) find agreement among publishing climate scientists at 97% and above."
+        }
+      ]
+    },
+    {
+      "title": "How sensitive is the climate, and how close are the tipping points?",
+      "lead": "Once warming is accepted, the fight moves to how much warming per doubling of CO2, and whether big abrupt shifts are near. One public pole says low sensitivity means no emergency. Another says we are hours from collapse. The science sits between them but the upper tail matters.",
+      "verdict": "Best estimate for equilibrium sensitivity is about 3 °C per doubling and low values are ruled out; tipping-point timing is the real open question.",
+      "camps": [
+        {
+          "name": "Low sensitivity",
+          "status": "losing",
+          "pop": true,
+          "line": "Feedbacks are weak, so a doubling of CO2 gives well under 2 °C and there is no crisis.",
+          "explain": "Estimates built from the instrumental record alone give lower values, and some argue clouds and water vapour damp the warming. It is the main scientific home of 'lukewarmer' views.",
+          "who": "Richard Lindzen, Nic Lewis, Judith Curry, Roy Spencer, Patrick Michaels.",
+          "best": "Lewis and Curry 2018, Journal of Climate (best estimate around 1.5–1.7 °C); Lindzen and Choi 2009 on clouds.",
+          "evidence": "Sherwood et al. 2020, Reviews of Geophysics, combined feedback physics, historical warming and paleoclimate and found a likely range of about 2.6–3.9 °C, ruling out the lowest values; low historical estimates were shown to be biased by how warming patterns evolve (pattern effect). Lindzen and Choi's cloud result was not reproduced by later analyses."
+        },
+        {
+          "name": "Consensus range",
+          "status": "winning",
+          "pop": false,
+          "line": "About 3 °C per doubling, likely between 2.5 and 4, with real risk at the upper end.",
+          "explain": "Multiple independent lines of evidence (physics, the last 150 years, ice ages, deep time) converge. Narrowing it further needs better handling of clouds and aerosols. This is the framework policy bodies use.",
+          "who": "Steven Sherwood, Gavin Schmidt, Gerald Meehl, IPCC AR6 authors.",
+          "best": "Sherwood et al. 2020, Reviews of Geophysics; IPCC AR6 2021 (best estimate 3 °C, likely 2.5–4 °C).",
+          "evidence": "The AR6 range is narrower than Charney's 1979 range (1.5–4.5 °C), the first official estimate, which has held up for over 40 years. Some CMIP6 models run hotter than 5 °C, which AR6 treated as less likely than the models suggest, because they did not fit the paleo and historical record."
+        },
+        {
+          "name": "High-end and tipping alarm",
+          "status": "open",
+          "pop": true,
+          "line": "Sensitivity may be higher than the consensus and several tipping points could trigger within decades.",
+          "explain": "A minority argues the consensus underrates fast feedbacks and aerosol cooling that has masked warming. Tipping-point researchers warn of ice sheet loss, Atlantic circulation collapse and rainforest dieback. The public version, such as '12 years left', misreads reports that gave dates for emission targets, not cliffs.",
+          "who": "James Hansen, Tim Lenton, Johan Rockström, Stefan Rahmstorf; popularised by media and activists.",
+          "best": "Hansen et al. 2023, Oxford Open Climate Change, 'Global warming in the pipeline' (sensitivity well above 4 °C); Lenton et al. 2019, Nature, 'Climate tipping points — too risky to bet against'; Armstrong McKay et al. 2022, Science.",
+          "evidence": "Ditlevsen and Ditlevsen 2023, Nature Communications, statistically projected an Atlantic circulation (AMOC) collapse sometime between 2025 and 2095, but AR6 gave medium confidence that there would be no collapse before 2100, and the signal analysis has been challenged. van Westen, Kliphuis and Dijkstra 2024, Science Advances, found an early-warning indicator in a model. What would decide it: longer direct AMOC observations and better ice sheet physics. Hansen's high sensitivity is a minority view and was criticised by other climate scientists."
+        }
+      ]
+    },
+    {
+      "title": "What killed the dinosaurs: impact, volcanoes or both?",
+      "lead": "Most people know the asteroid story, and it is largely right. But for decades a rival camp argued that the Deccan Traps eruptions in India did the work, or that dinosaurs were already declining. The debate is about whether the impact was necessary and sufficient, and how much volcanic climate stress added.",
+      "verdict": "The Chicxulub impact was the trigger of the mass extinction; Deccan volcanism was a real earlier stressor but did not cause the extinction by itself.",
+      "camps": [
+        {
+          "name": "Asteroid impact",
+          "status": "winning",
+          "pop": true,
+          "line": "A 10 km rock hit Mexico 66 million years ago and the extinction followed within a geological instant.",
+          "explain": "The impact threw dust, sulfur and soot into the atmosphere, causing a collapse of sunlight and photosynthesis. The iridium layer, shocked quartz and the Chicxulub crater tie the event to the boundary.",
+          "who": "Luis and Walter Alvarez, Alan Hildebrand, Peter Schulte, Sean Gulick, Joanna Morgan; popularised by Walter Alvarez's T. rex and the Crater of Doom.",
+          "best": "Alvarez et al. 1980, Science (iridium anomaly); Schulte et al. 2010, Science (review by 41 authors); Morgan et al. 2016, Nature (drilled the crater's peak ring); Renne et al. 2013, Science (dates).",
+          "evidence": "Renne et al. 2013 dated the impact to within about 32,000 years of the extinction horizon. Hull et al. 2020, Science, used geochemical records and climate modelling to argue that Deccan eruptions caused warming that ecosystems largely recovered from before the impact, while the extinction coincides with the impact."
+        },
+        {
+          "name": "Deccan volcanism",
+          "status": "partly right",
+          "pop": false,
+          "line": "Massive eruptions in India poisoned and warmed the world, and that, not an impact, drove the extinction.",
+          "explain": "The Deccan Traps erupted over the same period and released huge amounts of CO2 and sulfur. Supporters saw extinctions starting before the impact layer. It survives as a contributor and preconditioner, with some researchers still arguing it was the main cause.",
+          "who": "Vincent Courtillot, Gerta Keller, Blair Schoene, Mark Richards.",
+          "best": "Courtillot et al. 1988, Nature; Schoene et al. 2015 and 2019, Science (U–Pb dates of eruption pulses).",
+          "evidence": "Schoene et al. 2019 found eruption pulses starting before the impact and continuing after, so volcanism overlaps the boundary. But Hull et al. 2020 concluded the pre-impact environment was in a recoverable state, and the sudden global extinction pattern fits the impact timing. Whether volcanism made ecosystems more vulnerable is still argued."
+        },
+        {
+          "name": "Gradual decline",
+          "status": "losing",
+          "pop": false,
+          "line": "Dinosaurs were already fading from climate and sea-level change, so no single event was needed.",
+          "explain": "This was the standard view before 1980: extinction as a slow decline with multiple environmental causes. Some modern diversity analyses suggest dinosaurs were declining before the end.",
+          "who": "Pre-1980 paleontologists; modern: Manabu Sakamoto and colleagues.",
+          "best": "Sakamoto et al. 2016, Nature Communications, diversification slowdown in dinosaur groups.",
+          "evidence": "Bonsor et al. 2020, Nature Communications, found no sign of dinosaur decline when sampling bias is accounted for, and fossil-rich sites such as Tanis (DePalma et al. 2019, PNAS) show an abrupt event. The sudden global signature favours a trigger."
+        }
+      ]
+    },
+    {
+      "title": "Does the Earth regulate itself? The Gaia debate",
+      "lead": "Gaia, the idea of the Earth as a self-regulating system kept habitable by life, is a pop-culture staple. The science version is narrower: life and the physical Earth are coupled, and some feedbacks stabilise temperature and chemistry. The strong claim that Earth acts like an organism optimised for life has been rejected by most biologists and Earth scientists.",
+      "verdict": "Life and the environment are strongly coupled and some feedbacks stabilise, but the Earth is not an organism and life has repeatedly destabilised it.",
+      "camps": [
+        {
+          "name": "Strong Gaia",
+          "status": "losing",
+          "pop": true,
+          "line": "The biosphere keeps the planet in a state fit for life, as a living organism would.",
+          "explain": "The original Lovelock proposal said life actively regulates temperature and chemistry to keep conditions habitable, with Earth behaving like a physiological system. It fed the environmental movement and New Age spirituality.",
+          "who": "James Lovelock, Lynn Margulis.",
+          "best": "Lovelock and Margulis 1974, Tellus; Lovelock, Gaia: A New Look at Life on Earth (1979).",
+          "evidence": "Doolittle 1981 and Dawkins 1982 argued that natural selection gives no mechanism for planet-level optimisation, since there are no competing planets to select between. Kirchner 2002, Climatic Change, 'The Gaia hypotheses: fact, theory, and wishful thinking', concluded the strong versions cannot be tested or are contradicted. The Great Oxidation Event around 2.4 billion years ago, when oxygen from photosynthesis poisoned most anaerobic life, is a case of life wrecking its own environment."
+        },
+        {
+          "name": "Coupled feedbacks",
+          "status": "winning",
+          "pop": false,
+          "line": "Life changes the planet, the planet changes life, and some of the feedbacks happen to stabilise.",
+          "explain": "A weaker 'Gaia' survives in Earth system science: carbonate-silicate weathering, plankton and cloud links, and organisms shaping the atmosphere. Daisyworld, a toy model, showed that regulation can arise from simple coupling without any planetary goal.",
+          "who": "Tim Lenton, Andrew Watson, Bruno Latour (philosophically), Lovelock in later modified form.",
+          "best": "Watson and Lovelock 1983, Tellus B (Daisyworld); Lenton 1998, Nature, 'Gaia and natural selection'; Lenton and Watson, Revolutions That Made the Earth (2011).",
+          "evidence": "Earth has remained habitable for about 3.5 billion years despite a sun that has brightened by roughly 30%, which fits stabilising feedbacks, though Watson also showed that survivorship bias (we exist only because it stayed habitable) can explain part of this. The Earth system framework is now standard in climate and biogeochemistry."
+        },
+        {
+          "name": "Medea",
+          "status": "partly right",
+          "pop": false,
+          "line": "Life tends to be self-destructive, and the biosphere often pushes the planet toward extinction rather than stability.",
+          "explain": "Ward's counter-hypothesis points to mass extinctions that were driven by life itself, such as methane producers or oxygen, and says the history is more suicide than regulation.",
+          "who": "Peter Ward.",
+          "best": "Ward, The Medea Hypothesis (2009).",
+          "evidence": "The Great Oxidation Event and Snowball Earth episodes support the claim that life can destabilise. But it is a counter-example set and not a general rule, since the same biosphere has also persisted for billions of years."
+        }
+      ]
+    }
+  ]
+}

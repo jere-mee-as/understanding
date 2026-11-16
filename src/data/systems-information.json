@@ -1,0 +1,144 @@
+{
+ "discipline": "Systems & information",
+ "overview": "This cluster (information theory, game and decision theory, network science, control, optimization, complexity science) shares a habit: find a clean mathematical core and then argue about how far it reaches. Fights are about reach. Are people rational agents, are real networks all scale-free, is information physical, is there a general science of complexity, and will learned controllers replace engineered ones? Simple stories come from popularisers of the elegant version: 'six degrees of separation', 'everything follows a power law', 'no free lunch means nothing works better', 'humans are irrational'. The fields have mostly moved to measured, domain-specific claims.",
+ "debates": [
+  {
+   "title": "Are people rational agents?",
+   "lead": "Game and decision theory started by assuming agents maximise expected utility. Behavioural research showed systematic deviations. The pop story, mainly from Kahneman and popular behavioural economics, is 'humans are predictably irrational'. Others reply that the heuristics are smart for real environments and that parts of the bias catalogue have not replicated.",
+   "verdict": "Pure expected-utility rationality lost as a description of behaviour; the 'bias catalogue' has been trimmed by replication, and 'heuristics can be rational in context' has gained ground.",
+   "camps": [
+    {
+     "name": "Expected-utility rationality",
+     "status": "partly right",
+     "pop": false,
+     "line": "Behave as if you have consistent preferences and maximise expected utility; deviations get competed away.",
+     "explain": "Von Neumann-Morgenstern gave axioms under which choice looks like maximising expected utility. It remains the normative benchmark and a good model for experienced players in competitive markets.",
+     "who": "John von Neumann, Oskar Morgenstern, Leonard Savage, John Nash; Gary Becker in economics.",
+     "best": "von Neumann and Morgenstern, Theory of Games and Economic Behavior (1944); Nash 1950, PNAS.",
+     "evidence": "Allais 1953 paradox and Ellsberg 1961 showed systematic violations in simple choices. Survives as a benchmark and for repeated, high-stakes, expert settings (List 2003, QJE, found endowment effects shrink with trading experience)."
+    },
+    {
+     "name": "Heuristics and biases",
+     "status": "partly right",
+     "pop": true,
+     "line": "People use shortcuts that produce predictable errors, so we are predictably irrational.",
+     "explain": "Prospect theory replaces utility with reference-dependent value and loss aversion. The programme catalogued anchoring, availability and framing. Kahneman (2002) and Thaler (2017) won Nobel Prizes for it, and it underlies nudge policy.",
+     "who": "Daniel Kahneman, Amos Tversky, Richard Thaler; popularised by Kahneman's Thinking, Fast and Slow (2011) and Dan Ariely's Predictably Irrational (2008).",
+     "best": "Kahneman and Tversky 1979, 'Prospect theory', Econometrica; Tversky and Kahneman 1974, Science.",
+     "evidence": "Core framing and anchoring effects replicate widely (Many Labs projects). Loss aversion's size is disputed: Gal and Rucker 2018, Journal of Consumer Psychology, argue the evidence is overstated. Social-priming results featured in the popular book largely failed to replicate, and a well-known study co-authored by Ariely was shown to rest on fabricated data (Data Colada 2021)."
+    },
+    {
+     "name": "Ecological rationality",
+     "status": "open",
+     "pop": false,
+     "line": "Simple heuristics are not mistakes; in uncertain environments they can beat complex optimisation.",
+     "explain": "Gigerenzer argues the biases come from artificial tasks and that 'less is more' effects exist. Savage himself warned expected-utility advice fits small worlds, not large uncertain ones.",
+     "who": "Gerd Gigerenzer, Herbert Simon (bounded rationality), Peter Todd.",
+     "best": "Gigerenzer and Goldstein 1996, Psychological Review, 'Reasoning the fast and frugal way'; Gigerenzer, Todd and ABC Group, Simple Heuristics That Make Us Smart (1999).",
+     "evidence": "Take-the-best heuristic matched or beat regression in some out-of-sample comparisons. Frequency formats reduce base-rate errors (Gigerenzer and Hoffrage 1995). Critics (Kahneman) say the debate is partly about which tasks to test."
+    }
+   ]
+  },
+  {
+   "title": "Is every network scale-free?",
+   "lead": "Barabási and Albert (1999) reported that the web, citations and many other networks have power-law degree distributions, produced by 'rich get richer' growth. 'Scale-free' became a banner for a universal law of networks. Large-scale statistical tests say the claim is much weaker than advertised, and the field has split on how to read that.",
+   "verdict": "The universal-law claim largely lost; scale-free structure exists but is rare in the strict sense, and real networks show more varied shapes.",
+   "camps": [
+    {
+     "name": "Universal scale-free",
+     "status": "losing",
+     "pop": true,
+     "line": "Real networks from the cell to the internet are scale-free, built by preferential attachment.",
+     "explain": "A simple growth rule gives hubs and a power law, and hubs explain robustness to random failure and fragility to targeted attacks. It is an elegant, unifying idea.",
+     "who": "Albert-László Barabási, Réka Albert, Hawoong Jeong; popularised in Barabási's Linked (2002).",
+     "best": "Barabási and Albert 1999, 'Emergence of scaling in random networks', Science; Albert, Jeong and Barabási 2000, Nature, 'Error and attack tolerance of complex networks'.",
+     "evidence": "Original data: web pages, actor collaboration, power grid. Later fits used weak statistics. Broido and Clauset 2019, Nature Communications, 'Scale-free networks are rare', tested nearly 1,000 networks with proper methods and found only a small minority (around 4%) strongly scale-free, with log-normal fits often as good."
+    },
+    {
+     "name": "Rare, with heterogeneity",
+     "status": "winning",
+     "pop": false,
+     "line": "Heavy-tailed degrees are common, but pure power laws are rare and mechanisms differ by domain.",
+     "explain": "Social networks tend to be less scale-free than technological or biological ones. Models now include fitness, clustering, communities and geography. The field moved to testing each case.",
+     "who": "Aaron Clauset, Cosma Shalizi, Mark Newman; Duncan Watts.",
+     "best": "Clauset, Shalizi and Newman 2009, 'Power-law distributions in empirical data', SIAM Review; Watts and Strogatz 1998, Nature, small-world networks.",
+     "evidence": "Statistical methods in Clauset et al. 2009 made it possible to reject many claimed power laws. Barabási and colleagues responded that the criteria in Broido and Clauset were too strict and that scale-free structure is widespread in a broader sense."
+    },
+    {
+     "name": "Six degrees is universal law",
+     "status": "partly right",
+     "pop": true,
+     "line": "Everyone is about six steps from everyone else.",
+     "explain": "The pop corollary. Small-world distance is real, but Milgram's famous experiment was thin evidence.",
+     "who": "Stanley Milgram; John Guare's play (1990); Watts.",
+     "best": "Travers and Milgram 1969, Sociometry; Dodds, Muhamad and Watts 2003, Science.",
+     "evidence": "In Milgram's studies most chains never arrived (about 29% completion in the 1969 study). Dodds et al. ran an email version with 60,000+ participants and found median chain lengths of about five to seven but very low completion; Backstrom et al. 2012 found an average of 4.74 on Facebook."
+    }
+   ]
+  },
+  {
+   "title": "Is there a unified science of complexity?",
+   "lead": "Santa Fe Institute-style complexity science claims that diverse systems (cities, ecosystems, economies, brains) share general principles: power laws, self-organisation, emergence, adaptation. Skeptics say these are loose analogies, not a theory. Pop writing treats 'complexity' as a worldview.",
+   "verdict": "Useful tools and a few real regularities, but no unified theory; domain-specific modelling is what actually produces results.",
+   "camps": [
+    {
+     "name": "General laws of complexity",
+     "status": "open",
+     "pop": true,
+     "line": "Scaling laws and self-organisation reveal universal principles across biology, cities and economies.",
+     "explain": "West's work derives quarter-power metabolic scaling in organisms and superlinear scaling in cities from network principles. Bak's self-organised criticality proposed that systems tune themselves to critical points.",
+     "who": "Geoffrey West, Brian Arthur, Stuart Kauffman, Per Bak; popularised in West's Scale (2017).",
+     "best": "West, Brown and Enquist 1997, Science, 'A general model for the origin of allometric scaling laws in biology'; Bettencourt et al. 2007, PNAS, 'Growth, innovation, scaling, and the pace of life in cities'; Bak, Tang and Wiesenfeld 1987, Physical Review Letters.",
+     "evidence": "Metabolic scaling and urban scaling fits are real data patterns. Against: Frette et al. 1996 (Nature) found real rice piles obeyed SOC only for some grain shapes. The West-Brown-Enquist model has been contested on its derivation and the exact exponent."
+    },
+    {
+     "name": "Domain-specific modelling",
+     "status": "winning",
+     "pop": false,
+     "line": "Systems differ; borrow methods, not laws, and test each model on its own data.",
+     "explain": "Agent-based modelling, network analysis and dynamical systems are shared methods, while the mechanisms are field-specific. Mitchell's survey makes this case.",
+     "who": "Melanie Mitchell; John Horgan as critic of the 'sciences of complexity'; Philip Anderson (emergence is real but domain-specific).",
+     "best": "Anderson 1972, 'More is different', Science; Mitchell, Complexity: A Guided Tour (2009); Horgan, 'From complexity to perplexity', Scientific American (1995).",
+     "evidence": "Shared methods have delivered (epidemic network models, ecological tipping point detection) while claims of a single complexity measure have fragmented: Lloyd listed over 40 proposed measures."
+    }
+   ]
+  },
+  {
+   "title": "Is information physical?",
+   "lead": "Shannon (1948) defined information as reduction of uncertainty and explicitly set meaning aside. Physicists then asked whether information is a physical quantity with costs, or even more fundamental than matter. The pop version, 'it from bit' and 'the universe is a computer', runs well ahead of the physics.",
+   "verdict": "Information has physical costs (confirmed experimentally); the claim that information is the fundamental stuff of reality is philosophy, not result.",
+   "camps": [
+    {
+     "name": "Information is abstract",
+     "status": "partly right",
+     "pop": false,
+     "line": "Information theory is mathematics about messages and uncertainty, with no commitments about physics or meaning.",
+     "explain": "Shannon's entropy measures what a source can convey, not what it means. This is a clean, powerful foundation for coding, compression and communication. Misuse in biology and the humanities came from ignoring that restriction.",
+     "who": "Claude Shannon; Warren Weaver as interpreter.",
+     "best": "Shannon 1948, 'A mathematical theory of communication', Bell System Technical Journal.",
+     "evidence": "Channel capacity and source coding theorems underpin all digital communication. Shannon himself wrote in 1956 ('The bandwagon') that the theory was being stretched too far."
+    },
+    {
+     "name": "Information is physical",
+     "status": "winning",
+     "pop": false,
+     "line": "Information is always stored in a physical system, and erasing it costs energy.",
+     "explain": "Landauer's principle says erasing one bit dissipates at least kT ln 2 of heat, which resolves the Maxwell's demon puzzle. This ties thermodynamics and computation together and now bears on chip design and quantum information.",
+     "who": "Rolf Landauer, Charles Bennett, Leo Szilard.",
+     "best": "Landauer 1961, IBM Journal of Research and Development; Bennett 1982, 'The thermodynamics of computation'.",
+     "evidence": "Bérut et al. 2012, Nature, measured heat from erasing a bit in a colloidal particle trap close to the Landauer limit; Jun, Gavrilov and Bechhoefer 2014 reproduced it in PRL."
+    },
+    {
+     "name": "It from bit",
+     "status": "open",
+     "pop": true,
+     "line": "At bottom, reality is made of information, and physical things derive from yes/no facts.",
+     "explain": "Wheeler proposed that physics arises from binary questions. Quantum-gravity results like the holographic principle and black hole entropy lend some support. It remains a programme and philosophical stance.",
+     "who": "John Wheeler, Seth Lloyd, Max Tegmark, David Deutsch (constructor theory in a related spirit).",
+     "best": "Wheeler 1990, 'Information, physics, quantum: the search for links'; Lloyd, Programming the Universe (2006).",
+     "evidence": "Bekenstein-Hawking black hole entropy (1970s) ties entropy to area and information. No experiment distinguishes an informational ontology from a conventional one."
+    }
+   ]
+  }
+ ]
+}

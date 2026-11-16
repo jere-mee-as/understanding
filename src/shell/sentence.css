@@ -1,0 +1,13 @@
+/* ---------- sentence ---------- */
+.sl{overflow-y:auto}
+.sl .wrap{max-width:68em;margin:0 auto;padding:90px 28px 30vh}
+.sl h1{font:inherit;font-size:clamp(26px,4.2vw,46px);line-height:1.18;margin:0 0 48px;max-width:22em}
+.sl h1 button{border-bottom:1px solid var(--faint);transition:border-color .2s}
+.sl h1 button:hover{border-color:var(--ink)}
+.sl h1 .w{display:inline-block;animation:fade .8s ease-out both}
+.sl .choices{columns:15em;column-gap:48px}
+.sl .ch{display:block;break-inside:avoid;font-size:22px;line-height:1.25;padding:9px 0;opacity:0;animation:up .6s ease-out forwards;animation-delay:calc(var(--n)*.035s)}
+.sl .ch:hover{opacity:.55!important}
+.sl .ch .c{display:block;color:var(--dim);font-size:13px;margin-top:2px}
+.sl .facts{max-width:40em}
+.sl .fact .say{font-size:21px;line-height:1.38}

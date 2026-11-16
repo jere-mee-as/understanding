@@ -1,0 +1,191 @@
+{
+  "discipline": "Sociology",
+  "overview": "Sociology fights over whether social outcomes come from structures people are born into or from culture and choices, and over how far big data can replace theory. Popular stories are simple: poverty is a culture, anyone can rise, influencers drive trends, prison keeps us safe, and the world is either overpopulated or about to empty out. The field has moved toward structural and network explanations backed by huge administrative datasets, with culture kept as a mediating piece rather than the cause. Several clean narratives collapsed when big-data tests arrived.",
+  "debates": [
+    {
+      "title": "Is poverty structure or culture?",
+      "lead": "The culture-of-poverty idea says that poor communities develop values and habits that keep them poor. It dates to Oscar Lewis in 1959 and the Moynihan Report in 1965, and it returns in every public argument about welfare. Sociologists largely moved to structural accounts, then partly reopened culture as a way people make sense of constraints.",
+      "verdict": "Structure wins on causes; culture survives as how people respond to constraints, not as a self-sustaining trap.",
+      "camps": [
+        {
+          "name": "Culture of poverty",
+          "status": "losing",
+          "pop": true,
+          "line": "Poor communities pass down values of short-term thinking and weak family ties that trap the next generation.",
+          "explain": "Poverty is held in place by habits and norms, so economic aid alone cannot fix it. The idea has returned in many forms in popular books and political talk.",
+          "who": "Oscar Lewis; Daniel Patrick Moynihan; Edward Banfield; in public, Charles Murray and J. D. Vance.",
+          "best": "Lewis, La Vida, 1966; Moynihan, The Negro Family, 1965; Murray, Losing Ground, 1984.",
+          "evidence": "When programs changed incentives or places, behavior changed. Moving to Opportunity (Chetty, Hendren and Katz, American Economic Review 2016) found that children who moved to lower-poverty neighborhoods young earned substantially more as adults, which does not fit values being fixed in families. William Julius Wilson's work showed that joblessness came first, with family patterns following."
+        },
+        {
+          "name": "Structural inequality",
+          "status": "winning",
+          "pop": false,
+          "line": "Poverty follows from where jobs are, who gets schooling, segregation and who hoards opportunity.",
+          "explain": "Labor markets, housing segregation, school funding and policing set the options people have. Culture reflects those options.",
+          "who": "William Julius Wilson; Charles Tilly; Douglas Massey; Raj Chetty (empirical side).",
+          "best": "Wilson, The Truly Disadvantaged, 1987; Massey and Denton, American Apartheid, 1993; Chetty et al., 'Where is the Land of Opportunity?', QJE 2014.",
+          "evidence": "Chetty et al. (QJE 2014) found that upward mobility varies hugely across US commuting zones and correlates with segregation, school quality, family structure and social capital. Chetty et al. (Nature 2022, 'Social Capital I') found that friendships across class lines, which they call economic connectedness, were among the strongest predictors of upward mobility. Both are correlational at the place level, though the Moving to Opportunity data support causal place effects."
+        },
+        {
+          "name": "Culture as a toolkit",
+          "status": "partly right",
+          "pop": false,
+          "line": "Culture matters as the frames and repertoires people use to act under constraint, not as a set of fixed values.",
+          "explain": "People in poverty hold mainstream values but lack ways to realize them. Culture explains how people navigate, not why the constraints exist.",
+          "who": "Ann Swidler; Mario Luis Small, David Harding and Michele Lamont; Matthew Desmond (structural, ethnographic).",
+          "best": "Swidler, 'Culture in Action', American Sociological Review 1986; Small, Harding and Lamont, 'Reconsidering Culture and Poverty', ANNALS 2010.",
+          "evidence": "Qualitative and survey work finds poor and non-poor Americans express similar aspirations. Culture is a useful mediating variable and has been rehabilitated within the structural frame."
+        }
+      ]
+    },
+    {
+      "title": "How much social mobility is there?",
+      "lead": "The American Dream story says talent and effort decide where you end up. Sociologists measured it. Estimates of how strongly parents' status carries to children range from moderate to very persistent, depending on what you measure and how.",
+      "verdict": "Mobility is real but lower than the Dream implies; the dispute is whether status persists for a few generations or for centuries.",
+      "camps": [
+        {
+          "name": "The American Dream",
+          "status": "losing",
+          "pop": true,
+          "line": "Work hard and you can rise as far as your talent takes you.",
+          "explain": "Mobility is high, family background fades fast, and anyone can reach the top. It is the default national self-image.",
+          "who": "Politicians in both parties; the Horatio Alger tradition.",
+          "best": "Horatio Alger novels, 1860s onward; Blau and Duncan, The American Occupational Structure, 1967 (the scientific root of status attainment).",
+          "evidence": "Chetty et al. (American Economic Review P&P 2014, 'Is the United States Still a Land of Opportunity?') found that a child born in the bottom fifth has about a 7.5% chance of reaching the top fifth. Absolute mobility, the share of children earning more than their parents, fell from about 90% for 1940 births to about 50% for 1980 births (Chetty et al., Science 2017)."
+        },
+        {
+          "name": "Moderate persistence",
+          "status": "winning",
+          "pop": false,
+          "line": "Family background matters a lot but not totally; the rank-rank correlation is about a third.",
+          "explain": "Using tax records for millions of people, the correlation between parent and child income ranks is about 0.34 in the US. Mobility varies by place and is lower than in Canada or Scandinavia.",
+          "who": "Raj Chetty and coauthors; Miles Corak; Markus Jäntti.",
+          "best": "Chetty, Hendren, Kline and Saez, QJE 2014; Corak, 'Income Inequality, Equality of Opportunity, and Intergenerational Mobility', Journal of Economic Perspectives 2013.",
+          "evidence": "Tax-record data avoid survey error and give stable estimates. Cross-country comparisons show the US sits below most rich European countries. The 'Great Gatsby Curve' links higher inequality with lower mobility, though causality is debated."
+        },
+        {
+          "name": "Persistent latent status",
+          "status": "open",
+          "pop": false,
+          "line": "Social status is inherited far more strongly than one-generation income suggests, and it decays over centuries.",
+          "explain": "Income in one year is a noisy measure of a family's underlying status. Tracking rare surnames across centuries, status persists at correlations far above standard estimates.",
+          "who": "Gregory Clark.",
+          "best": "Clark, The Son Also Rises, 2014.",
+          "evidence": "Clark's surname method suggests latent persistence near 0.7 to 0.8 across many societies. Critics say surname groups are biased samples and that the method cannot separate family effects from group effects. Unresolved, and the two measures answer different questions."
+        }
+      ]
+    },
+    {
+      "title": "Who spreads what through social networks?",
+      "lead": "Malcolm Gladwell's Tipping Point (2000) says a few well-connected influencers drive trends. Network sociology has tested that and the weak-ties story from Granovetter. The tests changed both tales without killing either.",
+      "verdict": "Influencers matter less than popular accounts say; weak ties help, but moderately weak ties help most.",
+      "camps": [
+        {
+          "name": "Law of the few",
+          "status": "losing",
+          "pop": true,
+          "line": "A handful of hubs and connectors make or break every trend.",
+          "explain": "Ideas spread through a small number of highly connected, persuasive people. Marketing built on this idea runs on influencer targeting.",
+          "who": "Malcolm Gladwell; Ed Keller and Jon Berry, The Influentials, 2003.",
+          "best": "Gladwell, The Tipping Point, 2000.",
+          "evidence": "Watts and Dodds (Journal of Consumer Research 2007) ran simulations showing that cascades are mostly driven by a large mass of easily influenced ordinary people, and that influencers were not special on average. Simulation, not field data, though the finding has been repeated in other models."
+        },
+        {
+          "name": "Critical mass of ordinary people",
+          "status": "winning",
+          "pop": false,
+          "line": "Whether something spreads depends on how susceptible the network is, not on who starts it.",
+          "explain": "Most cascades are small. The big ones occur when the network is ready, and the starter is usually ordinary.",
+          "who": "Duncan Watts; Peter Dodds; Sinan Aral.",
+          "best": "Watts and Dodds, JCR 2007; Watts, Everything Is Obvious, 2011.",
+          "evidence": "Aral and colleagues found that apparent contagion in observational network data is often homophily (similar people clustering). That was the core critique of Christakis and Fowler's obesity-contagion claims (Shalizi and Thomas, Sociological Methods and Research 2011)."
+        },
+        {
+          "name": "Weak ties",
+          "status": "partly right",
+          "pop": false,
+          "line": "Acquaintances give you information strong friends cannot, so they find you jobs.",
+          "explain": "Granovetter argued that bridges between clusters carry new information. This has been a staple of career advice for fifty years.",
+          "who": "Mark Granovetter; Ronald Burt (structural holes).",
+          "best": "Granovetter, 'The Strength of Weak Ties', American Journal of Sociology 1973.",
+          "evidence": "Rajkumar et al. (Science 2022) ran randomized experiments on LinkedIn across roughly 20 million users. Moderately weak ties produced the most job mobility, rather than the weakest ties. So the theory holds in shape but the peak is in the middle."
+        }
+      ]
+    },
+    {
+      "title": "What actually reduces crime: punishment, policing or community?",
+      "lead": "Tough-on-crime says severe punishment deters and incapacitates. The opposite pop view says only root causes matter. Criminology's evidence points to certainty of being caught, targeted policing and neighborhood conditions. Severity and mass incarceration do worse.",
+      "verdict": "Certainty beats severity. Prison cuts crime at first and then loses effect. Place-focused policing and neighborhood conditions matter.",
+      "camps": [
+        {
+          "name": "Severity and incarceration",
+          "status": "losing",
+          "pop": true,
+          "line": "Lock up more offenders for longer and crime will fall.",
+          "explain": "Longer sentences deter and keep high-rate offenders off the street. This drove the US prison expansion from the 1970s.",
+          "who": "James Q. Wilson; John DiIulio; Steven Levitt (1996 prison-population estimates).",
+          "best": "Wilson, Thinking About Crime, 1975; Levitt, 'The Effect of Prison Population Size on Crime Rates', QJE 1996.",
+          "evidence": "The National Research Council (The Growth of Incarceration in the United States, 2014) concluded that the crime-reducing effect of high incarceration rates was probably modest and that deterrence from longer sentences was weak, with diminishing returns. Nagin (Crime and Justice 2013, 'Deterrence in the Twenty-First Century') found certainty of apprehension deters far more than severity."
+        },
+        {
+          "name": "Certainty and targeted policing",
+          "status": "winning",
+          "pop": false,
+          "line": "Visible, quick, likely consequences and police focused on hot spots cut crime.",
+          "explain": "Would-be offenders respond to the odds of being caught. Crime clusters in tiny places, and focused attention there pays off.",
+          "who": "Daniel Nagin; David Weisburd; Anthony Braga; Aaron Chalfin and Justin McCrary.",
+          "best": "Sherman and Weisburd, Minneapolis hot-spots experiment, Justice Quarterly 1995; Chalfin and McCrary, 'Are U.S. Cities Underpoliced?', Review of Economics and Statistics 2018.",
+          "evidence": "Hot-spots policing trials show consistent small to moderate crime reductions without much displacement (Braga et al. systematic reviews). Chalfin and McCrary estimate that extra police reduce serious crime."
+        },
+        {
+          "name": "Community and collective efficacy",
+          "status": "partly right",
+          "pop": false,
+          "line": "Neighborhoods with trust and willingness to intervene have less violence regardless of who lives there.",
+          "explain": "Crime tracks social cohesion and informal control. Disorder is a symptom and not a direct cause, contrary to Broken Windows.",
+          "who": "Robert Sampson; Stephen Raudenbush; Felton Earls; Clifford Shaw and Henry McKay (origins).",
+          "best": "Sampson, Raudenbush and Earls, 'Neighborhoods and Violent Crime', Science 1997; Sampson, Great American City, 2012.",
+          "evidence": "The Chicago neighborhood study found collective efficacy predicted lower violence after controlling for demographics. Sampson and Raudenbush (AJS 1999) found that disorder's link to crime largely disappeared once collective efficacy was controlled."
+        }
+      ]
+    },
+    {
+      "title": "Is the world heading for too many people or too few?",
+      "lead": "Paul Ehrlich's Population Bomb (1968) made overpopulation the default fear. Now the loud fear is collapse, pushed by Elon Musk and others. Demographers sit between: global growth is slowing fast, and the peak is coming this century.",
+      "verdict": "The bomb story lost. Population is peaking sooner than expected; whether low fertility is a crisis is open.",
+      "camps": [
+        {
+          "name": "Population bomb",
+          "status": "losing",
+          "pop": true,
+          "line": "Too many people will outrun food and resources and cause mass famine.",
+          "explain": "The Malthusian argument says population grows faster than food. It shaped coercive population policy in the 1970s.",
+          "who": "Paul Ehrlich; Thomas Malthus; Club of Rome.",
+          "best": "Ehrlich, The Population Bomb, 1968; Meadows et al., The Limits to Growth, 1972.",
+          "evidence": "The predicted 1970s and 1980s mass famines did not occur, thanks to Green Revolution yields and falling fertility. Julian Simon won his 1980 bet with Ehrlich on metal prices. Fertility fell in nearly every region."
+        },
+        {
+          "name": "Demographic transition",
+          "status": "winning",
+          "pop": false,
+          "line": "Fertility falls as countries develop, and the world will peak and then shrink.",
+          "explain": "Mortality drops first, fertility follows, and growth ends. The pace is now faster than old projections.",
+          "who": "Warren Thompson and Frank Notestein (transition theory); Hans Rosling (public face); UN Population Division; Wolfgang Lutz.",
+          "best": "UN World Population Prospects 2024; Vollset et al., The Lancet 2020 (IHME projections).",
+          "evidence": "UN WPP 2024 projects a peak of about 10.3 billion in the mid-2080s. IHME's Lancet 2020 projection put the peak lower, at about 9.7 billion around 2064. The gap shows uncertainty about how far fertility falls."
+        },
+        {
+          "name": "Fertility collapse worry",
+          "status": "open",
+          "pop": true,
+          "line": "Low birth rates will shrink economies, strain pensions and hollow out societies.",
+          "explain": "Fertility is already well below replacement in East Asia and much of Europe. Aging and shrinking cohorts reduce growth and innovation.",
+          "who": "Elon Musk; Dean Spears and Michael Geruso; Charles I. Jones (economics of falling population).",
+          "best": "Jones, 'The End of Economic Growth? Unintended Consequences of a Declining Population', American Economic Review 2022; Spears and Geruso, After the Spike, 2025.",
+          "evidence": "Economic harm is plausible but model-dependent. Pro-natalist policies have raised fertility only slightly where tried; Kearney, Levine and Pardue (Journal of Economic Perspectives 2022) found that standard economic factors do not explain the US decline since 2007, which makes policy levers unclear."
+        }
+      ]
+    }
+  ]
+}

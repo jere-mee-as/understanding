@@ -1,0 +1,181 @@
+{
+  "discipline": "Law",
+  "overview": "Law fights over what a legal rule is, who gets to say what it means, and what it is for. Some see law as a closed system of rules applied by neutral judges. Realists and empiricists see judges as people with politics and psychology. Law-and-economics treats law as a tool for efficiency, and critics say justice is not a price. The simple stories come from civics-class talk of 'judges just apply the law', from Supreme Court punditry, and from economists who read law as incentives. Where evidence exists, as with judicial behavior and deterrence, it gives partial answers that neither side's slogan matches.",
+  "debates": [
+    {
+      "title": "Originalism or living constitution?",
+      "lead": "Should the US Constitution be read as it was understood when ratified, or as a document whose meaning evolves with society? The folk version is 'judges should apply the text, not make policy' against 'the Constitution must keep up with the times'. Originalism has become the dominant public language of the Supreme Court's conservative majority, but its own scholars disagree about what it means. Living constitutionalism has refined into common-law and precedent-based theories. This is a normative fight, so evidence only narrows it.",
+      "verdict": "Originalism won the institutional fight on the current Court, but it has split internally and has not shown that it constrains judges better than rivals.",
+      "camps": [
+        {
+          "name": "Originalism",
+          "status": "open",
+          "pop": true,
+          "line": "The Constitution means what it meant when adopted, and judges who go beyond that are legislating.",
+          "explain": "Early originalism (Bork, Scalia) stressed the intent or the public understanding of the text to limit judicial discretion. The 'new originalism' focuses on original public meaning and separates interpretation from construction. Defenders say it gives democratic legitimacy and predictability.",
+          "who": "Antonin Scalia, Robert Bork, Randy Barnett, Keith Whittington, Lawrence Solum, Will Baude and Stephen Sachs. Scalia carried it to the public.",
+          "best": "Scalia 1997, A Matter of Interpretation; District of Columbia v. Heller 2008; New York State Rifle & Pistol Association v. Bruen 2022; Baude 2015, Stanford Law Review, 'Is Originalism Our Law?'.",
+          "evidence": "It now frames major decisions (Heller, Bruen, Dobbs 2022 on historical tradition). Critics, including historians, say judges apply it selectively and that the historical record is often indeterminate; Bruen's history-and-tradition test produced inconsistent lower-court results. Whether originalism reduces judicial discretion is still unproven."
+        },
+        {
+          "name": "Living constitutionalism",
+          "status": "partly right",
+          "pop": true,
+          "line": "Broad constitutional principles must be read in light of changing circumstances and evolving understanding.",
+          "explain": "Text like 'equal protection' and 'cruel and unusual' is open-ended, and courts have always developed doctrine through precedent. Its best defenders now describe it as common-law constitutionalism, where precedent and tradition do the constraining.",
+          "who": "David Strauss, Ronald Dworkin, Stephen Breyer, Cass Sunstein, Bruce Ackerman.",
+          "best": "Dworkin 1996, Freedom's Law; Strauss 2010, The Living Constitution; Breyer 2005, Active Liberty.",
+          "evidence": "Strauss points out that much of constitutional law (free speech, equal protection, executive power) rests on precedent, not original meaning, and even originalists accept stare decisis in practice. The critique is that it provides little constraint and lets judges import their values."
+        },
+        {
+          "name": "Pluralism and tradition",
+          "status": "open",
+          "pop": false,
+          "line": "Constitutional argument legitimately uses text, history, precedent, structure and consequences together.",
+          "explain": "Philip Bobbitt and others describe a set of accepted argument types. Law is a practice, not a single theory. Critics say this lets judges choose whichever mode gets their result.",
+          "who": "Philip Bobbitt, Richard Fallon, Jack Balkin (living originalism).",
+          "best": "Bobbitt 1982, Constitutional Fate; Balkin 2011, Living Originalism.",
+          "evidence": "Balkin's 'framework originalism' tries to merge the camps, showing the line between them is blurrier than the slogans suggest."
+        }
+      ]
+    },
+    {
+      "title": "Do judges follow the law or their politics?",
+      "lead": "The formalist story is that judges find and apply law. Legal realists argued from the 1920s that rules underdetermine outcomes and judges respond to facts, policy and personal views. Political scientists later built the 'attitudinal model'. The pop version of realism ('it's all politics') and the pop version of formalism ('they just call balls and strikes') are both too simple. The data show strong ideological patterns at the Supreme Court and much weaker ones in ordinary cases.",
+      "verdict": "Politics clearly matters in contested, high-salience cases, but law constrains most decisions and panel composition changes outcomes.",
+      "camps": [
+        {
+          "name": "Legal formalism",
+          "status": "partly right",
+          "pop": true,
+          "line": "Judges apply determinate rules and reason to a correct answer; they are umpires.",
+          "explain": "In most cases the law is clear and the parties settle or the judge follows it. The formalist picture fits the mass of routine litigation. It struggles to explain hard appellate cases where rules run out.",
+          "who": "Christopher Langdell historically; John Roberts' 'umpire' image in his 2005 confirmation hearing; Antonin Scalia's textualism.",
+          "best": "Langdell 1871 casebook method; Scalia 1989, University of Chicago Law Review, 'The Rule of Law as a Law of Rules'.",
+          "evidence": "Guthrie, Rachlinski and Wistrich 2007, Cornell Law Review, found judges are susceptible to cognitive biases but often override intuition when reflecting deliberately. Most trial-level and settled cases show no ideological pattern."
+        },
+        {
+          "name": "Realism and attitudinal model",
+          "status": "winning",
+          "pop": true,
+          "line": "Judges vote their policy preferences and then write the legal reasons.",
+          "explain": "Legal realists such as Llewellyn and Frank argued law is what judges do, shaped by facts and values. Political scientists coded votes and found strong correlation with ideology at the Supreme Court. At the Court, with discretionary dockets and no higher review, the effect is largest.",
+          "who": "Oliver Wendell Holmes, Karl Llewellyn, Jerome Frank, Jeffrey Segal and Harold Spaeth, Richard Posner (How Judges Think).",
+          "best": "Holmes 1897, Harvard Law Review, 'The Path of the Law'; Segal and Spaeth 2002, The Supreme Court and the Attitudinal Model Revisited; Posner 2008, How Judges Think.",
+          "evidence": "Sunstein, Schkade, Ellman and Sawicki 2006, Are Judges Political?, found Republican and Democratic appointees on federal appeals courts vote differently in ideologically contested areas, and that panels with three judges of the same party show amplification while mixed panels show dampening. Effects are largest in abortion, affirmative action and campaign finance, and small in many other areas."
+        },
+        {
+          "name": "Extraneous-factor myth",
+          "status": "losing",
+          "pop": true,
+          "line": "Judges' rulings swing with trivial things like hunger and mood.",
+          "explain": "A famous study claimed parole rulings improve after food breaks. It became a pop-psychology staple used to argue that justice depends on lunch.",
+          "who": "Shai Danziger, Jonathan Levav and Liora Avnaim-Pesso; popularised by Daniel Kahneman and many pop-science books.",
+          "best": "Danziger, Levav and Avnaim-Pesso 2011, PNAS, 'Extraneous factors in judicial decisions'.",
+          "evidence": "Weinshall-Margel and Shapard 2011, PNAS, replied that case ordering was not random (unrepresented prisoners were scheduled last, and they were far more likely to be denied). Glöckner 2016, Judgment and Decision Making, showed simulations could produce much of the effect without psychology. The headline effect is widely regarded as overstated."
+        }
+      ]
+    },
+    {
+      "title": "Is law about efficiency or justice?",
+      "lead": "Law and economics treats legal rules as incentives and asks which rule produces the best outcomes. Critics say law is about rights, fairness and corrective justice, not maximising wealth. The folk version on one side is that 'the common law is efficient'; on the other, that 'you cannot put a price on rights'. The field adopted economic tools nearly everywhere (antitrust, torts, contracts) while rejecting efficiency as the sole goal.",
+      "verdict": "Economic analysis became a standard tool of legal reasoning, but wealth maximisation as the foundation of law lost.",
+      "camps": [
+        {
+          "name": "Law and economics",
+          "status": "winning",
+          "pop": false,
+          "line": "Legal rules should be judged by the incentives they create and the costs they impose.",
+          "explain": "Coase showed that when bargaining is costless, the initial allocation of rights does not affect efficiency, so rules matter when transaction costs are high. Posner extended this to claim the common law tends toward efficiency. The method is now used by judges and regulators.",
+          "who": "Ronald Coase, Guido Calabresi, Richard Posner, Steven Shavell, Gary Becker on crime.",
+          "best": "Coase 1960, Journal of Law and Economics, 'The Problem of Social Cost'; Calabresi and Melamed 1972, Harvard Law Review, 'Property Rules, Liability Rules, and Inalienability'; Posner 1973, Economic Analysis of Law.",
+          "evidence": "Ellickson 1991, Order Without Law, found that Shasta County ranchers resolved cattle trespass by social norms, often ignoring formal law. This supports the Coasean point that law is only one of several systems. The claim that the common law evolves toward efficiency has weak empirical support."
+        },
+        {
+          "name": "Rights and corrective justice",
+          "status": "partly right",
+          "pop": true,
+          "line": "Law exists to right wrongs between people, not to maximise total wealth.",
+          "explain": "Tort law, on this view, asks whether one person wronged another, not whether the rule is cost-minimising. Dworkin's famous objection was that wealth maximisation is not itself a value that could justify forcing people to bear costs.",
+          "who": "Ronald Dworkin, Ernest Weinrib, Jules Coleman, Jeremy Waldron.",
+          "best": "Dworkin 1980, Journal of Legal Studies, 'Is Wealth a Value?'; Weinrib 1995, The Idea of Private Law.",
+          "evidence": "Few scholars now defend wealth maximisation as a complete theory of law. Many accept a pluralist view in which efficiency is one consideration. Behavioural law and economics (Jolls, Sunstein and Thaler 1998, Stanford Law Review) also showed that real people depart from the rational-actor assumption."
+        }
+      ]
+    },
+    {
+      "title": "Does harsher punishment deter crime?",
+      "lead": "Criminal law rests on competing purposes: deterrence, incapacitation, retribution and rehabilitation. The folk view in politics is that tougher sentences mean less crime. Research on deterrence suggests the probability of being caught matters more than the severity of the penalty. Evidence is mixed and politically charged, so each camp deserves a fair hearing.",
+      "verdict": "Evidence supports certainty of apprehension as a deterrent far more than sentence severity; incapacitation has real but costly effects.",
+      "camps": [
+        {
+          "name": "Severity deters",
+          "status": "losing",
+          "pop": true,
+          "line": "Longer sentences and the death penalty make would-be offenders think twice.",
+          "explain": "If offenders respond to costs, higher penalties should reduce crime. Supporters point to the logic of incentives and to cases where enhancements coincided with falling crime.",
+          "who": "Tough-on-crime policymakers; Gary Becker's economic model of crime provides the theory.",
+          "best": "Becker 1968, Journal of Political Economy, 'Crime and Punishment: An Economic Approach'.",
+          "evidence": "Nagin 2013, Crime and Justice, reviewed the literature and concluded that certainty of apprehension has a substantial deterrent effect and severity far less. Drago, Galbiati and Vertova 2009, Journal of Political Economy, used an Italian pardon and found a modest deterrent effect from added sentence length. The National Research Council 2012 report found existing death-penalty studies uninformative about deterrence."
+        },
+        {
+          "name": "Certainty deters",
+          "status": "winning",
+          "pop": false,
+          "line": "Offenders respond to the chance of getting caught, so police and swift consequences matter more than sentence length.",
+          "explain": "Many offenders discount the future heavily or do not know the penalty, but they do notice enforcement. This supports investing in policing and detection rather than longer terms.",
+          "who": "Daniel Nagin, Steven Durlauf, Aaron Chalfin and Justin McCrary.",
+          "best": "Nagin 2013, Crime and Justice; Chalfin and McCrary 2017, Journal of Economic Literature, 'Criminal Deterrence: A Review of the Literature'; Chalfin and McCrary 2018, Review of Economics and Statistics, 'Are U.S. Cities Underpoliced?'.",
+          "evidence": "Chalfin and McCrary 2018 estimate that more police reduce crime, with an elasticity for violent crime of roughly -0.3 in US cities. Policing effects have costs and distributional concerns, which critics emphasise."
+        },
+        {
+          "name": "Incapacitation and retribution",
+          "status": "partly right",
+          "pop": true,
+          "line": "Prison prevents crime by removing offenders, and punishment is owed regardless of deterrence.",
+          "explain": "Incapacitation works while someone is locked up. Retributivists hold that desert, not usefulness, justifies punishment. These are moral claims that deterrence data cannot settle.",
+          "who": "James Q. Wilson, Michael Moore, Andrew von Hirsch on just deserts.",
+          "best": "Wilson 1975, Thinking About Crime; von Hirsch 1976, Doing Justice.",
+          "evidence": "Incapacitation effects are real but shrink as prison populations grow, because marginal inmates are lower-risk. Johnson and Raphael 2012, Journal of Law and Economics, found a smaller effect of incarceration on crime in the 2000s than earlier decades."
+        }
+      ]
+    },
+    {
+      "title": "What is law: rules or morality?",
+      "lead": "Legal positivists say whether something is law depends on social facts such as who enacted it, not on whether it is just. Natural-law theorists say an unjust law is defective as law. The popular form is 'an unjust law is no law at all', often invoked in civil disobedience. The professional debate is subtler: does moral reasoning enter legal reasoning, and if so is law's identity at stake?",
+      "verdict": "Positivism remains the mainstream account of what law is, but critics won the point that moral argument is part of how judges reason.",
+      "camps": [
+        {
+          "name": "Legal positivism",
+          "status": "winning",
+          "pop": false,
+          "line": "What the law is and what it ought to be are separate questions.",
+          "explain": "Hart argued a legal system is a union of primary rules and secondary rules, with a social 'rule of recognition' identifying valid law. Positivism lets you call a rule law while condemning it. It dominates in English-language jurisprudence.",
+          "who": "H.L.A. Hart, Joseph Raz, Jules Coleman, John Austin as forerunner.",
+          "best": "Hart 1958, Harvard Law Review, 'Positivism and the Separation of Law and Morals'; Hart 1961, The Concept of Law; Raz 1979, The Authority of Law.",
+          "evidence": "No empirical test decides this, since it is a conceptual dispute. Hart's account handled Nazi-era laws by distinguishing validity from moral worth. It is the standard framing in legal theory courses."
+        },
+        {
+          "name": "Natural law",
+          "status": "partly right",
+          "pop": true,
+          "line": "A rule that grossly violates justice lacks the authority of law.",
+          "explain": "Natural lawyers hold that law's point is the common good and that morality is built into what law is. Modern versions are more modest than the slogan.",
+          "who": "Lon Fuller, John Finnis, Thomas Aquinas as source, Robert George.",
+          "best": "Fuller 1958, Harvard Law Review, 'Positivism and Fidelity to Law'; Finnis 1980, Natural Law and Natural Rights.",
+          "evidence": "Fuller's 'internal morality of law' (laws should be general, public, clear, stable) is accepted by many positivists as a feature of good legal systems. Radbruch's formula after 1945, that extreme injustice is not law, shaped German courts."
+        },
+        {
+          "name": "Interpretivism",
+          "status": "open",
+          "pop": false,
+          "line": "Legal facts are partly moral facts: law is the best moral justification of past legal practice.",
+          "explain": "Dworkin said judges in hard cases construct the interpretation that best fits and justifies the practice. That makes legal reasoning continuous with moral reasoning. Positivists reply that this misdescribes disagreement about law.",
+          "who": "Ronald Dworkin, Mark Greenberg, Scott Shapiro as a positivist critic.",
+          "best": "Dworkin 1977, Taking Rights Seriously; Dworkin 1986, Law's Empire.",
+          "evidence": "Greenberg 2004, Yale Law Journal on the moral impact theory is the most developed recent version. The dispute remains open."
+        }
+      ]
+    }
+  ]
+}

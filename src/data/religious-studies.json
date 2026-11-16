@@ -1,0 +1,164 @@
+{
+  "discipline": "Religious Studies",
+  "overview": "Religious studies is the non-confessional academic study of religion, drawing on history, anthropology, sociology, psychology and textual criticism. Its fights are about whether the category ‘religion’ is even coherent, why humans are religious at all, whether modernity is making religion disappear, and how far critical history can recover the founders of traditions. The pop versions come from two directions: the textbook ‘five world religions’ chart, and the popular-science line that religion is a virus, a delusion or a social adaptation. Scholars have moved to messier views on all of these, and in one prominent case a high-profile claim was retracted from Nature.",
+  "debates": [
+    {
+      "title": "What counts as ‘religion’?",
+      "lead": "Most people picture religion as a set of separate, belief-centred systems: Christianity, Islam, Hinduism, Buddhism, Judaism. Scholars since the 1980s have argued that this picture is a product of European history, built on a Protestant template and then exported. Others say the category is still useful if you treat it loosely. The fight matters because it shapes what gets counted as religion in law, surveys and everyday thinking.",
+      "verdict": "The tidy ‘world religions’ model lost scholarly support; most scholars now use religion as a loose, working category.",
+      "camps": [
+        {
+          "name": "Sacred essence",
+          "status": "losing",
+          "pop": true,
+          "line": "Religion is a distinct kind of experience of the sacred, and the great world religions are its main expressions.",
+          "explain": "Religion is sui generis, not reducible to politics or psychology. This is the view behind the ‘world religions’ course and textbook, and behind much popular comparison of faiths. It dominated the mid-twentieth century.",
+          "who": "Rudolf Otto, Mircea Eliade; Huston Smith as popularizer",
+          "best": "Otto, The Idea of the Holy (1917); Eliade, The Sacred and the Profane (1957); Huston Smith, The Religions of Man (1958)",
+          "evidence": "Critics showed that its categories carry Christian assumptions, such as belief, creed and church, and that the ‘essence’ is hard to pin down across cultures. Few current scholars defend it in its original form."
+        },
+        {
+          "name": "Invented category",
+          "status": "partly right",
+          "pop": false,
+          "line": "‘Religion’ is a modern European construct, not a natural kind, and using it distorts other societies.",
+          "explain": "The word and its use as a general category have a specific history tied to Christianity, colonialism and the Enlightenment. Many traditions had no equivalent. Critics say this makes the term an instrument of power.",
+          "who": "Jonathan Z. Smith, Talal Asad, Tomoko Masuzawa, Brent Nongbri, Timothy Fitzgerald",
+          "best": "J. Z. Smith, Imagining Religion (1982); Asad, Genealogies of Religion (1993); Masuzawa, The Invention of World Religions (2005); Nongbri, Before Religion (2013)",
+          "evidence": "Smith’s line that religion is ‘solely the creation of the scholar’s study’ is the programmatic statement. The historical case is strong, especially Masuzawa on how the world-religions list was built. The conclusion that the term should be dropped has not been widely adopted."
+        },
+        {
+          "name": "Fuzzy working category",
+          "status": "winning",
+          "pop": false,
+          "line": "Religion has no essence, but it is a family of overlapping features, and that is enough to study.",
+          "explain": "Definitions use prototypes or ‘family resemblance’: beliefs about superhuman agents, rituals, texts, communities. Cases close to the centre are clear and at the edges it is fuzzy. This lets scholars keep the word while admitting its history.",
+          "who": "Benson Saler, Ninian Smart, Clifford Geertz (symbolic, functional definition)",
+          "best": "Saler, Conceptualizing Religion (1993); Geertz, ‘Religion as a Cultural System’ (1966)",
+          "evidence": "Largely a working consensus and not a decisive study. It survives because both the essence view and the abolition view fail on their own terms: the first imposes Christian categories, the second leaves no tool to compare."
+        }
+      ]
+    },
+    {
+      "title": "Why are humans religious?",
+      "lead": "Three stories compete. Religion as a by-product of ordinary cognition, religion as a social adaptation that binds groups and enforces cooperation, and the pop-science line that religion is a parasite or virus. The cognitive science of religion has strong lab support for the first. The second has been hurt by a headline retraction. The third has the least evidence.",
+      "verdict": "By-product accounts best explain why religious ideas are easy to believe; the social-glue accounts remain open, and the ‘mind virus’ story has little support.",
+      "camps": [
+        {
+          "name": "Cognitive by-product",
+          "status": "winning",
+          "pop": false,
+          "line": "Religious ideas stick because they fit how our minds already work, especially our readiness to see agents and intentions.",
+          "explain": "Evolved faculties for detecting agents, tracking minds and reasoning about contagion make ideas of gods, spirits and afterlives intuitive and memorable. Religion is a by-product, not an adaptation in itself. This is the core of the cognitive science of religion.",
+          "who": "Pascal Boyer, Scott Atran, Justin Barrett, Stewart Guthrie",
+          "best": "Guthrie, Faces in the Clouds (1993); Atran, In Gods We Trust (2002); Boyer, Religion Explained (2001); Barrett, ‘Exploring the natural foundations of religion’, Trends in Cognitive Sciences (2000)",
+          "evidence": "Cross-cultural experiments find children and adults reason about gods and spirits in similar, cognitively natural ways. The weakness: it explains why religious ideas are widespread, less so why some religions endured and scaled. A related claim that analytic thinking reduces belief (Gervais and Norenzayan 2012, Science) replicated poorly in later attempts."
+        },
+        {
+          "name": "Social adaptation",
+          "status": "open",
+          "pop": false,
+          "line": "Moralizing ‘Big Gods’ and costly rituals helped groups cooperate, which is why religions spread.",
+          "explain": "Belief in watchful, punishing gods let large groups of strangers trust each other and out-compete rivals. It ties religion to the rise of complex societies. It is often paired with group-selection ideas.",
+          "who": "David Sloan Wilson, Ara Norenzayan, Harvey Whitehouse, Joseph Henrich",
+          "best": "Wilson, Darwin’s Cathedral (2002); Norenzayan, Big Gods (2013); Purzycki et al., ‘Moralistic gods, supernatural punishment and the expansion of human sociality’, Nature (2016)",
+          "evidence": "Purzycki et al. 2016 found that belief in moralistic gods was associated with fairer behaviour in some small-scale societies. The historical version took a hit: Whitehouse et al. 2019, Nature, claimed complex societies preceded moralizing gods, and Beheim et al. 2021, Nature, showed that the treatment of missing data drove the result. The Whitehouse paper was retracted, and the authors defended their conclusions in revised analyses. The historical order is unresolved."
+        },
+        {
+          "name": "Mind virus",
+          "status": "losing",
+          "pop": true,
+          "line": "Religion is a self-replicating idea that spreads because it spreads, not because it helps us.",
+          "explain": "The ‘meme’ story. Religious ideas are like parasites that hijack minds and are passed on through childhood credulity. It is the popular form of the by-product idea, with a hostile spin.",
+          "who": "Richard Dawkins; Daniel Dennett’s Breaking the Spell gives a more careful version",
+          "best": "Dawkins, The God Delusion (2006); Dennett, Breaking the Spell (2006)",
+          "evidence": "Largely analogy. The cognitive science work above is the empirical alternative, and it does not need a virus model. Memetics itself has no confirmed research programme behind it."
+        }
+      ]
+    },
+    {
+      "title": "Is religion dying out?",
+      "lead": "The classic secularization thesis said modernization drains religion of public power and private belief, and that science and education would finish the job. Peter Berger, once its leading voice, recanted in the 1990s as religion kept thriving in much of the world. Meanwhile the unaffiliated are the fastest-growing category in rich countries. The result is a picture where religion declines in some places and grows in others, with explanation fights about why.",
+      "verdict": "Secularization is real in rich, secure societies, mostly through people leaving, but it is not a universal law of modernity.",
+      "camps": [
+        {
+          "name": "Modernization kills religion",
+          "status": "losing",
+          "pop": true,
+          "line": "As societies get richer, more educated and more scientific, religion fades everywhere.",
+          "explain": "The classical sociological theory, still the default view in much popular discussion. It predicts steady decline with development, in every region.",
+          "who": "Max Weber (background), Bryan Wilson, Steve Bruce; New Atheist popularizers such as Sam Harris",
+          "best": "Wilson, Religion in Secular Society (1966); Berger, The Sacred Canopy (1967); Bruce, God Is Dead (2002)",
+          "evidence": "The strong universal version was undermined by global religious vitality: Berger himself, in The Desecularization of the World (1999), retracted. Pew 2025, on 2010-2020, finds Christians fell from 30.6% to 28.8% of the world population and Muslims rose to 25.6%, while the religiously unaffiliated rose to 24.2% from 23.3%. The unaffiliated grew mainly by switching, and have lower fertility, so demography will slow the trend."
+        },
+        {
+          "name": "Religious economies",
+          "status": "partly right",
+          "pop": false,
+          "line": "Religion thrives where there is competition among providers, and declines where state churches have monopolies.",
+          "explain": "Treats religion as a market. Pluralism produces competition and so higher participation. This explained the United States as an exception and challenged the idea that modernity itself kills faith.",
+          "who": "Rodney Stark, Roger Finke, Laurence Iannaccone",
+          "best": "Stark and Bainbridge, A Theory of Religion (1985); Finke and Stark, The Churching of America (1992); Stark and Finke, Acts of Faith (2000)",
+          "evidence": "Voas, Olson and Crockett 2002, American Sociological Review, showed that the pluralism-participation correlation in earlier research was a statistical artifact. Supply-side factors matter, but the key prediction failed."
+        },
+        {
+          "name": "Existential security",
+          "status": "winning",
+          "pop": false,
+          "line": "People turn to religion when life feels precarious; as security rises, religious attachment loosens.",
+          "explain": "Secularization is real but conditional: it tracks safety, health and wealth, not modernity per se. Poorer, high-fertility countries stay religious and the world may grow more religious in aggregate even as rich countries empty out. Most consistent with the Pew data.",
+          "who": "Pippa Norris and Ronald Inglehart; Eric Kaufmann on demography",
+          "best": "Norris and Inglehart, Sacred and Secular (2004); Kaufmann, Shall the Religious Inherit the Earth? (2010)",
+          "evidence": "Fits cross-national surveys of belief and practice and the European and Canadian trend. Pew’s 2023-24 US survey found Christians near 62% of adults, down from 78% in 2007. Awkward cases such as the US’s earlier religiosity and India’s are explained by other factors, which critics call ad hoc."
+        }
+      ]
+    },
+    {
+      "title": "Did Jesus exist, and who was he?",
+      "lead": "Biblical scholarship applies ordinary historical method to scripture, and its results often conflict with both devout and sceptical popular views. The online claim that Jesus was a myth is common; academic scholars across the religious spectrum reject it. The real argument is about what kind of person the historical Jesus was: an apocalyptic preacher, a wisdom teacher, or a figure we can say little about.",
+      "verdict": "A historical Jesus is accepted by essentially all specialists; the live dispute is whether he was an end-times prophet, and that view currently leads.",
+      "camps": [
+        {
+          "name": "Christ myth",
+          "status": "losing",
+          "pop": true,
+          "line": "Jesus never existed; the story grew out of myth and scripture.",
+          "explain": "Argues that the earliest sources, Paul’s letters, show little interest in a recent earthly life, and that the Gospels are literary constructions. Popular in online skeptic circles and in the 2007 film Zeitgeist.",
+          "who": "Earl Doherty, Richard Carrier; critics include Bart Ehrman, a non-Christian specialist",
+          "best": "Doherty, The Jesus Puzzle (1999); Carrier, On the Historicity of Jesus (2014)",
+          "evidence": "Paul, writing in the 50s CE, refers to James as ‘the brother of the Lord’ (Galatians 1:19) and Josephus mentions James ‘the brother of Jesus, who was called Christ’ (Antiquities 20.200); Tacitus, Annals 15.44, reports his execution under Pilate. Ehrman 2012, Did Jesus Exist?, sets out the case. The claim is rejected by the near-entirety of New Testament and ancient-history scholars."
+        },
+        {
+          "name": "Apocalyptic prophet",
+          "status": "winning",
+          "pop": false,
+          "line": "Jesus was a Jewish preacher who expected God’s kingdom to arrive soon and dramatically.",
+          "explain": "He fits best in the world of first-century Jewish end-time hopes and in the movement that continued after his death. This is the leading position among scholars of the historical Jesus.",
+          "who": "Albert Schweitzer, E. P. Sanders, Dale Allison, Bart Ehrman",
+          "best": "Schweitzer, The Quest of the Historical Jesus (1906); Sanders, Jesus and Judaism (1985); Ehrman, Jesus: Apocalyptic Prophet of the New Millennium (1999)",
+          "evidence": "Rests on the earliest strata, including John the Baptist’s movement and Paul’s expectation of an imminent end. Critics say the eschatological sayings may reflect the early church’s later concerns."
+        },
+        {
+          "name": "Wisdom sage",
+          "status": "partly right",
+          "pop": false,
+          "line": "Jesus was a countercultural teacher of aphorisms and a social critic, not an end-times prophet.",
+          "explain": "Argues that the apocalyptic material was added by later followers and that the earliest layer is subversive teaching, close to Cynic or Jewish wisdom traditions. It dominated the 1980s-90s, including the Jesus Seminar.",
+          "who": "John Dominic Crossan, Marcus Borg, Burton Mack, Robert Funk",
+          "best": "Crossan, The Historical Jesus (1991); Funk et al., The Five Gospels (1993)",
+          "evidence": "Depends on dating sayings sources early, which is disputed. The criteria of authenticity used to pick out genuine sayings have been heavily criticized (Keith and Le Donne, eds., Jesus, Criteria, and the Demise of Authenticity, 2012), which weakened all the reconstructions."
+        },
+        {
+          "name": "Reliable eyewitness Gospels",
+          "status": "open",
+          "pop": true,
+          "line": "The Gospels are close to eyewitness testimony and can be trusted as history.",
+          "explain": "Argues that the Gospel traditions were anchored in named eyewitnesses and reliably transmitted. It has support from some evangelical scholars and is the popular apologetic view.",
+          "who": "Richard Bauckham, Craig Blomberg; Lee Strobel in popular form",
+          "best": "Bauckham, Jesus and the Eyewitnesses (2006); Strobel, The Case for Christ (1998)",
+          "evidence": "Bauckham’s argument from the names in the Gospels and from memory research is serious, but most scholars regard the Gospels as composed decades later, with theological shaping. Memory studies cut both ways."
+        }
+      ]
+    }
+  ]
+}

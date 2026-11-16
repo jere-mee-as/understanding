@@ -1,0 +1,171 @@
+{
+  "discipline": "Literature",
+  "overview": "Literary studies fights less about facts than about what interpretation is for: recovering what an author meant, unmasking what a text hides, appreciating its craft, or measuring patterns across thousands of books. The simple stories outsiders carry are 'the author's intention is the meaning' (school), 'great books make you a better person' (humanist defenders of the canon, Martha Nussbaum) and, on the other side, 'it's all power and ideology' (a caricature of theory). The field itself has largely moved past the theory wars of the 1980s and 90s into a looser pluralism, with new empirical and computational challengers, and a recent turn against 'suspicious' reading. Unlike the sciences, nothing here is decided by one decisive experiment; the few empirical claims literature makes, such as that fiction improves empathy, are testable and have been tested.",
+  "debates": [
+    {
+      "title": "Does a text mean what its author meant?",
+      "lead": "School teaches 'what is the author trying to say?' Literary theory spent most of the twentieth century attacking that. New Critics said the poem is a public object, not a diary of the poet's mind. Barthes announced the 'death of the author' and reader-response critics put meaning in the reader. Philosophers of interpretation have since pushed back, and most working critics use a pragmatic mix.",
+      "verdict": "Open, but pure death-of-the-author lost its grip; most critics now treat authorial context as evidence, not as a master key or a taboo.",
+      "camps": [
+        {
+          "name": "Authorial intention",
+          "status": "partly right",
+          "pop": true,
+          "line": "A text means what its author meant by it; everything else is projection.",
+          "explain": "Meaning has to be anchored somewhere or any reading is as good as any other. The author is the obvious anchor, and it matches how we read letters and conversation.",
+          "who": "E. D. Hirsch; Steven Knapp and Walter Benn Michaels; hypothetical intentionalists such as Jerrold Levinson and Alexander Nehamas in a softer form.",
+          "best": "Hirsch, Validity in Interpretation (1967); Knapp and Michaels, 'Against Theory,' Critical Inquiry (1982).",
+          "evidence": "No experiment settles this. Its strength is philosophical: it explains why we correct misreadings. Its weakness is practical: we often cannot recover the intention and authors do not always know what their work means."
+        },
+        {
+          "name": "The text itself",
+          "status": "partly right",
+          "pop": false,
+          "line": "Intention is neither available nor desirable as a standard; the words on the page are what we have.",
+          "explain": "New Criticism's 'intentional fallacy' and close reading treat a work as a self-contained verbal object. It shaped how English is taught.",
+          "who": "W. K. Wimsatt, Monroe Beardsley, Cleanth Brooks, I. A. Richards.",
+          "best": "Wimsatt and Beardsley, 'The Intentional Fallacy' (1946); Brooks, The Well Wrought Urn (1947).",
+          "evidence": "Survives as a working method (close reading) more than as a theory of meaning."
+        },
+        {
+          "name": "Reader makes meaning",
+          "status": "open",
+          "pop": false,
+          "line": "The author is dead; meaning is made in reading, and no reading is final.",
+          "explain": "Texts are tissues of other texts, and readers or interpretive communities produce meaning. It opened literary studies to marginal readers and to questions of power.",
+          "who": "Roland Barthes, Michel Foucault, Stanley Fish, Wolfgang Iser.",
+          "best": "Barthes, 'The Death of the Author' (1967); Foucault, 'What Is an Author?' (1969); Fish, Is There a Text in This Class? (1980).",
+          "evidence": "Fish's claim that interpretive communities constrain readings has some support in how critics converge, but no empirical test separates it from the intentionalist alternative."
+        }
+      ]
+    },
+    {
+      "title": "Close reading or distant reading?",
+      "lead": "Traditional criticism reads a few books slowly. Franco Moretti argued in 2000 that we should instead count and graph thousands of books we will never read. Digital methods have produced real findings about genre, gender and canon formation, and have been hit by sharp methodological criticism.",
+      "verdict": "Partly decided: computation has a permanent niche, but the 'replace close reading' version has not delivered, and Da's 2019 critique landed hard on the weaker papers.",
+      "camps": [
+        {
+          "name": "Close reading",
+          "status": "partly right",
+          "pop": true,
+          "line": "Real understanding of literature comes from slow attention to words, form and ambiguity in individual works.",
+          "explain": "The core craft of the discipline since the 1920s. It trains students to notice, and nobody has replaced it for interpreting a single work.",
+          "who": "I. A. Richards, Cleanth Brooks, and in current defence Jonathan Culler and Stephen Best and Sharon Marcus ('surface reading').",
+          "best": "Richards, Practical Criticism (1929); Best and Marcus, 'Surface Reading,' Representations (2009).",
+          "evidence": "It is a method, not a hypothesis, so there is little to test. Its limit is that conclusions about periods or genres rest on a small, canonised sample."
+        },
+        {
+          "name": "Distant reading",
+          "status": "open",
+          "pop": false,
+          "line": "To understand literary history you have to read it at scale, as data.",
+          "explain": "Count word frequencies, plot networks, map genres across thousands of titles. It makes claims about what is typical, not what is exceptional.",
+          "who": "Franco Moretti, Matthew Jockers, Ted Underwood, Andrew Piper.",
+          "best": "Moretti, 'Conjectures on World Literature' (2000) and Graphs, Maps, Trees (2005); Underwood, Distant Horizons (2019).",
+          "evidence": "Underwood's work on genre and gender shifts in 19th- and 20th-century fiction is the strongest case. Nan Z. Da, 'The Computational Case against Computational Literary Studies,' Critical Inquiry (2019), argued many headline results failed replication or relied on misapplied statistics; defenders replied that she targeted a handful of papers and misread the method."
+        }
+      ]
+    },
+    {
+      "title": "Is the job to unmask the text or to appreciate it?",
+      "lead": "From the 1970s, 'theory' (Marxist, psychoanalytic, feminist, postcolonial, deconstructive) taught critics to read for what texts hide: ideology, repression, empire. That 'hermeneutics of suspicion' became the default tone of the discipline. Since about 2003 a counter-movement has asked whether suspicion has become a reflex, and whether critics should describe, repair or simply attend to texts.",
+      "verdict": "Open; suspicion remains the house style, but the field now openly argues over whether it is exhausted.",
+      "camps": [
+        {
+          "name": "Critique",
+          "status": "partly right",
+          "pop": false,
+          "line": "Literature carries the assumptions of its age, and reading it well means exposing them.",
+          "explain": "Texts reflect and reproduce power, class, gender and empire, often without meaning to. Reading against the grain reveals this.",
+          "who": "Fredric Jameson, Edward Said, Judith Butler, Gayatri Spivak.",
+          "best": "Jameson, The Political Unconscious (1981); Said, Orientalism (1978).",
+          "evidence": "Said's book remains one of the most cited in the field and genuinely changed how colonial-era texts are read. The weakness is that the method is hard to falsify: any text can be shown to be complicit."
+        },
+        {
+          "name": "Post-critique",
+          "status": "open",
+          "pop": false,
+          "line": "Suspicion is a habit, not a discovery; we should read for what texts do for readers.",
+          "explain": "Critics argue suspicious reading is predictable and has ceded the public case for literature. The alternatives are reparative reading, description or attention to attachment and use.",
+          "who": "Eve Kosofsky Sedgwick, Rita Felski, Bruno Latour (in the neighbouring field of science studies).",
+          "best": "Sedgwick, 'Paranoid Reading and Reparative Reading' (2003); Felski, The Limits of Critique (2015).",
+          "evidence": "A conceptual debate, not an empirical one. Its influence shows in the growth of 'surface', 'affect' and 'new formalism' approaches."
+        },
+        {
+          "name": "Humanist appreciation",
+          "status": "partly right",
+          "pop": true,
+          "line": "Great books are great; critics should help readers love and learn from them.",
+          "explain": "The public's idea of what an English degree is for. It treats aesthetic value and moral insight as central.",
+          "who": "Harold Bloom, Helen Vendler, F. R. Leavis earlier.",
+          "best": "Bloom, The Western Canon (1994).",
+          "evidence": "Defended on grounds of value, not evidence. Hard to distinguish from the canon dispute below."
+        }
+      ]
+    },
+    {
+      "title": "Does reading fiction make you more empathetic?",
+      "lead": "It is a staple of op-eds and defences of the humanities: novels let you live inside other minds, so readers become kinder. In 2013 Kidd and Castano published a striking Science paper showing that reading a short literary passage improved performance on a mind-reading test. It was widely cited and widely reported. It then did not replicate.",
+      "verdict": "The strong claim lost; what survives is a small positive association between reading fiction and social cognition, with unclear causation.",
+      "camps": [
+        {
+          "name": "Fiction trains empathy",
+          "status": "losing",
+          "pop": true,
+          "line": "Stories are an empathy machine; reading literary fiction makes you better at understanding people.",
+          "explain": "Novels demand tracking of other minds, and some literary fiction invites readers to fill gaps. Martha Nussbaum and Steven Pinker argue the novel helped expand moral concern.",
+          "who": "Martha Nussbaum, Keith Oatley, Raymond Mar; Steven Pinker and Lynn Hunt on the novel and human rights.",
+          "best": "Kidd and Castano, 'Reading Literary Fiction Improves Theory of Mind,' Science (2013); Mar and Oatley, 'The Function of Fiction,' Perspectives on Psychological Science (2008).",
+          "evidence": "Panero et al. 2016, Journal of Personality and Social Psychology, ran multiple attempts at the Kidd and Castano design and found no effect. Camerer et al. 2018, Nature Human Behaviour, included it in a set of 21 Science and Nature social-science experiments and it failed to replicate. Samur et al. 2018 reported four further replications that also failed. Kidd and Castano's defenders point to differences in materials and populations."
+        },
+        {
+          "name": "Small association",
+          "status": "winning",
+          "pop": false,
+          "line": "Frequent fiction readers score a bit higher on social cognition, but we cannot say reading caused it.",
+          "explain": "Meta-analyses find small correlations between lifetime fiction exposure and empathy or theory-of-mind scores. Empathic people may simply read more fiction.",
+          "who": "Marisa Mumper, Richard Gerrig, Dodell-Feder and Tamir.",
+          "best": "Mumper and Gerrig, Psychology of Aesthetics, Creativity, and the Arts (2017); Dodell-Feder and Tamir, Journal of Experimental Psychology: General (2018).",
+          "evidence": "Both meta-analyses found small positive effects; both flag publication bias and confounding by trait empathy."
+        }
+      ]
+    },
+    {
+      "title": "Who decides what counts as great literature?",
+      "lead": "The canon fights of the 1980s and 90s asked whether 'great books' are great because of intrinsic quality or because institutions chose them. Bloom said the canon is aesthetic; critics said it is a record of whose work got taught. The debate has now shifted from adding authors to asking what a world literature even is.",
+      "verdict": "The canon is wider than in 1980 and nobody serious defends a single list; the unresolved question is whether value is intrinsic, institutional or both.",
+      "camps": [
+        {
+          "name": "Aesthetic canon",
+          "status": "partly right",
+          "pop": true,
+          "line": "Some works endure because they are better, not because anyone made us read them.",
+          "explain": "Value comes from the work's complexity and originality. Survival across centuries and cultures is evidence of quality.",
+          "who": "Harold Bloom, Helen Vendler; echoed in popular 'Great Books' advocates.",
+          "best": "Bloom, The Western Canon (1994).",
+          "evidence": "Hard to test. Its best argument is that authors outside the institutions' preferences sometimes outlast them."
+        },
+        {
+          "name": "Canon as institution",
+          "status": "partly right",
+          "pop": false,
+          "line": "A canon is a record of who had power to be taught, reviewed and remembered.",
+          "explain": "Schools, publishers and critics select. Value judgements are shaped by class and education.",
+          "who": "John Guillory, Pierre Bourdieu in sociology, Gayatri Spivak, Henry Louis Gates Jr.",
+          "best": "Guillory, Cultural Capital (1993); Bourdieu, Distinction (1979).",
+          "evidence": "Historical work shows canons shift substantially (Shakespeare's rise and Austen's, for instance) and track institutional change."
+        },
+        {
+          "name": "World literature",
+          "status": "open",
+          "pop": false,
+          "line": "Stop arguing about the list and study how literature circulates across languages and markets.",
+          "explain": "Instead of adding authors, study translation, circulation and the unequal economy of literary prestige.",
+          "who": "David Damrosch, Pascale Casanova, Franco Moretti.",
+          "best": "Damrosch, What Is World Literature? (2003); Casanova, The World Republic of Letters (1999).",
+          "evidence": "Methodological proposals more than findings so far; critics worry it flattens translated work into a single English-language lens."
+        }
+      ]
+    }
+  ]
+}

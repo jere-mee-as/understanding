@@ -1,0 +1,171 @@
+{
+  "discipline": "Communication",
+  "overview": "Communication and media studies argue about one question in many forms: how much do media actually do to people? The folk answer is 'a lot, and mostly bad' -- propaganda brainwashes, algorithms trap us in bubbles, fake news swings elections, phones wreck teenagers. Each new medium (radio, comics, TV, video games, social media) triggers the same panic, and popularisers like Eli Pariser and Jonathan Haidt carry the strong version to the public. The research literature has repeatedly found something smaller and more conditional: audiences are active, selective and hard to move, and the big effects tend to sit in specific groups or specific channels. The live fights are about whether this time, with social media, the old skeptical pattern finally breaks.",
+  "debates": [
+    {
+      "title": "How powerful are the media?",
+      "lead": "The popular picture is the 'magic bullet': media inject messages into passive masses and people change. Radio, Hitler and Orson Welles's 1938 War of the Worlds broadcast are the stock stories. Empirical work from the 1940s on found that persuasion is rare and mostly reinforces what people already think. The field then rebuilt a middle position in which media shape what people think about and how they frame issues, more than what they conclude.",
+      "verdict": "Strong direct effects lost; the field settled on limited, conditional effects on agendas, framing and perceptions rather than on firm opinions.",
+      "camps": [
+        {
+          "name": "Magic bullet",
+          "status": "losing",
+          "pop": true,
+          "line": "Show people the message and it goes straight in; whoever controls the media controls the public.",
+          "explain": "Media are treated as a powerful stimulus acting on an atomised, passive audience. It fed on interwar propaganda fears and on Vance Packard-style worries about hidden persuasion. Historians argue few researchers ever held it in pure form and that the label was largely a later caricature.",
+          "who": "Mass-society critics, Frankfurt School in a cultural form, Vance Packard; carried to the public by every moral panic about the newest medium.",
+          "best": "Packard, The Hidden Persuaders (1957); Cantril, The Invasion from Mars (1940).",
+          "evidence": "Lazarsfeld, Berelson and Gaudet's The People's Choice (1944) found the 1940 Erie County campaign mostly reinforced prior vote intentions. The War of the Worlds panic has been shown by later historians (Pooley and Socolow, 2013; Schwartz, 2015) to be largely a newspaper-driven exaggeration. Kalla and Broockman 2018, American Political Science Review -- meta-analysis of 49 field experiments -- found persuasive contact in general elections has effects close to zero."
+        },
+        {
+          "name": "Minimal effects",
+          "status": "partly right",
+          "pop": false,
+          "line": "People filter everything through the opinions, friends and loyalties they already have, so media mostly reinforce.",
+          "explain": "Audiences selectively expose, perceive and remember. Social ties (the 'two-step flow') matter more than the message. It was a needed correction, but it was over-generalised from election persuasion to all media effects.",
+          "who": "Paul Lazarsfeld, Elihu Katz, Joseph Klapper.",
+          "best": "Lazarsfeld et al., The People's Choice (1944); Katz and Lazarsfeld, Personal Influence (1955); Klapper, The Effects of Mass Communication (1960).",
+          "evidence": "Holds up well for changing settled partisan attitudes (Kalla and Broockman 2018). Fails as a general claim: it misses effects on salience, framing and beliefs about the world, which later work documented."
+        },
+        {
+          "name": "Agenda, framing, cultivation",
+          "status": "winning",
+          "pop": false,
+          "line": "The press doesn't tell you what to think, but it is stunningly successful at telling you what to think about.",
+          "explain": "Media shape which issues feel important, how they are framed and what the world seems like, even when they do not flip opinions. Effects are real but modest and depend on the audience.",
+          "who": "Maxwell McCombs, Donald Shaw, Shanto Iyengar, George Gerbner.",
+          "best": "McCombs and Shaw, 'The Agenda-Setting Function of Mass Media,' Public Opinion Quarterly (1972); Iyengar and Kinder, News That Matters (1987); Gerbner's cultivation research (1970s on).",
+          "evidence": "Agenda-setting has been replicated in hundreds of studies across countries and decades. Cultivation effects (heavy TV viewers overestimating crime) are real but small and contested as to causation."
+        }
+      ]
+    },
+    {
+      "title": "Are algorithms locking us in filter bubbles?",
+      "lead": "Eli Pariser's 2011 book The Filter Bubble and Cass Sunstein's earlier Republic.com argued that personalisation would seal each of us inside a feed of our own views and tear the public sphere apart. It became the default explanation for polarisation. Studies that actually measure exposure find that most people's news diets are less segregated than the story predicts, and that self-selection does more than algorithms. Large platform experiments in 2023 found that changing the algorithm moved what people saw much more than what they believed.",
+      "verdict": "The strong algorithmic-bubble story lost; segregation exists, driven mostly by user choice and a small, highly partisan minority.",
+      "camps": [
+        {
+          "name": "Filter bubble",
+          "status": "losing",
+          "pop": true,
+          "line": "Personalised feeds feed each of us only what we already agree with, and that is why we cannot talk to each other.",
+          "explain": "Algorithms optimise engagement, give you more of what you click, and so hide the other side. The claim is intuitive and fit the post-2016 mood.",
+          "who": "Eli Pariser (TED talk and book), Cass Sunstein; picked up widely in journalism and documentaries such as The Social Dilemma.",
+          "best": "Pariser, The Filter Bubble (2011); Sunstein, Republic.com (2001).",
+          "evidence": "Gentzkow and Shapiro 2011, Quarterly Journal of Economics, found online news consumption was less ideologically segregated than many offline social contacts. Guess et al. 2023, Science, one of the Meta-cooperating studies of the 2020 US election, switched Facebook and Instagram users to chronological feeds and found large changes in what they saw but no significant change in polarisation or political attitudes. Nyhan et al. 2023, Nature, cut like-minded content for Facebook users with the same null result on polarisation. Critics (Bagchi et al. 2024, Science letter) note Meta changed its ranking during the study window, so 'algorithms do nothing' is not proven either."
+        },
+        {
+          "name": "Self-selection",
+          "status": "winning",
+          "pop": false,
+          "line": "People build their own bubbles; the platform mostly reflects who we choose to follow, click and trust.",
+          "explain": "Ideological segregation is concentrated among a small share of heavy, partisan news consumers. Most people have mixed, low-news media diets.",
+          "who": "Matthew Gentzkow, Jesse Shapiro, Andrew Guess, Brendan Nyhan.",
+          "best": "Gentzkow and Shapiro, QJE (2011); Guess, 'Almost Everything in Moderation,' AJPS (2018); the 2023 Meta-study papers in Science and Nature.",
+          "evidence": "Gonzalez-Bailon et al. 2023, Science, found news exposure on Facebook was highly segregated by ideology, with more right-leaning content in the segregated pools, but attributable mostly to who people follow and share with."
+        },
+        {
+          "name": "Backfire exposure",
+          "status": "open",
+          "pop": false,
+          "line": "The problem isn't missing the other side; it's seeing it and hating it more.",
+          "explain": "Cross-cutting exposure might not soften partisanship and could intensify it, because people see the worst of the other side.",
+          "who": "Chris Bail, Duke.",
+          "best": "Bail et al., 'Exposure to opposing views on social media can increase political polarization,' PNAS (2018); Bail, Breaking the Social Media Prism (2021).",
+          "evidence": "Bail 2018 found that following a bot that retweeted opposing views raised conservatism among Republicans and had no significant effect among Democrats. A single month-long study with limited compliance, and results are not consistent across platforms or later work."
+        }
+      ]
+    },
+    {
+      "title": "Did fake news break democracy?",
+      "lead": "After 2016, 'fake news' and disinformation became the lead explanation for populist wins. The story: viral lies from Russian trolls and hyper-partisan sites reached millions and persuaded them. Measurement work since then finds that fake news is a tiny share of what most people see, concentrated among a small group of heavy, mostly older and strongly partisan users. Persuasion effects look small.",
+      "verdict": "Misinformation is real, but 'a flood that fooled the public' is losing to 'a small, concentrated, demand-driven problem'.",
+      "camps": [
+        {
+          "name": "Post-truth epidemic",
+          "status": "partly right",
+          "pop": true,
+          "line": "Lies now travel faster than truth, and a gullible public believes them.",
+          "explain": "Falsehoods are engineered for sharing, platforms amplify them and people are credulous. Popular after Brexit and 2016.",
+          "who": "Much of the press and policy world; academic strands around Sander van der Linden and David Rand on susceptibility.",
+          "best": "Vosoughi, Roy and Aral, 'The spread of true and false news online,' Science (2018).",
+          "evidence": "Vosoughi et al. 2018 found false stories on Twitter spread farther and faster than true ones, driven by humans rather than bots. But it covers rumours that were fact-checked, not overall exposure, and says little about effects on votes or beliefs."
+        },
+        {
+          "name": "Small and concentrated",
+          "status": "winning",
+          "pop": false,
+          "line": "Misinformation is a niche supply, consumed by people who already want it.",
+          "explain": "Most people see little false news, and those who do are mostly already committed partisans. People are not as gullible as the epidemic story assumes; they are more often too skeptical of true news and trust the wrong sources out of tribal loyalty.",
+          "who": "Andrew Guess, Nathan Persily, Hugo Mercier, Jennifer Allen, David Rothschild.",
+          "best": "Grinberg et al., Science (2019); Guess, Nagler and Tucker, Science Advances (2019); Allen et al., Science Advances (2020); Mercier, Not Born Yesterday (2020).",
+          "evidence": "Grinberg et al. 2019, Science, found that on Twitter in 2016 fake news exposure was concentrated: about 1% of users accounted for roughly 80% of fake-news-source exposure and a tiny set of 'supersharers' for most sharing. Guess, Nagler and Tucker 2019, Science Advances, found sharing on Facebook was concentrated among older and conservative users. Allen et al. 2020, Science Advances, estimated fake news was around 1% of Americans' daily news diet and a fraction of a percent of all media consumption."
+        }
+      ]
+    },
+    {
+      "title": "Is social media wrecking teenagers?",
+      "lead": "Since about 2012, teen depression and anxiety rose in the US, UK and elsewhere, around the time smartphones and social media arrived. Jonathan Haidt (The Anxious Generation, 2024) and Jean Twenge say this is cause and effect and call for phone-free schools and later social media ages. Skeptics say the evidence is mostly correlational, tiny on average, and that the trend has other causes. Neither side has the decisive experiment.",
+      "verdict": "Open: average effects look small, but timing, subgroups and heavy use might matter and no study has settled causation at population scale.",
+      "camps": [
+        {
+          "name": "Great rewiring",
+          "status": "open",
+          "pop": true,
+          "line": "Smartphones and social media rewired childhood and caused the mental health collapse.",
+          "explain": "The timing lines up across countries, the harms are plausible (sleep, comparison, lost play) and parents see it in their kids. Advocates see precaution as cheap.",
+          "who": "Jonathan Haidt, Jean Twenge, Zach Rausch; US Surgeon General advisory (2023).",
+          "best": "Twenge et al., Clinical Psychological Science (2018); Haidt, The Anxious Generation (2024).",
+          "evidence": "Braghieri, Levy and Makarin 2022, American Economic Review, used the staggered 2004-06 Facebook rollout across US colleges and found increases in depression and anxiety. Allcott et al. 2020, American Economic Review, randomised deactivation of Facebook for four weeks and found small improvements in wellbeing."
+        },
+        {
+          "name": "Small average effect",
+          "status": "open",
+          "pop": false,
+          "line": "The data show a tiny association at best, and 'screen time' is far too crude a measure to blame.",
+          "explain": "Large datasets show weak links between technology use and wellbeing, similar in size to eating potatoes or wearing glasses. Correlation could run in reverse, and teen mental health shifts have other candidate causes.",
+          "who": "Amy Orben, Andrew Przybylski, Candice Odgers.",
+          "best": "Orben and Przybylski, Nature Human Behaviour (2019); Odgers, Nature review of The Anxious Generation (2024).",
+          "evidence": "Orben and Przybylski 2019 analysed three large datasets and found technology use explained at most about 0.4% of variation in adolescent wellbeing. Critics reply that average effects hide heavier harms for vulnerable groups and that measures of use are poor."
+        },
+        {
+          "name": "Windows and subgroups",
+          "status": "partly right",
+          "pop": false,
+          "line": "It is not that everybody is harmed; it is that some kids, at some ages, are.",
+          "explain": "Effects may depend on age, gender, type of use and prior vulnerability. This position tries to reconcile the first two.",
+          "who": "Amy Orben, Sarah-Jayne Blakemore and colleagues.",
+          "best": "Orben, Przybylski, Blakemore and Kievit, 'Windows of developmental sensitivity to social media,' Nature Communications (2022).",
+          "evidence": "Orben et al. 2022 found sensitive periods in which social media use predicted lower life satisfaction a year later, differing by sex (around 11-13 for girls, 14-15 for boys). It is correlational and has not been confirmed by experiments."
+        }
+      ]
+    },
+    {
+      "title": "Is 93% of communication nonverbal?",
+      "lead": "Every presentation-skills course has the statistic: 7% of meaning is in words, 38% in tone, 55% in body language. It comes from two small 1967 lab studies and was never meant to describe communication in general.",
+      "verdict": "Dead in the literature; the figure applies only to a narrow lab case, and Mehrabian himself has said so.",
+      "camps": [
+        {
+          "name": "The 7-38-55 rule",
+          "status": "losing",
+          "pop": true,
+          "line": "What you say barely matters; it's how you say it.",
+          "explain": "Taken as a law of all communication and spread through corporate training and self-help.",
+          "who": "Trainers and popular business writers; originally Albert Mehrabian.",
+          "best": "Mehrabian and Wiener, 'Decoding of inconsistent communications,' Journal of Personality and Social Psychology (1967); Mehrabian, Silent Messages (1971).",
+          "evidence": "The original studies had people judge liking from single recorded words said in tones that contradicted them, with no real conversation. Mehrabian has stated the percentages apply only to feelings and attitudes when verbal and nonverbal cues conflict. In ordinary speech, words carry most of the propositional content."
+        },
+        {
+          "name": "Channels depend on context",
+          "status": "winning",
+          "pop": false,
+          "line": "Words carry the content; tone and body carry attitude, and which matters depends on the situation.",
+          "explain": "Nonverbal cues matter for emotion and relationship, and when they conflict with words, but not as a fixed share of meaning.",
+          "who": "Mainstream communication and pragmatics research.",
+          "best": "Burgoon, Guerrero and Floyd, Nonverbal Communication (2010).",
+          "evidence": "No study has recovered a stable percentage across tasks, because the split is not a property of communication in general."
+        }
+      ]
+    }
+  ]
+}

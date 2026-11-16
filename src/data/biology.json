@@ -1,0 +1,265 @@
+{
+ "discipline": "Biology",
+ "overview": "Biology's big fights are about where to put the cause. Is it in the gene, the organism, the group, the environment, the microbe, the history? The simple stories all pick one answer: you are your genes, evolution is selfish genes competing, junk DNA is junk, your gut bugs run your mood, animals are instinct machines. Each of those has a real result behind it, and each got stretched by popularisers (Dawkins on genes, Ed Yong and Tim Spector on microbes, a long line of epigenetics enthusiasts) into a slogan. The working field has mostly moved to multi-cause pictures: many small genetic effects, selection at several levels, a genome that is mostly but not entirely non-functional, and inheritance that is mostly DNA with narrow exceptions.",
+ "debates": [
+  {
+   "title": "Are we our genes?",
+   "lead": "The folk version is that there is a gene for this and a gene for that, and DNA is the blueprint of the person. Twin and adoption studies really do show that genes matter for almost every human trait. But 25 years of gene-hunting showed there are rarely single genes for anything common. The live fight is about how to read heritability: as a measure of genetic causation (the behaviour-genetics view) or as a statistic that depends on a population and its environment (the developmental-systems view).",
+   "verdict": "Genes matter a lot statistically, but the blueprint picture lost: traits are built from thousands of tiny effects interacting with development, and heritability is not destiny.",
+   "camps": [
+    {
+     "name": "Genes as blueprint",
+     "status": "losing",
+     "pop": true,
+     "line": "DNA is the major systematic force that makes us who we are; find the genes and you find the trait.",
+     "explain": "Traits are largely written in the genome, and genetic differences are the main source of differences between people. The strong form talks of 'a gene for' a behaviour or disease. It comes from the success of Mendelian disease genetics and from popular readings of the Human Genome Project and The Selfish Gene.",
+     "who": "Robert Plomin; Dawkins (survival machines built by genes); earlier 'gene for' headlines in the press after the 1990s.",
+     "best": "Plomin, Blueprint (2018); Dawkins, The Selfish Gene (1976).",
+     "evidence": "For: Polderman et al. 2015, Nature Genetics — meta-analysis of 50 years of twin studies across about 17,800 traits, average heritability about 49%, so genes matter everywhere. Against the simple form: candidate-gene studies for behaviour and psychiatric traits mostly failed to replicate; common traits turned out to be driven by thousands of variants, each tiny. Howe et al. 2022, Nature Genetics — within-sibling GWAS showed that polygenic scores for education and cognition partly pick up family environment and population structure, not only direct genetic effects."
+    },
+    {
+     "name": "Polygenic and interactive",
+     "status": "winning",
+     "pop": false,
+     "line": "Traits are highly heritable and also built from thousands of small effects plus environment; both statements are true.",
+     "explain": "This is the mainstream of human genetics. Most common traits and diseases are polygenic, with effects spread across much of the genome (the Boyle, Li and Pritchard 'omnigenic' idea pushes this to the limit). Polygenic scores predict something but are noisy and population-bound. Gene-environment correlation and interaction are normal.",
+     "who": "Peter Visscher, Alkes Price, Jonathan Pritchard, Naomi Wray; Sam Kean and Siddhartha Mukherjee carry a version to the public.",
+     "best": "Visscher et al. 2017, AJHG, '10 years of GWAS discovery'; Boyle, Li and Pritchard 2017, Cell, 'An expanded view of complex traits: from polygenic to omnigenic'; Yengo et al. 2022, Nature, height GWAS in about 5.4 million people.",
+     "evidence": "Yengo et al. 2022 found that for height the discovered common variants now saturate the common-variant heritability, a clean sign the polygenic model is right. Wainschtein et al. 2022, Nature Genetics — whole-genome sequencing in the TOPMed cohort recovered most of the 'missing heritability' for height by capturing rare variants, which narrows the old gap between twin and DNA-based estimates (less so for BMI)."
+    },
+    {
+     "name": "Developmental systems",
+     "status": "partly right",
+     "pop": false,
+     "line": "Genes are one resource in a development that also depends on cells, environment and history, so no cause belongs to 'the genes' alone.",
+     "explain": "Heritability is a population statistic, not a measure of how much of a trait is caused by genes. Organisms are built by interacting systems, and parents also pass on environments and behaviour. This view feeds the push for an 'extended evolutionary synthesis'. It is right about causation and misreading of heritability, but it has produced fewer predictive tools than the genomics it criticises.",
+     "who": "Susan Oyama, Denis Noble, Kevin Laland, Eva Jablonka; Richard Lewontin as an earlier voice.",
+     "best": "Oyama, The Ontogeny of Information (1985); Noble, The Music of Life (2006); Laland et al. 2014, Nature, 'Does evolutionary theory need a rethink?'",
+     "evidence": "Wray et al. 2014, Nature, replied 'No, all is well': the standard framework already absorbs niche construction and plasticity. Systems evidence that supports the camp includes within-family GWAS (Howe 2022) and heritability that varies by environment. What it lacks is a decisive result showing the standard model fails to predict something."
+    }
+   ]
+  },
+  {
+   "title": "What does natural selection act on: genes, individuals or groups?",
+   "lead": "Popular evolution says life is gene competition: organisms are vehicles for selfish replicators. Others say selection works at several levels, including colonies and groups, and that social evolution needs more than the gene's-eye view. The sharp public fight was set off by a 2010 Nature paper that attacked inclusive fitness theory. Most of the maths turned out to be equivalent across the views, so a lot of the dispute is about causal framing and which tool is more useful.",
+   "verdict": "Inclusive fitness is still the working tool for social evolution; the gene's-eye view is bookkeeping, not a theory of what exists; multilevel selection is a valid, often equivalent description, not a revolution.",
+   "camps": [
+    {
+     "name": "Gene's-eye view",
+     "status": "partly right",
+     "pop": true,
+     "line": "Organisms are survival machines; the only thing that really gets copied across generations is the gene, so that is what selection is about.",
+     "explain": "Selection can be tracked as differences in gene frequencies, and adaptations look as if they are designed to benefit the genes that build them. It is elegant and has been the most popular public face of evolution since 1976. Its weakness: genes are not the interacting entities that meet the environment, and it can mislead about cooperation, development and cultural traits.",
+     "who": "George C. Williams, Richard Dawkins (the main popular face), Steven Pinker and many evolutionary psychology writers.",
+     "best": "Williams, Adaptation and Natural Selection (1966); Dawkins, The Selfish Gene (1976) and The Extended Phenotype (1982).",
+     "evidence": "Hamilton's rule and kin-selection predictions about helping, sex ratios and conflict worked well across many species. Dawkins himself describes it as a way of seeing, not a different theory; critics like Gould argued it confuses bookkeeping with causes."
+    },
+    {
+     "name": "Inclusive fitness",
+     "status": "winning",
+     "pop": false,
+     "line": "Cooperation evolves when helping relatives pays through shared genes; Hamilton's rule is the general tool for social behaviour.",
+     "explain": "Inclusive fitness theory is the mainstream framework for explaining altruism and social insects. Its defenders argue it is general and predictive, and that group-level language is a re-description of it.",
+     "who": "W. D. Hamilton; Stuart West, Andy Gardner, Alan Grafen, Andrew Bourke.",
+     "best": "Hamilton 1964, J. Theoretical Biology; Abbot et al. 2011, Nature, 'Inclusive fitness theory and eusociality' (a reply signed by 137 researchers); Bourke, Principles of Social Evolution (2011).",
+     "evidence": "Abbot et al. 2011 and later work answered Nowak, Tarnita and Wilson 2010 by showing their model's conclusions rested on assumptions and that inclusive fitness explains eusociality's origin via high relatedness and monogamy in ancestors (Boomsma 2009 and later phylogenetic tests). Birch and Okasha 2015, BioScience, summarised why the critique missed."
+    },
+    {
+     "name": "Multilevel selection",
+     "status": "partly right",
+     "pop": false,
+     "line": "Selection acts on genes, cells, organisms and groups all at once, and some adaptations only make sense at the group level.",
+     "explain": "Groups can vary in fitness, so selection among groups can occur; major transitions in evolution (cells, organisms, colonies) are the best evidence that higher levels become units of selection. It was widely rejected after 1966, then revived in a more careful form. Many say it describes the same maths as kin selection under a different bookkeeping.",
+     "who": "David Sloan Wilson, E. O. Wilson, Elliott Sober, Samir Okasha; Martin Nowak in the 2010 paper.",
+     "best": "Wilson and Sober 1994, Behavioral and Brain Sciences; Nowak, Tarnita and Wilson 2010, Nature, 'The evolution of eusociality'; Okasha, Evolution and the Levels of Selection (2006); Maynard Smith and Szathmáry, The Major Transitions in Evolution (1995).",
+     "evidence": "Muir's 1996 group-selection experiment in hens (Poultry Science) improved flock egg output by selecting whole groups. Against: the 2011 reply and 'kin selection and its critics' showed the framing adds little predictive power for most cases. Group selection did not win as a general explanation, but multilevel thinking survived for major transitions and cultural evolution."
+    }
+   ]
+  },
+  {
+   "title": "Is most of the genome junk?",
+   "lead": "In 2012 the ENCODE consortium announced that about 80% of the human genome had a biochemical function, and headlines declared junk DNA dead. Evolutionary biologists said that was a definitional trick: activity is not function. The fight is really about how to define function, and whether most of a genome must be selected to count as working.",
+   "verdict": "Most of the human genome is not under selection and is probably non-functional, though far more than 2% is functional, and the junk-is-dead headlines lost.",
+   "camps": [
+    {
+     "name": "Most is functional",
+     "status": "losing",
+     "pop": true,
+     "line": "Eighty percent of the genome does something; the 'junk' idea was always a failure of imagination.",
+     "explain": "ENCODE mapped transcription, chromatin marks and protein binding across the genome and treated reproducible biochemical activity as function. A genome packed with regulatory elements and non-coding RNAs fits a tidy 'nature wastes nothing' story, which is why the press loved it.",
+     "who": "ENCODE consortium (Ewan Birney, Ian Dunham, Michael Snyder); popularised widely in 2012 headlines.",
+     "best": "ENCODE Project Consortium 2012, Nature, 'An integrated encyclopedia of DNA elements in the human genome' (about 80% of the genome with biochemical activity).",
+     "evidence": "Graur et al. 2013, Genome Biology and Evolution, 'On the immortality of television sets', argued that selected function, not activity, is the standard, and that the data are consistent with a low functional fraction. Even ENCODE's lead authors later said the 80% figure meant biochemical activity, not selected function."
+    },
+    {
+     "name": "Mostly junk",
+     "status": "winning",
+     "pop": false,
+     "line": "Genome size does not track complexity, mutation load limits how much DNA can be functional, and most of ours is the debris of transposons.",
+     "explain": "Evolution does not require all DNA to be useful. Genome sizes vary wildly between similar species, and much of ours is decayed transposons and neutral sequence. Function should be measured by evidence of selection.",
+     "who": "Susumu Ohno (who coined 'junk DNA', 1972), Dan Graur, T. Ryan Gregory, Alexander Palazzo, W. Ford Doolittle on the cautious side.",
+     "best": "Palazzo and Gregory 2014, PLoS Genetics, 'The case for junk DNA'; Doolittle 2013, PNAS, 'Is junk DNA bunk?'; Rands et al. 2014, PLoS Genetics, about 8% of the human genome under constraint.",
+     "evidence": "Cross-species comparison puts the constrained fraction of the human genome at roughly 8–10%: Rands et al. 2014, and Sullivan et al. 2023, Science (Zoonomia, 240 mammals), which found about a tenth of the genome under constraint. Genome size varies hugely across closely related species, which is hard to square with all of it doing a job."
+    },
+    {
+     "name": "Functional but small",
+     "status": "partly right",
+     "pop": false,
+     "line": "Non-coding DNA matters far more than 2%, but function is not binary and we should not call the rest dead weight.",
+     "explain": "Regulatory DNA, non-coding RNAs, and structural elements are real and important. Some junk may have been domesticated for function over time. This middle view holds that the junk-versus-function split is too crude.",
+     "who": "Many regulatory genomics researchers; John Mattick on long non-coding RNAs; Doolittle's 'function' philosophy work.",
+     "best": "Mattick and colleagues' work on non-coding RNA (2000s–2020s); Kellis et al. 2014, PNAS, 'Defining functional DNA elements in the human genome'.",
+     "evidence": "Constraint-based estimates (above) set a floor of about 10% functional, which is several times the protein-coding share of about 1.5%. Unselected regions can still act as raw material for new regulators. What does not exist is evidence that the other 80–90% is individually doing selected work."
+    }
+   ]
+  },
+  {
+   "title": "Does the microbiome run your health?",
+   "lead": "The story is that you are mostly bacteria, your gut bugs control weight, mood and immunity, and fixing your microbiome fixes you. Real results sit under it: gut transplants cure recurrent C. difficile infection and mouse studies show strong effects. But human evidence for most claimed links is correlation, and the famous numbers were wrong.",
+   "verdict": "The microbiome is real biology with a few proven medical uses; most claims about diet, mood and disease in humans are unproven, and 'you are 90% bacteria' was a myth.",
+   "camps": [
+    {
+     "name": "Microbiome as master",
+     "status": "losing",
+     "pop": true,
+     "line": "Your gut bacteria outnumber you ten to one and shape your weight, your brain and your disease risk.",
+     "explain": "The gut community is treated as a hidden organ that causes obesity, depression, autism and more, so probiotics and special diets can fix those. It spread through popular science books and the wellness industry.",
+     "who": "Popularised by Ed Yong (I Contain Multitudes, 2016), Giulia Enders (Gut, 2014), Tim Spector (The Diet Myth, 2015); gut-brain researchers such as John Cryan and Ted Dinan.",
+     "best": "Turnbaugh et al. 2006, Nature, obese-mouse microbiota; Ridaura et al. 2013, Science, transfer of lean and obese twin microbiota to mice.",
+     "evidence": "Against the numbers: Sender, Fuchs and Milo 2016, PLoS Biology, revised the bacteria-to-human cell ratio to about 1.3 to 1, not 10 to 1, from a decades-old guess. Against the causal claims: Walter, Armet, Finlay and Shanahan 2020, Cell, 'Establishing or exaggerating causality for the gut microbiome', found most human claims rest on correlation. Many mouse effects fail to translate to people."
+    },
+    {
+     "name": "Real but limited",
+     "status": "winning",
+     "pop": false,
+     "line": "The microbiome matters in specific, tested cases, and we should demand causal evidence before claiming more.",
+     "explain": "Some effects are well established: gut transplants for recurrent C. difficile, antibiotic effects on gut communities, and microbial roles in digestion and early immune training. For most conditions, cause and effect are unclear because disease also changes the gut.",
+     "who": "Jens Walter, Brett Finlay, Rob Knight on the methods side; clinical gastroenterologists.",
+     "best": "van Nood et al. 2013, NEJM, faecal transplant versus vancomycin for recurrent C. difficile (about 81% cure versus 31%); Human Microbiome Project Consortium 2012, Nature.",
+     "evidence": "The C. difficile trial was stopped early for benefit and is the strongest proof of principle. Beyond it, trials for obesity, mood and autism have given mixed or small results, which is the pattern you would expect if the strong claims are exaggerated."
+    },
+    {
+     "name": "Holobiont",
+     "status": "open",
+     "pop": false,
+     "line": "A host and its microbes are one evolving unit, so selection acts on the whole hologenome.",
+     "explain": "The holobiont idea says that animals and plants are communities, and the host-plus-microbes assemblage is a unit of selection. Critics say most microbes are acquired from the environment each generation and are not faithfully inherited, so the unit-of-selection claim usually fails.",
+     "who": "Eugene Rosenberg, Ilana Zilber-Rosenberg, Scott Gilbert, Margaret McFall-Ngai; critics Angela Douglas and John Werren.",
+     "best": "Zilber-Rosenberg and Rosenberg 2008, FEMS Microbiology Reviews; Gilbert, Sapp and Tauber 2012, Quarterly Review of Biology, 'A symbiotic view of life: we have never been individuals'.",
+     "evidence": "Moeller et al. 2016, Science, showed gut bacteria codiversified with apes and humans over millions of years, supporting some faithful inheritance. Douglas and Werren 2016, mBio, 'Holes in the hologenome', argued that most host-microbe systems do not meet the conditions for hologenome selection. Both are right for different systems, so it remains unsettled."
+    }
+   ]
+  },
+  {
+   "title": "Do animals think and feel, or just respond?",
+   "lead": "The old simple story had two versions: animals are instinct machines (the behaviourist and Cartesian line) or they are little people (the cute-video line). Experiments showed that birds, apes, fish and even bees solve problems, plan and learn socially. The fight now is less about cognition and more about consciousness: which animals feel anything at all.",
+   "verdict": "Rich animal cognition won decisively; whether and which animals are conscious is open, and scientists now argue for a precautionary approach.",
+   "camps": [
+    {
+     "name": "Animals as machines",
+     "status": "losing",
+     "pop": true,
+     "line": "Never explain behaviour as higher mental activity if lower processes such as reflex, instinct or association can do it.",
+     "explain": "Morgan's canon and behaviourism treated animal minds as off limits and explained behaviour by learning rules. The Clever Hans case, a horse that appeared to do arithmetic, showed how easily people over-read animal intelligence. The strong form stopped being defensible as evidence accumulated.",
+     "who": "Descartes; Lloyd Morgan; B. F. Skinner; modern associative-learning defenders such as Cecilia Heyes and Daniel Povinelli.",
+     "best": "Morgan 1894, An Introduction to Comparative Psychology; Pfungst 1907 on Clever Hans; Povinelli 2000, Folk Physics for Apes; Heyes 2012, Phil. Trans. R. Soc. B, 'Simple minds: a qualified defence of associative learning'.",
+     "evidence": "Surviving value: skeptics keep forcing better controls, and many apparent insights (including some in apes about others' minds) have weaker support than first claimed. But Morgan's canon says choose the simplest explanation that fits, not the lowest-level one, and the data increasingly need more than simple association."
+    },
+    {
+     "name": "Animal cognition",
+     "status": "winning",
+     "pop": false,
+     "line": "Animals plan, remember, use tools and read other minds; we were just bad at designing the tests.",
+     "explain": "Cognitive ethology studies animals with experiments suited to their own senses and lives. Birds (corvids, parrots), great apes, cephalopods and others pass tasks on memory, planning, tool use and social reasoning. Neuron counts and ecology rather than brain size alone predict ability.",
+     "who": "Donald Griffin, Frans de Waal (Are We Smart Enough to Know How Smart Animals Are?, 2016), Nicola Clayton, Alex Kacelnik, Lars Chittka.",
+     "best": "Griffin, The Question of Animal Awareness (1976); Clayton and Dickinson 1998, Nature, scrub-jay episodic-like memory; Emery and Clayton 2001, Nature, scrub-jays re-cache food when watched; Loukola et al. 2017, Science, bumblebees learn a ball-rolling task by watching.",
+     "evidence": "Replicated work across birds, primates, fish and insects. Kohda et al. 2019, PLoS Biology, reported mirror-test behaviour in cleaner wrasse, which is contested but shows the tests no longer sort animals into clean groups. Pop correction: the 'alpha wolf' idea came from captive packs; Mech 1999, Canadian Journal of Zoology, showed wild packs are families."
+    },
+    {
+     "name": "Sentience question",
+     "status": "open",
+     "pop": false,
+     "line": "We should take a realistic possibility of consciousness in many animals seriously, and act with precaution.",
+     "explain": "Cognition does not settle whether an animal has experience. There is no agreed marker of consciousness, so the question moves to which signs make it likely. The scientific mainstream has moved from dismissing the question to treating it as live.",
+     "who": "Jonathan Birch, Jeff Sebo, Kristin Andrews, Lars Chittka; earlier Cambridge Declaration signatories (Low et al. 2012).",
+     "best": "Cambridge Declaration on Consciousness 2012; Birch, The Edge of Sentience (2024); New York Declaration on Animal Consciousness 2024.",
+     "evidence": "The 2024 New York Declaration says there is strong support for conscious experience in all vertebrates and at least a realistic possibility in many invertebrates including insects, decapod crustaceans and cephalopods. It is a statement of scientific opinion, not a decisive result; what would decide it is an agreed theory of consciousness that predicts which nervous systems have it."
+    }
+   ]
+  },
+  {
+   "title": "Is Lamarck back? Does experience rewrite heredity?",
+   "lead": "The popular story says epigenetics shows that trauma, diet and stress are inherited, so your grandparents' experience is written in your biology. There are real cases, mostly in plants and worms, and a few in mice. In humans the evidence is thin, and the mammalian germline resets most epigenetic marks every generation.",
+   "verdict": "Transgenerational epigenetic inheritance is real in some organisms, rare and short-lived in mammals, and not shown to be a major route of human heredity.",
+   "camps": [
+    {
+     "name": "Epigenetics rewrites heredity",
+     "status": "losing",
+     "pop": true,
+     "line": "Your ancestors' famine and trauma are passed down in your epigenome, so Darwin's rival Lamarck was partly right.",
+     "explain": "Chemical marks on DNA and histones change gene activity without changing the sequence, and the claim is that they carry experience across generations in people. It is attractive because it implies that life experience is inherited and that environment can override genes.",
+     "who": "Popularised widely in the 2000s–2010s by writers such as Bruce Lipton and by media coverage of the Dutch Hunger Winter; some researchers such as Isabelle Mansuy (mouse stress) and Brian Dias and Kerry Ressler.",
+     "best": "Dias and Ressler 2014, Nature Neuroscience, mice inherit fear of an odour across two generations; Heijmans et al. 2008, PNAS, altered IGF2 methylation after prenatal exposure to the Dutch famine.",
+     "evidence": "Against: Heard and Martienssen 2014, Cell, 'Transgenerational epigenetic inheritance: myths and mechanisms', and Horsthemke 2018, Nature Communications, 'A critical view on transgenerational epigenetic inheritance in humans', found no solid human evidence. The Heijmans result shows that people exposed in the womb carry marks, but that is the same generation, not inheritance. Key mouse findings have been hard to replicate widely."
+    },
+    {
+     "name": "Narrow real cases",
+     "status": "winning",
+     "pop": false,
+     "line": "Epigenetic inheritance exists, mainly in plants and nematodes, but is limited and fades.",
+     "explain": "Plants do not set aside a germline early, so marks pass more easily. In C. elegans small RNAs carry information for several generations. In mammals, two waves of reprogramming wipe most marks, with a few exceptions such as imprinted genes.",
+     "who": "Oded Rechavi, Coleen Murphy, Eric Miska, Edith Heard, Robert Martienssen.",
+     "best": "Moore, Kaletsky and Murphy 2019, Cell; Kaletsky et al. 2020, Nature, worms learn to avoid a pathogenic bacterium via small RNA and pass it on for several generations.",
+     "evidence": "The worm results are repeated and mechanistically understood (small RNA, a polymerase loop), but fade within a few generations. Plant epialleles that persist (such as in Linaria flower symmetry) are the classic case. Mammalian reprogramming makes the human case much weaker."
+    },
+    {
+     "name": "Standard genetic inheritance",
+     "status": "partly right",
+     "pop": false,
+     "line": "Heredity is DNA sequence; epigenetic marks help interpret it but are rebuilt each generation from it.",
+     "explain": "Most stable inherited differences trace to sequence variation, and many apparent epigenetic effects are in fact caused by nearby sequence changes. The view holds for the great majority of cases but has to give some ground to the worm and plant results and to parent-of-origin effects.",
+     "who": "Mainstream population and evolutionary geneticists.",
+     "best": "Modern Synthesis texts; Wray et al. 2014, Nature, the reply to calls for an extended synthesis.",
+     "evidence": "Twin and family designs find heritability explained largely by DNA variation (Polderman 2015). Methylation differences between relatives are often controlled by sequence (meQTL studies). The remaining open question is how much weak or transient epigenetic transmission matters for evolution, and no study has shown it matters much in mammals."
+    }
+   ]
+  },
+  {
+   "title": "Does evolutionary theory need a rethink?",
+   "lead": "Popular evolution is genes plus selection, slowly. Some biologists argue for an \"extended evolutionary synthesis\" that gives development, plasticity, niche construction and non-genetic inheritance a causal role. Defenders of the standard theory say those are already in it. The 1970s version of this fight was punctuated equilibrium against gradualism.",
+   "verdict": "The standard theory has absorbed most of the challenges; the extension is useful as emphasis, not a new theory; rates of change vary, so punctuated equilibrium survives as a description, not a mechanism.",
+   "camps": [
+    {
+     "name": "Standard theory holds",
+     "status": "winning",
+     "pop": false,
+     "line": "Development and plasticity matter, but they are already in evolutionary theory; nothing needs replacing.",
+     "explain": "Population genetics plus selection, drift, mutation and gene flow explain the cases the reformers raise. Plasticity and niche construction are real but don’t change the core logic.",
+     "who": "Gregory Wray, Hopi Hoekstra, Douglas Futuyma, Jerry Coyne",
+     "best": "Wray, Hoekstra et al. 2014, \"No, all is well\" (Nature)",
+     "evidence": "Laland et al. and Wray et al. argued it out side by side in Nature 2014 (\"Does evolutionary theory need a rethink?\"). A decade later, no core prediction of the standard theory has been overturned, and the extended programme mostly produced reframings and research agendas."
+    },
+    {
+     "name": "Extended synthesis",
+     "status": "partly right",
+     "pop": false,
+     "line": "Organisms build their environments and shape their own evolution; genes are not the whole story.",
+     "explain": "Developmental bias, plasticity, niche construction and inherited non-genetic factors are causes of evolution, not just products.",
+     "who": "Kevin Laland, Tobias Uller, Denis Noble, Eva Jablonka",
+     "best": "Laland et al. 2014, \"Yes, urgently\" (Nature); Laland et al. 2015 (Proc. R. Soc. B); Odling-Smee, Laland & Feldman 2003, Niche Construction",
+     "evidence": "Real examples exist (beaver dams, earthworm soils, plasticity-led evolution in fish and plants). Critics answer that they fit standard theory and that the claimed novelty is about emphasis."
+    },
+    {
+     "name": "Punctuated equilibrium",
+     "status": "partly right",
+     "pop": true,
+     "line": "Evolution is mostly stasis broken by rapid bursts, not slow steady change.",
+     "explain": "Fossil species often stay the same for long stretches and change in short bursts, often tied to speciation.",
+     "who": "Niles Eldredge, Stephen Jay Gould",
+     "best": "Eldredge & Gould 1972, \"Punctuated equilibria\" (in Models in Paleobiology); Gould 2002, The Structure of Evolutionary Theory",
+     "evidence": "Stasis is common in the fossil record, which vindicated the pattern. But the bursts are long in human terms (thousands of years) and explained by ordinary mechanisms, so it became a description of tempo, not a challenge to Darwinism."
+    }
+   ]
+  }
+ ]
+}

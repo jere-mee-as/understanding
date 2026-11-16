@@ -1,0 +1,191 @@
+{
+  "discipline": "Chemistry",
+  "overview": "Chemistry is the science of the middle: too complex to derive from physics, too concrete to be abstract theory. Its fights are about how much of it can be computed rather than made, which of its concepts (orbitals, bonds, the transition state) are real things versus useful fictions, and how to tell a real discovery from a wishful claim. The simple stories come from textbook diagrams (electron clouds as little planets, lock-and-key enzymes, Miller's spark-in-a-flask) and from recent AI hype. The field itself is practical and pluralist: it keeps a concept as long as it predicts, and it argues loudest about reproducibility.",
+  "debates": [
+    {
+      "title": "How will we compute chemistry: physics, data, or quantum computers?",
+      "lead": "Dirac said in 1929 that the equations of chemistry were known and only too hard to solve. Ninety-odd years later, density functional theory (DFT) and coupled-cluster methods do most of the solving, and machine learning is now trained on their output. The pop story is that AI will replace simulation, or that quantum computers will unlock exact chemistry. The working view is that AI is a fast surrogate for physics-based data, and quantum advantage for chemistry is unproven.",
+      "verdict": "Physics-based methods remain the ground truth and the training data; ML is a powerful accelerator within its training domain; the quantum-computing payoff for chemistry is still unestablished.",
+      "camps": [
+        {
+          "name": "Physics-first methods",
+          "status": "winning",
+          "pop": false,
+          "line": "Solve the electronic structure problem as accurately as you can; DFT for scale, coupled cluster for accuracy.",
+          "explain": "DFT replaces the many-electron wavefunction with the electron density and is the workhorse for molecules and materials. Coupled cluster, especially CCSD(T), is the 'gold standard' for small molecules. Both are approximations with known failure cases.",
+          "who": "Kohn, Pople (Nobel 1998), Becke, Grimme, Head-Gordon, Neese",
+          "best": "Hohenberg & Kohn 1964 (Phys. Rev.); Kohn & Sham 1965 (Phys. Rev.); Raghavachari et al. 1989 (Chem. Phys. Lett.), CCSD(T)",
+          "evidence": "Lejaeghere et al. 2016 (Science) showed that modern DFT codes now agree with each other on solid-state properties to a tight tolerance, a reproducibility win. Medvedev et al. 2017 (Science) argued that newer functionals fit energies better but drift away from the true electron density, so progress in accuracy is not uniform. Strongly correlated systems such as transition-metal clusters still defeat standard DFT."
+        },
+        {
+          "name": "Machine-learned potentials",
+          "status": "partly right",
+          "pop": true,
+          "line": "Train a neural network on quantum data and you get quantum accuracy at classical speed.",
+          "explain": "ML potentials learn the energy surface from reference calculations and then run millions of times faster. They have been transformative for dynamics and materials screening. They struggle outside the chemistry they were trained on, and they inherit the errors of their training method.",
+          "who": "Behler & Parrinello; Isayev and Roitberg (ANI); Csanyi (MACE and foundation models); Google DeepMind. Hassabis and Jumper's AlphaFold shared the 2024 Chemistry Nobel with Baker, which lifted the whole genre in public view",
+          "best": "Behler & Parrinello 2007 (PRL); Smith et al. 2017 (Chem. Sci.), ANI-1; Smith et al. 2019 (Nat. Commun.), ANI-1ccx transfer learning to coupled-cluster accuracy",
+          "evidence": "ANI-1ccx matched coupled-cluster-level accuracy on benchmark reactions at a tiny fraction of the cost. But systematic out-of-distribution failures (unusual bonding, long-range charge transfer) are well documented, and ML cannot beat the quality of its training data. It accelerates physics-first methods; it does not replace them."
+        },
+        {
+          "name": "Quantum computing",
+          "status": "open",
+          "pop": true,
+          "line": "Molecules are quantum, so quantum computers will simulate them exactly and solve catalysis and batteries.",
+          "explain": "Quantum chemistry is the poster application for fault-tolerant quantum computing. The open question is whether it beats the best classical approximations on problems anyone cares about, and at what hardware cost.",
+          "who": "Aspuru-Guzik, Reiher, Troyer, Babbush; industry roadmaps from Google, IBM and Quantinuum",
+          "best": "Reiher et al. 2017 (PNAS), resource estimates for nitrogenase cofactor (FeMoco); Lee et al. 2023 (Nature Communications)",
+          "evidence": "Reiher et al. 2017 estimated that simulating FeMoco would need a fault-tolerant machine, with later work cutting the cost by orders of magnitude. Lee et al. 2023 (Nature Communications), 'Evaluating the evidence for exponential quantum advantage in ground-state quantum chemistry', found no clear evidence that the exponential speedup holds for realistic molecules, because good classical states often exist. Real devices today do not beat classical chemistry."
+        }
+      ]
+    },
+    {
+      "title": "Are orbitals and bonds real, or useful fictions?",
+      "lead": "Chemists teach with orbitals, hybridisation and electron-pair bonds, and the pictures look like photographs of electron clouds. Philosophers of chemistry point out that an orbital belongs to an approximation, not to the full many-electron wavefunction. The folk story is that electrons orbit like planets or that we have photographed orbitals. The sober version is that the electron density is observable and the orbital is a model-dependent construct that is extremely useful.",
+      "verdict": "Orbitals and bonds are best treated as powerful models; the electron density is the observable. 'Expanded octet with d orbitals' has lost.",
+      "camps": [
+        {
+          "name": "Orbital realism",
+          "status": "losing",
+          "pop": true,
+          "line": "Orbitals are physical things; we have seen them, and sulfur uses d orbitals to hold more than eight electrons.",
+          "explain": "Textbook pictures treat the 1s, 2p, sp3 and d-orbital shapes as actual objects. Experiments that image electron distributions are often described as photographing orbitals.",
+          "who": "Pauling's textbook tradition (The Nature of the Chemical Bond, 1939); general chemistry courses",
+          "best": "Pauling 1931 (JACS), hybridisation; Itatani et al. 2004 (Nature), tomographic imaging of a molecular orbital; Stodolna et al. 2013 (PRL), hydrogen atom nodal structure",
+          "evidence": "The imaging papers measure densities or transition amplitudes that resemble an orbital but depend on the model used to interpret them; Scerri 2000 (J. Chem. Educ.), 'Have orbitals really been observed?', makes the case. On hypervalence, Kutzelnigg 1984 (Angew. Chem.) and Reed & Schleyer 1990 (JACS) showed that d orbitals contribute little in molecules like SF6 and that ionic bonding and hyperconjugation explain them. The 'expanded octet' explanation lost."
+        },
+        {
+          "name": "Density is what's real",
+          "status": "winning",
+          "pop": false,
+          "line": "The electron density is a measurable quantity; orbitals and bonds are ways of carving it up.",
+          "explain": "The Hohenberg-Kohn theorem says the ground-state density determines everything. Bader's quantum theory of atoms in molecules defines atoms and bonds from topology of the density. Experimental charge densities come from high-resolution X-ray diffraction.",
+          "who": "Hohenberg, Kohn, Bader, Coppens; Hoffmann (Nobel 1981) as a thoughtful practitioner",
+          "best": "Hohenberg & Kohn 1964 (Phys. Rev.); Bader, Atoms in Molecules (1990); Coppens, X-ray Charge Densities and Chemical Bonding (1997)",
+          "evidence": "Zuo et al. 1999 (Nature) mapped d-orbital-like density holes in Cu2O from electron and X-ray diffraction. Densities are measurable and orbitals are not uniquely defined: rotating the occupied orbitals among themselves leaves the density unchanged, so no experiment can fix a single 'real' set. Bader-style bond definitions are criticised for odd bond paths between non-bonded atoms."
+        },
+        {
+          "name": "Pragmatic modelling",
+          "status": "partly right",
+          "pop": false,
+          "line": "Concepts are tools; keep the ones that predict and teach.",
+          "explain": "Hoffmann and Coulson argued that chemistry needs insight as much as numbers, and that orbital and bond language, even if not fundamental, is how chemists actually reason about reactivity. The Woodward-Hoffmann rules came from exactly this style.",
+          "who": "Roald Hoffmann, Charles Coulson, Fukui (Nobel 1981)",
+          "best": "Woodward & Hoffmann 1965 (JACS); Hoffmann, The Same and Not the Same (1995)",
+          "evidence": "The Woodward-Hoffmann rules predicted the stereochemistry of pericyclic reactions from orbital symmetry and were confirmed repeatedly. The framework is both useful and approximate, which is the whole claim."
+        }
+      ]
+    },
+    {
+      "title": "How did chemistry become life?",
+      "lead": "Everyone half-remembers Miller and Urey: sparks in a flask made amino acids, so life began in a primordial soup. The real field has split into schools about what came first, replicators, metabolism or compartments, and where, in ponds or at deep-sea vents. No one has made life from scratch, but several steps that were thought impossible have been done in the lab.",
+      "verdict": "Open. RNA-first has the best organic chemistry; metabolism-first and vent theories have the best fit to modern biochemistry. The schools are converging on hybrid scenarios.",
+      "camps": [
+        {
+          "name": "RNA world",
+          "status": "open",
+          "pop": true,
+          "line": "Life began with RNA, which can both store information and act as an enzyme.",
+          "explain": "Ribozymes show that RNA can catalyse reactions, so a world of self-copying RNA could precede DNA and proteins. The hard part was making RNA's building blocks under plausible early-Earth conditions.",
+          "who": "Walter Gilbert, Thomas Cech and Sidney Altman (Nobel 1989), Gerald Joyce, John Sutherland, Jack Szostak; Dawkins-style gene-first thinking",
+          "best": "Gilbert 1986 (Nature), 'The RNA world'; Powner, Gerland & Sutherland 2009 (Nature); Patel et al. 2015 (Nature Chemistry)",
+          "evidence": "Powner et al. 2009 made activated pyrimidine ribonucleotides by a route that avoids free ribose, and Patel et al. 2015 showed that a single cyanide-based chemistry could make precursors of nucleotides, amino acids and lipids. Against: the RNA polymerase ribozymes we have are too weak to copy themselves fully, and the chemistry needs carefully staged conditions."
+        },
+        {
+          "name": "Metabolism-first",
+          "status": "open",
+          "pop": false,
+          "line": "A self-sustaining network of small-molecule reactions, like a primitive Krebs cycle, came before genes.",
+          "explain": "Wachtershauser proposed iron-sulfur surface chemistry; Morowitz and others emphasised cycles. Recent lab work shows that some core metabolic reactions run without enzymes, using metal ions.",
+          "who": "Gunter Wachtershauser, Harold Morowitz, Markus Ralser, Nick Lane (popular: The Vital Question, 2015)",
+          "best": "Wachtershauser 1988 (Microbiol. Rev.); Keller, Turchyn & Ralser 2014 (Mol. Syst. Biol.), non-enzymatic glycolysis-like reactions; Preiner et al. 2020 (Nature Ecology & Evolution)",
+          "evidence": "Keller et al. 2014 reproduced glycolysis- and pentose-phosphate-like reactions with iron in simulated Archean ocean conditions, and Preiner et al. 2020 made acetate and pyruvate from CO2 with hydrogen and metal catalysts. Critics say these show that reactions are possible, not that a self-sustaining cycle assembles and evolves without genes."
+        },
+        {
+          "name": "Vents and compartments",
+          "status": "open",
+          "pop": false,
+          "line": "Life began where natural chemical gradients across mineral membranes provided energy, as in alkaline hydrothermal vents.",
+          "explain": "Russell, Martin and Lane argue that proton gradients across thin mineral walls could have powered the first carbon fixation, the same trick all cells use. Szostak's lipid-vesicle work supports the importance of compartments that grow and divide.",
+          "who": "Michael Russell, William Martin, Nick Lane, Jack Szostak",
+          "best": "Martin & Russell 2007 (Phil. Trans. R. Soc. B); Lane & Martin 2012 (Cell); Szostak, Bartel & Luisi 2001 (Nature)",
+          "evidence": "Vents are real environments with real gradients, and the CO2-reducing reactions are measurable. The difficulty is concentrating enough organics in a dilute ocean, which is why pond (wet-dry cycle) proponents argue back. The original soup experiment still counts: Johnson et al. 2008 (Science) re-analysed Miller's archived vials and found more amino acids than Miller had reported."
+        }
+      ]
+    },
+    {
+      "title": "Why are enzymes so fast?",
+      "lead": "Enzymes speed up reactions by factors up to 10^17 or more. The textbook says 'lock and key', a shape fit between enzyme and substrate. The real chemistry is about what the enzyme does to the transition state. Computational chemists and spectroscopists have argued for decades about whether the speed comes from electrostatics or from protein motion.",
+      "verdict": "Electrostatic preorganisation is the best-supported main cause. Quantum tunnelling is real for hydrogen transfer, but long-range protein dynamics driving the chemistry is not well supported.",
+      "camps": [
+        {
+          "name": "Lock and key / strain",
+          "status": "losing",
+          "pop": true,
+          "line": "The enzyme fits the substrate and strains it toward the reaction.",
+          "explain": "Fischer's lock-and-key image (1894) and Koshland's induced fit (1958) shaped the textbook picture. Ground-state strain and destabilisation were popular explanations. The modern view is that fit matters for binding, but catalysis is about stabilising the transition state.",
+          "who": "Emil Fischer, Daniel Koshland; introductory textbooks",
+          "best": "Fischer 1894; Koshland 1958 (PNAS), induced fit",
+          "evidence": "Pauling 1946 and 1948 (Nature) argued that enzymes bind the transition state more tightly than the substrate, and transition-state-analogue inhibitors that bind extremely tightly confirmed it. Calculations show that strain contributes only a small part of the rate enhancement."
+        },
+        {
+          "name": "Electrostatic preorganisation",
+          "status": "winning",
+          "pop": false,
+          "line": "The active site is a pre-arranged electric field that stabilises the transition state better than water can.",
+          "explain": "Enzymes pay the cost of organising polar groups during folding, so the reaction does not have to pay it. The resulting electric field lowers the barrier. This is a quantitative claim backed by simulation and experiment.",
+          "who": "Arieh Warshel (Nobel 2013 with Karplus and Levitt); Steven Boxer",
+          "best": "Warshel et al. 2006 (Chem. Rev.), 'Electrostatic basis for enzyme catalysis'; Fried, Bagchi & Boxer 2014 (Science)",
+          "evidence": "Fried et al. 2014 measured the electric field in the ketosteroid isomerase active site by vibrational Stark spectroscopy and found that its strength correlates with the catalytic rate. This gave direct experimental backing to the computational claim."
+        },
+        {
+          "name": "Dynamics and tunnelling",
+          "status": "partly right",
+          "pop": false,
+          "line": "Protein motions and quantum tunnelling of hydrogen contribute directly to catalysis.",
+          "explain": "Hydrogen transfer in many enzymes shows kinetic isotope effects too large for classical over-the-barrier motion, which indicates tunnelling. Stronger claims say promoting vibrations drive the chemical step. Opponents say fast thermal motions only help reach the right geometry.",
+          "who": "Judith Klinman, Nigel Scrutton, Dorothee Kern, Stephen Benkovic, Sharon Hammes-Schiffer",
+          "best": "Klinman & Kohen 2013 (Annu. Rev. Biochem.); Henzler-Wildman & Kern 2007 (Nature); Bhabha et al. 2011 (Science), DHFR mutants",
+          "evidence": "Tunnelling is well established. Whether protein dynamics make a net contribution beyond electrostatics is contested, as in the Kamerlin & Warshel 2010 (Proteins) critique, 'Is dynamics the missing link?'. The consensus is that dynamics help find reactive configurations rather than push the reaction."
+        }
+      ]
+    },
+    {
+      "title": "Can we trust new-materials claims, from room-temperature superconductors to AI-found crystals?",
+      "lead": "Materials chemistry produces both real revolutions (lithium-ion batteries, high-temperature superconductors) and repeated hype cycles. Two recent episodes made the fight public: room-temperature superconductor claims that collapsed, and AI systems announcing millions of new materials. The pop narrative is that breakthroughs arrive by press release, and the field's answer is to wait for independent replication.",
+      "verdict": "Verification first is winning: the two headline superconductor claims failed, and AI-predicted materials are real predictions but mostly unverified and often not novel.",
+      "camps": [
+        {
+          "name": "Ambient superconductor claims",
+          "status": "losing",
+          "pop": true,
+          "line": "We have a room-temperature superconductor, and it will change everything.",
+          "explain": "Claims recur because the payoff would be huge. Two stood out recently. The data are usually ambiguous, and replication by independent labs is slow and public.",
+          "who": "Ranga Dias (Rochester); Sukbae Lee and Ji-Hoon Kim (LK-99); social media amplifiers",
+          "best": "Dias et al. 2020 (Nature) and 2023 (Nature), both retracted; Lee et al. 2023 (arXiv), LK-99",
+          "evidence": "Nature retracted the 2020 carbonaceous sulfur hydride paper (2022) and the 2023 nitrogen-doped lutetium hydride paper (November 2023). LK-99 was refuted within weeks: samples were not superconducting, and a copper sulfide impurity with a structural transition near 385 K explained the resistivity drop (reported in Nature news, August 2023). Real hydride superconductivity at high pressure, such as H3S near 200 K (Drozdov et al. 2015, Nature), stands as an independently reproduced result."
+        },
+        {
+          "name": "AI and autonomous labs",
+          "status": "partly right",
+          "pop": true,
+          "line": "AI can now find and make new materials at a scale humans cannot.",
+          "explain": "DeepMind's GNoME predicted millions of stable crystals, and Berkeley's A-Lab claimed to have made dozens of new compounds autonomously. Supporters say the throughput changes the field. Critics say novelty and synthesis were over-claimed.",
+          "who": "Google DeepMind (Merchant, Cubuk); Gerbrand Ceder and Berkeley A-Lab (Szymanski); critics Anthony Cheetham and Ram Seshadri, Robert Palgrave",
+          "best": "Merchant et al. 2023 (Nature), GNoME, 2.2 million predicted structures; Szymanski et al. 2023 (Nature), A-Lab, 41 of 58 targets synthesised",
+          "evidence": "Leeman et al. 2024 (PRX Energy), 'Challenges in high-throughput inorganic materials prediction and autonomous synthesis', argued that many A-Lab products were misassigned, with the phases already known or disordered, and Cheetham & Seshadri 2024 (Chem. Mater.) argued that many GNoME entries were not useful or not novel in practice. The authors partly responded and revised, and the core technology is real, but headline counts were inflated."
+        },
+        {
+          "name": "Verify-first culture",
+          "status": "winning",
+          "pop": false,
+          "line": "A materials claim does not count until independent groups reproduce the structure and the property.",
+          "explain": "The field's defence is crystallography, independent synthesis, and open data. Computed stability is a hint, and a real material needs synthesis, structure refinement and measurement.",
+          "who": "Working solid-state chemists and crystallographers; journals' data-sharing rules",
+          "best": "Materials Project (Jain et al. 2013, APL Materials), open computed database",
+          "evidence": "Both the hydride and LK-99 stories were settled by independent reproduction rather than argument. The verification practice is the main reason these episodes ended quickly, and it also gives AI-for-materials a clear standard: predicted compounds need to be made and refined."
+        }
+      ]
+    }
+  ]
+}
