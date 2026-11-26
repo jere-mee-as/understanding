@@ -221,7 +221,7 @@ if(S.TABS){const n=document.createElement('div');n.className='vtabs';n.setAttrib
 def page4(name, title, fonts, theme_css, site, site_js, extra_css=''):
     fonts_url = f'https://fonts.googleapis.com/css2?{fonts}&family=IBM+Plex+Mono:wght@400;500&display=swap'
     base = os.environ.get('FAMBASE')
-    menu = ''.join(f'<a href="{(base+fid+"/") if base else fid+".html"}" aria-current="{str(fid==name).lower()}"><span>{fn}</span><span>{fnote}</span></a>' for fid, fn, fnote in FAMILY)
+    menu = ''.join(f'<a href="{(base+fid+"/"+os.environ.get("FAMQ","")) if base else fid+".html"}" aria-current="{str(fid==name).lower()}"><span>{fn}</span><span>{fnote}</span></a>' for fid, fn, fnote in FAMILY)
     caret = '<svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m2 3.5 3 3 3-3"/></svg>'
     h = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{title}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
