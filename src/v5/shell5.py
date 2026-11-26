@@ -137,6 +137,8 @@ aside{overflow-y:auto;border-left:1px solid var(--line);background:var(--panel,v
 .it .m,.gh .m{opacity:0;transition:opacity .15s}.it:hover .m,.it[aria-current=true] .m,.gh:hover .m,nav:focus-within .m{opacity:1}
 .d .lab::after{display:none}.d .lab{margin-top:20px}
 .credit{display:none}
+.vtabs{display:flex;gap:18px;flex:none;font-size:15px}.vtabs a{color:var(--bardim,var(--dim));text-decoration:none;padding:4px 0;border-bottom:1.5px solid transparent}.vtabs a:hover{color:var(--barfg,var(--fg))}.vtabs a[aria-current]{color:var(--barfg,var(--fg));border-color:var(--acc)}
+@media (max-width:860px){.vtabs{order:4;flex-basis:100%}}
 .navlink{display:block;padding:6px 16px;font-size:13px;color:var(--dim);text-decoration:none}.navlink:first-of-type{margin-top:16px;border-top:1px solid var(--line2,var(--line));padding-top:14px}.navlink:hover{color:var(--acc)}
 .navfoot{padding:24px 16px 8px;font-size:12px;color:var(--dim);display:flex;align-items:center;gap:6px}.navfoot img{width:16px;height:16px;border-radius:50%}
 .hw .intro{font-size:17px;max-width:58ch;margin-bottom:24px}
@@ -210,6 +212,7 @@ document.addEventListener('keydown',e=>{const q=$('#q');const inQ=document.activ
  if(e.key==='c'&&!inQ&&sel&&!e.metaKey&&!e.ctrlKey){const r=document.querySelector(`.row[data-u="${sel.ix}"] .cp`);copyText(S.COPY?S.COPY(sel):r?r.dataset.c:'',r);return}
  if(['ArrowDown','ArrowUp','j','k'].includes(e.key)&&(!inQ||e.key.startsWith('Arrow'))){const list=Q?vis.slice(0,400):vis;if(!list.length)return;e.preventDefault();
   let i=list.indexOf(sel);i=(e.key==='ArrowDown'||e.key==='j')?Math.min(list.length-1,i+1):Math.max(0,i-1);pickRow(list[i],true,false)}});
+if(S.TABS){const n=document.createElement('div');n.className='vtabs';n.setAttribute('aria-label','Views');n.innerHTML=S.TABS.map((t,i)=>`<a href="${t[1]}"${i===0?' aria-current="page"':''}>${esc(t[0])}</a>`).join('');$('#say').after(n)}
 (function(){const h=decodeURIComponent(location.hash.slice(1)).split('~');const it=ITEMS[h[0]]||null;cur=it;if(it)OPEN.add(it.g.gi);tree();middle();
  const u=h[1]!=null?S.units[+h[1]]:null;if(u&&it&&(u.its||[u.it]).includes(it.id))sel=u;else if(it&&PANEL&&vis[0])sel=vis[0];markSel();detail();say();
  const c=document.querySelector('.it[aria-current=true]');if(c)c.scrollIntoView({block:'center'});if(sel){const r=document.querySelector(`.row[data-u="${sel.ix}"]`);if(r)r.scrollIntoView({block:'center'})}})();
